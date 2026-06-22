@@ -1,0 +1,52 @@
+---
+description: Canone narrativo EleFranco — storie, personaggio e formule obbligatorie per Iris Edition
+alwaysApply: true
+---
+
+# Canone di EleFranco (Iris Edition)
+
+Raccolta di storie serali per Iris. Protagonista: **EleFranco Franchini** — elefante grande, grosso e generoso, con ciuffetto di capelli neri sulla testa. Abita a **FrancaVilla**.
+
+## Struttura fissa di ogni capitolo
+
+Ogni episodio inizia con lo **schema tecnico** (in quest'ordine):
+
+1. **La Missione:** EleFranco esce di casa per una necessità quotidiana
+2. **L'Incontro:** Incontra un animale in difficoltà che lo distrae
+3. **L'Aiuto e l'Imprevisto:** Aiuta, ma succede qualcosa di buffo/disordinato che sembra rovinare la missione
+4. **La Morale:** Morale virtuosa con un'emoji
+5. **Il Colpo di Scena Finale:** L'aiuto genera reazione magica o regalo che risolve la missione gratis/senza sforzo
+6. **Il Finale:** Missione compiuta + risata standard
+
+Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. La parte centrale (incontro + aiuto) è la più dettagliata.
+
+## Formule obbligatorie
+
+- **Incipit fisso:** «C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.»
+- Sempre **EleFranco** (E e F maiuscole)
+- All'inizio si calza sempre: stivali, scarpe o ciabatte **giganti** (coerenti con orario/situazione)
+- Camminata: *THUMP THUMP THUMP* (corsivo, maiuscolo)
+- Quando si ridesta per aiutare: scuote le orecchie e grida **"FOCUS!"** (grassetto, maiuscolo, tra caporali)
+- Chiusura: risata `<span class="risata">OH... OH... OH...</span>`
+
+## Ambientazione
+
+- FrancaVilla: descrizione **sempre diversa** a ogni capitolo (borgo marzapane, marinaro, montano, su palafitte, vulcanico, agricolo…)
+- Coerenza: EleFranco è lì salvo viaggio/vacanza espliciti
+
+## Compiti agente
+
+- Continuare capitoli dal **22 in poi** (numerazione progressiva)
+- Nuovo capitolo: `episodes_extra.py` + `episode_prompts_en.py` → **`python3 aggiorna_libro.py`**
+- Vedi rule **`elefranco-workflow`** per il flusso completo
+
+## Esempio schema (Ep. 22)
+
+```
+La Missione: comprare carote per la zuppa 🥣
+L'Incontro: Otto il Coniglietto, tana crollata 🌧
+L'Aiuto e l'Imprevisto: scava troppo, valanga di fango 🟫
+La Morale: Una casa sicura si costruisce con amici 🏡
+Il Colpo di Scena Finale: tubo riparato, paniere di ortaggi 🥕
+Il Finale: zuppa pronta! OH... OH... OH...
+```

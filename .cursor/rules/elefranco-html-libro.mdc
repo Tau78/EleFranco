@@ -1,0 +1,53 @@
+---
+description: Impaginazione HTML/CSS del libro EleFranco e rigenerazione via aggiorna_libro.py
+globs: "**/*.{html,css,py,md}"
+alwaysApply: false
+---
+
+# Impaginazione libro EleFranco
+
+File principali: `index.html` (libro completo), `capitoli/capitolo_XX.html`, `sezioni/`, `css/libro.css`, `build_book.py`, `Disegna/`.
+
+## Struttura cartelle
+
+```
+index.html              ← libro unificato (PDF / lettura continua)
+css/libro.css           ← stili condivisi
+capitoli/
+  capitolo_01.html … capitolo_22.html   ← un episodio per file
+sezioni/
+  cover.html, introduzione.html, parte_02.html, parte_03.html, disegna_slide.html, disegna.html
+```
+
+## Struttura HTML capitolo
+
+- Ogni capitolo in `<div class="episode" id="episodio-N">` con `page-break-before: always`
+- Schema in `<div class="schema">` con righe `.schema-row` / `.schema-label`
+- Racconto in `<div class="racconto">` con paragrafi `<p>`
+- Navigazione: `.chapter-nav` con link prev/next e indice
+
+## Stile CSS
+
+| Elemento | Valore |
+|----------|--------|
+| Font | Arial / sans-serif |
+| Testo | `#2c3e50` |
+| Bordi schede | `#e67e22` |
+| Titoli | `#d35400` |
+| Risata | classe `.risata` |
+
+## Percorsi immagini
+
+- Da `index.html`: `Disegna/01.jpeg`
+- Da `capitoli/capitolo_XX.html`: `../Disegna/01.jpeg`
+
+## Rigenerazione
+
+```bash
+python3 aggiorna_libro.py          # valida + rigenera (preferito)
+python3 build_book.py              # solo build, senza validazione
+```
+
+Genera `index.html`, tutti i capitoli in `capitoli/`, sezioni in `sezioni/`, `prompt-immagini.md`, e copia legacy `elefranco-libro.html`.
+
+Nuovi episodi (≥22): `episodes_extra.py` + `episode_prompts_en.py`. Scaffold: `python3 aggiorna_libro.py --nuovo N "Titolo"`.

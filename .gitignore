@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+.env
+.env.*
+
+# Editor / IDE (keep .cursor/rules tracked)
+*.swp
+*.swo
+*~
+
+# Intermediate extraction from PDF (regenerable)
+extracted_text.txt
+
+# Agent / local scratch
+agent-tools/

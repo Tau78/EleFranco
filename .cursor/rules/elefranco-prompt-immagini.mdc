@@ -1,0 +1,97 @@
+---
+description: Prompt immagini EleFranco — stile, struttura 4 scene, negative prompt, formato A4
+alwaysApply: true
+---
+
+# Prompt immagini — EleFranco (Iris Edition)
+
+Quando generi o aggiorni illustrazioni, scrivi prompt in **inglese** (tool-agnostic: DALL·E, Midjourney, Flux, SD). Salva in `prompt-immagini.md` e aggiorna i placeholder `data-prompt` in HTML.
+
+## Due famiglie visive (mix)
+
+| Tipo | Stile | Uso |
+|------|-------|-----|
+| **Story** | Warm children's book illustration, soft watercolor + gentle flat colors, rounded shapes, bedtime-story mood | Cover, episodi, sezioni |
+| **Disegna** | Clean black line art, no fill, print-friendly, simple outlines for coloring | Cartella `Disegna/` — non mescolare con story |
+
+## Formato A4 (stampa libro)
+
+- Orientamento: **portrait**, proporzione ~**3:4** o pagina A4
+- Composizione: soggetto centrato, margini respirabili, niente elementi tagliati ai bordi
+- Output consigliato: min. **1200×1600 px** (o 2480×3508 per A4 @ 300dpi)
+
+## EleFranco — elementi SEMPRE nel prompt Story
+
+In ogni prompt Story includere esplicitamente:
+
+1. **Grande, grosso, generoso** — elefante amichevole, non minaccioso
+2. **Calzature giganti del capitolo** — stivali / scarpe / ciabatte coerenti con la storia
+3. **FrancaVilla** — variante del borgo descritta nel capitolo (marzapane, marinaro, montano, agricolo…)
+4. **THUMP** — polvere leggera, terra che vibra, impronte profonde sul sentiero
+5. **FOCUS!** (quando pertinente) — orecchie scosse, sguardo determinato, momento “passo all'azione”
+
+Aggiungere anche: **small black hair tuft on head** (ciuffetto, dal canone).
+
+## Struttura per episodio — 4 prompt obbligatori
+
+Per ogni episodio N, generare:
+
+```
+### Episodio N: [titolo IT]
+
+#### A — Episode cover
+[1 paragrafo EN: missione quotidiana, EleFranco esce di casa, tono serale]
+
+#### B — L'Incontro
+[amico in difficoltà, emozione chiara, ambiente FrancaVilla]
+
+#### C — L'Aiuto e l'Imprevisto
+[gesto generoso + caos buffo che sembra rovinare la missione]
+
+#### D — Il Colpo di Scena Finale
+[regalo magico / risoluzione improbabile, gioia, morale visiva]
+
+**Negative prompt:** [blocco condiviso]
+```
+
+## Negative prompt (copiare in ogni episodio)
+
+```
+text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones
+```
+
+## Regole fisse
+
+- **NO TEXT** nell'immagine — mai titoli, fumetti o lettere (vanno aggiunti in impaginazione)
+- Tono: **Iris Edition** — caldo, serale, rassicurante, 3–7 anni
+- Palette: toni caldi, accenti arancio/miele (#d35400, #e67e22) senza essere rigidi
+- Un solo momento per immagine — no collage di scene
+- Nominare l'amico animale del capitolo con tratto riconoscibile
+
+## Prompt sezione (macro)
+
+Generare anche prompt per: **Cover libro**, **Prima Parte**, **Seconda Parte**, **Terza Parte**, **Sezione Disegna slide** (`disegna_slide`), **Sezione Disegna line art**.
+
+## Illustrazioni Story — generazione in Cursor
+
+Per sezioni macro e placeholder episodio, l'agente **genera l'immagine** (tool integrato) e la salva in `Immagini/`:
+
+| Asset | File | Prompt in |
+|-------|------|-----------|
+| Slide Disegna | `Immagini/disegna-slide.jpeg` | `SECTION_PROMPTS["disegna_slide"]` |
+| Cover | `Immagini/00-cover.jpeg` (futuro) | `SECTION_PROMPTS["cover"]` |
+| Terza Parte | `Immagini/parte-03.jpeg` (futuro) | `SECTION_PROMPTS["parte_3"]` |
+
+Riferimento stile: `Immagini/00 Cover.jpeg`. Poi aggiornare `build_book.py` se nuovo asset e `python3 aggiorna_libro.py`.
+
+## Esempio (Ep. 22 — estratto)
+
+**A — Episode cover:** Large generous cartoon elephant EleFranco with green rubber giant boots and black hair tuft, walking a white farm path in agricultural FrancaVilla, woven basket in trunk, morning spring light, soft watercolor children's book, A4 portrait, warm bedtime mood.
+
+**Negative prompt:** [blocco standard]
+
+## Workflow agente
+
+1. Leggere schema + racconto del capitolo
+2. Scrivere 4 prompt EN (A–D) in `episode_prompts_en.py`
+3. Eseguire **`python3 aggiorna_libro.py`** (rigenera `prompt-immagini.md` e HTML)

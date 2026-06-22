@@ -1,0 +1,50 @@
+---
+description: Workflow nuovo capitolo EleFranco — script aggiorna_libro.py e file da modificare
+alwaysApply: true
+---
+
+# Workflow — nuovo capitolo EleFranco
+
+Quando aggiungi o modifichi un episodio (≥22), **segui sempre questo flusso** e usa lo script di automazione.
+
+## Script principale
+
+```bash
+python3 aggiorna_libro.py
+```
+
+Fa in sequenza:
+1. Valida che ogni episodio abbia testo completo e prompt A–D in inglese
+2. Rigenera `index.html`, `capitoli/`, `sezioni/`, `prompt-immagini.md`, `elefranco-libro.html`
+
+### Altri comandi
+
+| Comando | Azione |
+|---------|--------|
+| `python3 aggiorna_libro.py --check` | Solo validazione, niente build |
+| `python3 aggiorna_libro.py --nuovo 23 "🦊 Titolo"` | Crea scaffold episodio 23 |
+
+## File da modificare (nuovo capitolo)
+
+1. **`episodes_extra.py`** — testo episodio (schema + racconto), capitoli dal 22 in poi
+2. **`episode_prompts_en.py`** — 4 prompt EN per episodio (A cover, B incontro, C imprevisto, D finale)
+3. Poi: **`python3 aggiorna_libro.py`**
+
+Non editare manualmente `index.html` / `capitoli/*.html`: sono generati da `build_book.py`.
+
+## Checklist agente
+
+Dopo aver scritto un nuovo capitolo:
+- [ ] Episodio aggiunto in `episodes_extra.py` (canone rispettato)
+- [ ] Prompt A–D in `episode_prompts_en.py` (inglese, no TODO)
+- [ ] Eseguito `python3 aggiorna_libro.py` (exit 0)
+- [ ] Se serve line art: aggiungere file in `Disegna/NN.jpeg`
+- [ ] Illustrazioni Story (sezioni, cover): generare in Cursor → `Immagini/`, prompt in `episode_prompts_en.py`
+
+## Build alternativo
+
+```bash
+python3 build_book.py
+```
+
+Equivalente al solo build, **senza validazione**. Preferire sempre `aggiorna_libro.py`.
