@@ -22,13 +22,25 @@ Fa in sequenza:
 | Comando | Azione |
 |---------|--------|
 | `python3 aggiorna_libro.py --check` | Solo validazione, niente build |
+| `python3 aggiorna_libro.py --watch` | Anteprima live: server + rebuild al salvataggio |
+| `python3 aggiorna_libro.py --watch --port 9000` | Anteprima su porta custom |
 | `python3 aggiorna_libro.py --nuovo 23 "🦊 Titolo"` | Crea scaffold episodio 23 |
+
+## Sorgenti testi (editabili)
+
+| Episodi | File |
+|---------|------|
+| 1–21 + intro | **`episodes_base.py`** |
+| 22+ | **`episodes_extra.py`** |
+| Prompt immagini EN | **`episode_prompts_en.py`** |
+
+Re-sync episodi 1–21 dal PDF (raro): `python3 export_episodes_base.py`
 
 ## File da modificare (nuovo capitolo)
 
 1. **`episodes_extra.py`** — testo episodio (schema + racconto), capitoli dal 22 in poi
 2. **`episode_prompts_en.py`** — 4 prompt EN per episodio (A cover, B incontro, C imprevisto, D finale)
-3. Poi: **`python3 aggiorna_libro.py`**
+3. Poi: **`python3 aggiorna_libro.py`** (o `--watch` durante la stesura)
 
 Non editare manualmente `index.html` / `capitoli/*.html`: sono generati da `build_book.py`.
 

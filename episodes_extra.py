@@ -1,4 +1,4 @@
-"""Capitoli aggiunti dopo il PDF (22+). Modifica qui ogni nuovo episodio."""
+"""Capitoli 22+ — aggiungi nuovi episodi qui. Episodi 1–21: episodes_base.py."""
 
 from __future__ import annotations
 

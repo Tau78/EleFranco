@@ -8,13 +8,11 @@ import re
 import shutil
 from pathlib import Path
 
-from pypdf import PdfReader
-
 from episode_prompts_en import EPISODES, NEGATIVE_PROMPT, SECTION_PROMPTS
+from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 
 ROOT = Path(__file__).parent
-PDF = ROOT / "Le Avventure di EleFranco - Edizione Unificata Completa V11.pdf"
 CAPITOLI_DIR = ROOT / "capitoli"
 SEZIONI_DIR = ROOT / "sezioni"
 CSS_DIR = ROOT / "css"
@@ -25,51 +23,9 @@ IMMAGINI_DIR = ROOT / "Immagini"
 
 
 def load_all_episodes() -> tuple[str, list[dict]]:
-    intro, episodes = extract_episodes_from_pdf()
-    episodes.extend(EXTRA_EPISODES)
-    return intro, episodes
-
-
-def extract_episodes_from_pdf() -> tuple[str, list[dict]]:
-    reader = PdfReader(str(PDF))
-    raw = "\n".join((p.extract_text() or "") for p in reader.pages)
-    lines = [l.strip() for l in raw.split("\n") if l.strip()]
-    text = re.sub(r" +", " ", " ".join(lines))
-
-    parts = re.split(r"(?=Episodio \d+:)", text)
-    intro = parts[0]
-    episodes: list[dict] = []
-
-    for chunk in parts[1:]:
-        m = re.match(r"Episodio (\d+):\s*(.+)", chunk, re.DOTALL)
-        if not m:
-            continue
-        num = int(m.group(1))
-        content = m.group(2)
-        tm = re.search(
-            r"^(.*?)\s*La Missione:\s*(.*?)\s*L'Incontro:\s*(.*?)\s*L'Aiuto e l'Imprevisto:\s*"
-            r"(.*?)\s*La Morale:\s*(.*?)\s*Il Colpo di Scena Finale:\s*(.*?)\s*Il Finale:\s*"
-            r"(.*?)\s*Il Racconto Completo:\s*(.*)$",
-            content,
-            re.DOTALL,
-        )
-        if not tm:
-            raise ValueError(f"Impossibile parsare episodio {num}")
-        racconto = re.sub(r"\s*Episodio \d+:.*$", "", tm.group(8).strip(), flags=re.DOTALL)
-        episodes.append(
-            {
-                "num": num,
-                "title": tm.group(1).strip(),
-                "missione": tm.group(2).strip(),
-                "incontro": tm.group(3).strip(),
-                "aiuto": tm.group(4).strip(),
-                "morale": tm.group(5).strip(),
-                "colpo": tm.group(6).strip(),
-                "finale_schema": tm.group(7).strip(),
-                "racconto": racconto.strip(),
-            }
-        )
-    return intro, episodes
+    episodes = list(BASE_EPISODES) + list(EXTRA_EPISODES)
+    episodes.sort(key=lambda e: e["num"])
+    return INTRO, episodes
 
 
 def format_story(text: str) -> str:

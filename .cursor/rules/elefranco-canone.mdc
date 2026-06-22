@@ -37,6 +37,8 @@ Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. 
 ## Compiti agente
 
 - Continuare capitoli dal **22 in poi** (numerazione progressiva)
+- Modificare testi: **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22+) → **`python3 aggiorna_libro.py`**
+- Anteprima mentre scrivi: **`python3 aggiorna_libro.py --watch`**
 - Nuovo capitolo: `episodes_extra.py` + `episode_prompts_en.py` → **`python3 aggiorna_libro.py`**
 - Vedi rule **`elefranco-workflow`** per il flusso completo
 

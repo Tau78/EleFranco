@@ -5,7 +5,12 @@ Valida episodi + prompt immagini e rigenera il libro EleFranco.
 Uso:
   python3 aggiorna_libro.py              # valida e rigenera tutto
   python3 aggiorna_libro.py --check      # solo validazione
+  python3 aggiorna_libro.py --watch      # anteprima live (server + auto-rebuild)
   python3 aggiorna_libro.py --nuovo 23 "🦊 Titolo del capitolo"
+
+Sorgenti testi editabili:
+  episodes_base.py   — episodi 1–21 (+ intro)
+  episodes_extra.py  — episodi 22+
 
 Dopo --nuovo: completa testo in episodes_extra.py e prompt in episode_prompts_en.py,
 poi rilancia senza flag.
@@ -20,6 +25,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 BUILD = ROOT / "build_book.py"
@@ -37,7 +43,22 @@ EPISODE_FIELDS = (
 )
 
 
+def episode_source(num: int) -> str:
+    return "episodes_extra.py" if num >= 22 else "episodes_base.py"
+
+
+def invalidate_episode_cache() -> None:
+    for name in (
+        "build_book",
+        "episodes_base",
+        "episodes_extra",
+        "episode_prompts_en",
+    ):
+        sys.modules.pop(name, None)
+
+
 def load_episodes() -> list[dict]:
+    invalidate_episode_cache()
     sys.path.insert(0, str(ROOT))
     from build_book import load_all_episodes
 
@@ -53,6 +74,7 @@ def load_prompt_nums() -> set[int]:
 
 
 def validate() -> list[str]:
+    invalidate_episode_cache()
     sys.path.insert(0, str(ROOT))
     from episode_prompts_en import EPISODES
 
@@ -67,8 +89,7 @@ def validate() -> list[str]:
         n = ep["num"]
         for field in EPISODE_FIELDS:
             if not str(ep.get(field, "")).strip():
-                src = "episodes_extra.py" if n >= 22 else "PDF / build_book"
-                errors.append(f"Episodio {n}: campo «{field}» vuoto ({src}).")
+                errors.append(f"Episodio {n}: campo «{field}» vuoto ({episode_source(n)}).")
 
         if n not in EPISODES:
             errors.append(f"Episodio {n}: manca blocco prompt in episode_prompts_en.py.")
@@ -146,9 +167,38 @@ def rebuild() -> None:
     subprocess.run([sys.executable, str(BUILD)], cwd=ROOT, check=True)
 
 
+def validate_and_rebuild(*, check_only: bool = False) -> None:
+    errors = validate()
+    if errors:
+        print("Validazione fallita:")
+        for err in errors:
+            print(f"  ✗ {err}")
+        raise SystemExit(1)
+
+    count = len(load_episodes())
+    print(f"Validazione OK — {count} episodi, prompt completi.")
+
+    if check_only:
+        return
+
+    rebuild()
+    print("Libro rigenerato: index.html, capitoli/, prompt-immagini.md")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Aggiorna il libro EleFranco (valida + build)")
     parser.add_argument("--check", action="store_true", help="Solo validazione, senza build")
+    parser.add_argument(
+        "--watch",
+        action="store_true",
+        help="Anteprima live: server locale + rebuild automatico al salvataggio",
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=8765,
+        help="Porta server anteprima (default: 8765, con --watch)",
+    )
     parser.add_argument(
         "--nuovo",
         nargs=2,
@@ -164,21 +214,15 @@ def main() -> None:
             print(f"  ⚠ {err}")
         return
 
-    errors = validate()
-    if errors:
-        print("Validazione fallita:")
-        for err in errors:
-            print(f"  ✗ {err}")
-        sys.exit(1)
+    if args.watch:
+        if args.check:
+            raise SystemExit("--watch e --check sono incompatibili.")
+        from preview import run_preview
 
-    count = len(load_episodes())
-    print(f"Validazione OK — {count} episodi, prompt completi.")
-
-    if args.check:
+        run_preview(lambda: validate_and_rebuild(), port=args.port)
         return
 
-    rebuild()
-    print("Libro rigenerato: index.html, capitoli/, prompt-immagini.md")
+    validate_and_rebuild(check_only=args.check)
 
 
 if __name__ == "__main__":
