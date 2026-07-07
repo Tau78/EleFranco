@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Workflow — nuovo capitolo EleFranco
 
-Quando aggiungi o modifichi un episodio (≥22), **segui sempre questo flusso** e usa lo script di automazione.
+Quando aggiungi o modifichi un episodio, **segui sempre questo flusso** e usa gli script di automazione.
 
 ## Script principale
 
@@ -17,6 +17,14 @@ Fa in sequenza:
 1. Valida che ogni episodio abbia testo completo e prompt A–D in inglese
 2. Rigenera `index.html`, `capitoli/`, `sezioni/`, `prompt-immagini.md`, `elefranco-libro.html`
 
+Poi **sempre** aggiorna le statistiche:
+
+```bash
+python3 statistiche_libro.py
+```
+
+Rigenera **`Statistiche.md`** (parole, spazio A4, tempo di lettura per capitolo).
+
 ### Altri comandi
 
 | Comando | Azione |
@@ -24,32 +32,50 @@ Fa in sequenza:
 | `python3 aggiorna_libro.py --check` | Solo validazione, niente build |
 | `python3 aggiorna_libro.py --watch` | Anteprima live: server + rebuild al salvataggio |
 | `python3 aggiorna_libro.py --watch --port 9000` | Anteprima su porta custom |
-| `python3 aggiorna_libro.py --nuovo 23 "🦊 Titolo"` | Crea scaffold episodio 23 |
+| `python3 aggiorna_libro.py --nuovo 27 "🦦 Titolo"` | Crea scaffold episodio (22–25 → extra; 26+ → season2) |
+| `python3 statistiche_libro.py` | Aggiorna `Statistiche.md` (dopo ogni create/modify capitolo) |
 
 ## Sorgenti testi (editabili)
 
 | Episodi | File |
 |---------|------|
-| 1–21 + intro | **`episodes_base.py`** |
-| 22+ | **`episodes_extra.py`** |
+| 1–21 + intro S1 | **`episodes_base.py`** |
+| 22–25 (fine S1) | **`episodes_extra.py`** |
+| 26+ (Stagione 2) | **`episodes_season2.py`** — idee in **`Stagione2-Idee.md`** |
 | Prompt immagini EN | **`episode_prompts_en.py`** |
 
-Re-sync episodi 1–21 dal PDF (raro): `python3 export_episodes_base.py`
+Prova editor inline nel browser: apri `index.html` → **Console Papà** (salva in localStorage).
 
 ## File da modificare (nuovo capitolo)
 
-1. **`episodes_extra.py`** — testo episodio (schema + racconto), capitoli dal 22 in poi
+1. **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22–25) o **`episodes_season2.py`** (26+)
 2. **`episode_prompts_en.py`** — 4 prompt EN per episodio (A cover, B incontro, C imprevisto, D finale)
-3. Poi: **`python3 aggiorna_libro.py`** (o `--watch` durante la stesura)
+3. **`episode_color_hints.py`** — particolare colorato per la didascalia accanto all'illustrazione
+4. Poi: **`python3 aggiorna_libro.py`** (o `--watch` durante la stesura)
+5. Infine: **`python3 statistiche_libro.py`** → aggiorna **`Statistiche.md`**
 
 Non editare manualmente `index.html` / `capitoli/*.html`: sono generati da `build_book.py`.
 
+## Parti Stagione 1 (`book_structure.py`)
+
+Tre parti equilibrate (~8+9+8 episodi), ordine di lettura configurabile:
+
+| Parte | Episodi | Tema |
+|-------|---------|------|
+| 1 Missioni Quotidiane | 1–8 | commissioni semplici in paese |
+| 2 Intoppi e Soluzioni | 9–17 | imprevisti più grandi, botteghe |
+| 3 Nuovi Amici | 18–22, 24–25, **23** | amici speciali; Iris (23) chiude la stagione |
+
+Modifica `SEASON1_PARTS` in `book_structure.py`, poi `python3 aggiorna_libro.py`.
+
 ## Checklist agente
 
-Dopo aver scritto un nuovo capitolo:
-- [ ] Episodio aggiunto in `episodes_extra.py` (canone rispettato)
+Dopo aver scritto o modificato un capitolo:
+- [ ] Episodio nel file sorgente corretto (`episodes_base.py` / `episodes_extra.py` / `episodes_season2.py`), canone rispettato
 - [ ] Prompt A–D in `episode_prompts_en.py` (inglese, no TODO)
+- [ ] Suggerimento colore in `episode_color_hints.py`
 - [ ] Eseguito `python3 aggiorna_libro.py` (exit 0)
+- [ ] Eseguito `python3 statistiche_libro.py` → `Statistiche.md` aggiornato
 - [ ] Se serve line art: aggiungere file in `Disegna/NN.jpeg`
 - [ ] Illustrazioni Story (sezioni, cover): generare in Cursor → `Immagini/`, prompt in `episode_prompts_en.py`
 

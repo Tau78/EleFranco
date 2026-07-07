@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_16.html">← Ep. 16</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_18.html">Ep. 18 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_16.html">← Ep. 16</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_18.html">Ep. 18 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-17">
-  <h2 class="episode-title">Episodio 17: 🪵 In Falegnameria per la Sedia e Lendo il Topo Tremendo 🐭</h2>
-  <img class="episode-image" src="../Disegna/17.jpeg" alt="Illustrazione episodio 17">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal falegname del paesino a riparare una gamba dondolante della sua sedia preferita. 🪑</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Trova Lendo il Topo Tremendo, un topolino vivace ma disperato perché ha combinato un pasticcio: per fare uno scherzo ha rosicchiato e fatto crollare l&#x27;insegna di legno della biblioteca del paesino, che ora blocca l&#x27;ingresso principale. 📚</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco usa la sua incredibile forza per sollevare la pesante insegna e tenerla ferma contro la parete. Lo sforzo prolungato a braccia tese gli fa accumulare così tanta segatura e polvere di legno sulla schiena da farlo prudere tutto. 🪵</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Riparare agli errori altrui riporta l&#x27;ordine e trasforma un &quot;tremendo&quot; pasticcio in una buona azione. 🤝</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Lendo, pentito e grato, usa i suoi dentini affilati per intagliare al volo un perfetto cuneo di legno duro dai resti dell&#x27;insegna. Lo infila sotto la gamba della sedia di EleFranco, riparandola all&#x27;istante meglio del falegname. 🛠</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>La sedia è perfettamente stabile senza andare in officina! E via di risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-17" data-episode="17">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="17">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="17">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla.</p><p>Un mattino, mentre faceva colazione, si sedette sulla sua sedia di legno preferita e... crack! Quasi cadde all&#x27;indietro: una delle zampe posteriori era diventata cortissima e dondolava paurosamente. «Accidenti!» esclamò EleFranco. «Devo andare subito alla falegnameria di FrancaVilla per farla sistemare.»</p><p>Si infilò i suoi stivali giganti di cuoio scuro, prese la sedia sotto il braccio e uscì di casa camminando con passo deciso. Sulla strada sterrata si sentiva il solito ritmo: <em>THUMP THUMP THUMP</em> Davanti alla biblioteca incontra Lendo il Topo Tremendo in lacrime: aveva rosicchiato i sostegni dell&#x27;insegna di legno della biblioteca per fare uno scherzo, facendola crollare e sbarrando la porta principale. EleFranco guardò la sua sedia dondolante e pensò a che tipo di colla avrebbe usato il falegname e se alla resina di pino. Si stava perdendo in questi pensieri, ma vedendo Lendo pentito, scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Sollevò la pesante insegna riposizionandola contro il muro e la tenne ferma per diversi minuti mentre cercavano i chiodi; durante l&#x27;attesa una pioggia di segatura gli cadde sulla schiena provocandogli un prurito pazzesco, ma non mollò la presa.</p><p>Quando si spostò, Lendo corse verso i pezzi di legno avanzati e con i suoi dentini intagliò un perfetto cuneo che bloccò stabilmente la gamba della sedia, riparandola meglio del falegname! EleFranco si sedette felice e lanciò la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 17: 🪵 In Falegnameria per la Sedia e Lendo il Topo Tremendo 🐭</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/17.jpeg" alt="Illustrazione episodio 17">
+          <p class="color-hint console-editable" data-color-hint="17">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: la segatura marrone sulla schiena di EleFranco.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal falegname del paesino a riparare una gamba dondolante della sua sedia preferita. 🪑</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Trova Lendo il Topo Tremendo, un topolino vivace ma disperato perché ha combinato un pasticcio: per fare uno scherzo ha rosicchiato e fatto crollare l&#x27;insegna di legno della biblioteca del paesino, che ora blocca l&#x27;ingresso principale. 📚</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco usa la sua incredibile forza per sollevare la pesante insegna e tenerla ferma contro la parete. Lo sforzo prolungato a braccia tese gli fa accumulare così tanta segatura e polvere di legno sulla schiena da farlo prudere tutto. 🪵</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Riparare agli errori altrui riporta l&#x27;ordine e trasforma un &quot;tremendo&quot; pasticcio in una buona azione. 🤝</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Lendo, pentito e grato, usa i suoi dentini affilati per intagliare al volo un perfetto cuneo di legno duro dai resti dell&#x27;insegna. Lo infila sotto la gamba della sedia di EleFranco, riparandola all&#x27;istante meglio del falegname. 🛠</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">La sedia è perfettamente stabile senza andare in officina! E via di risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla, un borgo laborioso dove dalle botteghe usciva profumo di legno e di trucioli, le insegne intagliate dondolavano sopra le porte e il fiume faceva girare pigramente la ruota di un vecchio mulino.</p><p>Un mattino, mentre faceva colazione, EleFranco si sedette sulla sua sedia di legno preferita e... crack! Quasi cadde all&#x27;indietro: una delle gambe posteriori si era accorciata e dondolava paurosamente. «Accidenti, per poco non finivo a gambe all&#x27;aria!» esclamò rialzandosi. «Devo andare subito alla falegnameria di FrancaVilla a farla sistemare.»</p><p>Si infilò i suoi stivali giganti di cuoio scuro, si caricò la sedia sotto il braccio e uscì di casa con passo deciso. La strada sterrata risuonava al solito ritmo: <em>THUMP THUMP THUMP</em> Davanti alla biblioteca del paese trovò una gran confusione e un topolino in lacrime accanto a un enorme cartello di legno rovesciato. Era Lendo il Topo Tremendo, vivace e dispettoso, ma in quel momento dispiaciutissimo, con i baffetti che tremavano per il pianto. «È tutta colpa mia, EleFranco!» squittì Lendo asciugandosi una lacrima.</p><p>«Volevo fare uno scherzo e ho rosicchiato i sostegni dell&#x27;insegna di legno della biblioteca... ma ho esagerato e l&#x27;insegna è crollata di schianto, bloccando tutta la porta d&#x27;ingresso! Adesso nessuno può entrare a prendere i libri e io non so proprio come rimediare al pasticcio che ho combinato!» «Su, Lendo, gli errori si possono sempre riparare,» lo consolò EleFranco. «Adesso vediamo come sistemare le cose.»</p><p>Ma poi guardò la sua sedia dondolante e la mente cominciò a vagare: si mise a pensare a che tipo di colla avrebbe usato il falegname, se quella forte alla resina di pino, e se avrebbe dovuto lasciare lì la sedia per giorni interi. Si stava perdendo in questi pensieri, ma vedendo Lendo così pentito e in lacrime, scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Niente paura, piccolo, quell&#x27;insegna la rimettiamo a posto noi due,» disse rimboccandosi le maniche. Con la sua forza straordinaria, EleFranco afferrò la pesantissima insegna di legno e la sollevò di netto, riposizionandola dritta contro il muro della biblioteca. Poi la tenne ferma, a zampe tese e muscoli in tensione, mentre Lendo correva a cercare chiodi e martello per fissarla.</p><p>I minuti passavano e l&#x27;elefante non mollava la presa, anche se una fastidiosa pioggia di segatura e polvere di legno gli cadeva di continuo sulla schiena, facendogli venire un prurito pazzesco. «Resisti... resisti...» si ripeteva, fremendo dal solletico ma immobile come una colonna. Quando finalmente l&#x27;insegna fu inchiodata di nuovo al suo posto, EleFranco poté spostarsi e grattarsi a dovere. Lendo, grato e desideroso di farsi perdonare, corse verso i pezzetti di legno duro avanzati e, con i suoi dentini affilati e precisi, intagliò al volo un cuneo perfetto.</p><p>Poi lo infilò sotto la gamba corta della sedia di EleFranco, calzandolo alla perfezione: la sedia smise di dondolare e tornò stabile e solida, riparata meglio di come avrebbe fatto il falegname! «Provala!» squittì Lendo. EleFranco si sedette: non un dondolio, non uno scricchiolio. La missione era compiuta senza nemmeno entrare in officina, e un &quot;tremendo&quot; pasticcio si era trasformato in una buona azione.</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Riparare agli errori altrui riporta l&#x27;ordine e trasforma un &quot;tremendo&quot; pasticcio in una buona azione. 🤝</p><p>EleFranco si sedette felice e scoppiò nella sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

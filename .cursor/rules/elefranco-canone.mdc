@@ -20,6 +20,12 @@ Ogni episodio inizia con lo **schema tecnico** (in quest'ordine):
 
 Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. La parte centrale (incontro + aiuto) è la più dettagliata.
 
+**Chiusura del racconto** (in questo ordine):
+
+1. Missione compiuta / colpo di scena narrato
+2. **Morale esplicita** — frase fissa: «EleFranco capì allora la morale di quella giornata: …» (testo dal campo `morale`, inserito in build prima della risata)
+3. **Risata finale** — `<span class="risata">OH... OH... OH...</span>`
+
 ## Formule obbligatorie
 
 - **Incipit fisso:** «C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.»
@@ -27,6 +33,7 @@ Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. 
 - All'inizio si calza sempre: stivali, scarpe o ciabatte **giganti** (coerenti con orario/situazione)
 - Camminata: *THUMP THUMP THUMP* (corsivo, maiuscolo)
 - Quando si ridesta per aiutare: scuote le orecchie e grida **"FOCUS!"** (grassetto, maiuscolo, tra caporali)
+- Prima della risata: morale esplicita («EleFranco capì allora la morale di quella giornata: …»)
 - Chiusura: risata `<span class="risata">OH... OH... OH...</span>`
 
 ## Ambientazione
@@ -36,8 +43,9 @@ Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. 
 
 ## Compiti agente
 
-- Continuare capitoli dal **22 in poi** (numerazione progressiva)
-- Modificare testi: **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22+) → **`python3 aggiorna_libro.py`**
+- **Stagione 1** completa: episodi **1–25**
+- **Stagione 2**: episodi **26–50** (idee in `Stagione2-Idee.md`)
+- Modificare testi: **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22–25), **`episodes_season2.py`** (26+) → **`python3 aggiorna_libro.py`** → **`python3 statistiche_libro.py`**
 - Anteprima mentre scrivi: **`python3 aggiorna_libro.py --watch`**
 - Nuovo capitolo: `episodes_extra.py` + `episode_prompts_en.py` → **`python3 aggiorna_libro.py`**
 - Vedi rule **`elefranco-workflow`** per il flusso completo

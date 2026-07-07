@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_01.html">← Ep. 1</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_03.html">Ep. 3 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_01.html">← Ep. 1</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_03.html">Ep. 3 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-2">
-  <h2 class="episode-title">Episodio 2: 👓 La Visita dall&#x27;Oculista e Jack il Geco 🦎</h2>
-  <img class="episode-image" src="../Disegna/02.jpeg" alt="Illustrazione episodio 2">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco deve andare dall&#x27;oculista perché vede un po&#x27; sfocato e deve misurare la vista. 👁</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Sente piangere Jack il Geco, che ha perso i suoi minuscoli occhiali da sole nell&#x27;erba alta e non riesce più a cacciare le mosche. 🌿</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco si mette a terra e fa &quot;l&#x27;aspirapolvere&quot; con la proboscide. Lo sforzo di mettere a fuoco oggetti così piccoli nell&#x27;erba fa fare una ginnastica pazzesca ai suoi occhi. 🔍</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Per vedere le cose grandi, bisogna fare attenzione a quelle piccolissime. ❤</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Ritrova gli occhialini sulla punta della proboscide. Quella ginnastica oculare intensiva gli ha curato completamente la vista sfocata. 🎉</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Non c&#x27;è più bisogno dell&#x27;oculista! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-2" data-episode="2">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="2">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="2">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini! Abitava nella sua bella casa nel paesino di FrancaVilla, un borgo magico abbarbicato sulla roccia dove i vialetti profumavano di menta selvatica e il vento di montagna suonava arpe invisibili tra le fronde degli alberi.</p><p>Quella mattina, però, il mondo intorno a lui sembrava fatto di nuvole sfocate. Gli alberi del giardino sembravano grandi macchie verdi e non riusciva nemmeno a distinguere il colore dei fiori. Deciso a risolvere il problema, capì che doveva andare allo studio del vecchio gufo oculista, situato dall&#x27;altra parte del centro abitato. Si infilò le sue scarpe giganti da passeggio con i lacci colorati e uscì di casa.</p><p>Camminava piano e con attenzione lungo il sentiero, producendo il suo tipico rumore: <em>THUMP THUMP THUMP</em> Mentre passava vicino a un muretto di pietra, sentì un flebile pianto provenire dall&#x27;erba alta. Si chinò e vide Jack il Geco, un piccolo rettile verdissimo che si disperava: un colpo di vento gli aveva fatto volare via i suoi minuscoli occhiali da sole scuri, indispensabili per non farsi accecare dal riflesso della roccia mentre cacciava le mosche. EleFranco si mise a guardare il prato verde, ma la sua vista annebbiata gli faceva vedere solo un&#x27;immensa distesa confusa. Iniziò a pensare a quanti tipi di lenti colorate esistessero e se l&#x27;oculista gli avrebbe fatto mettere degli occhiali giganti cerchiati di rosso.</p><p>Stava per perdersi in queste fantasie quando Jack singhiozzò più forte. Allora l&#x27;elefante scosse la testa e disse: <strong>"FOCUS!"</strong> Si inginocchiò e usò la proboscide come un potente aspirapolvere sul terreno, risucchiando l&#x27;aria delicatamente per non aspirare gli insetti. Per controllare cosa si impigliasse tra le pieghe della pelle, sforzò al massimo i muscoli degli occhi, restringendo e allargando le pupille per mettere a fuoco i dettagli più minuscoli dell&#x27;erba. All&#x27;improvviso, clack!</p><p>Il mondo tornò nitido: gli occhialini di Jack erano proprio sulla punta del suo nasone. Ma la vera sorpresa fu che quella ginnastica intensiva aveva riabilitato i suoi occhi! La vista sfuocata era sparita, la missione era compiuta e non serviva più l&#x27;oculista. Felice, EleFranco emise la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 2: 👓 La Visita dall&#x27;Oculista e Jack il Geco 🦎</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/02.jpeg" alt="Illustrazione episodio 2">
+          <p class="color-hint console-editable" data-color-hint="2">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: gli occhialini rossi di Jack il Geco.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco deve andare dall&#x27;oculista perché vede un po&#x27; sfocato e deve misurare la vista. 👁</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Sente piangere Jack il Geco, che ha perso i suoi minuscoli occhiali da sole nell&#x27;erba alta e non riesce più a cacciare le mosche. 🌿</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco si mette a terra e fa &quot;l&#x27;aspirapolvere&quot; con la proboscide. Lo sforzo di mettere a fuoco oggetti così piccoli nell&#x27;erba fa fare una ginnastica pazzesca ai suoi occhi. 🔍</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Per vedere le cose grandi, bisogna fare attenzione a quelle piccolissime. ❤</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Ritrova gli occhialini sulla punta della proboscide. Quella ginnastica oculare intensiva gli ha curato completamente la vista sfocata. 🎉</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Non c&#x27;è più bisogno dell&#x27;oculista! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini! Abitava nella sua bella casa nel paesino di FrancaVilla, un borgo magico abbarbicato sulla roccia di una montagna, dove i vialetti profumavano di menta selvatica, le casette si aggrappavano ai dirupi come nidi di rondine e il vento di montagna suonava arpe invisibili tra le fronde degli alberi.</p><p>Quella mattina, però, il mondo intorno a lui sembrava fatto di nuvole sfocate. Gli alberi del giardino erano grandi macchie verdi tremolanti e non riusciva nemmeno a distinguere il colore dei fiori sul davanzale. «Ahi ahi, qui non ci vedo più nulla,» borbottò strofinandosi gli occhi con la punta della proboscide. «Devo proprio andare dal vecchio gufo oculista, dall&#x27;altra parte del paese, a farmi misurare la vista.»</p><p>Si infilò le sue scarpe giganti da passeggio con i lacci colorati e uscì di casa, camminando piano e con grande attenzione per non inciampare. Ad ogni passo prudente il sentiero roccioso risuonava: <em>THUMP THUMP THUMP</em> Mentre passava vicino a un muretto di pietra, sentì un flebile pianto provenire dall&#x27;erba alta. Si chinò, strizzò gli occhi e a fatica mise a fuoco una piccola sagoma: era Jack il Geco, un rettile dalla pelle verdissima e brillante, con le dita a ventosa e due grandi occhi rotondi colmi di lacrime. «Che disastro, EleFranco!» piagnucolò Jack.</p><p>«Un colpo di vento mi ha portato via i miei occhiali da sole scuri, quelli minuscoli! Senza non riesco a cacciare le mosche, perché il riflesso del sole sulla roccia mi acceca all&#x27;istante. Sono finiti da qualche parte in questo mare d&#x27;erba e io non li trovo più!» «Non temere, piccolo Jack, due occhi in più non guastano mai,» rispose EleFranco con dolcezza.</p><p>Ma poi si mise a fissare il prato e, complice la vista annebbiata, vide solo un&#x27;immensa distesa confusa. La sua mente prese a vagare: iniziò a pensare a quanti tipi di lenti colorate esistessero, se l&#x27;oculista gli avrebbe fatto provare degli occhiali giganti cerchiati di rosso e se gli sarebbero stati bene sul nasone. Si stava perdendo in queste fantasie quando Jack singhiozzò più forte: «EleFranco, ho fame e non vedo nulla!» Allora l&#x27;elefante scosse la testa e gridò la sua parola magica: <strong>"FOCUS!"</strong>«Tranquillo, Jack, i tuoi occhiali li ritroviamo subito,» lo rassicurò.</p><p>Si inginocchiò sull&#x27;erba e usò la proboscide come un potente aspirapolvere, risucchiando l&#x27;aria dal terreno con delicatezza per non aspirare gli insetti. Per controllare cosa restasse impigliato tra le pieghe della pelle, sforzò al massimo i muscoli degli occhi: stringeva e allargava le pupille, le metteva a fuoco vicino e poi lontano, cercando i dettagli più minuscoli tra i fili d&#x27;erba. Era una vera e propria ginnastica oculare. «Vedo qualcosa che luccica!</p><p>No... era una goccia di rugiada,» diceva, continuando a strizzare e spalancare gli occhi. Ripeté quel movimento decine di volte, finché i suoi occhi non cominciarono a lavorare come ingranaggi ben oliati. All&#x27;improvviso — clack! — il mondo tornò perfettamente nitido. E la sorpresa fu doppia: gli occhialini di Jack erano proprio lì, appoggiati sulla punta del suo nasone, mentre quella ginnastica intensiva aveva riabilitato del tutto i suoi occhi!</p><p>La vista sfocata era sparita, gli alberi avevano di nuovo contorni precisi e i fiori erano rossi, gialli e viola. «Ci vedo benissimo!» esultò EleFranco, mentre Jack si rimetteva gli occhialini e schizzava via felice a caccia di mosche. La missione era compiuta e dell&#x27;oculista non c&#x27;era più bisogno.</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Per vedere le cose grandi, bisogna fare attenzione a quelle piccolissime. ❤</p><p>Felice, EleFranco partì con la sua conosciutissima risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

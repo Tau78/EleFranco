@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_06.html">← Ep. 6</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_08.html">Ep. 8 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_06.html">← Ep. 6</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_08.html">Ep. 8 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-7">
-  <h2 class="episode-title">Episodio 7: 🚲 Dal Meccanico e Ralph la Talpa 🛞</h2>
-  <img class="episode-image" src="../Disegna/07.jpeg" alt="Illustrazione episodio 7">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal meccanico a gonfiare le ruote della sua bicicletta gigante che sono piatte. 🛞</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Trova Ralph la Talpa che tossisce: ha bucato una galleria sotterranea dove bruciano foglie secche e c&#x27;è troppo fumo. 💨</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco si posiziona sul buco e soffia con tutta la forza dei suoi polmoni per liberare il tunnel. Il super soffio crea un contraccolpo pazzesco che fa sobbalzare la bici. 💥</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Un piccolo gesto d&#x27;altruismo può dare una grande spinta. 🚀</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Il soffio d&#x27;aria pulita, rimbalzando nel tunnel, si incanala perfettamente nelle valvole delle ruote della bicicletta, gonfiandole al massimo. 🌬</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Ruote gonfiate senza meccanico e talpa salva! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-7" data-episode="7">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="7">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="7">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava a FrancaVilla, un villaggio industriale tutto mattoni rossi e canali artificiali, dove gli artigiani amavano riparare ingranaggi e il ticchettio degli orologi pubblici scandiva il tempo della comunità.</p><p>Scoprì che le ruote della sua bici gigante erano piatte: «Devo spingere la bici fino all&#x27;officina del meccanico in paese.» Si infilò i suoi robusti stivali giganti da lavoro e si incamminò. Spingendo quel peso, i suoi passi erano decisi: <em>THUMP THUMP THUMP</em> Vicino a una collinetta, notò del fumo grigio uscire dal terreno: era Ralph la Talpa che tossisce perché scavando aveva intercettato un deposito sotterraneo di foglie secche che bruciava lentamente. EleFranco guardò le ruote a terra e iniziò a pensare a quanti bar di pressione servissero per gonfiarle e se il meccanico avesse una pompa elettrica.</p><p>Si stava distraendo, ma la tosse di Ralph lo ridestò. Scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Si posizionò sopra il foro d&#x27;aerazione della galleria e soffiò con tutta la forza dei suoi polmoni. Il super soffio liberò la galleria salvando la talpa, ma l&#x27;aria compressa, rimbalzando nel tunnel, trovò un soffione naturale che sbucava proprio sotto le valvole aperte della bicicletta, gonfiandole le ruote al massimo in un secondo! Tutto si era risolto da solo senza bisogno del meccanico.</p><p>EleFranco partì felice sulla sua bici facendo la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 7: 🚲 Dal Meccanico e Ralph la Talpa 🛞</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/07.jpeg" alt="Illustrazione episodio 7">
+          <p class="color-hint console-editable" data-color-hint="7">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: le ruote della bicicletta ben gonfie.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal meccanico a gonfiare le ruote della sua bicicletta gigante che sono piatte. 🛞</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Trova Ralph la Talpa che tossisce: ha bucato una galleria sotterranea dove bruciano foglie secche e c&#x27;è troppo fumo. 💨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco si posiziona sul buco e soffia con tutta la forza dei suoi polmoni per liberare il tunnel. Il super soffio crea un contraccolpo pazzesco che fa sobbalzare la bici. 💥</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Un piccolo gesto d&#x27;altruismo può dare una grande spinta. 🚀</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Il soffio d&#x27;aria pulita, rimbalzando nel tunnel, si incanala perfettamente nelle valvole delle ruote della bicicletta, gonfiandole al massimo. 🌬</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Ruote gonfiate senza meccanico e talpa salva! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava a FrancaVilla, un villaggio industrioso tutto mattoni rossi e canali artificiali, dove gli artigiani amavano riparare ingranaggi nelle loro officine fumanti e il ticchettio degli orologi pubblici scandiva allegramente il tempo della comunità.</p><p>Quel mattino EleFranco voleva fare un giro in bicicletta, ma scoprì con disappunto che le ruote della sua bici gigante erano completamente a terra, mosce come due frittelle. «Uffa, sono sgonfie sgonfie,» constatò dandoci un colpetto. «Devo spingere la bici fino all&#x27;officina del meccanico in paese e farle gonfiare per bene.» Si infilò i suoi robusti stivali giganti da lavoro e si incamminò spingendo il pesante telaio.</p><p>Sotto quello sforzo, i suoi passi erano ancora più decisi del solito: <em>THUMP THUMP THUMP</em> Arrivato vicino a una collinetta erbosa, notò un sottile filo di fumo grigio che usciva da un buco nel terreno, accompagnato da una tosse insistente. Si chinò e vide due piccole zampe a forma di pala e un musetto rosa che spuntava dalla terra: era Ralph la Talpa, con gli occhietti lacrimosi e tossicchiante. «Cof cof... EleFranco, che guaio!» tossì Ralph.</p><p>«Stavo scavando una nuova galleria e ho intercettato per sbaglio un vecchio deposito di foglie secche che sta bruciando piano piano sottoterra. Tutto il mio tunnel si è riempito di fumo e io non riesco più a respirare là dentro! Cof cof!» «Vieni fuori a prendere aria, Ralph, ci penso io a ripulire la tua galleria,» disse EleFranco premuroso.</p><p>Ma poi gettò uno sguardo alle ruote sgonfie della bici e la mente cominciò a vagare: si mise a pensare a quanti bar di pressione servissero per gonfiarle al punto giusto, se il meccanico avesse una pompa elettrica nuova fiammante e quanto sarebbe costata la riparazione. Si stava distraendo, ma un altro accesso di tosse di Ralph lo riportò bruscamente alla realtà. Scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Tieni duro, amico mio, adesso ti faccio respirare aria pulita,» lo rassicurò. Si posizionò proprio sopra il foro d&#x27;aerazione della galleria, prese il fiato più profondo della sua vita gonfiando il petto come una mongolfiera, e soffiò con tutta la forza dei suoi enormi polmoni dentro il tunnel.</p><p>Una folata gigantesca spazzò via il fumo da tutti i cunicoli, soffocò le braci e fece uscire dall&#x27;altra estremità una nuvola grigia che si dissolse nel cielo. La galleria di Ralph era di nuovo pulita e respirabile. Ma il super soffio ebbe un effetto a sorpresa: l&#x27;aria compressa, rimbalzando freneticamente da una parete all&#x27;altra del tunnel, trovò un piccolo soffione naturale che sbucava dal terreno proprio sotto le valvole aperte della bicicletta. In un solo secondo — pffffff! — le due ruote si gonfiarono al massimo, diventando dure e perfette come palloni nuovi!</p><p>«Ce l&#x27;abbiamo fatta tutti e due!» tossicchiò Ralph, ormai sorridente, mentre EleFranco fissava incredulo le sue gomme. La galleria era salva e le ruote gonfie senza nemmeno arrivare dal meccanico.</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Un piccolo gesto d&#x27;altruismo può dare una grande spinta. 🚀</p><p>EleFranco partì felice sulla sua bici, esordendo con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

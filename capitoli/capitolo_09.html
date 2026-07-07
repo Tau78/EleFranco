@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_08.html">← Ep. 8</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_10.html">Ep. 10 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_08.html">← Ep. 8</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_10.html">Ep. 10 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-9">
-  <h2 class="episode-title">Episodio 9: 🥾 Dal Calzolaio e Bruno il Bruco 🐛</h2>
-  <img class="episode-image" src="../Disegna/09.jpeg" alt="Illustrazione episodio 9">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal calzolaio a ritirare i suoi enormi stivali invernali per l&#x27;anno prossimo. 👢</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Sulla strada incontra Bruno il Bruco che piange disperato: deve andare a un ballo ma ha ben 42 scarpine con i lacci tutti aggrovigliati tra loro. 🥾</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco, usando la punta sensibile della proboscide con millimetrica pazienza, scioglie tutti i nodi uno a uno. Ma la concentrazione è così tanta che gli viene un forte crampo alla proboscide che si arrotola come una molla. 🌀</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>La pazienza scioglie anche i nodi più difficili della via. 󰩔</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Per ringraziarlo, il bruco e i suoi amici fanno un massaggio ritmico a passo di danza sulla proboscide di EleFranco. I loro piccoli colpetti curano il crampo e rilassano i suoi piedi, come se indossasse già i migliori stivali del mondo. 🪩</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>I piedi stanno benissimo senza scarpe nuove! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-9" data-episode="9">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="9">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="9">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava a FrancaVilla, un paesino montano circondato da cime innevate e boschi di pini secolari, dove le case avevano grandi tetti spioventi di legno e i camini odoravano costantemente di legna di castagno.</p><p>Quella mattina doveva andare dal calzolaio a ritirare i suoi stivali invernali giganti. Si infilò i suoi stivali leggeri ed uscì di casa. Il rumore dei suoi passi cadenzava la marcia sul selciato: <em>THUMP THUMP THUMP</em> Lungo la via di FrancaVilla, seduto su una foglia, c&#x27;era Bruno il Bruco triste: doveva andare al grande Ballo della Primavera del paesino, ma aveva aggrovigliato i lacci delle sue 42 scarpine colorate in un unico enorme nodo. EleFranco guardò il sentiero e pensò a quanto fossero spesse le suole dei suoi nuovi stivali invernali e al profumo del cuoio nuovo del calzolaio.</p><p>Si stava distraendo, ma il singhiozzo di Bruno lo richiamò all&#x27;ordine. Scosse le orecchie e disse: <strong>"FOCUS!"</strong> Si chinò e, usando la punta ultra-sensibile della proboscide, sciolse i nodi uno ad uno con pazienza infinita. Lo sforzo di precisione gli causò un forte crampo e la proboscide si arrotolò come una molla d&#x27;acciaio! Bruno allora chiamò i suoi fratelli bruchi e tutti insieme fecero un massaggio a passo di danza sulla proboscide: i loro piccoli colpetti curano il crampo e rilassano così tanto i piedi dell&#x27;elefante che si sentì caldissimo, come se indossasse già le migliori scarpe del mondo.</p><p>Non servivano più gli stivali nuovi! EleFranco alzò la proboscide e promise la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 9: 🥾 Dal Calzolaio e Bruno il Bruco 🐛</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/09.jpeg" alt="Illustrazione episodio 9">
+          <p class="color-hint console-editable" data-color-hint="9">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: i mille piedini colorati del bruco.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal calzolaio a ritirare i suoi enormi stivali invernali per l&#x27;anno prossimo. 👢</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Sulla strada incontra Bruno il Bruco che piange disperato: deve andare a un ballo ma ha ben 42 scarpine con i lacci tutti aggrovigliati tra loro. 🥾</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco, usando la punta sensibile della proboscide con millimetrica pazienza, scioglie tutti i nodi uno a uno. Ma la concentrazione è così tanta che gli viene un forte crampo alla proboscide che si arrotola come una molla. 🌀</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">La pazienza scioglie anche i nodi più difficili della via.</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Per ringraziarlo, il bruco e i suoi amici fanno un massaggio ritmico a passo di danza sulla proboscide di EleFranco. I loro piccoli colpetti curano il crampo e rilassano i suoi piedi, come se indossasse già i migliori stivali del mondo. 🪩</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">I piedi stanno benissimo senza scarpe nuove! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava a FrancaVilla, un paesino montano circondato da cime innevate e boschi di pini secolari, dove le case avevano grandi tetti spioventi di legno scuro, i camini odoravano costantemente di castagne arrostite e l&#x27;aria frizzante pizzicava il naso.</p><p>Quella mattina EleFranco aveva un impegno: «Devo andare dal calzolaio a ritirare i miei stivali invernali giganti, quelli foderati di pelliccia. L&#x27;inverno è alle porte!» Si infilò i suoi stivali leggeri da mezza stagione ed uscì di casa. Il rumore dei suoi passi cadenzava la marcia sul selciato di montagna: <em>THUMP THUMP THUMP</em> Lungo la via, seduto su una grande foglia accartocciata, c&#x27;era una piccola creatura verde e pelosetta che singhiozzava sconsolata.</p><p>Era Bruno il Bruco, lungo e morbido, con tante minuscole zampette e un musetto tristissimo. «Che catastrofe, EleFranco!» piagnucolò Bruno. «Stasera c&#x27;è il grande Ballo della Primavera di FrancaVilla e io non posso andarci! Ho ben quarantadue scarpine, una per ogni zampetta, e mi si sono aggrovigliati tutti i lacci in un unico, enorme, impossibile nodo!</p><p>Più tiro, più si stringe. Non riesco nemmeno a muovermi!» «Quarantadue scarpine? Caspita, che impresa!» sorrise EleFranco.</p><p>«Ma non ti preoccupare, Bruno, quel nodo lo sbroglieremo insieme.» Poi però guardò il sentiero che portava dal calzolaio e la mente cominciò a vagare: si mise a pensare a quanto fossero spesse le suole dei suoi nuovi stivali invernali, al profumo del cuoio fresco nella bottega e a quanto sarebbero stati caldi durante le nevicate. Si stava distraendo, ma un singhiozzo più forte di Bruno lo richiamò all&#x27;ordine. Scosse le orecchie e disse: <strong>"FOCUS!"</strong>«Sta&#x27; tranquillo, piccolo, con un po&#x27; di pazienza ti libero zampetta per zampetta,» lo rassicurò.</p><p>Si chinò pian piano sulla foglia e, usando la punta ultra-sensibile della proboscide come fossero due dita delicatissime, cominciò a districare il groviglio. Sciolse un laccio, poi un altro, e un altro ancora, con una pazienza infinita e una precisione millimetrica. «Ecco la numero dieci... la venti... la trenta...» contava EleFranco, mentre Bruno tratteneva il respiro per non muoversi. Ma quella concentrazione estrema ebbe il suo prezzo: a forza di tenere la proboscide tesa e immobile, all&#x27;elefante venne un crampo tremendo, e il nasone gli si arrotolò di scatto su se stesso come una molla d&#x27;acciaio!</p><p>«Ahia ahia ahia!» mugolò EleFranco, con la proboscide tutta attorcigliata e dolorante. Bruno, ormai libero con tutte e quarantadue le scarpine perfettamente allacciate, non lo lasciò certo soffrire. Chiamò a raccolta i suoi fratelli bruchi e tutti insieme salirono sulla proboscide attorcigliata, mettendosi a fare un allegro massaggio a passo di danza. Tip tap, tip tap, i loro piccoli colpetti ritmici scioglievano il crampo nodo dopo nodo, e quel calpestio leggero rilassò così tanto anche i piedi stanchi dell&#x27;elefante che li sentì caldi e morbidi, come se indossasse già le scarpe più comode del mondo.</p><p>«Mi sembra di camminare sulle nuvole!» rise EleFranco distendendo finalmente la proboscide. Gli stivali nuovi potevano aspettare: i suoi piedi stavano già benissimo!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: La pazienza scioglie anche i nodi più difficili della via.</p><p>EleFranco alzò la proboscide e tutti si girarono a sentire la famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

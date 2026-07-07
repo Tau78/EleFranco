@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_03.html">← Ep. 3</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_05.html">Ep. 5 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_03.html">← Ep. 3</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_05.html">Ep. 5 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-4">
-  <h2 class="episode-title">Episodio 4: 🦷 Dal Dentista e Pino il Topolino 🐭</h2>
-  <img class="episode-image" src="../Disegna/04.jpeg" alt="Illustrazione episodio 4">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal dentista degli elefanti per una pulizia alla zanna sinistra che gli dà fastidio. 🪥</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Trova Pino il Topolino che cerca di scavare una tana ma il terreno è pieno di sassi duri che gli rompono le unghie. 🪓</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco usa la zanna sinistra come piccone per rimuovere i sassi duri. Lo sfregamento continuo contro la terra sabbiosa e le pietre gratta via tutto il tartaro. 🦫</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>La forza va usata per spianare la strada a chi è più piccolo. ⭐</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Pino entra nella tana e nota che la zanna di EleFranco splende come l&#x27;oro. Lo scavo l&#x27;ha lucidata alla perfezione, molto meglio dello spazzolino del dentista. ✨</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Niente dentista, la zanna è sanissima. Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-4" data-episode="4">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="4">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="4">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, un piccolo borgo radioso incorniciato da una fitta foresta tropicale, dove le farfalle volavano ricamando fili di seta colorata e l&#x27;aria profumava di gelsomino ed estate perenne.</p><p>Era un pomeriggio caldissimo e EleFranco sentiva una sensazione ruvida alla zanna sinistra, come se ci fosse del tartaro o della sabbia incastrata. Deciso a farsi fare una bella pulizia, si preparò per andare dallo studio del dentista degli elefanti. Si infilò i suoi stivali giganti ben spazzolati, aprì la porta e si mise in marcia a grandi passi. Il terreno della via risuonava: <em>THUMP THUMP THUMP</em> Lungo la via, vicino alla radice di un albero secolare, vide Pino il Topolino, stanco e sudato.</p><p>Pino cercava di scavare la sua nuova tana sotterranea prima dell&#x27;inverno, ma il terreno era pieno di sassi durissimi che gli rompono le unghie. EleFranco guardò l&#x27;orologio e iniziò a pensare a quante poltrone grandi ci fossero nello studio medico e a che sapore avesse il collutorio del dottore. Si stava perdendo nei suoi pensieri, ma vedendo lo sguardo disperato del topolino, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong> Si inclinò di lato e usò la sua zanna sinistra come un potente piccone contro la roccia dura. Scavò con energia pazzesca, sollevando scintille e polvere.</p><p>Lo sfregamento continuo contro la sabbia abrasiva generò un forte calore, ma alla fine la splendida tana per Pino era pronta. EleFranco temeva di aver rovinato la zanna, ma Pino gli gridò di specchiarsi nel fiume vicino: lo scavo vigoroso aveva rimosso ogni traccia di tartaro, lucidando la zanna sinistra fino a farla splendere come oro massiccio! Era pulitissima, senza alcun bisogno del dentista. EleFranco alzò la proboscide e promise la sua risata: <span class="risata">OH... OH... OH...</span> Seconda Parte: Intoppi e Soluzioni 🛠</p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 4: 🦷 Dal Dentista e Pino il Topolino 🐭</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/04.jpeg" alt="Illustrazione episodio 4">
+          <p class="color-hint console-editable" data-color-hint="4">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: la zanna di EleFranco lucente come l&#x27;oro.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal dentista degli elefanti per una pulizia alla zanna sinistra che gli dà fastidio. 🪥</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Trova Pino il Topolino che cerca di scavare una tana ma il terreno è pieno di sassi duri che gli rompevano le unghie. 🪓</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco usa la zanna sinistra come piccone per rimuovere i sassi duri. Lo sfregamento continuo contro la terra sabbiosa e le pietre gratta via tutto il tartaro. 🦫</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">La forza va usata per spianare la strada a chi è più piccolo. ⭐</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Pino entra nella tana e nota che la zanna di EleFranco splende come l&#x27;oro. Lo scavo l&#x27;ha lucidata alla perfezione, molto meglio dello spazzolino del dentista. ✨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Niente dentista, la zanna è sanissima. Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, un piccolo borgo radioso incorniciato da una fitta foresta tropicale, dove le farfalle volavano ricamando fili di seta colorata nell&#x27;aria, i pappagalli chiacchieravano tra le liane e tutto profumava di gelsomino e di estate perenne.</p><p>Era un pomeriggio caldissimo e EleFranco sentiva una sensazione ruvida e fastidiosa alla zanna sinistra, come se ci fosse della sabbia o del tartaro incastrato. Passava la lingua su e giù, ma il fastidio non andava via. «Uffa, così non va,» brontolò. «Devo andare dallo studio del dentista degli elefanti a farmi fare una bella pulizia.»</p><p>Si infilò i suoi stivali giganti, ben spazzolati per la visita, aprì la porta e si mise in marcia a grandi passi. Il terreno della via tropicale vibrava sotto i suoi piedoni: <em>THUMP THUMP THUMP</em> Lungo la strada, vicino alla radice di un grande albero secolare, vide una piccola sagoma grigia tutta sudata e ansante. Era Pino il Topolino, con i baffetti tremanti e le minuscole zampe arrossate. «Che fatica, EleFranco!» squittì Pino, lasciandosi cadere sfinito.</p><p>«Sto cercando di scavare la mia nuova tana sotterranea prima che arrivi l&#x27;inverno, ma il terreno qui è pieno di sassi durissimi! Ho consumato tutte le unghie e non sono riuscito a smuovere nemmeno un ciottolo. Se non trovo un riparo presto, gelerò di freddo!» «Non preoccuparti, Pino, una bella casetta calda te la meriti proprio,» disse EleFranco con un sorriso gentile.</p><p>Ma poi gettò un&#x27;occhiata in direzione dello studio del dottore e la mente cominciò a vagare: si mise a pensare a quante poltrone grandi ci fossero nella sala d&#x27;attesa, a che sapore avesse il collutorio alla menta del dottore e se gli avrebbero regalato un adesivo per i bravi pazienti. Si stava perdendo nei suoi pensieri, ma vedendo lo sguardo disperato del topolino, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong>«Fatti da parte, piccoletto, alla terra dura ci penso io,» disse rimboccandosi le maniche immaginarie. Si inclinò di lato con cautela e puntò la sua robusta zanna sinistra contro il terreno sassoso, usandola come un possente piccone. Affondò, fece leva, sollevò e ribaltò: zolle e ciottoli volavano via uno dopo l&#x27;altro, mentre dalla roccia schizzavano scintille e nuvolette di polvere.</p><p>«Sei una ruspa, EleFranco!» squittiva Pino saltellando di gioia. «Più giù, più giù, lì voglio la camera da letto!» L&#x27;elefante scavò con un&#x27;energia pazzesca, e lo sfregamento continuo della zanna contro la sabbia abrasiva e le pietre generò un gran calore. In poco tempo la tana fu pronta: ampia, profonda e accogliente, con tanto di corridoio e angolino per le provviste.</p><p>EleFranco si rialzò temendo di essersi rovinato la zanna con tutto quel raschiare. «Oh no, l&#x27;avrò tutta scheggiata...» mormorò preoccupato. Ma Pino gli corse incontro gridando: «Guardati nel fiume, presto!» L&#x27;elefante si specchiò nell&#x27;acqua e rimase a bocca aperta: lo scavo vigoroso aveva grattato via ogni traccia di tartaro, lucidando la zanna sinistra fino a farla risplendere come oro massiccio!</p><p>Era pulitissima e luccicante, molto meglio di come l&#x27;avrebbe lasciata lo spazzolino del dentista. La missione era compiuta e dal dentista non c&#x27;era più bisogno di andare!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: La forza va usata per spianare la strada a chi è più piccolo. ⭐</p><p>EleFranco alzò la proboscide e fece ridere tutti con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

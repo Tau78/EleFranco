@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
   <span> </span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_02.html">Ep. 2 →</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_02.html">Ep. 2 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-1">
-  <h2 class="episode-title">Episodio 1: 🛒 La Torta e il Castoro Fred 🦫</h2>
-  <img class="episode-image" src="../Disegna/01.jpeg" alt="Illustrazione episodio 1">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco deve andare al supermercato a comprare una torta regalo per la sua amica Franca. 🎂</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Fred il Castoro, disperato in riva al fiume perché la sua diga continua a crollare e l&#x27;acqua sta per allagare la tana dei suoi amici scoiattoli. 🪵</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco fa da scudo alla corrente e impasta del fango argilloso con la proboscide per cementare la diga, sporcandosi tantissimo dalla testa ai piedi. 🟤</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Aiutare gli altri protegge la comunità. 🤝</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Il fango asciugandosi crea decorazioni bellissime come la glassa di una torta. Gli scoiattoli riconoscenti gli regalano una gigantesca torta di noci appena sfornata. 🐿</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>La missione è compiuta senza entrare al supermercato! E via di risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-1" data-episode="1">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="1">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="1">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini, un dettaglio molto importante per un cittadino così illustre! Abitava in una graziosa e accogliente casa alla periferia di un piccolo e tranquillo paesino circondato dal verde, chiamato FrancaVilla, un luogo incantevole dove i tetti delle case sembravano fatti di marzapane e i camini sbuffavano nuvole a forma di ciambella.</p><p>EleFranco era grande, grosso e immensamente generoso, con un simpatico ciuffetto di capelli neri sulla testa che si muoveva a ogni suo passo. Un mattino, il suo stomaco emise un brontolio pazzesco. Controllando la dispensa, si accorse che era vuota: doveva assolutamente andare al supermercato a comprare una torta regalo per la festa della sua cara amica Franca. Senza perdere tempo, si infilò i suoi stivali giganti di cuoio marrone, aprì la porta di casa e si mise in cammino verso il centro.</p><p>Mentre avanzava sulla strada sterrata, la terra tremava dolcemente: <em>THUMP THUMP THUMP</em> Arrivato vicino al ponticello sul fiume, notò una gran confusione. Il suo amico Fred il Castoro correva da una parte all&#x27;altra piangendo disperato: la sua splendida diga stava cedendo sotto i colpi di una corrente improvvisa e l&#x27;acqua rischiava di allagare non solo la sua tana, ma anche l&#x27;albero-casa degli scoiattoli. EleFranco si fermò a guardare. Cominciò a pensare a quanto fosse tardi, a quanti tipi di torte ci fossero al supermercato, se al cioccolato o alla panna, e a che tipo di candeline comprare.</p><p>Stava quasi per perdersi nei suoi pensieri quando Fred lanciò un urlo d&#x27;aiuto. Allora l&#x27;elefante scosse le grandi orecchie e disse ad alta voce la sua parola magica: <strong>"FOCUS!"</strong> In un attimo passò all&#x27;azione. Entrò nel fiume e usò le sue zampe massicce come uno scudo contro la corrente. Con la proboscide iniziò a scavare il fango argilloso dal fondo del fiume e a impastarlo sui rami della diga.</p><p>Si sporcò tantissimo, coprendosi di melma marrone dalla testa ai piedi. Ma la diga fue salvata! Purtroppo, però, EleFranco era troppo sporco per andare al supermercato e la festa stava per iniziare. Mentre si disperava, il sole caldo asciugò il fango sulla sua pelle.</p><p>Incredibilmente, l&#x27;argilla secca creò dei motivi geometrici bellissimi, che sembravano proprio la glassa decorativa di un dolce monumentale! In quel momento, gli scoiattoli felici sbucarono dai rami portando un vassoio dondolante con una gigantesca torta di noci appena sfornata. La missione era compiuta senza nemmeno entrare nel negozio! EleFranco alzò la proboscide al cielo e scoppiò nella sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 1: 🛒 La Torta e il Castoro Fred 🦫</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/01.jpeg" alt="Illustrazione episodio 1">
+          <p class="color-hint console-editable" data-color-hint="1">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: il fango marrone argilloso che copre EleFranco dalla testa ai piedi.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco deve andare al supermercato a comprare una torta regalo per la sua amica Franca. 🎂</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Fred il Castoro, disperato in riva al fiume perché la sua diga continua a crollare e l&#x27;acqua sta per allagare la tana dei suoi amici scoiattoli. 🪵</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco fa da scudo alla corrente e impasta del fango argilloso con la proboscide per cementare la diga, sporcandosi tantissimo dalla testa ai piedi. 🟤</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Aiutare gli altri protegge la comunità. 🤝</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Il fango asciugandosi crea decorazioni bellissime come la glassa di una torta. Gli scoiattoli riconoscenti gli regalano una gigantesca torta di noci appena sfornata. 🐿</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">La missione è compiuta senza entrare al supermercato! E via di risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini, un dettaglio molto importante per un cittadino così illustre! Abitava in una graziosa e accogliente casa alla periferia di FrancaVilla, un piccolo e tranquillo paesino circondato dal verde, un luogo incantevole dove i tetti delle case sembravano fatti di marzapane, i camini sbuffavano nuvole a forma di ciambella e l&#x27;aria profumava sempre di zucchero a velo e pane appena sfornato.</p><p>EleFranco era grande, grosso e immensamente generoso, con un simpatico ciuffetto di capelli neri sulla testa che ballava a ogni suo passo. Quel mattino il suo stomaco emise un brontolio pazzesco, ma c&#x27;era qualcosa di più importante del suo appetito: «Oggi è la festa della mia cara amica Franca!» si disse, controllando la dispensa vuota. «Devo correre al supermercato a comprarle la torta più bella di tutte. Niente regalo, niente festa!»</p><p>Si infilò i suoi stivali giganti di cuoio marrone, lucidati per l&#x27;occasione, aprì la porta di casa e si mise in cammino verso il centro. Mentre avanzava sulla strada sterrata, la terra tremava dolcemente al ritmo dei suoi piedoni: <em>THUMP THUMP THUMP</em> Arrivato vicino al ponticello sul fiume, notò una gran confusione. Sulla riva, un castoro dalla pelliccia lucida e dai grandi denti color avorio correva avanti e indietro tenendosi la testa tra le zampe. Era Fred il Castoro, il più bravo costruttore di tutta FrancaVilla, e quella mattina piangeva disperato.</p><p>«EleFranco, è una catastrofe!» singhiozzò Fred. «Stanotte è arrivata una corrente improvvisa e la mia diga sta cedendo! Se crolla del tutto, l&#x27;acqua allagherà la mia tana e perfino l&#x27;albero-casa degli scoiattoli che dormono là sotto. Ho lavorato per mesi a quei tronchi e ora si sfaldano come grissini!»</p><p>«Respira, Fred,» disse EleFranco con voce calda come una coperta al sole. «Ci sono qui io adesso.» Ma poi, guardando l&#x27;acqua, la sua mente cominciò a vagare. Iniziò a pensare a quanto fosse tardi, a quanti tipi di torte ci fossero al supermercato — al cioccolato o alla panna? — e a che colore comprare le candeline per Franca, se rosa o dorate.</p><p>Stava quasi per perdersi del tutto in quei pensieri golosi quando Fred lanciò un urlo lacerante: «EleFranco, sta crollando TUTTO!» Allora l&#x27;elefante scosse le grandi orecchie e disse ad alta voce la sua parola magica: <strong>"FOCUS!"</strong>«Tieni duro, Fred, la tua diga la salviamo insieme!» gridò, e in un attimo passò all&#x27;azione. Entrò nel fiume con un tonfo gigantesco e piantò le sue zampe massicce contro la corrente, usandole come un enorme scudo che spezzava la forza dell&#x27;acqua. Poi, con la proboscide, cominciò a scavare il fango argilloso dal fondo del fiume e a impastarlo con cura sui rami sconnessi della diga, tappando ogni falla.</p><p>Lavorò senza fermarsi mai, mentre Fred gli passava rametti e foglie. «Un po&#x27; più a destra! Ecco, lì! Sei fortissimo!» lo incoraggiava il castoro.</p><p>Pezzo dopo pezzo, la diga tornò solida come una muraglia. Ma EleFranco si era coperto di melma marrone dalla punta del ciuffo alla coda: sembrava una statua di cioccolato. «Oh no,» mormorò guardandosi. «Sono troppo sporco per entrare al supermercato, e la festa di Franca sta per cominciare.</p><p>Le ho rovinato il regalo...» Mentre si disperava, il sole caldo del mezzogiorno cominciò ad asciugare il fango sulla sua pelle. E successe una cosa incredibile: l&#x27;argilla seccando si crepò in mille motivi geometrici eleganti, ghirigori e fiorellini, proprio come la glassa decorativa di un dolce monumentale! In quello stesso momento, gli scoiattoli salvati sbucarono festanti dai rami, reggendo a fatica un vassoio dondolante con una gigantesca torta di noci appena sfornata, calda e profumata.</p><p>«Per te, EleFranco! Hai salvato la nostra casa!» squittirono in coro. La missione era compiuta senza nemmeno entrare nel negozio: Franca avrebbe avuto la torta più buona del mondo!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Aiutare gli altri protegge la comunità. 🤝</p><p>EleFranco alzò la proboscide al cielo e scoppiò nella sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

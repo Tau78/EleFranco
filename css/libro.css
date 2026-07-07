@@ -206,11 +206,44 @@ body {
   text-align: justify;
 }
 
+.morale-esplicita {
+  font-style: italic;
+  color: #6b4c2a;
+  margin: 1rem 0 0.85rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 3px solid #e67e22;
+  background: rgba(230, 126, 34, 0.08);
+}
+
 .risata {
   font-style: italic;
   letter-spacing: 0.08em;
   color: #d35400;
   font-weight: bold;
+}
+
+.episode-image-row {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.episode-image-row .episode-image {
+  flex: 0 0 42%;
+  max-width: 42%;
+  max-height: 200px;
+  margin: 0;
+}
+
+.color-hint {
+  flex: 1;
+  margin: 0;
+  padding-top: 0.15rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #2c3e50;
+  text-align: left;
 }
 
 .episode-image {
@@ -338,7 +371,345 @@ body {
 
 @media print {
   .chapter-nav,
-  .toc {
-    display: none;
+  .toc,
+  .console-papa-toggle,
+  .console-papa-hint,
+  .console-image-panel,
+  .episode-console-bar,
+  .console-section-bar,
+  .console-papa-modal-backdrop {
+    display: none !important;
   }
+
+  body.console-papa-active .console-editable[contenteditable="true"],
+  body.console-papa-active .story-text[contenteditable="true"] {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Console Papà v2 — editor visuale */
+.console-papa-toggle {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1000;
+  border: 1px solid #e67e22;
+  background: rgba(255, 255, 255, 0.94);
+  color: #d35400;
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(211, 84, 0, 0.15);
+}
+
+.console-papa-toggle:hover {
+  background: #fef9f3;
+}
+
+body.console-papa-active .console-papa-toggle {
+  background: #d35400;
+  color: #fff;
+}
+
+.console-papa-hint {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(254, 249, 243, 0.96);
+  border-top: 2px solid #e67e22;
+  color: #7f5a3a;
+  font-size: 0.72rem;
+  padding: 0.45rem 1rem;
+  text-align: center;
+}
+
+.episode-console-bar,
+.console-section-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  margin-bottom: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.btn-save-chapter,
+.btn-save-section,
+.btn-reset-chapter,
+.btn-reset-section {
+  border: 1px solid #e67e22;
+  background: #fef9f3;
+  color: #d35400;
+  font-size: 0.72rem;
+  font-weight: bold;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-reset-chapter,
+.btn-reset-section {
+  background: #fff;
+  border-color: #bdc3c7;
+  color: #7f8c8d;
+}
+
+.btn-save-chapter:hover,
+.btn-save-section:hover {
+  background: #fdebd0;
+}
+
+/* Blocchi trascinabili (capitolo) */
+body.console-papa-active .console-block {
+  position: relative;
+  border: 1px dashed transparent;
+  border-radius: 8px;
+  padding: 0.35rem 0.35rem 0.35rem 2rem;
+  margin-bottom: 0.5rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+body.console-papa-active .console-block:hover {
+  border-color: rgba(230, 126, 34, 0.35);
+  background: rgba(254, 249, 243, 0.35);
+}
+
+body.console-papa-active .console-block-drop-target {
+  border-color: #d35400;
+  background: rgba(253, 235, 208, 0.5);
+}
+
+body.console-papa-active .console-block-dragging {
+  opacity: 0.45;
+}
+
+.console-drag-handle {
+  position: absolute;
+  left: 0.15rem;
+  top: 0.35rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #e67e22;
+  border-radius: 4px;
+  background: #fef9f3;
+  color: #d35400;
+  font-size: 0.65rem;
+  line-height: 1.2;
+  cursor: grab;
+  padding: 0;
+}
+
+.console-drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Testo editabile */
+body.console-papa-active .console-editable[contenteditable="true"],
+body.console-papa-active .story-text[contenteditable="true"] {
+  outline: 2px dashed rgba(230, 126, 34, 0.55);
+  outline-offset: 3px;
+  border-radius: 4px;
+  cursor: text;
+}
+
+body.console-papa-active .console-editable[contenteditable="true"]:focus,
+body.console-papa-active .story-text[contenteditable="true"]:focus {
+  outline-color: #d35400;
+  background: rgba(254, 249, 243, 0.65);
+}
+
+/* Immagini editabili */
+body.console-papa-active .console-editable-image {
+  cursor: pointer;
+  transition: outline 0.15s, box-shadow 0.15s;
+}
+
+body.console-papa-active .console-editable-image:hover,
+body.console-papa-active .console-editable-image.console-image-selected {
+  outline: 3px solid #d35400;
+  outline-offset: 4px;
+  box-shadow: 0 4px 16px rgba(211, 84, 0, 0.25);
+}
+
+.console-img-align-left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.console-img-align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.console-img-align-right {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.console-img-float-left {
+  float: left;
+  margin: 0 1rem 0.75rem 0;
+  max-width: 45% !important;
+}
+
+.console-img-float-right {
+  float: right;
+  margin: 0 0 0.75rem 1rem;
+  max-width: 45% !important;
+}
+
+.console-image-panel {
+  position: fixed;
+  top: 3.5rem;
+  right: 0.75rem;
+  z-index: 1100;
+  max-width: 320px;
+}
+
+.console-image-panel-inner {
+  background: #fff;
+  border: 2px solid #e67e22;
+  border-radius: 10px;
+  padding: 0.75rem;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  font-size: 0.75rem;
+  color: #2c3e50;
+}
+
+.console-image-panel-inner strong {
+  display: block;
+  color: #d35400;
+  margin-bottom: 0.5rem;
+}
+
+.console-image-panel-inner label {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+.console-image-panel-inner input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+  border: 1px solid #e67e22;
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  font-size: 0.72rem;
+}
+
+.console-image-panel-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+  margin-bottom: 0.45rem;
+}
+
+.console-image-panel-row span {
+  width: 100%;
+  font-weight: bold;
+  color: #7f5a3a;
+  font-size: 0.68rem;
+}
+
+.console-image-panel-row button,
+.console-image-panel-close {
+  border: 1px solid #e67e22;
+  background: #fef9f3;
+  color: #d35400;
+  border-radius: 4px;
+  padding: 0.25rem 0.45rem;
+  font-size: 0.68rem;
+  cursor: pointer;
+}
+
+.console-image-panel-close {
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.35rem;
+  font-weight: bold;
+}
+
+.console-papa-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(44, 62, 80, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.console-papa-modal {
+  background: #fff;
+  border: 2px solid #e67e22;
+  border-radius: 10px;
+  max-width: 720px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+.console-papa-modal h3 {
+  color: #d35400;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.console-papa-modal-note {
+  margin: 0 0 0.75rem;
+  font-size: 0.78rem;
+  color: #7f8c8d;
+}
+
+.console-papa-modal-code {
+  flex: 1;
+  min-height: 220px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  line-height: 1.45;
+  border: 1px solid #e67e22;
+  border-radius: 6px;
+  padding: 0.65rem;
+  resize: vertical;
+  color: #2c3e50;
+}
+
+.console-papa-modal-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+
+.console-papa-btn {
+  border: 1px solid #e67e22;
+  border-radius: 6px;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.78rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.console-papa-btn-copy {
+  background: #d35400;
+  color: #fff;
+  border-color: #d35400;
+}
+
+.console-papa-btn-close {
+  background: #fff;
+  color: #d35400;
 }

@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_17.html">← Ep. 17</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_19.html">Ep. 19 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_17.html">← Ep. 17</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_19.html">Ep. 19 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-18">
-  <h2 class="episode-title">Episodio 18: 🎨 Dal Colorificio per le Vernici e Morno l&#x27;Unicorno 🦄</h2>
-  <img class="episode-image" src="../Disegna/18.jpeg" alt="Illustrazione episodio 18">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va al colorificio a comprare un barattolo di vernice celeste per ridipingere la staccionata di casa sua. 🖌</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Morno l&#x27;Unicorno, una creatura magica ma tristissima perché camminando nella nebbia mattutina ha perso tutto il luccichio del suo manto bianco e il seu corno magico non brilla più, facendolo sentire comune e invisibile. 🌫</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco strofina delicatamente il manto di Morno usando la punta morbida della sua proboscide per asciugarlo. Ma l&#x27;energia statica generata dallo sfregamento fa accumulare tutta la nebbia umida intorno a EleFranco, facendolo starnutire e riempiendolo di goccioline. 💦</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>La vera magia splende quando ci prendiamo cura della bellezza di chi amiamo. ✨</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Il calore dell&#x27;amicizia riaccende improvvisamente il potere di Morno: il suo corno lancia un raggio di luce arcobaleno scintillante che colpisce la staccionata di EleFranco, colorandola di sfumature celeste e magiche che brillano al sole. 🌈</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Staccionata dipinta di pura magia senza bisogno di comprare vernici! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-18" data-episode="18">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="18">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="18">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, una graziosa cittadina circondata da canali e ponticelli fioriti, dove l&#x27;aria profumava di lavanda e i mulini a vento giravano dolcemente.</p><p>La staccionata del suo giardino era sbiadita: «Andrò subito al colorificio a comprare della vernice celeste per rinfrescarla.» Si infilò le sue scarpe giganti ed uscì. Mentre camminava lungo il sentiero avvolto dalla nebbia di FrancaVilla, la terra risuonava: <em>THUMP THUMP THUMP</em> Vicino a un cespuglio incontra Morno l&#x27;Unicorno con le orecchie abbassate: a causa dell&#x27;umidità il suo manto magico si era inzuppato e opacizzato e il corno non emetteva più la sua luce dorata, facendolo sentire triste ed invisibile. EleFranco pensò a quanti pennelli comprare e a quale sfumatura scegliere.</p><p>Si stava perdendo in questi dettagli, ma vedendo una lacrima scendere sul muso di Morno, scosse la testa e gridò: <strong>"FOCUS!"</strong> Asciugò il manto dell&#x27;unicorno con la proboscide; lo sfregamento però generò energia statica che attirò tutta la nebbia addosso a EleFranco, riempiendolo di goccioline e facendolo starnutire! Ma continuò finché il pelo di Morno non fu asciutto. All&#x27;improvviso il corno di Morno si riaccese lanciando un potente raggio arcobaleno che colpì direttamente la staccionata di casa sua, colorandola di un celeste magico e lucente senza bisogno di comprare alcuna vernice! Tutto si era risolto splendidamente, l&#x27;elefante alzò la proboscide e fece la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 18: 🎨 Dal Colorificio per le Vernici e Morno l&#x27;Unicorno 🦄</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/18.jpeg" alt="Illustrazione episodio 18">
+          <p class="color-hint console-editable" data-color-hint="18">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: l&#x27;arcobaleno magico sulla staccionata.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va al colorificio a comprare un barattolo di vernice celeste per ridipingere la staccionata di casa sua. 🖌</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Morno l&#x27;Unicorno, una creatura magica ma tristissima perché camminando nella nebbia mattutina ha perso tutto il luccichio del suo manto bianco e il suo corno magico non brilla più, facendolo sentire comune e invisibile. 🌫</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco strofina delicatamente il manto di Morno usando la punta morbida della sua proboscide per asciugarlo. Ma l&#x27;energia statica generata dallo sfregamento fa accumulare tutta la nebbia umida intorno a EleFranco, facendolo starnutire e riempiendolo di goccioline. 💦</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">La vera magia splende quando ci prendiamo cura della bellezza di chi amiamo. ✨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Il calore dell&#x27;amicizia riaccende improvvisamente il potere di Morno: il suo corno lancia un raggio di luce arcobaleno scintillante che colpisce la staccionata di EleFranco, colorandola di sfumature celeste e magiche che brillano al sole. 🌈</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Staccionata dipinta di pura magia senza bisogno di comprare vernici! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, una graziosa cittadina circondata da canali e ponticelli fioriti, dove l&#x27;aria profumava di lavanda, i mulini a vento giravano dolcemente all&#x27;orizzonte e ogni mattina una soffice nebbia argentata avvolgeva i sentieri.</p><p>Quel giorno EleFranco notò che la staccionata del suo giardino era tutta sbiadita e scrostata. «Così è proprio triste,» disse passandoci una zampa. «Andrò subito al colorificio a comprare un bel barattolo di vernice celeste per rinfrescarla.» Si infilò le sue scarpe giganti ed uscì di casa.</p><p>Mentre camminava lungo il sentiero avvolto dalla nebbia mattutina, la terra risuonava: <em>THUMP THUMP THUMP</em> Vicino a un cespuglio bagnato di guazza, sentì un singhiozzo malinconico. Si avvicinò e, tra la foschia, scorse una creatura meravigliosa ma sconsolata: Morno l&#x27;Unicorno, dal manto che un tempo doveva essere candido e luminoso, ora opaco e grigiastro, con le orecchie abbassate e il corno spento sulla fronte. «Oh, EleFranco,» sospirò Morno con voce tremante. «Camminando in questa nebbia umida il mio manto magico si è tutto inzuppato e ha perso il suo luccichio.</p><p>E senza il bagliore, il mio corno non brilla più nemmeno un pochino! Mi sento spento, comune e invisibile, come se nessuno potesse più vedermi. Un unicorno che non brilla, che unicorno è?» «Non dire così, Morno, la tua magia è solo un po&#x27; bagnata, mica sparita,» lo confortò EleFranco con dolcezza.</p><p>Ma poi pensò alla sua staccionata e la mente cominciò a vagare: si mise a chiedersi quanti pennelli avrebbe dovuto comprare, quale sfumatura di celeste scegliere — quello cielo o quello acquamarina? — e se servisse anche una scala per arrivare in cima ai pali. Si stava perdendo in questi dettagli, ma vedendo una lacrima scivolare lungo il muso di Morno, scosse la testa e gridò: <strong>"FOCUS!"</strong>«Vieni qui, amico, ti asciugo io e vedrai che tornerai a splendere,» gli promise. Cominciò a strofinare delicatamente il manto dell&#x27;unicorno con la punta morbida della proboscide, asciugando ciocca dopo ciocca con movimenti circolari e pazienti. Ma quello sfregamento continuo generò una gran quantità di elettricità statica che, come una calamita, attirò tutta la nebbia umida dei dintorni proprio addosso all&#x27;elefante!</p><p>In un attimo EleFranco si ritrovò avvolto in una nuvoletta tutta sua, fradicio di goccioline e con un solletico al naso irrefrenabile: «ETCIÙ! Etciù! Pfff, quanta acqua!» starnutiva senza sosta. Ma non si arrese e continuò a strofinare finché il manto di Morno non fu perfettamente asciutto e morbido.</p><p>E allora accadde la magia: il calore di quell&#x27;amicizia sincera riaccese di colpo il potere dell&#x27;unicorno. Il suo corno tornò a brillare e lanciò un potente raggio di luce arcobaleno scintillante che, attraversando i giardini, colpì dritto la vecchia staccionata di EleFranco, dipingendola all&#x27;istante di mille sfumature di celeste magico e luccicante, più bella di qualunque vernice in commercio! «Guarda che meraviglia!» esclamò Morno, di nuovo splendente. La staccionata brillava al sole e la missione era compiuta senza spendere un soldo.</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: La vera magia splende quando ci prendiamo cura della bellezza di chi amiamo. ✨</p><p>EleFranco alzò la proboscide e inondò tutti con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

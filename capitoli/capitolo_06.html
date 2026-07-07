@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_05.html">← Ep. 5</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_07.html">Ep. 7 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_05.html">← Ep. 5</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_07.html">Ep. 7 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-6">
-  <h2 class="episode-title">Episodio 6: 📚 In Libreria e la Lucciola Luce 🪰</h2>
-  <img class="episode-image" src="../Disegna/06.jpeg" alt="Illustrazione episodio 6">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va in libreria a comprare un nuovo libro di favole da leggere prima di dormire. 🌙</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Mentre scende la sera incontra Luce la Lucciola, triste perché ha la febbre e la sua luce si è spenta, impedendole di ritrovare la strada di casa. 🪔</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>La fa sedere sulla testa e la accompagna. Per non farle avere paura del buio, EleFranco inizia a inventare e raccontare storie bellissime lungo il cammino. 🌌</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Quando aiuti qualcuno a trovare la strada, non ti senti mai perso. 🗺</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>A casa di Luce, centinaia di lucciole volano intorno a EleFranco proiettando sulle rocce le ombre delle storie appena inventate, creando un magico libro animato nel cielo. ✨</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>La favola della buonanotte è già nella sua testa! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-6" data-episode="6">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="6">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="6">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini! Abitava nella sua casa a FrancaVilla, un paesino misterioso e affascinante che di notte si illuminava solo grazie ai riflessi d&#x27;argento del fiume e alle lanterne di carta appese ai balconi.</p><p>Desiderava tanto un nuovo libro di favole per la buonanotte: «Andrò alla libreria di FrancaVilla prima che chiuda.» Si infilò le sue ciabatte giganti di lana morbida ed uscì di casa. I suoi passi facevano tremare dolcemente le foglie cadute sul sentiero: <em>THUMP THUMP THUMP</em> Nel bosco vicino alle case incontra Luce la Lucciola, che piangeva triste perché una brutta febbre le aveva spento la luce sul guscio, lasciandola smarrita nel buio. EleFranco guardò le stelle e iniziò a pensare a quante pagine avesse il libro che voleva comprare e se ci fossero disegni di draghi o navi.</p><p>Si stava distraendo, ma sentendo lo starnuto della lucciola, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong> Fece salire la piccola Luce sulla sua testa e iniziò a inventare ad alta voce storie meravigliose di giganti buoni e stelle cadenti per non farle avere paura del buio. Arrivati al grande albero delle lucciole, tutta la famiglia di Luce volò in cerchio intorno a EleFranco proiettando sulle rocce le ombre animate dei suoi racconti, creando un magico libro illustrato vivente nel cielo. La favola c&#x27;era già, senza bisogno di comprare nulla. Felice, l&#x27;elefante tornò a casa dopo aver fatto la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 6: 📚 In Libreria e la Lucciola Luce 🪰</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/06.jpeg" alt="Illustrazione episodio 6">
+          <p class="color-hint console-editable" data-color-hint="6">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: la luce verde e dorata delle lucciole nel cielo.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va in libreria a comprare un nuovo libro di favole da leggere prima di dormire. 🌙</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Mentre scende la sera incontra Luce la Lucciola, triste perché ha la febbre e la sua luce si è spenta, impedendole di ritrovare la strada di casa. 🪔</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">La fa sedere sulla testa e la accompagna. Per non farle avere paura del buio, EleFranco inizia a inventare e raccontare storie bellissime lungo il cammino. 🌌</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Quando aiuti qualcuno a trovare la strada, non ti senti mai perso. 🗺</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">A casa di Luce, centinaia di lucciole volano intorno a EleFranco proiettando sulle rocce le ombre delle storie appena inventate, creando un magico libro animato nel cielo. ✨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">La favola della buonanotte è già nella sua testa! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini! Abitava nella sua casa a FrancaVilla, un paesino misterioso e affascinante che di notte si illuminava soltanto grazie ai riflessi d&#x27;argento del fiume e alle lanterne di carta appese ai balconi, ondeggianti come tante piccole lune addomesticate.</p><p>Quella sera, mentre il cielo si tingeva di viola, EleFranco aveva un desiderio: «Mi manca proprio una bella favola nuova per la buonanotte. Andrò alla libreria di FrancaVilla prima che chiuda!» Si infilò le sue ciabatte giganti di lana morbida, perfette per la sera, e uscì di casa. I suoi passi facevano tremare dolcemente le foglie cadute lungo il sentiero: <em>THUMP THUMP THUMP</em> Nel boschetto vicino alle case sentì un pianto sottile sottile.</p><p>Si chinò e, in mezzo al buio, scorse una minuscola creatura dal corpicino tondo, le ali velate e un guscio che avrebbe dovuto brillare ma era spento e grigio. Era Luce la Lucciola, e tremava tutta. «Oh, EleFranco,» tirò su col naso Luce. «Mi sono presa una brutta febbre e la mia lucina si è spenta del tutto.</p><p>Senza la mia luce non riesco a ritrovare la strada di casa, e qui nel bosco è tutto così buio e pauroso! Le altre lucciole sono troppo lontane per vedermi.» «Vieni qui, piccolina, non ti lascio certo da sola al buio,» disse EleFranco con tenerezza. Ma poi alzò gli occhi alle prime stelle e la mente prese a vagare: cominciò a pensare a quante pagine avesse il libro che voleva comprare, se ci fossero disegni di draghi sputafuoco o di navi pirata, e che colore avrebbe avuto la copertina.</p><p>Si stava distraendo, ma sentendo Luce starnutire forte nel buio, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong>«Niente paura, Luce, ti riporto a casa io, e ti tengo compagnia per tutta la strada,» le promise. Con delicatezza fece salire la piccola lucciola sulla sua grande testa, vicino al ciuffetto, perché stesse al sicuro e al calduccio. Poi si incamminò nel bosco e, per non farle sentire la paura del buio, cominciò a inventare ad alta voce storie meravigliose: «C&#x27;era una volta un gigante buono che teneva le stelle in tasca... e una stella cadente che voleva diventare lampione...» La sua voce profonda riempiva il silenzio, e Luce, ascoltando rapita, dimenticava la febbre e la paura.</p><p>Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole. E lì successe la magia: tutta la famiglia di Luce, felice di rivederla, si alzò in volo e cominciò a danzare in cerchio intorno a EleFranco. Centinaia di lucine dorate proiettavano sulle rocce le ombre animate dei racconti dell&#x27;elefante: il gigante buono, la stella cadente, le navi e i draghi prendevano vita sulla pietra, creando un magico libro illustrato vivente sospeso nella notte. EleFranco guardò quello spettacolo a bocca aperta: la favola della buonanotte ce l&#x27;aveva già nella testa, e non serviva comprare proprio nulla!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Quando aiuti qualcuno a trovare la strada, non ti senti mai perso. 🗺</p><p>Felice, l&#x27;elefante tornò a casa e inondò tutti con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

@@ -44,7 +44,7 @@ def watched_mtimes(paths: list[Path]) -> dict[str, float]:
             out[str(path)] = path.stat().st_mtime
         elif path.is_dir():
             for child in path.rglob("*"):
-                if child.is_file() and child.suffix in {".py", ".css"}:
+                if child.is_file() and child.suffix in {".py", ".css", ".js"}:
                     out[str(child)] = child.stat().st_mtime
     return out
 
@@ -133,8 +133,11 @@ def run_preview(
     paths = watch_paths or [
         ROOT / "episodes_base.py",
         ROOT / "episodes_extra.py",
+        ROOT / "episodes_season2.py",
         ROOT / "episode_prompts_en.py",
         ROOT / "css" / "libro.css",
+        ROOT / "js" / "console-papa.js",
+        ROOT / "build_book.py",
     ]
 
     touch_build_stamp()
@@ -144,7 +147,7 @@ def run_preview(
     server = start_server(port)
     url = f"http://127.0.0.1:{port}/index.html"
     print(f"\nAnteprima live: {url}", flush=True)
-    print("Modifica episodes_base.py / episodes_extra.py e salva — rebuild automatico.", flush=True)
+    print("Modifica episodes_base.py / episodes_extra.py / episodes_season2.py e salva — rebuild automatico.", flush=True)
     print("Ctrl+C per uscire.\n", flush=True)
 
     try:

@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_13.html">← Ep. 13</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_15.html">Ep. 15 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_13.html">← Ep. 13</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_15.html">Ep. 15 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-14">
-  <h2 class="episode-title">Episodio 14: 🪴 Dal Vivaio per i Fiori e Lalla la Farfalla 🦋</h2>
-  <img class="episode-image" src="../Disegna/14.jpeg" alt="Illustrazione episodio 14">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va al vivaio a comprare dei semi di margherite da piantare nel suo giardino. 🌸</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Lalla la Farfalla con l&#x27;ala bagnata da una goccia di rugiada gigante; non riesce a volare per scappare da un gatto curioso. 󰴛</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco usa le sue grandi orecchie come ventagli per creare una brezza calda e asciugare l&#x27;ala di Lalla. Lo sventolio continuo sposta un cumulo di foglie secche che copre interamente EleFranco. 🌬</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Un piccolo soffio di gentilezza può salvare una vita intera. 🍃</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Sotto le foglie c&#x27;erano migliaia di semi selvatici di papaveri e margherite che si impigliano nei peli delle zampe di EleFranco. Camminando verso casa, EleFranco semina tutto il sentiero senza accorgersene! 🗺</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Il giardino e la strada sono già fioriti da soli! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-14" data-episode="14">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="14">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="14">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, un borgo fiorito sospeso su colline di ulivi e vigne secolari, dove le case avevano facciate color pastello e l&#x27;aria profumava di terra bagnata e mosto selvatico.</p><p>Voleva abbellire il suo prato: «Andrò al vivaio a comprare dei semi di margherite colorate.» Si infilò i suoi stivali giganti ed uscì di casa. I suoi passi scandivano il tempo: <em>THUMP THUMP THUMP</em> Vicino a un cespuglio incontra Lalla la Farfalla con l&#x27;ala bagnata da una goccia di rugiada gigante, incapace di volare per sfuggire a un gatto curioso che si avvicinava quatto quatto. EleFranco guardò la strada e pensò a quanti fiori sarebbero cresciuti nel suo giardino e a quanta acqua usare per annaffiarli.</p><p>Si stava distraendo, ma il miagolio del gatto lo ridestò. Scosse le grandi orecchie e disse: <strong>"FOCUS!"</strong> Si posizionò davanti alla farfalla e mosse le orecchie come ventagli, creando una brezza calda che asciugò l&#x27;ala di Lalla, che volò via felice. Lo sventolio vigoroso però sollevò un immenso cumulo di foglie secche dal sentiero, seppellendo interamente EleFranco! Camminando stanco verso casa, i semi selvatici nascosti sotto le foglie si erano impigliati nei peli delle sue zampe, cadendo nel terreno ad ogni passo.</p><p>Poche settimane dopo tutto il sentiero fiorì da solo in modo meraviglioso! EleFranco guardò lo spettacolo e promise la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 14: 🪴 Dal Vivaio per i Fiori e Lalla la Farfalla 🦋</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/14.jpeg" alt="Illustrazione episodio 14">
+          <p class="color-hint console-editable" data-color-hint="14">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: i papaveri rossi e le margherite bianche nei semi.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va al vivaio a comprare dei semi di margherite da piantare nel suo giardino. 🌸</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Lalla la Farfalla con l&#x27;ala bagnata da una goccia di rugiada gigante; non riesce a volare per scappare da un gatto curioso.</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco usa le sue grandi orecchie come ventagli per creare una brezza calda e asciugare l&#x27;ala di Lalla. Lo sventolio continuo sposta un cumulo di foglie secche che copre interamente EleFranco. 🌬</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Un piccolo soffio di gentilezza può salvare una vita intera. 🍃</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Sotto le foglie c&#x27;erano migliaia di semi selvatici di papaveri e margherite che si impigliano nei peli delle zampe di EleFranco. Camminando verso casa, EleFranco semina tutto il sentiero senza accorgersene! 🗺</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Il giardino e la strada sono già fioriti da soli! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, un borgo fiorito sospeso su colline di ulivi argentati e vigne secolari, dove le case avevano facciate color pastello, le persiane scricchiolavano dolcemente al vento e l&#x27;aria profumava di terra bagnata e di mosto.</p><p>Quel mattino EleFranco voleva abbellire il suo prato un po&#x27; spoglio. «Ci vorrebbe un bel tappeto di margherite colorate,» pensò guardando il giardino. «Vado al vivaio a comprare un sacchetto di semini.» Si infilò i suoi stivali giganti ed uscì di casa.</p><p>I suoi passi scandivano allegri il tempo lungo il sentiero: <em>THUMP THUMP THUMP</em> Vicino a un cespuglio, sentì un disperato battito d&#x27;ali e un gridolino sottile. Si chinò e scorse Lalla la Farfalla, dalle ali di velluto azzurro e arancio, una delle quali era appesantita e incollata da un&#x27;enorme goccia di rugiada. Lì accanto, acquattato nell&#x27;erba, un gatto curioso si avvicinava quatto quatto con gli occhi fissi su di lei. «Aiuto, EleFranco!» squittì Lalla agitando l&#x27;ala libera.</p><p>«Una goccia di rugiada gigante mi ha inzuppato l&#x27;ala e non riesco più a volare! E quel gatto si sta avvicinando sempre di più... se non mi asciugo in fretta non riuscirò a scappare. Ho tanta paura!» «Stai tranquilla, Lalla, quel gatto non ti torcerà nemmeno un&#x27;antenna,» la rassicurò EleFranco mettendosi tra lei e il felino.</p><p>Ma poi pensò ai suoi fiori e la mente prese a vagare: cominciò a immaginare quante margherite sarebbero spuntate nel suo giardino, di che colore, e quanta acqua avrebbe dovuto usare ogni mattina per annaffiarle. Si stava distraendo, ma il miagolio impaziente del gatto lo ridestò. Scosse le grandi orecchie e disse: <strong>"FOCUS!"</strong>«Eccomi, piccola, ora ti asciugo io quell&#x27;ala in un battibaleno,» le disse con dolcezza. Si posizionò davanti alla farfalla e cominciò a muovere lentamente le sue enormi orecchie come fossero due grandi ventagli, creando una brezza tiepida e costante.</p><p>La gocciolina sull&#x27;ala di Lalla si rimpicciolì, poi evaporò del tutto, e la farfalla, leggera come prima, spiccò il volo felice ben lontano dal gatto deluso. «Grazie, EleFranco! Mi hai salvato la vita!» cinguettò volteggiando. Ma quel vigoroso sventolio aveva sollevato dal sentiero un immenso cumulo di foglie secche, che ricaddero tutte addosso all&#x27;elefante seppellendolo completamente, fino a far spuntare solo la punta della proboscide.</p><p>«Bleah, sono una montagna di foglie ambulante,» sbuffò EleFranco scrollandosi mentre si rimetteva in cammino verso casa, stanco. Quello che non sapeva era che, nascosti sotto quelle foglie secche, c&#x27;erano migliaia di semini selvatici di papaveri e margherite, e si erano tutti impigliati nei peli ruvidi delle sue zampe. Così, passo dopo passo, lungo tutto il tragitto verso casa, EleFranco seminò senza accorgersene l&#x27;intero sentiero. E poche settimane dopo, come per magia, tutta la stradina fiorì da sola in un&#x27;esplosione meravigliosa di rosso e di bianco, più bella di qualsiasi giardino comprato al vivaio!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Un piccolo soffio di gentilezza può salvare una vita intera. 🍃</p><p>EleFranco guardò lo spettacolo e scoppiò nella sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

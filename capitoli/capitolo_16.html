@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_15.html">← Ep. 15</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_17.html">Ep. 17 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_15.html">← Ep. 15</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_17.html">Ep. 17 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-16">
-  <h2 class="episode-title">Episodio 16: 📰 In Edicola per il Fumetto e Betta la Scimmietta 🐒</h2>
-  <img class="episode-image" src="../Disegna/16.jpeg" alt="Illustrazione episodio 16">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va in edicola a comprare l&#x27;ultimo numero del fumetto di &quot;Super-Elefante&quot;. 󰭉</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Betta la Scimmietta freddolosa che ha perso la sua sciarpa su un ramo altissimo della giungla e trema tutta. 🧣</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>Si alza sulle zampe posteriori e con la proboscide afferra la sciarpa lassù. Lo sforzo dell&#x27;allungamento fa fare un rumore incredibile alla sua schiena: STRECH! 💥</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>I veri supereroi non hanno bisogno di un mantello, basta una proboscide tesa. ✨</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>La scimmietta al caldo lancia a EleFranco un vecchio foglio di giornale colorato rimasto sul ramo. È proprio la pagina centrale inedita del fumetto che EleFranco cercava, volata via dall&#x27;edicola il giorno prima! 🗞</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Il fumetto è completo ed EleFranco è il vero Super-Elefante! Risata finale di fine stagione: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-16" data-episode="16">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="16">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="16">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, una cittadina fluviale costruita su palafitte e ponti di corda intrecciata, dove l&#x27;acqua scorreva placida sotto i pavimenti di legno e le barche colorate fungevano da bizzarri taxi per gli abitanti.</p><p>Era uscito il fumetto di &quot;Super-Elefante&quot;: «Devo andare subito all&#x27;edicola prima che finiscano le copie!» Si infilò i suoi stivali giganti lucidi ed uscì. Il terreno della strada vibrava ritmicamente: <em>THUMP THUMP THUMP</em> Presso un albero del parco incontra Betta la Scimmietta tutta tremante, perché un soffio di vento le aveva fatto volare la sua amata sciarpa rossa su un ramo altissimo fuori dalla sua portata. EleFranco guardò l&#x27;edicola e pensò a quali superpoteri avrebbe usato il personaggio nel fumetto e a quanto fossero colorate le vignette.</p><p>Si stava distraendo, ma vedendo Betta soffrire il freddo, scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Si alzò sulle zampe posteriori, allungando la proboscide verso l&#x27;alto con tutte le forze per raggiungere la sciarpa. La schiena fece un rumore pazzesco ( STRECH! ) e rimase bloccato dal dolore, ma rimesse la sciarpa a Betta. La scimmietta felice vide un vecchio foglio colorato incastrato tra le foglie e lo lanciò giù: era proprio la rarissima pagina centrale inedita del fumetto volata via dall&#x27;edicola il giorno prima per il vento! Il fumetto era completo, EleFranco si sbloccò dalla gioia, alzò la proboscide e lanciò la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 16: 📰 In Edicola per il Fumetto e Betta la Scimmietta 🐒</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/16.jpeg" alt="Illustrazione episodio 16">
+          <p class="color-hint console-editable" data-color-hint="16">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: la pagina del fumetto piena di colori vivaci.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va in edicola a comprare l&#x27;ultimo numero del fumetto di &quot;Super-Elefante&quot;.</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Betta la Scimmietta freddolosa che ha perso la sua sciarpa su un ramo altissimo della giungla e trema tutta. 🧣</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">Si alza sulle zampe posteriori e con la proboscide afferra la sciarpa lassù. Lo sforzo dell&#x27;allungamento fa fare un rumore incredibile alla sua schiena: SCRACK! 💥</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">I veri supereroi non hanno bisogno di un mantello, basta una proboscide tesa. ✨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">La scimmietta al caldo lancia a EleFranco un vecchio foglio di giornale colorato rimasto sul ramo. È proprio la pagina centrale inedita del fumetto che EleFranco cercava, volata via dall&#x27;edicola il giorno prima! 🗞</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Il fumetto è completo ed EleFranco è il vero Super-Elefante! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua casa a FrancaVilla, una cittadina fluviale costruita su palafitte e ponti di corda intrecciata, dove l&#x27;acqua scorreva placida sotto i pavimenti di legno, le barche colorate facevano da bizzarri taxi tra una casa e l&#x27;altra e i panni stesi sventolavano sopra il fiume.</p><p>Quel mattino era finalmente uscito il nuovo numero del fumetto di &quot;Super-Elefante&quot;, il suo preferito. «Non posso perdermelo, devo correre all&#x27;edicola prima che finiscano le copie!» esclamò EleFranco tutto eccitato. Si infilò i suoi stivali giganti lucidi ed uscì. Il pavimento di legno della passerella vibrava ritmicamente sotto di lui: <em>THUMP THUMP THUMP</em> Presso un grande albero del parco, sentì dei piccoli mugolii tremanti.</p><p>Alzò lo sguardo e vide Betta la Scimmietta, piccola e infreddolita, che batteva i dentini rannicchiata su un ramo basso, fissando disperata qualcosa più in alto. «Brrr, EleFranco, che freddo!» tremò Betta. «Un colpo di vento mi ha portato via la mia sciarpa rossa, quella che mi teneva calda, e l&#x27;ha lanciata su quel ramo altissimo lassù! Io non riesco ad arrampicarmi così in alto, è troppo sottile e pericoloso, e senza la sciarpa sto gelando tutta!»</p><p>«Non tremare, Betta, la tua sciarpa te la riprendo io,» disse EleFranco guardando in su con aria sicura. Ma poi pensò al suo fumetto e la mente cominciò a vagare: si mise a immaginare quali nuovi superpoteri avrebbe usato Super-Elefante in questo numero, se ci sarebbe stato il suo nemico storico e quanto fossero colorate e spettacolari le vignette. Si stava distraendo, ma vedendo Betta soffrire il freddo, scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Tieni duro un secondo, piccola, ci arrivo io fin lassù,» la rassicurò. Si alzò in piedi sulle zampe posteriori, in bilico, e cominciò ad allungare la proboscide verso l&#x27;alto, sempre più su, tendendola al massimo con tutte le sue forze per raggiungere quel ramo lontanissimo.</p><p>Tese, tese ancora, si stiracchiò fino al limite e — SCRACK! — la schiena gli fece un rumore pazzesco e rimase bloccato in quella posizione storta, paralizzato dal dolore. Ma con la punta della proboscide riuscì comunque ad agganciare la sciarpa rossa e a riportarla, calda e morbida, intorno al collo di Betta. «Grazie, EleFranco, sei il mio eroe!» squittì la scimmietta, finalmente al calduccio. E proprio mentre lo diceva, notò un vecchio foglio di carta colorato impigliato tra le foglie del ramo.</p><p>Lo afferrò e lo lanciò giù all&#x27;elefante: «Tieni, questo è per te!» EleFranco lo raccolse e quasi gli si bloccò di nuovo la schiena dalla sorpresa: era la rarissima pagina centrale inedita proprio del fumetto di &quot;Super-Elefante&quot;, quella con il poster gigante, volata via dall&#x27;edicola il giorno prima a causa del vento! Adesso la sua collezione era completa, anzi, più completa di chiunque altro. «Sono io il vero Super-Elefante!» esclamò ridendo, mentre con un piacevole &quot;click&quot; la schiena si rimetteva a posto da sola.</p><p>La missione era compiuta, e in modo eroico!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: I veri supereroi non hanno bisogno di un mantello, basta una proboscide tesa. ✨</p><p>EleFranco si sbloccò dalla gioia e partì con la sua conosciutissima risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

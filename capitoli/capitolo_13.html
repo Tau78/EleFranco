@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_12.html">← Ep. 12</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_14.html">Ep. 14 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_12.html">← Ep. 12</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_14.html">Ep. 14 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-13">
-  <h2 class="episode-title">Episodio 13: 🍪 In Pasticceria per i Biscotti e Fosco l&#x27;Orso 🐻</h2>
-  <img class="episode-image" src="../Disegna/13.jpeg" alt="Illustrazione episodio 13">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va in pasticceria a comprare i biscotti allo zenzero che gli piacciono tanto. 🍩</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Trova Fosco l&#x27;Orso incastrato con la testa dentro un alveare vuoto nel tentativo di leccare gli ultimi rimasugli di miele. 🐝</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco tira l&#x27;alveare con la proboscide per liberarlo. Quando la testa dell&#x27;orso esce fuori... l&#x27;alveare rimbalza all&#x27;indietro spiaccicandosi sulla testa di EleFranco, coprendolo di miele appiccicoso. 🍯</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>La dolcezza condivisa raddoppia sempre il suo valore. ❤</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Dal cielo cade una pioggia di polline dorato dai fiori che si attacca al miele sulla sua testa. L&#x27;unione di miele e polline si asciuga al sole creando dei biscotti croccanti e dolcissimi proprio sul suo ciuffo! 🌾</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Biscotti fatti in casa direttamente sulla testa! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-13" data-episode="13">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="13">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="13">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa a FrancaVilla, un paesino nordico incastrato in una vallata di abeti rossi e laghi ghiacciati, dove l&#x27;aria frizzante pungeva le guance e le case avevano caldi pavimenti di pietra riscaldati dal fuoco.</p><p>Voleva qualcosa di dolce: «Andrò alla pasticceria a comprare un sacchetto di biscotti allo zenzero freschi.» Si infilò i suoi stivali giganti di cuoio morbido ed uscì di casa. I suoi passi risuonavano sulla via: <em>THUMP THUMP THUMP</em> Vicino a un albero cavo incontra Fosco l&#x27;Orso che si agitava con la testa completamente infilata e incastrata all&#x27;interno di un grande alveare appeso a un ramo: voleva solo leccare del miele ma era rimasto intrappolato. EleFranco guardò la pasticceria e pensò a quanti biscotti ci fossero nel sacchetto e se fossero a forma di omino.</p><p>Si stava distraendo, ma un lamento soffocato di Fosco lo riportò al presente. Scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Afferrò l&#x27;alveare con la proboscide e tirò con forza. Con un sonoro SBLOCK! la testa dell&#x27;orso uscì, ma per il contraccolpo l&#x27;alveare rimbalzò spiaccicandosi sulla testa di EleFranco, coprendogli il ciuffo di miele appiccicoso! Proprio allora il vento sollevò una pioggia dorata di polline dai fiori che si attaccò sopra al miele, asciugandosi al sole e trasformandosi in biscotti croccanti e deliziosi sul suo ciuffo!</p><p>La missione era compiuta gratis e i due amici mangiarono felici. EleFranco alzò la proboscide e promise la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 13: 🍪 In Pasticceria per i Biscotti e Fosco l&#x27;Orso 🐻</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/13.jpeg" alt="Illustrazione episodio 13">
+          <p class="color-hint console-editable" data-color-hint="13">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: il miele dorato appiccicoso e i biscotti sul ciuffo.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va in pasticceria a comprare i biscotti allo zenzero che gli piacciono tanto. 🍩</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Trova Fosco l&#x27;Orso incastrato con la testa dentro un alveare vuoto nel tentativo di leccare gli ultimi rimasugli di miele. 🐝</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco tira l&#x27;alveare con la proboscide per liberarlo. Quando la testa dell&#x27;orso esce fuori... l&#x27;alveare rimbalza all&#x27;indietro spiaccicandosi sulla testa di EleFranco, coprendolo di miele appiccicoso. 🍯</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">La dolcezza condivisa raddoppia sempre il suo valore. ❤</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Dal cielo cade una pioggia di polline dorato dai fiori che si attacca al miele sulla sua testa. L&#x27;unione di miele e polline si asciuga al sole creando dei biscotti croccanti e dolcissimi proprio sul suo ciuffo! 🌾</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Biscotti fatti in casa direttamente sulla testa! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa a FrancaVilla, un paesino nordico incastonato in una vallata di abeti rossi e laghi ghiacciati, dove l&#x27;aria frizzante pungeva le guance, il fumo dei comignoli saliva dritto nel cielo terso e le case avevano caldi pavimenti di pietra riscaldati dal fuoco.</p><p>Quel pomeriggio EleFranco aveva una gran voglia di qualcosa di dolce. «Mmm, mi vedo proprio un bel sacchetto di biscotti allo zenzero, croccanti e profumati,» fantasticò leccandosi la proboscide. «Vado subito alla pasticceria prima che sfornino l&#x27;ultima teglia.» Si infilò i suoi stivali giganti di cuoio morbido ed uscì di casa.</p><p>I suoi passi risuonavano sulla via innevata: <em>THUMP THUMP THUMP</em> Vicino a un grande albero cavo, sentì dei versi strozzati e un gran dimenarsi. Si avvicinò e vide una scena buffissima e preoccupante insieme: Fosco l&#x27;Orso, grande e bruno, era in piedi sulle zampe posteriori con la testa completamente infilata e incastrata dentro un grosso alveare di legno appeso a un ramo, e agitava le zampe nel vuoto. «Mmmf! Mmmpf!</p><p>EleFranco, aiuto!» arrivò la voce ovattata di Fosco da dentro l&#x27;arnia. «Volevo solo leccare gli ultimi rimasugli di miele rimasti sul fondo, ma ho infilato la testa troppo a fondo e ora sono incastrato! Non riesco più a tirarla fuori e qui dentro è tutto buio e appiccicoso!» «Sta&#x27; fermo, Fosco, non tirare che peggiori le cose,» raccomandò EleFranco.</p><p>«Adesso ti libero io.» Ma poi pensò ai biscotti e la mente cominciò a vagare: si mise a immaginare quanti biscotti ci fossero nel sacchetto della pasticceria, se fossero a forma di omino con i bottoni di zucchero e se la commessa gliene avrebbe regalato uno in più, ancora caldo. Si stava distraendo, ma un lamento soffocato di Fosco lo riportò bruscamente al presente. Scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Conta fino a tre e resta rigido, Fosco: uno, due... e tre!» lo avvisò.</p><p>Afferrò saldamente l&#x27;alveare con la proboscide, piantò bene le zampe nella neve e cominciò a tirare con tutta la sua forza. L&#x27;arnia non voleva saperne di cedere; EleFranco tirò ancora più forte e poi, con un sonoro SBLOCK!, la testa di Fosco schizzò fuori di colpo. Ma per il contraccolpo l&#x27;alveare gli sfuggì di proboscide e gli rimbalzò all&#x27;indietro, spiaccicandosi proprio sulla testa dell&#x27;elefante e ricoprendogli tutto il ciuffetto di miele dorato e appiccicosissimo! «Pffff... che pasticcio,» sbuffò EleFranco, con il miele che gli colava lento sulla fronte e Fosco che si leccava il muso, finalmente libero.</p><p>Ma proprio in quell&#x27;istante un soffio di vento freddo del nord sollevò dai fiori invernali una pioggia dorata di polline, che si posò leggera sopra il miele appiccicoso del suo ciuffo. Il sole pallido fece il resto: l&#x27;impasto di miele e polline si rapprese e si asciugò, trasformandosi in tanti biscotti croccanti, dorati e dolcissimi, proprio lì, sulla testa dell&#x27;elefante! «Ma sono... biscotti veri!» esclamò Fosco assaggiandone uno. Erano deliziosi.</p><p>La missione era compiuta gratis, e i due amici si sedettero a sgranocchiarli felici sulla neve.</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: La dolcezza condivisa raddoppia sempre il suo valore. ❤</p><p>EleFranco alzò la proboscide e partì con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

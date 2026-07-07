@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_04.html">← Ep. 4</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_06.html">Ep. 6 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_04.html">← Ep. 4</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_06.html">Ep. 6 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-5">
-  <h2 class="episode-title">Episodio 5: 🪡 Dal Sarto e Ciccio il Riccio 🦔</h2>
-  <img class="episode-image" src="../Disegna/05.jpeg" alt="Illustrazione episodio 5">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal sarto a rammendare la sua giacca preferita che si è strappata su una manica. 🦺</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Sente gridare aiuto: è Ciccio il Riccio, rimasto incastrato in un cespuglio di rovi con tutti i suoi aculei aggrovigliati. 🌿</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco stende la sua vecchia giacca sopra i rovi per fare da scudo e liberare Ciccio. Nel farlo, però, le spine distruggono completamente la giacca riducendola in stracci. 💥</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>I vecchi oggetti si possono sacrificare, la sicurezza di un amico no. ❤</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Ciccio raccoglie i pezzi di stoffa e usando i suoi aculei come aghi cuce una mantella stile &quot;patchwork&quot; coloratissima e super alla moda per EleFranco. 🎨</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Un nuovo vestito da supereroe totalmente gratis! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-5" data-episode="5">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="5">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="5">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa a FrancaVilla, un villaggio pittoresco dove le strade erano lastricate di ciottoli bianchi e le botteghe degli artigiani si susseguivano una dopo l&#x27;altra come scatole di giocattoli colorate.</p><p>Un giorno notò un brutto strappo sulla sua giacca di velluto preferita: «Devo andare subito dal sarto del paesino per farla rammendare.» Si infilò le sue scarpe giganti con la suola di gomma, prese la giacca sotto il braccio e uscì di casa. I suoi passi risuonavano pesanti sul terreno: <em>THUMP THUMP THUMP</em> Mentre passava vicino a una siepe selvatica, udì dei piccoli lamenti acuti: è Ciccio il Riccio, completamente intrappolato in un cespuglio di rovi pieni di spine. EleFranco guardò la giacca strappata e iniziò a pensare a quali fili colorati avrebbe usato il sarto e a quanti bottoni nuovi aggiungere.</p><p>Si stava perdendo in questi pensieri, ma vedendo Ciccio soffrire, scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Prese la sua amata giacca e la stese sopra i rovi acuminati, creando una passerella protettiva. Grazie a questo scudo, Ciccio riuscì a scivolare fuori sano e salvo. Purtroppo, però, la giacca fu ridotta in mille stracci dalle spine. Mentre si disperava, Ciccio raccolse i pezzi colorati e, usando i suoi aculei come perfetti aghi da cucito, creò una splendida mantella stile &quot;patchwork&quot; coloratissima per l&#x27;elefante.</p><p>EleFranco se la indossò fiero, sentendosi un vero supereroe di FrancaVilla. La missione era compiuta! EleFranco alzò la proboscide e promise la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 5: 🪡 Dal Sarto e Ciccio il Riccio 🦔</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/05.jpeg" alt="Illustrazione episodio 5">
+          <p class="color-hint console-editable" data-color-hint="5">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: la mantella patchwork di mille colori.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal sarto a rammendare la sua giacca preferita che si è strappata su una manica. 🦺</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Sente gridare aiuto: c&#x27;era Ciccio il Riccio, rimasto incastrato in un cespuglio di rovi con tutti i suoi aculei aggrovigliati. 🌿</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco stende la sua vecchia giacca sopra i rovi per fare da scudo e liberare Ciccio. Nel farlo, però, le spine distruggono completamente la giacca riducendola in stracci. 💥</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">I vecchi oggetti si possono sacrificare, la sicurezza di un amico no. ❤</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Ciccio raccoglie i pezzi di stoffa e usando i suoi aculei come aghi cuce una mantella stile &quot;patchwork&quot; coloratissima e super alla moda per EleFranco. 🎨</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Un nuovo vestito da supereroe totalmente gratis! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa a FrancaVilla, un villaggio pittoresco dove le strade erano lastricate di ciottoli bianchi e le botteghe degli artigiani si susseguivano una dopo l&#x27;altra come scatole di giocattoli colorate: il fabbro, il vasaio, il candelaio e, naturalmente, il sarto.</p><p>Un mattino, mentre si vestiva, EleFranco notò un brutto strappo sulla manica della sua giacca di velluto preferita. «Oh no, la mia giacca della domenica!» si rammaricò, infilando la zampa nel buco. «Devo andare subito dal sarto del paesino a farla rammendare, prima che lo strappo diventi più grande.» Si infilò le sue scarpe giganti con la suola di gomma, prese la giacca sotto il braccio e uscì di casa.</p><p>I suoi passi risuonavano pesanti sui ciottoli bianchi: <em>THUMP THUMP THUMP</em> Mentre passava vicino a una siepe selvatica, udì dei piccoli lamenti acuti e disperati. Si avvicinò e scostò una foglia: là, in mezzo a un cespuglio di rovi pieni di spine, c&#x27;era Ciccio il Riccio, una palletta di aculei marroni completamente aggrovigliata tra i rami spinosi. «Aiutooo, EleFranco!» squittì Ciccio agitandosi. «Inseguivo una mela caduta e sono finito dritto in questo roveto!</p><p>Più mi muovo, più i miei aculei si impigliano nelle spine. Sono bloccato da ore e ho una paura tremenda di restare incastrato qui per sempre!» «Sta&#x27; fermo un attimo, Ciccio, non agitarti che peggiori le cose,» disse EleFranco con voce rassicurante. Ma poi il suo sguardo cadde sulla giacca strappata che teneva sotto il braccio, e la mente prese a vagare: cominciò a pensare a quali fili colorati avrebbe usato il sarto, se avrebbe aggiunto dei bottoni nuovi e luccicanti e magari una toppa elegante sul gomito.</p><p>Si stava perdendo in questi pensieri, ma vedendo Ciccio soffrire tra le spine, scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Tieni duro, piccolo, ti tiro fuori io da lì,» promise. Guardò i rovi acuminati e capì che non poteva afferrare Ciccio con la proboscide senza pungersi. Allora ebbe un&#x27;idea: prese la sua amata giacca di velluto e la stese con cura sopra il cespuglio spinoso, creando una morbida passerella protettiva sopra le spine. «Ora cammina sopra la stoffa, Ciccio, piano piano!»</p><p>Il riccio, passo dopo passo, scivolò fuori dal roveto sano e salvo, senza più un solo aculeo impigliato. «Ce l&#x27;ho fatta! Sono libero!» esultò Ciccio rotolando sull&#x27;erba. Ma quando EleFranco recuperò la giacca, il suo sorriso svanì: il velluto era stato ridotto in mille stracci dalle spine, completamente irrecuperabile.</p><p>«Oh no, la mia giacca preferita... ora è solo un mucchio di brandelli,» sospirò. Ciccio, però, non si perse d&#x27;animo. Raccolse tutti i pezzi di stoffa colorata e, usando i suoi aculei appuntiti come perfetti aghi da cucito, cominciò a lavorare velocissimo: punto dopo punto, cucì insieme i brandelli creando una splendida mantella stile &quot;patchwork&quot;, coloratissima e calda. «Provala, EleFranco!»</p><p>La drappeggiò sulle spalle dell&#x27;elefante, che si specchiò in una pozzanghera sentendosi un vero supereroe di FrancaVilla. La missione era compiuta: altro che rammendo, ora aveva un mantello tutto nuovo!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: I vecchi oggetti si possono sacrificare, la sicurezza di un amico no. ❤</p><p>EleFranco si indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

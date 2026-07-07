@@ -1,19 +1,19 @@
-"""Episodi 1–21 — sorgente testi editabile. Modifica qui e rigenera con aggiorna_libro.py."""
+"""Racconti espansi per gli episodi 1–19 (EleFranco — Iris Edition).
+
+Ogni racconto segue il pattern narrativo dell'episodio 22 (Otto il Coniglietto):
+incipit fisso + ambientazione FrancaVilla, missione con calzature e THUMP,
+incontro descritto, dialogo dell'amico in «», risposta calorosa, distrazione,
+risveglio, "FOCUS!", frase rassicurante, scena d'aiuto dettagliata, imprevisto,
+risoluzione secondo schema, missione compiuta e risata finale dedicata.
+
+I punti-trama provengono da episodes_base.py: qui sono solo espansi.
+Lunghezza target ~2500-3500 caratteri per racconto.
+"""
 
 from __future__ import annotations
 
-INTRO = 'Le Avventure di EleFranco Franchini STAGIONE 1 - EDIZIONE COMPLETA UNIFICATA V11 Iris Edition "C’è una magia segreta nel cammino di un elefante: ogni volta che EleFranco Franchini esce per un piccolo impegno, il destino gli mette accanto un amico da aiutare. E così, tra un gesto gentile e un sorriso inaspettato, la missione si compie da sola, perché chi semina bontà ritrova sempre la strada di casa."'
-
-BASE_EPISODES: list[dict] = [
-    {"num": 1,
-        "title": '🛒 La Torta e il Castoro Fred 🦫',
-        "missione": 'EleFranco deve andare al supermercato a comprare una torta regalo per la sua amica Franca. 🎂',
-        "incontro": "Incontra Fred il Castoro, disperato in riva al fiume perché la sua diga continua a crollare e l'acqua sta per allagare la tana dei suoi amici scoiattoli. 🪵",
-        "aiuto": 'EleFranco fa da scudo alla corrente e impasta del fango argilloso con la proboscide per cementare la diga, sporcandosi tantissimo dalla testa ai piedi. 🟤',
-        "morale": 'Aiutare gli altri protegge la comunità. 🤝',
-        "colpo": 'Il fango asciugandosi crea decorazioni bellissime come la glassa di una torta. Gli scoiattoli riconoscenti gli regalano una gigantesca torta di noci appena sfornata. 🐿',
-        "finale_schema": 'La missione è compiuta senza entrare al supermercato! E via di risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini, un dettaglio molto importante per un cittadino così illustre!
+EXPANDED_RACCONTI: dict[int, str] = {
+    1: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini, un dettaglio molto importante per un cittadino così illustre!
 
 Abitava in una graziosa e accogliente casa alla periferia di FrancaVilla, un piccolo e tranquillo paesino circondato dal verde, un luogo incantevole dove i tetti delle case sembravano fatti di marzapane, i camini sbuffavano nuvole a forma di ciambella e l'aria profumava sempre di zucchero a velo e pane appena sfornato. EleFranco era grande, grosso e immensamente generoso, con un simpatico ciuffetto di capelli neri sulla testa che ballava a ogni suo passo.
 
@@ -44,16 +44,8 @@ Mentre si disperava, il sole caldo del mezzogiorno cominciò ad asciugare il fan
 La missione era compiuta senza nemmeno entrare nel negozio: Franca avrebbe avuto la torta più buona del mondo!
 
 EleFranco alzò la proboscide al cielo e scoppiò nella sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 2,
-        "title": "👓 La Visita dall'Oculista e Jack il Geco 🦎",
-        "missione": "EleFranco deve andare dall'oculista perché vede un po' sfocato e deve misurare la vista. 👁",
-        "incontro": "Sente piangere Jack il Geco, che ha perso i suoi minuscoli occhiali da sole nell'erba alta e non riesce più a cacciare le mosche. 🌿",
-        "aiuto": 'EleFranco si mette a terra e fa "l\'aspirapolvere" con la proboscide. Lo sforzo di mettere a fuoco oggetti così piccoli nell\'erba fa fare una ginnastica pazzesca ai suoi occhi. 🔍',
-        "morale": 'Per vedere le cose grandi, bisogna fare attenzione a quelle piccolissime. ❤',
-        "colpo": 'Ritrova gli occhialini sulla punta della proboscide. Quella ginnastica oculare intensiva gli ha curato completamente la vista sfocata. 🎉',
-        "finale_schema": "Non c'è più bisogno dell'oculista! Risata: OH... OH... OH...",
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini!
+
+    2: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini!
 
 Abitava nella sua bella casa nel paesino di FrancaVilla, un borgo magico abbarbicato sulla roccia di una montagna, dove i vialetti profumavano di menta selvatica, le casette si aggrappavano ai dirupi come nidi di rondine e il vento di montagna suonava arpe invisibili tra le fronde degli alberi.
 
@@ -82,16 +74,8 @@ All'improvviso — clack! — il mondo tornò perfettamente nitido. E la sorpres
 «Ci vedo benissimo!» esultò EleFranco, mentre Jack si rimetteva gli occhialini e schizzava via felice a caccia di mosche. La missione era compiuta e dell'oculista non c'era più bisogno.
 
 Felice, EleFranco partì con la sua conosciutissima risata: OH... OH... OH...""",
-    },
-    {"num": 3,
-        "title": '🍌 Dal Fruttivendolo e Raffa la Giraffa 🦒',
-        "missione": 'EleFranco va dal fruttivendolo a comprare un casco di banane per la merenda. 🧺',
-        "incontro": 'Incontra Raffa la Giraffa che ha un terribile torcicollo e non riesce a piegare la testa per bere alla fontanella. ⛲',
-        "aiuto": "EleFranco riempie la proboscide d'acqua fresca e fa un idromassaggio tiepido sul collo di Raffa per sciogliere il nodo. Lo sforzo gli fa venire una fame da lupi. 😋",
-        "morale": 'Il sollievo di un amico vale più di qualsiasi pancia piena. 🦒',
-        "colpo": "Raffa, guarita, si allunga verso l'alto e stacca da un albero altissimo un casco di banane selvatiche giganti e dolcissime per regalarlo a EleFranco. 🌳",
-        "finale_schema": 'Banane fresche e gratis! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    3: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo adagiato su dolci colline dorate, dove i ruscelli scorrevano limpidi cantando ninne nanne, l'erba dei prati brillava al sole come un immenso tappeto di smeraldi e i meli profumavano l'aria del mattino.
 
@@ -116,16 +100,8 @@ Corse alla fontanella comunale e aspirò una lunga sorsata d'acqua con la probos
 EleFranco era affamatissimo dopo tutto quello sforzo, ma vedere l'amica di nuovo felice gli riempiva il cuore più di qualsiasi merenda. Raffa, per ringraziarlo, tese il suo lunghissimo collo ritrovato fino alla cima di una palma altissima di FrancaVilla, dove nessuno riusciva mai ad arrivare, e con un morso delicato staccò un enorme casco di banane dorate, dolcissime e profumate. Le depositò con cura ai piedi dell'elefante: la merenda era servita, senza nemmeno passare dalla bottega!
 
 EleFranco si sedette felice e si lanciò nella sua contagiosa risata: OH... OH... OH...""",
-    },
-    {"num": 4,
-        "title": '🦷 Dal Dentista e Pino il Topolino 🐭',
-        "missione": 'EleFranco va dal dentista degli elefanti per una pulizia alla zanna sinistra che gli dà fastidio. 🪥',
-        "incontro": 'Trova Pino il Topolino che cerca di scavare una tana ma il terreno è pieno di sassi duri che gli rompevano le unghie. 🪓',
-        "aiuto": 'EleFranco usa la zanna sinistra come piccone per rimuovere i sassi duri. Lo sfregamento continuo contro la terra sabbiosa e le pietre gratta via tutto il tartaro. 🦫',
-        "morale": 'La forza va usata per spianare la strada a chi è più piccolo. ⭐',
-        "colpo": "Pino entra nella tana e nota che la zanna di EleFranco splende come l'oro. Lo scavo l'ha lucidata alla perfezione, molto meglio dello spazzolino del dentista. ✨",
-        "finale_schema": 'Niente dentista, la zanna è sanissima. Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    4: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, un piccolo borgo radioso incorniciato da una fitta foresta tropicale, dove le farfalle volavano ricamando fili di seta colorata nell'aria, i pappagalli chiacchieravano tra le liane e tutto profumava di gelsomino e di estate perenne.
 
@@ -152,16 +128,8 @@ EleFranco si rialzò temendo di essersi rovinato la zanna con tutto quel raschia
 La missione era compiuta e dal dentista non c'era più bisogno di andare!
 
 EleFranco alzò la proboscide e fece ridere tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 5,
-        "title": '🪡 Dal Sarto e Ciccio il Riccio 🦔',
-        "missione": 'EleFranco va dal sarto a rammendare la sua giacca preferita che si è strappata su una manica. 🦺',
-        "incontro": "Sente gridare aiuto: c'era Ciccio il Riccio, rimasto incastrato in un cespuglio di rovi con tutti i suoi aculei aggrovigliati. 🌿",
-        "aiuto": 'EleFranco stende la sua vecchia giacca sopra i rovi per fare da scudo e liberare Ciccio. Nel farlo, però, le spine distruggono completamente la giacca riducendola in stracci. 💥',
-        "morale": 'I vecchi oggetti si possono sacrificare, la sicurezza di un amico no. ❤',
-        "colpo": 'Ciccio raccoglie i pezzi di stoffa e usando i suoi aculei come aghi cuce una mantella stile "patchwork" coloratissima e super alla moda per EleFranco. 🎨',
-        "finale_schema": 'Un nuovo vestito da supereroe totalmente gratis! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    5: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa a FrancaVilla, un villaggio pittoresco dove le strade erano lastricate di ciottoli bianchi e le botteghe degli artigiani si susseguivano una dopo l'altra come scatole di giocattoli colorate: il fabbro, il vasaio, il candelaio e, naturalmente, il sarto.
 
@@ -188,16 +156,8 @@ Ciccio, però, non si perse d'animo. Raccolse tutti i pezzi di stoffa colorata e
 La missione era compiuta: altro che rammendo, ora aveva un mantello tutto nuovo!
 
 EleFranco si indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata: OH... OH... OH...""",
-    },
-    {"num": 6,
-        "title": '📚 In Libreria e la Lucciola Luce 🪰',
-        "missione": 'EleFranco va in libreria a comprare un nuovo libro di favole da leggere prima di dormire. 🌙',
-        "incontro": 'Mentre scende la sera incontra Luce la Lucciola, triste perché ha la febbre e la sua luce si è spenta, impedendole di ritrovare la strada di casa. 🪔',
-        "aiuto": 'La fa sedere sulla testa e la accompagna. Per non farle avere paura del buio, EleFranco inizia a inventare e raccontare storie bellissime lungo il cammino. 🌌',
-        "morale": 'Quando aiuti qualcuno a trovare la strada, non ti senti mai perso. 🗺',
-        "colpo": 'A casa di Luce, centinaia di lucciole volano intorno a EleFranco proiettando sulle rocce le ombre delle storie appena inventate, creando un magico libro animato nel cielo. ✨',
-        "finale_schema": 'La favola della buonanotte è già nella sua testa! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini!
+
+    6: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini!
 
 Abitava nella sua casa a FrancaVilla, un paesino misterioso e affascinante che di notte si illuminava soltanto grazie ai riflessi d'argento del fiume e alle lanterne di carta appese ai balconi, ondeggianti come tante piccole lune addomesticate.
 
@@ -222,16 +182,8 @@ Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole.
 EleFranco guardò quello spettacolo a bocca aperta: la favola della buonanotte ce l'aveva già nella testa, e non serviva comprare proprio nulla!
 
 Felice, l'elefante tornò a casa e inondò tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 7,
-        "title": '🚲 Dal Meccanico e Ralph la Talpa \U0001f6de',
-        "missione": 'EleFranco va dal meccanico a gonfiare le ruote della sua bicicletta gigante che sono piatte. \U0001f6de',
-        "incontro": "Trova Ralph la Talpa che tossisce: ha bucato una galleria sotterranea dove bruciano foglie secche e c'è troppo fumo. 💨",
-        "aiuto": 'EleFranco si posiziona sul buco e soffia con tutta la forza dei suoi polmoni per liberare il tunnel. Il super soffio crea un contraccolpo pazzesco che fa sobbalzare la bici. 💥',
-        "morale": "Un piccolo gesto d'altruismo può dare una grande spinta. 🚀",
-        "colpo": "Il soffio d'aria pulita, rimbalzando nel tunnel, si incanala perfettamente nelle valvole delle ruote della bicicletta, gonfiandole al massimo. 🌬",
-        "finale_schema": 'Ruote gonfiate senza meccanico e talpa salva! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    7: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava a FrancaVilla, un villaggio industrioso tutto mattoni rossi e canali artificiali, dove gli artigiani amavano riparare ingranaggi nelle loro officine fumanti e il ticchettio degli orologi pubblici scandiva allegramente il tempo della comunità.
 
@@ -258,16 +210,8 @@ Ma il super soffio ebbe un effetto a sorpresa: l'aria compressa, rimbalzando fre
 «Ce l'abbiamo fatta tutti e due!» tossicchiò Ralph, ormai sorridente, mentre EleFranco fissava incredulo le sue gomme. La galleria era salva e le ruote gonfie senza nemmeno arrivare dal meccanico.
 
 EleFranco partì felice sulla sua bici, esordendo con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 8,
-        "title": '🧼 Al Lavaggio Elefanti e Mino il Maialino 🐷',
-        "missione": 'EleFranco va al lavaggio per elefanti a farsi una bella doccia profumata perché è pieno di polvere. 🚿',
-        "incontro": 'Trova Mino il Maialino, triste perché il sole ha seccato la sua pozzanghera e rischia di scottarsi la pelle. 🤎',
-        "aiuto": "EleFranco prende l'acqua dal fiume con la proboscide e bagna la terra ricreando il fango. Il maialino felice si rotola e fa un mega spruzzo che infanga completamente EleFranco. 🟤",
-        "morale": 'La felicità degli altri a volte è disordinata, ma ne vale la pena. 🤪',
-        "colpo": "All'improvviso scoppia un acquazzone estivo bellissimo che fa una doccia perfetta a EleFranco lasciandolo pulito e profumato, mentre riempie la pozzanghera del maialino. 🌧",
-        "finale_schema": 'Lavaggio naturale completato! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    8: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, un paesino rurale adagiato in una piana di canneti e campi di girasole, dove i trattori colorati raccoglievano il grano dorato, i canali d'acqua disegnavano linee geometriche perfette sulla terra e l'aria sapeva di fieno appena tagliato.
 
@@ -296,16 +240,8 @@ Ma proprio in quel momento, dal cielo limpido, scoppiò all'improvviso un bellis
 La missione era compiuta, e gratis, grazie alla natura!
 
 EleFranco alzò la proboscide e fece sorridere tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 9,
-        "title": '🥾 Dal Calzolaio e Bruno il Bruco 🐛',
-        "missione": "EleFranco va dal calzolaio a ritirare i suoi enormi stivali invernali per l'anno prossimo. 👢",
-        "incontro": 'Sulla strada incontra Bruno il Bruco che piange disperato: deve andare a un ballo ma ha ben 42 scarpine con i lacci tutti aggrovigliati tra loro. 🥾',
-        "aiuto": 'EleFranco, usando la punta sensibile della proboscide con millimetrica pazienza, scioglie tutti i nodi uno a uno. Ma la concentrazione è così tanta che gli viene un forte crampo alla proboscide che si arrotola come una molla. 🌀',
-        "morale": 'La pazienza scioglie anche i nodi più difficili della via.',
-        "colpo": 'Per ringraziarlo, il bruco e i suoi amici fanno un massaggio ritmico a passo di danza sulla proboscide di EleFranco. I loro piccoli colpetti curano il crampo e rilassano i suoi piedi, come se indossasse già i migliori stivali del mondo. \U0001faa9',
-        "finale_schema": 'I piedi stanno benissimo senza scarpe nuove! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    9: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava a FrancaVilla, un paesino montano circondato da cime innevate e boschi di pini secolari, dove le case avevano grandi tetti spioventi di legno scuro, i camini odoravano costantemente di castagne arrostite e l'aria frizzante pizzicava il naso.
 
@@ -334,16 +270,8 @@ Bruno, ormai libero con tutte e quarantadue le scarpine perfettamente allacciate
 «Mi sembra di camminare sulle nuvole!» rise EleFranco distendendo finalmente la proboscide. Gli stivali nuovi potevano aspettare: i suoi piedi stavano già benissimo!
 
 EleFranco alzò la proboscide e tutti si girarono a sentire la famosa risata: OH... OH... OH...""",
-    },
-    {"num": 10,
-        "title": '✉ Dal Postino e Renatolo lo Scoiattolo 🐿',
-        "missione": "EleFranco va all'ufficio postale a spedire una letterina importante per il suo cuginetto lontano. 📬",
-        "incontro": 'Incontra Renatolo lo Scoiattolo sotto una grande quercia. Renatolo ha fatto cadere le sue scorte di ghiande invernali in un buco strettissimo tra le radici e non riesce ad arrivarci. 🪵',
-        "aiuto": "EleFranco infila la proboscide nel buco a mo' di cannuccia e aspira le ghiande. Ma ne aspira una di troppo, che gli si incastra nel naso facendolo starnutire continuamente. 👃",
-        "morale": 'Condividere il peso altrui rende i legami più forti. 💪',
-        "colpo": "Con l'ultimo potentissimo starnuto, EleFranco spara via la ghianda bloccata insieme alla sua letterina cartacea. La lettera vola nel cielo e atterra precisamente dentro il sacco del postino tre vie più in là! 🚀",
-        "finale_schema": 'Lettera spedita con posta super-aerea! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    10: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, un paesino costiero battuto da una dolce brezza marina, dove i vicoli profumavano di salsedine, i gabbiani si rincorrevano nel cielo e le barche da pesca riposavano sul bagnasciuga dorato come grandi gusci colorati.
 
@@ -370,16 +298,8 @@ EleFranco caricò tutto il fiato che aveva in corpo, gli occhi gli si strinsero,
 «Spedita! È spedita!» esultò Renatolo, mentre EleFranco si stropicciava il naso incredulo. Le ghiande erano salve e la lettera in viaggio, il tutto senza nemmeno entrare all'ufficio postale.
 
 EleFranco alzò la proboscide e travolse tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 11,
-        "title": '🏥 In Ospedale per il Controllo e Mietta la Scimmietta 🐒',
-        "missione": 'EleFranco va in ospedale a fare il controllo annuale per sentire se il suo cuore batte forte e sano.',
-        "incontro": "Incontra Mietta la Scimmietta, terrorizzata perché deve fare un'iniezione e ha tanta paura dei dottori e degli aghi. 💉",
-        "aiuto": 'EleFranco la prende in braccio e per distrarla inizia a fare dei giochi buffissimi con le orecchie, sventolandole e imitando i versi di tutti gli animali del bosco. Mietta ride così tanto che non si accorge della puntura. 🩺',
-        "morale": 'Il coraggio si trova più facilmente quando si ride insieme. 😂',
-        "colpo": 'Il dottore primario usa lo stetoscopio su EleFranco mentre sta ancora ridendo di cuore. Dice: "Il tuo cuore è pieno di gioia ed è sanissimo, non serve fare nessun altro esame!". 🥰',
-        "finale_schema": 'Controllo superato a pieni voti grazie alle risate! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    11: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, un paesino antico caratterizzato da alti campanili di pietra e cortili nascosti, dove le fontane medievali zampillavano acqua fresca, gli anziani sedevano all'ombra dei portici a parlare del tempo e i piccioni passeggiavano impettiti sui sampietrini.
 
@@ -408,16 +328,8 @@ Proprio in quel momento entrò il dottore primario e, vedendo l'elefante ridere 
 La missione era compiuta, e con tante risate in regalo!
 
 EleFranco alzò la proboscide e tutti lo seguirono nella sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 12,
-        "title": '💡 In Ferramenta per una Lampadina e Tufo il Gufo 🦉',
-        "missione": 'EleFranco va in ferramenta a comprare una nuova lampadina per il suo salotto perché quella vecchia si è fulminata. 🔌',
-        "incontro": 'Incontra Tufo il Gufo che cerca di dormire, ma un gruppo di uccellini dispettosi sta facendo un baccano tremendo impedendogli di chiudere occhio. 🦜',
-        "aiuto": "EleFranco si siede sotto l'albero e allarga le sue enormi orecchie per coprire il ramo di Tufo, facendo da isolamento acustico. Rimanendo al buio immobile, EleFranco si addormenta profondamente pure lui. 👂",
-        "morale": 'Proteggere la pace di chi è stanco porta serenità anche a noi stessi. 💤',
-        "colpo": 'Quel riposo incredibile fa sì che, quando si sveglia, i suoi occhi brillino di una luce così viva da illuminare la via. Arrivato a casa, si accorge di quanto la casa sia già splendidamente illuminata dalla luce naturale del sole. ☀',
-        "finale_schema": 'Chi ha bisogno della lampadina quando si è così radiosi? Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    12: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, una borgata magica coperta da tetti di tegole azzurre, dove i giardini pensili traboccavano di rose bianche e i muri delle case erano dipinti con bellissimi affreschi che raccontavano storie antiche.
 
@@ -444,16 +356,8 @@ Arrivato a casa, aprì la porta e scoppiò a ridere: il sole del tardo pomeriggi
 La missione era compiuta grazie all'altruismo (e a un bel pisolino)!
 
 EleFranco inserì la proboscide all'insù e rallegrò tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 13,
-        "title": "🍪 In Pasticceria per i Biscotti e Fosco l'Orso 🐻",
-        "missione": 'EleFranco va in pasticceria a comprare i biscotti allo zenzero che gli piacciono tanto. 🍩',
-        "incontro": "Trova Fosco l'Orso incastrato con la testa dentro un alveare vuoto nel tentativo di leccare gli ultimi rimasugli di miele. 🐝",
-        "aiuto": "EleFranco tira l'alveare con la proboscide per liberarlo. Quando la testa dell'orso esce fuori... l'alveare rimbalza all'indietro spiaccicandosi sulla testa di EleFranco, coprendolo di miele appiccicoso. 🍯",
-        "morale": 'La dolcezza condivisa raddoppia sempre il suo valore. ❤',
-        "colpo": "Dal cielo cade una pioggia di polline dorato dai fiori che si attacca al miele sulla sua testa. L'unione di miele e polline si asciuga al sole creando dei biscotti croccanti e dolcissimi proprio sul suo ciuffo! 🌾",
-        "finale_schema": 'Biscotti fatti in casa direttamente sulla testa! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    13: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa a FrancaVilla, un paesino nordico incastonato in una vallata di abeti rossi e laghi ghiacciati, dove l'aria frizzante pungeva le guance, il fumo dei comignoli saliva dritto nel cielo terso e le case avevano caldi pavimenti di pietra riscaldati dal fuoco.
 
@@ -482,16 +386,8 @@ Ma proprio in quell'istante un soffio di vento freddo del nord sollevò dai fior
 «Ma sono... biscotti veri!» esclamò Fosco assaggiandone uno. Erano deliziosi. La missione era compiuta gratis, e i due amici si sedettero a sgranocchiarli felici sulla neve.
 
 EleFranco alzò la proboscide e partì con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 14,
-        "title": '🪴 Dal Vivaio per i Fiori e Lalla la Farfalla 🦋',
-        "missione": 'EleFranco va al vivaio a comprare dei semi di margherite da piantare nel suo giardino. 🌸',
-        "incontro": "Incontra Lalla la Farfalla con l'ala bagnata da una goccia di rugiada gigante; non riesce a volare per scappare da un gatto curioso.",
-        "aiuto": "EleFranco usa le sue grandi orecchie come ventagli per creare una brezza calda e asciugare l'ala di Lalla. Lo sventolio continuo sposta un cumulo di foglie secche che copre interamente EleFranco. 🌬",
-        "morale": 'Un piccolo soffio di gentilezza può salvare una vita intera. 🍃',
-        "colpo": "Sotto le foglie c'erano migliaia di semi selvatici di papaveri e margherite che si impigliano nei peli delle zampe di EleFranco. Camminando verso casa, EleFranco semina tutto il sentiero senza accorgersene! 🗺",
-        "finale_schema": 'Il giardino e la strada sono già fioriti da soli! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    14: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, un borgo fiorito sospeso su colline di ulivi argentati e vigne secolari, dove le case avevano facciate color pastello, le persiane scricchiolavano dolcemente al vento e l'aria profumava di terra bagnata e di mosto.
 
@@ -518,16 +414,8 @@ Ma quel vigoroso sventolio aveva sollevato dal sentiero un immenso cumulo di fog
 Quello che non sapeva era che, nascosti sotto quelle foglie secche, c'erano migliaia di semini selvatici di papaveri e margherite, e si erano tutti impigliati nei peli ruvidi delle sue zampe. Così, passo dopo passo, lungo tutto il tragitto verso casa, EleFranco seminò senza accorgersene l'intero sentiero. E poche settimane dopo, come per magia, tutta la stradina fiorì da sola in un'esplosione meravigliosa di rosso e di bianco, più bella di qualsiasi giardino comprato al vivaio!
 
 EleFranco guardò lo spettacolo e scoppiò nella sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 15,
-        "title": '🍦 In Gelateria e Mayer la Cagnolina 🐶',
-        "missione": 'EleFranco va in gelateria a prendere un cono gigante al gusto pistacchio e crema. 🍧',
-        "incontro": 'Trova Mayer la Cagnolina, un meticcio dorato tanto dolce da salvataggio che ha perso la sua borraccia termica in cima a una collinetta di sassi e muore di caldo. 🪨',
-        "aiuto": "Recupera la borraccia e usa la sua proboscide per aspirare aria fredda dall'ombra del bosco e soffiarla addosso a Mayer. Lo sbalzo termico fa venire a EleFranco un super brivido freddo alla schiena! ❄",
-        "morale": "Rinfrescare il cuore di un amico scalda l'anima. 🤍",
-        "colpo": "Mayer apre la sua borraccia speciale: dentro c'era del latte di cocco ghiacciato e frutti di bosco che, versato sulla proboscide ancora fredda di EleFranco, si solidifica in un gelato artigianale squisito. 🍼",
-        "finale_schema": 'Gelato al volo più buono di quello della gelateria! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    15: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava a FrancaVilla, un paesino vulcanico sorto vicino a sorgenti termali fumanti, dove il terreno emanava dolci vapori benefici, le rocce scure di lava creavano uno splendido contrasto con l'acqua turchese dei laghetti e l'aria sapeva di zolfo e di fiori di montagna.
 
@@ -554,16 +442,8 @@ Mayer, ormai ristabilita, volle ringraziarlo a modo suo. Aprì la sua borraccia 
 «Ma è più buono di quello della gelateria!» esclamò EleFranco assaggiandolo. La missione era compiuta, fresca e dolce, senza nemmeno arrivare in piazza.
 
 EleFranco alzò la proboscide e si lanciò nella sua contagiosa risata: OH... OH... OH...""",
-    },
-    {"num": 16,
-        "title": '📰 In Edicola per il Fumetto e Betta la Scimmietta 🐒',
-        "missione": 'EleFranco va in edicola a comprare l\'ultimo numero del fumetto di "Super-Elefante".',
-        "incontro": 'Incontra Betta la Scimmietta freddolosa che ha perso la sua sciarpa su un ramo altissimo della giungla e trema tutta. 🧣',
-        "aiuto": "Si alza sulle zampe posteriori e con la proboscide afferra la sciarpa lassù. Lo sforzo dell'allungamento fa fare un rumore incredibile alla sua schiena: SCRACK! 💥",
-        "morale": 'I veri supereroi non hanno bisogno di un mantello, basta una proboscide tesa. ✨',
-        "colpo": "La scimmietta al caldo lancia a EleFranco un vecchio foglio di giornale colorato rimasto sul ramo. È proprio la pagina centrale inedita del fumetto che EleFranco cercava, volata via dall'edicola il giorno prima! 🗞",
-        "finale_schema": 'Il fumetto è completo ed EleFranco è il vero Super-Elefante! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    16: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, una cittadina fluviale costruita su palafitte e ponti di corda intrecciata, dove l'acqua scorreva placida sotto i pavimenti di legno, le barche colorate facevano da bizzarri taxi tra una casa e l'altra e i panni stesi sventolavano sopra il fiume.
 
@@ -590,16 +470,8 @@ EleFranco lo raccolse e quasi gli si bloccò di nuovo la schiena dalla sorpresa:
 «Sono io il vero Super-Elefante!» esclamò ridendo, mentre con un piacevole "click" la schiena si rimetteva a posto da sola. La missione era compiuta, e in modo eroico!
 
 EleFranco si sbloccò dalla gioia e partì con la sua conosciutissima risata: OH... OH... OH...""",
-    },
-    {"num": 17,
-        "title": '🪵 In Falegnameria per la Sedia e Lendo il Topo Tremendo 🐭',
-        "missione": 'EleFranco va dal falegname del paesino a riparare una gamba dondolante della sua sedia preferita. 🪑',
-        "incontro": "Trova Lendo il Topo Tremendo, un topolino vivace ma disperato perché ha combinato un pasticcio: per fare uno scherzo ha rosicchiato e fatto crollare l'insegna di legno della biblioteca del paesino, che ora blocca l'ingresso principale. 📚",
-        "aiuto": 'EleFranco usa la sua incredibile forza per sollevare la pesante insegna e tenerla ferma contro la parete. Lo sforzo prolungato a braccia tese gli fa accumulare così tanta segatura e polvere di legno sulla schiena da farlo prudere tutto. 🪵',
-        "morale": 'Riparare agli errori altrui riporta l\'ordine e trasforma un "tremendo" pasticcio in una buona azione. 🤝',
-        "colpo": "Lendo, pentito e grato, usa i suoi dentini affilati per intagliare al volo un perfetto cuneo di legno duro dai resti dell'insegna. Lo infila sotto la gamba della sedia di EleFranco, riparandola all'istante meglio del falegname. 🛠",
-        "finale_schema": 'La sedia è perfettamente stabile senza andare in officina! E via di risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    17: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo laborioso dove dalle botteghe usciva profumo di legno e di trucioli, le insegne intagliate dondolavano sopra le porte e il fiume faceva girare pigramente la ruota di un vecchio mulino.
 
@@ -624,16 +496,8 @@ Quando finalmente l'insegna fu inchiodata di nuovo al suo posto, EleFranco poté
 «Provala!» squittì Lendo. EleFranco si sedette: non un dondolio, non uno scricchiolio. La missione era compiuta senza nemmeno entrare in officina, e un "tremendo" pasticcio si era trasformato in una buona azione.
 
 EleFranco si sedette felice e scoppiò nella sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 18,
-        "title": "🎨 Dal Colorificio per le Vernici e Morno l'Unicorno 🦄",
-        "missione": 'EleFranco va al colorificio a comprare un barattolo di vernice celeste per ridipingere la staccionata di casa sua. 🖌',
-        "incontro": "Incontra Morno l'Unicorno, una creatura magica ma tristissima perché camminando nella nebbia mattutina ha perso tutto il luccichio del suo manto bianco e il suo corno magico non brilla più, facendolo sentire comune e invisibile. 🌫",
-        "aiuto": "EleFranco strofina delicatamente il manto di Morno usando la punta morbida della sua proboscide per asciugarlo. Ma l'energia statica generata dallo sfregamento fa accumulare tutta la nebbia umida intorno a EleFranco, facendolo starnutire e riempiendolo di goccioline. 💦",
-        "morale": 'La vera magia splende quando ci prendiamo cura della bellezza di chi amiamo. ✨',
-        "colpo": "Il calore dell'amicizia riaccende improvvisamente il potere di Morno: il suo corno lancia un raggio di luce arcobaleno scintillante che colpisce la staccionata di EleFranco, colorandola di sfumature celeste e magiche che brillano al sole. 🌈",
-        "finale_schema": 'Staccionata dipinta di pura magia senza bisogno di comprare vernici! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    18: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua casa a FrancaVilla, una graziosa cittadina circondata da canali e ponticelli fioriti, dove l'aria profumava di lavanda, i mulini a vento giravano dolcemente all'orizzonte e ogni mattina una soffice nebbia argentata avvolgeva i sentieri.
 
@@ -658,16 +522,8 @@ Ma non si arrese e continuò a strofinare finché il manto di Morno non fu perfe
 «Guarda che meraviglia!» esclamò Morno, di nuovo splendente. La staccionata brillava al sole e la missione era compiuta senza spendere un soldo.
 
 EleFranco alzò la proboscide e inondò tutti con la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 19,
-        "title": '🥦 Dal Fruttivendolo e Lattuga la Tartaruga 🐢',
-        "missione": "EleFranco deve andare dal fruttivendolo a comprare un bel cespo di lattuga romana croccante per l'insalata di pranzo. 🥬",
-        "incontro": 'Incontra Lattuga la Tartaruga, disperata sul sentiero perché ha un problema fastidioso col suo carapace: si è incastrata al contrario dentro un vecchio secchiello di plastica abbandonato e non riesce più a muoversi. 🪣',
-        "aiuto": "EleFranco tenta di sfilarla con la proboscide, ma il secchiello è troppo stretto. Allora decide di fare leva usando delicatamente la punta della zampa gigante. Nel farlo, l'effetto molla fa volare via il secchiello, ma un grande spruzzo di acqua e fango accumulato nel secchio finisce dritto sul ciuffo di capelli di EleFranco, spettinandolo tutto. 🌀",
-        "morale": 'Anche quando un problema sembra una prigione stretta, con la giusta leva e un briciolo di pazienza si ritrova la libertà. 🐢',
-        "colpo": 'Il secchiello volando va a colpire un vecchio albero selvatico, facendo cadere a terra un cesto pieno di verdure fresche e una gigantesca lattuga croccante che rotola dritta tra le zampe di EleFranco. 🧺',
-        "finale_schema": "L'insalata per il pranzo è pronta senza camminare fino al negozio! Risata: OH... OH... OH...",
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+    19: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo da fiaba adagiato in una radura fiorita dove le stradine erano fatte di sassolini rosa e le siepi di mirtillo crescevano così ordinate da sembrare disegnate con il righello.
 
@@ -694,53 +550,4 @@ Mentre EleFranco cercava di pulirsi i capelli con la proboscide, il secchiello, 
 La merenda salutare era pronta e Lattuga era salva, senza camminare fino al negozio!
 
 EleFranco si ripulì il ciuffo e scoppiò nella sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 20,
-        "title": "👑 Al Palazzo Reale e Regina l'Ape 🐝",
-        "missione": 'EleFranco deve andare a consegnare un pacco di zucchero di canna al Palazzo Reale per le cucine della regina. 📦',
-        "incontro": "Vicino ai giardini della corte incontra Regina l'Ape, la regina dell'alveare reale, sdraiata a pancia in su sopra una rosa, che si lamenta stringendosi le zampette sulla pancia perché ha fatto una tremenda indigestione di pappa reale. 🍯",
-        "aiuto": 'EleFranco, sapendo che per digerire serve muoversi, posiziona Regina sulla sua proboscide e inizia a dondolarla delicatamente su e giù a ritmo di valzer, come se fosse sulle montagne russe del parco giochi. Ma il dondolio continuo, unito al profumo dolce della pappa reale, fa venire un giramento di testa pazzesco proprio a EleFranco, che inizia a camminare ondeggiando come una nave in mezzo alla tempesta. 🌀',
-        "morale": 'Anche i dolci più prelibati perdono il loro valore se esageriamo: la giusta misura è il segreto della vera felicità. ⚖',
-        "colpo": "Il movimento ondeggiante di EleFranco fa cadere accidentalmente il pacco di zucchero che aveva in spalla, il quale si rompe versandosi su un grande limone selvatico caduto a terra. Regina l'Ape, stando meglio grazie ai volteggi, suggerisce di unire lo zucchero e il limone con l'acqua della fontana, creando una limonata digestiva eccezionale per entrambi. 🍋",
-        "finale_schema": 'Il mal di pancia è passato e la consegna è avvenuta direttamente nei giardini reali! Risata: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, una cittadina maestosa dove le piazze erano ornate da grandi statue di pietra e le fontane zampillavano acqua limpida che rinfrescava l'aria profumata di lavanda.
-
-Quel giorno aveva un compito importante: doveva trasportare un pesante sacco di zucchero di canna fino alle grandi cucine del Palazzo Reale. «La torta del Re ha bisogno di questo ingrediente, devo sbrigarmi» pensò. Si infilò i suoi stivali giganti di cuoio lucido per l'occasione elegante, si caricò il sacco sulla spalla e uscì. Camminava fiero lungo il viale alberato che portava alla corte: THUMP THUMP THUMP Arrivato nei pressi della grande cancellata d'oro dei giardini reali, sentì un gemito provenire da una grande rosa scarlatta.
-
-Si sporse e vide Regina l'Ape, la sovrana di tutti gli alveari del regno. Regina era sdraiata sulla schiena, con le coroncina tutta storta e le sei zampette strette intorno alla pancia gonfia. «Oh, EleFranco, che sofferenza!» gemette. «Le mie api operaie mi hanno preparato un vassoio pieno di pappa reale freschissima e io... beh, ne ho mangiata decisamente troppa!
-
-Ho un mal di pancia così forte che non riesco nemmeno a muovere le ali.» EleFranco guardò le finestre del palazzo. Iniziò a pensare a che sapore avesse la glassa della torta reale, se il pasticcere di corte usasse i canditi e a quanti piani fosse alto il dolce del Re. Si stava proprio lasciando distrarre da quei pensieri di zucchero, ma un forte lamento dell'ape lo riportò al dovere.
-
-Scosse le grandi orecchie e gridò: "FOCUS!" Sapeva che per curare l'indigestione non servivano medicine, ma un buon movimento. Fece salire Regina l'Ape sulla punta della sua proboscide e, tenendola ben salda, iniziò a muoverla delicatamente descrivendo dei grandi cerchi nell'aria a ritmo di musica, imitando le montagne russe. *"Su e giù, a destra e a sinistra!"* faceva EleFranco per aiutare lo stomaco dell'ape a lavorare. Continuò per lunghissimi minuti, facendo fare a Regina dei volteggi perfetti. Ma a forza di girare la proboscide in tondo e di respirare il profumo dolciastro e intenso della pappa reale, la testa iniziò a girare vorticosamente... a EleFranco!
-
-L'elefante perse l'equilibrio e iniziò a camminare ondeggiando paurosamente da una parte all'altra della via, proprio come una barchetta in mezzo a un mare in tempesta, rischiando di cadere. A causa di quel buffo ondeggiamento, il grande sacco di zucchero gli scivolò dalla spalla e cadde a terra, rompendosi e rovesciando il contenuto sopra un enorme limone selvatico che era caduto dall'albero del giardino. Regina l'Ape, che grazie ai volteggi sentiva la pancia finalmente sgonfia e leggera, volò giù e vide la scena: «EleFranco, guarda! La natura ci ha dato la soluzione!
-
-Uniamo lo zucchero e il succo di quel limone con l'acqua fresca della fontana del re!» Con la proboscide, EleFranco spremette il limone e mescolò il tutto, creando una fantastica e rinfrescante limonata digestiva che curò all'istante il giramento di testa dell'elefante. Lo zucchero era consegnato e il banchetto era salvo!
-
-EleFranco si riprese, guardò la sua nuova amica e lanciò la sua famosa risata: OH... OH... OH...""",
-    },
-    {"num": 21,
-        "title": '☁ In Edicola per le Notizie e Lalla la Farfalla Unicorno 🦄🦋',
-        "missione": "EleFranco deve andare all'edicola del paesino a comprare il giornale del mattino per leggere le notizie di FrancaVilla. 📰",
-        "incontro": "Guardando in alto verso la collina nebbiosa, scorge Lalla la Farfalla Unicorno (una farfalla magica con un piccolo corno lucente sulla testa), bloccata sopra una nuvola bassa che si è impigliata sulla cima di un grande campanile. Lalla piange perché è volata fin lassù inseguendo una scia di polline, ma ora si è accorta di quanto sia alto il campanile ed è rimasta paralizzata dalla vertigine e dalla paura dell'altezza.",
-        "aiuto": "EleFranco, per farle superare la paura, decide di arrampicarsi sulla scalinata esterna del campanile. Arrivato in cima, tese la proboscide per farla scendere, ma per convincerla deve iniziare a farle vedere che sotto di loro il paesino sembra piccolissimo e divertente, come un set di mattoncini Lego. Ma proprio mentre si sporge per indicarle le casette, un colpo di vento fa volare via il cappello di EleFranco, che cade giù, costringendo l'elefante a fare uno sforzo immenso per rimanere in equilibrio sulla ringhiera stretta. 🌪",
-        "morale": "La paura dell'altezza si sconfigge non guardando il vuoto, ma concentrandosi sulla bellezza del panorama e sulla mano tesa di chi ci vuole bene. 🌲",
-        "colpo": "Lalla, vedendo l'elefante in difficoltà, si dimentica della sua paura: spicca il volo, scende in picchiata a recuperare il cappello al volo nel vuoto e lo riporta a EleFranco, atterrando poi dolcemente sulla sua testa. Nel farlo, le sue ali magiche lasciano cadere una scia di polline dorato che si deposita su una copia del giornale volata via dall'edicola e impigliatasi sul campanile il giorno prima. 📰",
-        "finale_schema": 'Il giornale del mattino è recuperato direttamente in cima al campanile e Lalla ha sconfitto la vertigine! Risata di gioia: OH... OH... OH...',
-        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, una contrada suggestiva costruita ai piedi di una montagna antica, dove le case avevano facciate color pastello e i campanili svettavano alti nel cielo, bucando le nuvole mattutine che sembravano panna montata.
-
-Quella mattina voleva aggiornarsi: «Andrò all'edicola della piazza a comprare il giornale per leggere cosa succede nel mondo» pensò. Si infilò i suoi stivali giganti da passeggio leggeri, aprì la porta di casa e si mise in cammino. Sulla strada i suoi piedoni producevano un suono rassicurante: THUMP THUMP THUMP Arrivato vicino alla vecchia torre del campanile, alzò gli occhi e vide una scena insolita. Lassù, sopra una nuvola soffice rimasta incastrata tra le campane di pietra, c'era Lalla la Farfalla Unicorno, una creatura rarissima con ali di velluto sfumato e un piccolo corno scintillante sulla fronte.
-
-Lalla stava piangendo disperata: era volata fin lassù seguendo un profumo di fiori di montagna, ma guardando in basso si era accorta di quanto fosse alto il campanile e la vertigine l'aveva completamente paralizzata. Aveva troppa paura dell'altezza per spiegare le ali e scendere. EleFranco rimase a guardare la cima della torre. Iniziò a pensare a quante pagine di fumetti ci fossero nel giornale, se ci fossero la pagina dei giochi con i cruciverba e se l'edicolante avesse finito le figurine degli elefanti calciatori.
-
-Si stava lasciando distrarre da questi pensieri di carta, ma un singhiozzo spaventato di Lalla lo riportò al presente. Scosse le grandi orecchie e gridò forte verso l'alto: "FOCUS!" Deciso ad aiutarla, EleFranco iniziò a salire i gradini della ripida scalinata esterna del campanile. Gradino dopo gradino, faticando per la sua stazza, arrivò finalmente sulla terrazza della cima, proprio all'altezza della nuvola. Tese la sua lunga proboscide verso la farfalla come se fosse un ponte sicuro e, per farle passare lo spavento, iniziò a parlarle con dolcezza: «Guarda giù, Lalla, ma non guardare il vuoto!
-
-Guarda le casette di FrancaVilla: da qui sembrano piccolissime, sembrano fatte di Lego colorati! E le macchinine sembrano scarafaggi che corrono!» EleFranco si sporse molto sulla ringhiera di pietra per indicarle un bizzarro tetto rosso. Ma proprio in quel momento, una fortissima folata di vento colpì la cima del campanile, sollevando il cappello di EleFranco e facendolo volare nel vuoto.
-
-L'elefante, preso alla sprovvista, perse l'equilibrio e dovette fare uno sforzo immenso con i muscoli delle zampe posteriori, dondolandosi sulla ringhiera stretta per non cadere di sotto. Era in serio pericolo! Lalla la Farfalla Unicorno, vedendo il suo grande salvatore sul punto di cadere, provò una scarica di coraggio che le fece dimenticare ogni vertigine. Spiegò le ali colorate, si tuffò dalla nuvola e scese in una picchiata velocissima nel vuoto, acchiappando il cappello al volo un attimo prima che toccasse terra.
-
-Con un colpo d'ala elegante, risalì leggera verso la cima del campanile e posò il cappello sulla testa di EleFranco, atterrando poi dolcemente sul suo ciuffo. Nel muovere le ali per frenare, Lalla lasciò cadere una scia di polline d'oro magico: il polline illuminò una fessura della pietra dove si era incastrata una copia perfetta e intatta del giornale del mattino, volata via dall'edicola il giorno prima per via del vento! La missione era compiuta direttamente in cima alla torre. La farfalla non aveva più paura del vuoto ed EleFranco aveva il suo giornale.
-
-Felice, l'elefante si mise comodo e lanciò la sua famosa risata: OH... OH... OH...""",
-    },
-]
+}

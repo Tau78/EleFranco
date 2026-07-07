@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_11.html">← Ep. 11</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_13.html">Ep. 13 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_11.html">← Ep. 11</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_13.html">Ep. 13 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-12">
-  <h2 class="episode-title">Episodio 12: 💡 In Ferramenta per una Lampadina e Tufo il Gufo 🦉</h2>
-  <img class="episode-image" src="../Disegna/12.jpg" alt="Illustrazione episodio 12">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va in ferramenta a comprare una nuova lampadina per il suo salotto perché quella vecchia si è fulminata. 🔌</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Tufo il Gufo che cerca di dormire, ma un gruppo di uccellini dispettosi sta facendo un baccano tremendo impedendogli di chiudere occhio. 🦜</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco si siede sotto l&#x27;albero e allarga le sue enorme orecchie per coprire il ramo di Tufo, facendo da isolamento acustico. Rimanendo al buio immobile, EleFranco si addormenta profondamente pure lui. 👂</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Proteggere la pace di chi è stanco porta serenità anche a noi stessi. 💤</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Quel riposo incredibile fa sì che, quando si sveglia, i suoi occhi brillino di una luce così viva da illuminare la via. Arrivato a casa, si accorge di quanto la casa sia già splendidamente illuminata dalla luce naturale del sole. ☀</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Chi ha bisogno della lampadina quando si è così radiosi? Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-12" data-episode="12">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="12">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="12">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla, una borgata magica coperta da tetti di tegole azzurre dove i giardini pensili traboccavano di rose bianche e i muri delle case erano dipinti con bellissimi affreschi di storie antiche.</p><p>La lampadina del suo salotto si era fulminata: «Devo andare subito alla ferramenta a comprarne una nuova.» Si infilò i suoi stivali giganti da passeggio, aprì la porta e si diresse verso il negozio. Camminava sul marciapiede con il suo passo pesante: <em>THUMP THUMP THUMP</em> Sotto un grande albero della piazza incontra Tufo il Gufo con delle enorme occhiaie scure: doveva dormire di giorno, ma un gruppo di uccellini dispettosi cantava a squarciagola, impedendogli di chiudere occhio. EleFranco si fermò e pensò a quanti watt servissero per il salotto e a quanto fosse difficile montarla sul soffitto alto.</p><p>Si stava perdendo in questi pensieri, ma vedendo le ali di Tufo tremare, si concentrò, scosse le orecchie e gridò: <strong>"FOCUS!"</strong> Si sedette ai piedi del tronco e allargò le orecchie a sventola intorno al ramo di Tufo, creando un perfetto isolamento acustico. Il gufo si addormentò felice, e al buio si addormentò profondamente pure l&#x27;elefante per due ore. Quando si svegliò, il riposo aveva rigenerato i suoi occhi, che brillavano illuminando la via; arrivato a casa si accorse che il sole illuminava perfettamente il salotto e che non servivano luci artificiali. La missione era compiuta grazie all&#x27;altruismo!</p><p>EleFranco inserì la proboscide all&#x27;insù e fece la sua risata: <span class="risata">OH... OH... OH...</span> Quarta Parte: Gran Finale di Stagione 🎭</p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 12: 💡 In Ferramenta per una Lampadina e Tufo il Gufo 🦉</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/12.jpg" alt="Illustrazione episodio 12">
+          <p class="color-hint console-editable" data-color-hint="12">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: gli occhi di EleFranco che brillano di luce dorata.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va in ferramenta a comprare una nuova lampadina per il suo salotto perché quella vecchia si è fulminata. 🔌</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Tufo il Gufo che cerca di dormire, ma un gruppo di uccellini dispettosi sta facendo un baccano tremendo impedendogli di chiudere occhio. 🦜</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco si siede sotto l&#x27;albero e allarga le sue enormi orecchie per coprire il ramo di Tufo, facendo da isolamento acustico. Rimanendo al buio immobile, EleFranco si addormenta profondamente pure lui. 👂</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Proteggere la pace di chi è stanco porta serenità anche a noi stessi. 💤</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Quel riposo incredibile fa sì che, quando si sveglia, i suoi occhi brillino di una luce così viva da illuminare la via. Arrivato a casa, si accorge di quanto la casa sia già splendidamente illuminata dalla luce naturale del sole. ☀</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Chi ha bisogno della lampadina quando si è così radiosi? Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla, una borgata magica coperta da tetti di tegole azzurre, dove i giardini pensili traboccavano di rose bianche e i muri delle case erano dipinti con bellissimi affreschi che raccontavano storie antiche.</p><p>Quel pomeriggio la lampadina del suo salotto si era fulminata con un piccolo &quot;tac&quot;. «Al buio non ci leggo le favole, così non va,» borbottò EleFranco. «Devo andare subito in ferramenta a comprare una bella lampadina nuova.» Si infilò i suoi stivali giganti da passeggio, aprì la porta e si diresse verso il negozio.</p><p>Camminava sul marciapiede col suo passo pesante: <em>THUMP THUMP THUMP</em> Sotto un grande albero della piazza, sentì un lamento stanco e vide due grandi occhi gialli cerchiati da occhiaie scurissime. Era Tufo il Gufo, appollaiato su un ramo, con le piume arruffate e l&#x27;aria sfinita di chi non dorme da giorni. «Uffa, EleFranco, sono distrutto,» sbadigliò Tufo. «Io sono un uccello notturno e dovrei dormire di giorno, ma un gruppo di uccellini dispettosi si è messo a cinguettare e fare baccano proprio sul mio albero!</p><p>Non riesco a chiudere occhio da tre giorni e ho un sonno arretrato che non ti dico. Le piume mi tremano dalla stanchezza.» «Povero Tufo, un bel sonnellino te lo meriti proprio,» disse EleFranco con comprensione. Ma poi pensò alla lampadina e la mente prese a vagare: cominciò a chiedersi quanti watt servissero per illuminare bene il salotto, se la lampadina nuova sarebbe stata a forma di pera o di goccia e quanto fosse difficile montarla sul soffitto così alto.</p><p>Si stava perdendo in questi pensieri, ma vedendo le ali di Tufo tremare per la stanchezza, si concentrò, scosse le orecchie e gridò: <strong>"FOCUS!"</strong>«Riposa tranquillo, amico mio, al silenzio ci penso io,» sussurrò per non disturbare. Si sedette con delicatezza ai piedi del tronco e allargò le sue enormi orecchie a sventola, avvolgendole tutt&#x27;intorno al ramo di Tufo come due grandi tende insonorizzate. Di colpo il cinguettio chiassoso degli uccellini si trasformò in un ovattato e lontano sussurro. Tufo sospirò di sollievo, chiuse i grandi occhi gialli e in pochi istanti si addormentò beato.</p><p>Ma stando lì fermo, al caldo e al buio creato dalle proprie orecchie, anche EleFranco fu cullato dal silenzio e — senza accorgersene — si addormentò profondamente pure lui, per ben due ore, con un dolce russare. Quando finalmente si svegliò, riposato come non mai, sentì gli occhi stranamente vivi e luminosi: quel sonno rigenerante li aveva fatti brillare di una luce così intensa da rischiarare la via davanti a lui. Arrivato a casa, aprì la porta e scoppiò a ridere: il sole del tardo pomeriggio entrava dalle finestre e illuminava il salotto alla perfezione, caldo e dorato. «Ma allora di lampadine non ho proprio bisogno!» esclamò felice.</p><p>La missione era compiuta grazie all&#x27;altruismo (e a un bel pisolino)!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Proteggere la pace di chi è stanco porta serenità anche a noi stessi. 💤</p><p>EleFranco inserì la proboscide all&#x27;insù e rallegrò tutti con la sua famosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>

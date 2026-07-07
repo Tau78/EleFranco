@@ -7,27 +7,52 @@
   <link rel="stylesheet" href="../css/libro.css">
 </head>
 <body>
-<nav class="chapter-nav" aria-label="Navigazione capitolo">
-  <span><a href="capitolo_02.html">← Ep. 2</a></span>
-  <a class="nav-index" href="../index.html">📖 Indice</a>
-  <span><a href="capitolo_04.html">Ep. 4 →</a></span>
+<nav class="chapter-nav console-section" aria-label="Navigazione capitolo" data-console-section="chapter-nav">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="chapter-nav">Salva navigazione</button>
+    <button type="button" class="btn-reset-section" data-section="chapter-nav">Ripristina</button>
+  </div>
+  <span><a class="console-editable" href="capitolo_02.html">← Ep. 2</a></span>
+  <a class="nav-index console-editable" href="../index.html">📖 Indice</a>
+  <span><a class="console-editable" href="capitolo_04.html">Ep. 4 →</a></span>
 </nav>
 
-<div class="episode" id="episodio-3">
-  <h2 class="episode-title">Episodio 3: 🍌 Dal Fruttivendolo e Raffa la Giraffa 🦒</h2>
-  <img class="episode-image" src="../Disegna/03.jpeg" alt="Illustrazione episodio 3">
-  <div class="schema">
-    <div class="schema-row"><span class="schema-label">La Missione:</span> <span>EleFranco va dal fruttivendolo a comprare un casco di banane per la merenda. 🧺</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Incontro:</span> <span>Incontra Raffa la Giraffa che ha un terribile torcicollo e non riesce a piegare la testa per bere alla fontanella. ⛲</span></div>
-    <div class="schema-row"><span class="schema-label">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span>EleFranco riempie la proboscide d&#x27;acqua fresca e fa un idromassaggio tiepido sul collo di Raffa per sciogliere il nodo. Lo sforzo gli fa venire una fame da lupi. 😋</span></div>
-    <div class="schema-row"><span class="schema-label">La Morale:</span> <span>Il sollievo di un amico vale più di qualsiasi pancia piena. 🦒</span></div>
-    <div class="schema-row"><span class="schema-label">Il Colpo di Scena Finale:</span> <span>Raffa, guarita, si allunga verso l&#x27;alto e stacca da un albero altissimo un casco di banane selvatiche giganti e dolcissime per regalarlo a EleFranco. 🌳</span></div>
-    <div class="schema-row"><span class="schema-label">Il Finale:</span> <span>Banane fresche e gratis! Risata: OH... OH... OH...</span></div>
+<div class="episode" id="episodio-3" data-episode="3">
+  <div class="episode-console-bar" hidden>
+    <button type="button" class="btn-save-chapter" data-episode="3">Salva capitolo</button>
+    <button type="button" class="btn-reset-chapter" data-episode="3">Ripristina</button>
   </div>
-  <h3 class="racconto-title">Il Racconto Completo</h3>
-  <div class="racconto">
-<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla, un paesino adagiato su dolci colline dorate dove i ruscelli scorrevano limpidi cantando ninfe della buonanotte e l&#x27;erba dei prati brillava alla luce del giorno come un immenso tappeto di smeraldi.</p><p>Era un pomeriggio caldo, di quelli che fanno venire una voglia matta di qualcosa di fresco. EleFranco si trovava in cucina, intento a frugare nella sua grande cesta della frutta, ma trovò solo qualche guscio di nocciolina vuoto. «Accidenti!» esclamò, mentre il suo stomaco lanciava un grande brontolio. «Il mio regno per un casco di banane!</p><p>Gialle, mature e profumate... ecco cosa mi serve.» Si infilò i suoi stivali giganti e si diresse verso il centro. La sua meta era la bottega del fruttivendolo Pino. Mentre camminava, la via principale risuonava: <em>THUMP THUMP THUMP</em> Vicino alla piazza principale, EleFranco vide qualcosa di molto strano.</p><p>C’erano due zampe lunghissime che finivano in un corpo maculato, ma il collo era completamente piegato a metà, come un ombrello dimenticato sotto la pioggia. EleFranco incontrò gli occhi tristi di Raffa la Giraffa: aveva un torcicollo terribile e non riusciva a piegarsi per bere alla fontanella comunale, morendo di sete. EleFranco iniziò a guardare le vetrine e a pensare a quante banane avrebbe mangiato, dimenticandosi per un attimo della giraffa. Si stava distraendo, ma vedendo Raffa piangere, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong> Corse alla fontanella.</p><p>Aspirò l&#x27;acqua con la proboscide e, tenendola in bocca per un istante, la intiepidì per non fare del male ai muscoli di Raffa. Poi, spruzzò un perfetto idromassaggio termico sul collo dell&#x27;amica, massaggiando finché non sentì un piccolo &quot;pop&quot; muscolare. Il collo di Raffa tornò dritto e fiero. EleFranco era affamatissimo, ma vederla felice lo riempiva di gioia.</p><p>Per ringraziarlo, Raffa tese il suo lungo collo verso la cima di una palma altissima di FrancaVilla, staccando un casco di banane dorate e dolcissime. Le depositò ai suoi piedi: la merenda era servita! EleFranco si sedette felice e lanciò la sua risata: <span class="risata">OH... OH... OH...</span></p>
+  <div class="episode-layout">
+    <div class="console-block" data-block="title">
+      <h2 class="episode-title console-editable">Episodio 3: 🍌 Dal Fruttivendolo e Raffa la Giraffa 🦒</h2>
+    </div>
+    <div class="console-block" data-block="image">
+      <div class="episode-image-row">
+        <img class="episode-image console-editable-image" src="../Disegna/03.jpeg" alt="Illustrazione episodio 3">
+          <p class="color-hint console-editable" data-color-hint="3">Cerca questa immagine in fondo al libro per colorarla come preferisci. Ricorda: le banane gialle giganti appese all&#x27;albero.</p>
+      </div>
+    </div>
+    <div class="console-block" data-block="schema">
+    <div class="schema">
+      <div class="schema-row"><span class="schema-label console-editable">La Missione:</span> <span class="schema-value console-editable">EleFranco va dal fruttivendolo a comprare un casco di banane per la merenda. 🧺</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Incontro:</span> <span class="schema-value console-editable">Incontra Raffa la Giraffa che ha un terribile torcicollo e non riesce a piegare la testa per bere alla fontanella. ⛲</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">L&#x27;Aiuto e l&#x27;Imprevisto:</span> <span class="schema-value console-editable">EleFranco riempie la proboscide d&#x27;acqua fresca e fa un idromassaggio tiepido sul collo di Raffa per sciogliere il nodo. Lo sforzo gli fa venire una fame da lupi. 😋</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">La Morale:</span> <span class="schema-value console-editable">Il sollievo di un amico vale più di qualsiasi pancia piena. 🦒</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Colpo di Scena Finale:</span> <span class="schema-value console-editable">Raffa, guarita, si allunga verso l&#x27;alto e stacca da un albero altissimo un casco di banane selvatiche giganti e dolcissime per regalarlo a EleFranco. 🌳</span></div>
+      <div class="schema-row"><span class="schema-label console-editable">Il Finale:</span> <span class="schema-value console-editable">Banane fresche e gratis! Risata: OH... OH... OH...</span></div>
+    </div>
+    </div>
+    <div class="console-block" data-block="racconto-title">
+      <h3 class="racconto-title console-editable">Il Racconto Completo</h3>
+    </div>
+    <div class="console-block" data-block="story">
+      <div class="racconto story-text console-editable">
+<p>C&#x27;era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini. Abitava nella sua accogliente casa all&#x27;interno del paesino di FrancaVilla, un borgo adagiato su dolci colline dorate, dove i ruscelli scorrevano limpidi cantando ninne nanne, l&#x27;erba dei prati brillava al sole come un immenso tappeto di smeraldi e i meli profumavano l&#x27;aria del mattino.</p><p>Era un pomeriggio caldo, di quelli che fanno venire una voglia matta di qualcosa di fresco. EleFranco frugava nella sua grande cesta della frutta, ma trovò solo qualche guscio di nocciolina vuoto. «Accidenti!» esclamò, mentre lo stomaco gli lanciava un brontolio sonoro. «Il mio regno per un casco di banane!</p><p>Gialle, mature e profumate... ecco cosa mi serve per la merenda.» Si infilò i suoi stivali giganti e si diresse verso il centro, dove c&#x27;era la bottega del fruttivendolo Pino. Camminando lungo la via principale, il selciato risuonava sotto i suoi piedoni: <em>THUMP THUMP THUMP</em> Vicino alla piazza principale, EleFranco vide qualcosa di stranissimo. C&#x27;erano due zampe lunghissime e un corpo coperto di macchie color caramello, ma il collo, invece di salire dritto verso il cielo, era piegato a metà e penzolava molle come un ombrello dimenticato sotto la pioggia.</p><p>Era Raffa la Giraffa, e i suoi grandi occhi dalle lunghe ciglia erano pieni di lacrime. «Oh, EleFranco, che tormento!» mugolò Raffa con un filo di voce. «Stamattina mi sono svegliata con un torcicollo terribile, un nodo durissimo proprio qui. Non riesco più a piegare il collo per bere alla fontanella e ho una sete da morire!</p><p>Più provo ad abbassarmi, più mi fa male.» «Povera Raffa, ora ci penso io,» rispose subito EleFranco, posandole una zampa gentile sul fianco. Ma poi i suoi occhi caddero sulle vetrine colorate della piazza e la mente prese il volo: cominciò a pensare a quante banane avrebbe comprato, se intere o tagliate a rondelle nel latte, dimenticandosi per un istante della povera giraffa. Si stava distraendo, ma vedendo Raffa piangere in silenzio, scosse le grandi orecchie e gridò: <strong>"FOCUS!"</strong>«Niente paura, amica mia, quel nodo lo sciogliamo subito,» le promise.</p><p>Corse alla fontanella comunale e aspirò una lunga sorsata d&#x27;acqua con la proboscide. La tenne in bocca qualche istante per intiepidirla, perché l&#x27;acqua troppo fredda avrebbe fatto male ai muscoli indolenziti di Raffa. Poi tornò dall&#x27;amica e cominciò a spruzzarle un perfetto idromassaggio termico lungo tutto il collo, dall&#x27;alto verso il basso, con getti dolci e regolari. «Ooooh, che meraviglia,» sospirò Raffa mentre EleFranco massaggiava con la punta della proboscide i punti più rigidi.</p><p>«Sento che si scioglie... continua, ti prego!» L&#x27;elefante insistette pazientemente finché non sentì un piccolo &quot;pop&quot; muscolare: il nodo si era sciolto e il collo di Raffa tornò a issarsi dritto e fiero verso il cielo. EleFranco era affamatissimo dopo tutto quello sforzo, ma vedere l&#x27;amica di nuovo felice gli riempiva il cuore più di qualsiasi merenda. Raffa, per ringraziarlo, tese il suo lunghissimo collo ritrovato fino alla cima di una palma altissima di FrancaVilla, dove nessuno riusciva mai ad arrivare, e con un morso delicato staccò un enorme casco di banane dorate, dolcissime e profumate.</p><p>Le depositò con cura ai piedi dell&#x27;elefante: la merenda era servita, senza nemmeno passare dalla bottega!</p><p class="morale-esplicita">EleFranco capì allora la morale di quella giornata: Il sollievo di un amico vale più di qualsiasi pancia piena. 🦒</p><p>EleFranco si sedette felice e si lanciò nella sua contagiosa risata: <span class="risata">OH... OH... OH...</span></p>
+      </div>
+    </div>
   </div>
 </div>
+<button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
+<script src="../js/console-papa.js" defer></script>
 </body>
 </html>
