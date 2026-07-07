@@ -27,6 +27,7 @@ CSS_DIR = ROOT / "css"
 INDEX_HTML = ROOT / "index.html"
 OUT_PROMPTS = ROOT / "prompt-immagini.md"
 LEGACY_HTML = ROOT / "elefranco-libro.html"
+READER_HTML = ROOT / "elefranco-lettura.html"
 IMMAGINI_DIR = ROOT / "Immagini"
 
 
@@ -250,13 +251,21 @@ def chapter_nav(ep: dict, episodes: list[dict], *, from_index: bool) -> str:
 </nav>"""
 
 
-def html_shell(title: str, css_href: str, body: str, *, enable_console: bool = True) -> str:
+def html_shell(
+    title: str,
+    css_href: str,
+    body: str,
+    *,
+    enable_console: bool = True,
+    reader_mode: bool = False,
+) -> str:
     asset_prefix = "../" if css_href.startswith("../") else ""
     console_block = ""
     if enable_console:
         console_block = f"""
 <button type="button" id="console-papa-toggle" class="console-papa-toggle" aria-pressed="false" title="Console di lavoro papà">Console Papà</button>
 <script src="{asset_prefix}js/console-papa.js" defer></script>"""
+    body_class = ' class="reader-mode"' if reader_mode else ""
     return f"""<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -265,7 +274,7 @@ def html_shell(title: str, css_href: str, body: str, *, enable_console: bool = T
   <title>{html.escape(title)}</title>
   <link rel="stylesheet" href="{html.escape(css_href)}">
 </head>
-<body>
+<body{body_class}>
 {body}{console_block}
 </body>
 </html>
@@ -454,7 +463,13 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
 </div>"""
 
 
-def build_index(intro_clean: str, episodes: list[dict]) -> str:
+def build_index(
+    intro_clean: str,
+    episodes: list[dict],
+    *,
+    enable_console: bool = True,
+    reader_mode: bool = False,
+) -> str:
     by_num = {e["num"]: e for e in episodes}
     body_parts = [
         cover_fragment(cover_num=1),
@@ -488,6 +503,8 @@ def build_index(intro_clean: str, episodes: list[dict]) -> str:
         "Le Avventure di EleFranco Franchini — Iris Edition",
         "css/libro.css",
         "\n\n".join(body_parts),
+        enable_console=enable_console,
+        reader_mode=reader_mode,
     )
 
 
@@ -644,10 +661,17 @@ def main() -> None:
         path = CAPITOLI_DIR / f"capitolo_{ep['num']:02d}.html"
         path.write_text(build_chapter_file(ep, reading_order), encoding="utf-8")
 
-    # Index unificato
+    # Index unificato (+ versione lettura senza console)
     index_content = build_index(intro_clean, episodes)
     INDEX_HTML.write_text(index_content, encoding="utf-8")
     shutil.copy(INDEX_HTML, LEGACY_HTML)
+    reader_content = build_index(
+        intro_clean,
+        episodes,
+        enable_console=False,
+        reader_mode=True,
+    )
+    READER_HTML.write_text(reader_content, encoding="utf-8")
 
     OUT_PROMPTS.write_text(build_prompts(episodes), encoding="utf-8")
 
@@ -656,6 +680,7 @@ def main() -> None:
     print(f"Scritte: sezioni in {SEZIONI_DIR}/")
     print(f"CSS: {CSS_DIR / 'libro.css'}")
     print(f"Copia legacy: {LEGACY_HTML}")
+    print(f"Lettura mobile: {READER_HTML}")
 
 
 if __name__ == "__main__":
