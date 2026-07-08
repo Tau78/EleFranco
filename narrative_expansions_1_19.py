@@ -17,7 +17,7 @@ EXPANDED_RACCONTI: dict[int, str] = {
 
 Abitava in una graziosa e accogliente casa alla periferia di FrancaVilla, un piccolo e tranquillo paesino circondato dal verde, un luogo incantevole dove i tetti delle case sembravano fatti di marzapane, i camini sbuffavano nuvole a forma di ciambella e l'aria profumava sempre di zucchero a velo e pane appena sfornato. EleFranco era grande, grosso e immensamente generoso, con un simpatico ciuffetto di capelli neri sulla testa che ballava a ogni suo passo.
 
-Quel mattino il suo stomaco emise un brontolio pazzesco, ma c'era qualcosa di più importante del suo appetito: «Oggi è la festa della mia cara amica Franca!» si disse, controllando la dispensa vuota. «Devo correre al supermercato a comprarle la torta più bella di tutte. Niente regalo, niente festa!» Si infilò i suoi stivali giganti di cuoio marrone, lucidati per l'occasione, aprì la porta di casa e si mise in cammino verso il centro. Mentre avanzava sulla strada sterrata, la terra tremava dolcemente al ritmo dei suoi piedoni: THUMP THUMP THUMP.
+Quel mattino il suo stomaco emise un brontolio pazzesco, ma c'era qualcosa di più importante del suo appetito: «Oggi è la Festa della mia cara amica Franca!» si disse, controllando la dispensa vuota. «Devo correre al supermercato a comprare i festoni più belli di tutti. Niente decorazioni, niente Festa!» Si infilò i suoi stivali giganti di cuoio marrone, lucidati per l'occasione, aprì la porta di casa e si mise in cammino verso il centro. Mentre avanzava sulla strada sterrata, la terra tremava dolcemente al ritmo dei suoi piedoni: THUMP THUMP THUMP.
 
 Arrivato vicino al ponticello sul fiume, notò una gran confusione. Sulla riva, un castoro dalla pelliccia lucida e dai grandi denti color avorio correva avanti e indietro tenendosi la testa tra le zampe. Era Fred il Castoro, il più bravo costruttore di tutta FrancaVilla, e quella mattina piangeva disperato.
 
@@ -25,7 +25,7 @@ Arrivato vicino al ponticello sul fiume, notò una gran confusione. Sulla riva, 
 
 «Respira, Fred,» disse EleFranco con voce calda come una coperta al sole. «Ci sono qui io adesso.»
 
-Ma poi, guardando l'acqua, la sua mente cominciò a vagare. Iniziò a pensare a quanto fosse tardi, a quanti tipi di torte ci fossero al supermercato — al cioccolato o alla panna? — e a che colore comprare le candeline per Franca, se rosa o dorate.
+Ma poi, guardando l'acqua, la sua mente cominciò a vagare. Iniziò a pensare a quanto fosse tardi, a quanti festoni e nastri ci fossero al supermercato — rossi o dorati? — e quanti coriandoli mettere per la Festa di Franca.
 
 Stava quasi per perdersi del tutto in quei pensieri golosi quando Fred lanciò un urlo lacerante: «EleFranco, sta crollando TUTTO!»
 
@@ -35,13 +35,13 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 Lavorò senza fermarsi mai, mentre Fred gli passava rametti e foglie. «Un po' più a destra! Ecco, lì! Sei fortissimo!» lo incoraggiava il castoro. Pezzo dopo pezzo, la diga tornò solida come una muraglia. Ma EleFranco si era coperto di melma marrone dalla punta del ciuffo alla coda: sembrava una statua di cioccolato.
 
-«Oh no,» mormorò guardandosi. «Sono troppo sporco per entrare al supermercato, e la festa di Franca sta per cominciare. Le ho rovinato il regalo...»
+«Oh no,» mormorò guardandosi. «Sono troppo sporco per entrare al supermercato, e la Festa di Franca sta per cominciare. Le ho rovinato le decorazioni...»
 
-Mentre si disperava, il sole caldo del mezzogiorno cominciò ad asciugare il fango sulla sua pelle. E successe una cosa incredibile: l'argilla seccando si crepò in mille motivi geometrici eleganti, ghirigori e fiorellini, proprio come la glassa decorativa di un dolce monumentale! In quello stesso momento, gli scoiattoli salvati sbucarono festanti dai rami, reggendo a fatica un vassoio dondolante con una gigantesca torta di noci appena sfornata, calda e profumata.
+Mentre si disperava, il sole caldo del mezzogiorno cominciò ad asciugare il fango sulla sua pelle. E successe una cosa incredibile: l'argilla seccando si crepò in mille motivi geometrici eleganti, ghirigori e fiorellini, proprio come i festoni di una Festa monumentale! In quello stesso momento, gli scoiattoli salvati sbucarono festanti dai rami, reggendo a fatica un vassoio dondolante con un enorme pacco di nastri colorati e dolci di noci per la Festa, caldi e profumati.
 
 «Per te, EleFranco! Hai salvato la nostra casa!» squittirono in coro.
 
-La missione era compiuta senza nemmeno entrare nel negozio: Franca avrebbe avuto la torta più buona del mondo!
+La missione era compiuta senza nemmeno entrare nel negozio: Franca avrebbe avuto la Festa più bella del mondo!
 
 EleFranco alzò la proboscide al cielo e scoppiò nella sua famosa risata: OH... OH... OH...""",
 
@@ -283,7 +283,7 @@ Sotto la grande quercia secolare della piazza, sentì un disperato squittio. Alz
 
 «Calmati, Renatolo, le tue ghiande le recuperiamo tutte fino all'ultima,» lo rassicurò EleFranco.
 
-Ma poi pensò alla sua lettera e la mente prese a vagare: cominciò a chiedersi quanti francobolli servissero per una spedizione così lontana, che faccia avrebbe fatto il cuginetto aprendo la busta e se la lettera sarebbe arrivata in tempo per il suo compleanno.
+Ma poi pensò alla sua lettera e la mente prese a vagare: cominciò a chiedersi quanti francobolli servissero per una spedizione così lontana, che faccia avrebbe fatto il cuginetto aprendo la busta e se la lettera sarebbe arrivata in tempo per la sua Festa.
 
 Si stava distraendo, ma il pianto sconsolato di Renatolo lo scosse.
 

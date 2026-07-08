@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from season2_episodes_27_38 import SEASON2_EPISODES_27_38
+from season2_episodes_39_50 import SEASON2_EPISODES_39_50
+
 INTRO_S2 = (
     'Le Avventure di EleFranco Franchini STAGIONE 2 - Iris Edition '
     '"FrancaVilla ha imparato a conoscere il cuore di EleFranco, ma ogni mattina il borgo '
@@ -88,4 +91,4 @@ La missione era compiuta senza nemmeno entrare in coda: il pane era lì, profuma
 
 EleFranco si stropicciò il ciuffo bianco, guardò Nora che salutava felice e alzò la proboscide al cielo azzurro del mattino. Scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
-]
+] + SEASON2_EPISODES_27_38 + SEASON2_EPISODES_39_50
