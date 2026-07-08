@@ -4,7 +4,7 @@ from __future__ import annotations
 
 SEASON2_EPISODES_39_50: list[dict] = [
     {
-        "num": 39,
+        "num": 40,
         "title": "🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫",
         "missione": (
             "EleFranco deve andare in pasticceria a comprare festoni di carta e nastri "
@@ -67,7 +67,7 @@ La missione era compiuta senza nemmeno aprire il portafoglio: i festoni erano l�
 EleFranco abbracciò con la proboscide il vecchio amico castoro e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 40,
+        "num": 41,
         "title": "🔭 In Collina e Stella la Civetta 🦉",
         "missione": (
             "EleFranco deve restituire il binocolo prestato dal vicino astronomo "
@@ -130,7 +130,7 @@ La missione era compiuta senza nemmeno salire fino all'osservatorio: il binocolo
 EleFranco guardò Stella che faceva l'occhiolino e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 41,
+        "num": 42,
         "title": "🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡",
         "missione": (
             "EleFranco deve comprare un biglietto alla stazione per andare a trovare "
@@ -194,7 +194,7 @@ La missione era compiuta senza nemmeno aprire il portafoglio: il biglietto era l
 EleFranco salutò Treno col cappello storto e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 42,
+        "num": 43,
         "title": "🍄 Nel Bosco e Fungo il Capibara 🐹",
         "missione": (
             "EleFranco deve comprare un cesto di vimini nuovo per la raccolta dei "
@@ -259,7 +259,7 @@ La missione era compiuta senza nemmeno contare le monete: il cesto era lì, prof
 EleFranco raccolse un fungo rosso come regalo per Fungo, se lo mise nel cesto nuovo e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 43,
+        "num": 44,
         "title": "🎨 In Piazza e Pennello il Pavone 🦚",
         "missione": (
             "EleFranco deve ritirare i manifesti stampati per la Festa di FrancaVilla "
@@ -323,7 +323,7 @@ La missione era compiuta senza nemmeno aprire la cartella: i manifesti erano lì
 EleFranco guardò il murale sotto i piedi, sollevò la proboscide come un pennello e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 44,
+        "num": 45,
         "title": "🐚 Sulla Spiaggia e Sabrina la Tartaruga Marina 🐢",
         "missione": (
             "EleFranco deve comprare una rete leggera per i palloni da portare "
@@ -385,7 +385,7 @@ La missione era compiuta senza nemmeno aprire il sacco: la rete era lì, leggera
 EleFranco guardò Sabrina che tornava verso il mare con passo lento e felice e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 45,
+        "num": 46,
         "title": "🧺 Al Lavatoio e Rina la Rana 🐸",
         "missione": (
             "EleFranco deve comprare una saponetta di Marsiglia al mercato del "
@@ -450,7 +450,7 @@ La missione era compiuta senza nemmeno aprire il portafoglio: il sapone era lì,
 EleFranco scosse la schiuma dal ciuffo, aiutò a piegare l'ultima tovaglia e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 46,
+        "num": 47,
         "title": "🌻 Nel Campo e Girasole l'Asino 🫏",
         "missione": (
             "EleFranco deve comprare un sacchetto di semi per l'aiuola della Festa "
@@ -512,7 +512,7 @@ La missione era compiuta senza nemmeno aprire la pala: i semi erano lì, profuma
 EleFranco guardò Girasole che sgranocchiava un fiore e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 47,
+        "num": 48,
         "title": "🎁 In Bottega e Regalo il Ricciolo 🦔",
         "missione": (
             "EleFranco deve comprare carta da regalo per i doni della Festa di "
@@ -576,7 +576,7 @@ La missione era compiuta senza nemmeno leggere la lista: la carta era lì, profu
 EleFranco sciolse l'ultimo giro di nastro dal ciuffo, aiutò Regalo a chiudere l'ultimo pacco e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 48,
+        "num": 49,
         "title": "🌬 Sul Mulino e Vento la Farfalla Blu 🦋",
         "missione": (
             "EleFranco deve comprare un sacco di farina integrale al mulino per "
@@ -638,7 +638,7 @@ La missione era compiuta senza nemmeno aprire il telo: la farina era lì, profum
 EleFranco scosse la farina dal ciuffo, salutò Vento con la proboscide e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 49,
+        "num": 50,
         "title": "🏡 A Casa di Franca e Franca l'Amica 🎉",
         "missione": (
             "EleFranco deve andare a casa dell'amica Franca per aiutarla a preparare "
@@ -701,7 +701,7 @@ La missione era compiuta senza nemmeno usare i coriandoli di riserva: la Festa e
 EleFranco abbracciò Franca con la proboscide e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 50,
+        "num": 51,
         "title": "🎉 La Grande Festa di FrancaVilla 🐘",
         "missione": (
             "EleFranco deve appendere le ultime decorazioni in piazza per la "

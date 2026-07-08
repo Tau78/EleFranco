@@ -1,4 +1,4 @@
-"""Capitoli 22+ — aggiungi nuovi episodi qui. Episodi 1–21: episodes_base.py."""
+"""Capitoli 22+ — aggiungi nuovi episodi qui. Episodi 1–21: episodes_base.py. Ep. 26 chiude la S1 prima di Iris (23)."""
 
 from __future__ import annotations
 
@@ -276,7 +276,7 @@ Si sistemò la staffa con due viti larghe, guardò le tazze ferme e alzò la pro
             "per l'elefante generoso e gli regala anche farina fresca profumata. 🌅"
         ),
         "finale_schema": (
-            "Fine Stagione 1! Polenta assicurata e gru libera — OH... OH... OH..."
+            "Polenta assicurata e gru libera! E via di risata: OH... OH... OH..."
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
@@ -320,8 +320,91 @@ Tommaso il mugnaio, che dalla finestra del mulino galleggiante aveva visto tutta
 
 Scese lungo la scala di corda con un sacco già macinato e una sporta di farina fresca profumata. «Per l'elefante che non ha mollato la rete,» disse, «e per la gru che ha insegnato a raccogliere con le ali. Il riso che è rimasto basta per tutti, e la polenta è già pronta in pentola!»
 
-EleFranco guardò il mucchietto ordinato, la farina profumata e Esau che faceva un inchino elegante prima di volare verso l'orizzonte rosa. La missione era compiuta, e il mulino aveva macinato più di semplice riso. Venticinque avventure erano diventate ricordi nel cuore di FrancaVilla: la Stagione 1 aveva insegnato a tutti che un gesto gentile, anche piccolo, sa aprire strade meravigliose.
+EleFranco guardò il mucchietto ordinato, la farina profumata e Esau che faceva un inchino elegante prima di volare verso l'orizzonte rosa. La missione era compiuta, e il mulino aveva macinato più di semplice riso. Tante avventure erano diventate ricordi nel cuore di FrancaVilla: la gentilezza, anche piccola, sa aprire strade meravigliose.
 
 Si liberò dall'ultimo filo, prese la sporta e alzò la proboscide al cielo sopra la laguna. Scoppiò nella sua famosa risata: OH... OH... OH...""",
+    },
+    {
+        "num": 26,
+        "title": "🐄 La Colazione e Renatiella la Vitella 🌿",
+        "missione": (
+            "EleFranco deve andare all'alpeggio di FrancaVilla a ritirare un secchio di latte "
+            "caldo dalla mungitrice Ada, per il suo porridge della colazione. 🥛"
+        ),
+        "incontro": (
+            "Nel recinto del pascolo incontra Renatiella la Vitella, macchiata di bianco e nero, "
+            "che rifiuta fieno e grano e piange perché «l'erba blu» della sua colazione è finita: "
+            "mangia solo quella, e nessun'altra erba le sembra giusta. 💙"
+        ),
+        "aiuto": (
+            "EleFranco cerca in tutto il prato erba da tingere di blu con succo di mirtilli, "
+            "spruzzandola con generosità dalla proboscide. Ma è troppo entusiasta: si macchia "
+            "le stivali, le orecchie e il secchio del latte, e Renatiella guarda confusa "
+            "quell'erba viola che non assomiglia per nulla alla sua. 🫐"
+        ),
+        "morale": "Ognuno vede il mondo a modo suo, e ogni modo è prezioso. 🌈",
+        "colpo": (
+            "Ada la mungitrice e la veterinaria Dott.ssa Lina spiegano che Renatiella è "
+            "daltonica: confonde il rosso e il verde, e l'«erba blu» è il prato tenero "
+            "all'ombra del ruscello, che per lei sembra azzurro. Con un fiocco blu segnano "
+            "quel angolo, la vitella mangia felice e Ada regala a EleFranco latte caldo "
+            "e porridge già pronto nel thermos. ☀"
+        ),
+        "finale_schema": (
+            "Colazione fumante senza un solo bruco nel secchio! E via di risata: OH... OH... OH..."
+        ),
+        "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
+
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di alpeggio dolce dove le campane delle mucche suonavano la sveglia, i prati profumavano di rugiada e i tetti di legno fumavano sempre un filo di latte caldo verso il cielo rosa del mattino.
+
+Era un'alba fresca e EleFranco aveva una fame da elefante in gamba: «Oggi voglio il mio porridge, quello con il cucchiaio di miele e il latte appena munto!» Controllò la dispensa: il thermos era vuoto. «Devo correre da Ada all'alpeggio, prima che chiuda la mungitura.»
+
+Si infilò i suoi stivali giganti gialli da rugiada, alti e lucidi come due girasoli, prese un secchio pulito con il manico intrecciato e uscì di casa. Il sentiero del pascolo tremava piano sotto i suoi passi: THUMP THUMP THUMP.
+
+Arrivato al recinto bianco, sentì un piccolo mugolio triste. In un angolo, seduta sulle zampe posteriori come una bambina capricciosa, c'era Renatiella la Vitella: una vitellina dal pelo bianco e nero, con le orecchie morbide che le penzolavano e gli occhi lucidi come due gocce di rugiada.
+
+«Buongiorno, Renatiella,» disse EleFranco con voce calda. «Perché quella faccina lunga?»
+
+La vitella sbuffò. «La mia colazione è finita! Io mangio solo l'erba blu, quella buona, quella dolce. Il fieno è giallo e noioso, il grano è secco, l'erba verde del recinto è sbagliata. Voglio la mia erba blu!»
+
+Ada la mungitrice, donna robusta con il grembiule a quadri, si avvicinò sospirando. «EleFranco, da tre giorni è così. L'erba all'ombra del ruscello l'ha mangiata tutta. Se non mangia, resta debole e il latte di sua madre Bianchina si fa poco.»
+
+EleFranco guardò il prato: tutto verde, uniforme, splendente di rugiada. Guardò il secchio vuoto. Guardò Renatiella che piangeva.
+
+«Non preoccuparti, piccola. L'erba blu la troviamo.»
+
+Ma mentre si metteva a cercare, la mente cominciò a vagare: pensò al porridge fumante, al miele che cola lento, a quanto sarebbe stato bello sedersi sul tavolo con il thermos tra le zampe...
+
+Stava quasi per arrendersi quando Renatiella gemette: «Ho fame! Voglio la mia colazione!»
+
+Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola magica: "FOCUS!"
+
+«Se Renatiella vuole erba blu, io la cerco davvero,» decise.
+
+Ricordò che nel bosco crescevano mirtilli: con la proboscide raccolse le baccie più scure, le schiacciò in una pozza di legno e ottenne un succo viola intenso. Poi spruzzò quel succo sull'erba del recinto, filo dopo filo, con cura da giardiniere.
+
+«Ecco! Erba blu!» annunciò, orgoglioso.
+
+Renatiella si avvicinò, annusò e arretrò. «No! Non è la mia! È viola e puzza di bosco! La mia erba blu sa di mattino e di acqua fresca!»
+
+EleFranco guardò le zampe gialle macchiate di viola, le orecchie imbrattate, il secchio con una riga blu sul bordo. Si sentì le gambe pesanti. «Ho rovinato tutto...»
+
+Proprio allora arrivò la Dott.ssa Lina, la veterinaria di FrancaVilla, con la sua borsa di stoffa e un sorriso tranquillo. Si inginocchiò accanto alla vitella e le accarezzò il muso.
+
+«Renatiella non è capricciosa,» spiegò dolcemente. «È daltonica. Per lei certi verdi e certi rossi sembrano lo stesso colore. L'«erba blu» che ama è il prato tenero all'ombra del ruscello: lì la luce è fredda, l'erba le sembra azzurra, ed è la più morbida di tutto il pascolo.»
+
+EleFranco spalancò gli occhi. «Quindi non cercava un colore inventato... cercava il suo angolo speciale!»
+
+«Esatto,» disse Ada. «Ma quell'angolo ormai è stato mangiato fino al suolo.»
+
+La dottoressa prese un nastro di raso blu dalla borsa. «Segniamo il punto giusto, così tutti lo rispettiamo. E intanto le prepariamo un po' di fieno verde misto a erba trifoglio: per lei non è «verde», è un grigio buono.»
+
+EleFranco, con delicatezza, legò il fiocco blu a un paletto vicino al ruscello, dove l'erba stava già ricrescendo sottile e tenera. Renatiella mangiò subito, con piccoli morsi felici, e Bianchina la mucca muggì contenta dalla stalla.
+
+Ada riempì il secchio di latte schiumoso e gli porse un thermos già pronto di porridge caldo con miele. «Per l'elefante che ha imparato a vedere con gli occhi degli altri.»
+
+EleFranco sedette sul prato — lontano dal fiocco blu, per non calpestare l'erba nuova — e gustò la colazione. La missione era compiuta, Renatiella aveva ritrovato la sua colazione e FrancaVilla aveva imparato che ogni amico guarda il mondo con una luce diversa.
+
+Alzò la proboscide al sole del mattino e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
 ]

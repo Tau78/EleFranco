@@ -10,8 +10,8 @@ Uso:
 
 Sorgenti testi editabili:
   episodes_base.py     — episodi 1–21 (+ intro S1)
-  episodes_extra.py    — episodi 22–25 (fine S1)
-  episodes_season2.py  — episodi 26+ (Stagione 2)
+  episodes_extra.py    — episodi 22–26 (fine S1)
+  episodes_season2.py  — episodi 27+ (Stagione 2)
 
 Dopo --nuovo: completa testo in episodes_extra.py e prompt in episode_prompts_en.py,
 poi rilancia senza flag.
@@ -48,7 +48,7 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
-    if num >= 26:
+    if num >= 27:
         return "episodes_season2.py"
     if num >= 22:
         return "episodes_extra.py"
@@ -130,10 +130,12 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 26:
+    if num >= 27:
         episodes_file = EPISODES_SEASON2
-    else:
+    elif num >= 22:
         episodes_file = EPISODES_EXTRA
+    else:
+        raise SystemExit(f"Episodi 1–21: usa episodes_base.py (non --nuovo).")
 
     extra_text = episodes_file.read_text(encoding="utf-8")
     if f'"num": {num}' in extra_text or f'"num": {num},' in extra_text:
