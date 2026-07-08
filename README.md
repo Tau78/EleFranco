@@ -4,17 +4,35 @@ Libro serale per Iris, generato da `episodes_*.py` e `build_book.py`.
 
 ## Leggere il libro (telefono / tablet)
 
-**Non usare** il link `raw.githubusercontent.com` — mostra il codice HTML, non il libro.
+### Opzione A — Subito (senza GitHub Pages)
 
-Apri nel browser:
+1. Scarica lo zip: **https://github.com/Tau78/EleFranco/archive/refs/heads/main.zip**
+2. Aprilo con **File** su iPhone/iPad
+3. Tocca **`elefranco-lettura.html`** → «Apri in Safari»
+
+Funziona offline con copertina, illustrazioni e testo grande.
+
+### Opzione B — Link web (dopo attivazione Pages)
+
+**Non usare** `raw.githubusercontent.com` né solo `tau78.github.io` (manca il percorso del progetto).
+
+Link corretto:
 
 **https://tau78.github.io/EleFranco/elefranco-lettura.html**
 
-Versione ottimizzata per la lettura serale (senza console di modifica, testo più grande su mobile).
+#### Se vedi ancora 404 — attiva GitHub Pages (una volta sola)
 
-- Indice con tutti gli episodi
-- Scorri o tocca un episodio nell’indice
-- Leggi ad alta voce la sezione **«Il Racconto Completo»**
+1. Apri **https://github.com/Tau78/EleFranco/settings/pages**
+2. In **Build and deployment** → **Source** scegli **GitHub Actions**
+3. Vai in **Actions** → workflow «Deploy GitHub Pages» → **Re-run all jobs**
+
+Dopo 1–2 minuti il link sopra funziona.
+
+### Come leggere a Iris
+
+- Tocca un episodio nell’**indice**
+- Leggi ad alta voce **«Il Racconto Completo»**
+- Episodio speciale: **23 — Iris, la Bambina Gentile** 🌸
 
 ## Sviluppo
 
