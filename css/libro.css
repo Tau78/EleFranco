@@ -713,3 +713,32 @@ body.console-papa-active .console-editable-image.console-image-selected {
   background: #fff;
   color: #d35400;
 }
+
+/* Versione lettura serale (elefranco-lettura.html) */
+body.reader-mode .console-papa-toggle,
+body.reader-mode .console-section-bar,
+body.reader-mode .episode-console-bar {
+  display: none !important;
+}
+
+@media screen and (max-width: 900px) {
+  body.reader-mode {
+    font-size: 18px;
+    line-height: 1.65;
+    padding: 0.75rem 1rem 2rem;
+  }
+
+  body.reader-mode .episode-title {
+    font-size: 1.35rem;
+    line-height: 1.3;
+  }
+
+  body.reader-mode .racconto p {
+    margin-bottom: 1.15em;
+  }
+
+  body.reader-mode .toc a {
+    display: block;
+    padding: 0.35rem 0;
+  }
+}
