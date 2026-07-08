@@ -6,7 +6,7 @@ Modifica qui per spostare capitoli tra le parti o cambiare l'ordine di lettura
 
 from __future__ import annotations
 
-SEASON1_LAST = 25
+SEASON1_LAST = 26
 
 SEASON1_PARTS: list[dict] = [
     {
@@ -26,7 +26,7 @@ SEASON1_PARTS: list[dict] = [
         "toc_label": "Terza Parte: Nuovi Amici 🌱",
         "fragment": "parte_03",
         # Iris (23) chiude la stagione — dedica Iris Edition
-        "episodes": [18, 19, 20, 21, 22, 24, 25, 23],
+        "episodes": [18, 19, 20, 21, 22, 24, 25, 26, 23],
     },
 ]
 
@@ -55,7 +55,7 @@ def validate_season1_parts(season1_nums: set[int]) -> list[str]:
         errors.append(f"Episodio duplicato in book_structure.py: {dupes}.")
 
     if set(ordered) != expected and season1_nums == expected:
-        errors.append("book_structure.py non contiene tutti gli episodi 1–25 esattamente una volta.")
+        errors.append("book_structure.py non contiene tutti gli episodi 1–26 esattamente una volta.")
 
     for part in SEASON1_PARTS:
         if not part["episodes"]:

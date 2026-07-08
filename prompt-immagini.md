@@ -669,13 +669,38 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Free crane doing graceful dance gathering rice grains into neat pile with wing breeze, miller offering fresh flour sack from floating mill, sunset over lagoon, season 1 finale mood, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Free crane doing graceful dance gathering rice grains into neat pile with wing breeze, miller offering fresh flour sack from floating mill, sunset over lagoon, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
 ---
 
-### Episodio 26: 🥖 In Panetteria e Nora la Volpe 🦊
+### Episodio 26: 🐄 La Colazione e Renatiella la Vitella 🌿
+
+*FrancaVilla:* alpine pasture FrancaVilla with wooden barn, morning mist, stream shade and cowbells
+*Calzature:* giant yellow dew boots
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant yellow dew boots carrying clean milk pail, walking misty pasture path toward dairy at dawn, cowbells, gentle THUMP, breakfast porridge errand, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Spotted black-white calf Renatiella sitting sadly in fence corner refusing hay, tears, only eating from one shaded stream-side patch she calls blue grass, large generous friendly cartoon elephant EleFranco with small black hair tuft on head approaching in yellow boots, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image, alpine meadow FrancaVilla
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head spraying blueberry juice on grass with trunk, purple stains on yellow boots ears and milk pail, confused calf turning away, comic coloring chaos, FOCUS, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Vet and milkmaid tying blue ribbon stake at stream meadow corner, calf eating tender regrowth happily, warm milk pail and honey porridge thermos gift for large generous friendly cartoon elephant EleFranco with small black hair tuft on head, gentle sunrise, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 27: 🥖 In Panetteria e Nora la Volpe 🦊
 
 *FrancaVilla:* bakery FrancaVilla with wheat-roof chimneys, wood-fired oven steam and cobblestone flour path
 *Calzature:* giant cinnamon anti-slip baker slippers
@@ -700,7 +725,7 @@ Warm oven breeze creating perfect golden crust on loaves, baker filling basket w
 
 ---
 
-### Episodio 27: 🧀 Dal Caseificio e Leda la Lontra 🦦
+### Episodio 28: 🧀 Dal Caseificio e Leda la Lontra 🦦
 
 *FrancaVilla:* riverside FrancaVilla with pale stone houses, creaking wooden bridges and sweet dairy steam from cheese shop
 *Calzature:* giant moss-green waterproof shoes
@@ -725,7 +750,7 @@ Compacted wet leaves forming natural bridge over stream, dairy Gina gifting fres
 
 ---
 
-### Episodio 28: 🎪 Al Circo in Visita e Pippo il Palloncino 🎈
+### Episodio 29: 🎪 Al Circo in Visita e Pippo il Palloncino 🎈
 
 *FrancaVilla:* circus-week FrancaVilla with red-yellow striped tents, tightropes between lampposts and cotton-candy air
 *Calzature:* giant colorful polka-dot party slippers
@@ -750,7 +775,7 @@ Popcorn machine warm air perfectly inflating round red balloon Pippo, golden fir
 
 ---
 
-### Episodio 29: 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉
+### Episodio 30: 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉
 
 *FrancaVilla:* hillside FrancaVilla with terraced houses climbing toward observatory dome and oil-lamp evening glow
 *Calzature:* giant soft night-blue silent boots
@@ -775,7 +800,7 @@ Moths tracing glowing golden Swan constellation on white observatory wall, child
 
 ---
 
-### Episodio 30: 🧵 Dal Merceria e Tina la Talpa Sarta 🪡
+### Episodio 31: 🧵 Dal Merceria e Tina la Talpa Sarta 🪡
 
 *FrancaVilla:* seamstress FrancaVilla with colorful thread shop windows, fabric-scented sidewalks and underground tailor tunnels
 *Calzature:* giant soft gray wool shoes
@@ -800,7 +825,7 @@ Small earth tremor revealing hidden golden star-shaped buttons in sand, Tina sew
 
 ---
 
-### Episodio 31: 🍋 Al Limoneto e Ciro il Camaleonte 🦎
+### Episodio 32: 🍋 Al Limoneto e Ciro il Camaleonte 🦎
 
 *FrancaVilla:* citrus FrancaVilla with white garden walls, yellow lemon pergolas and sweet zagara blossom scent
 *Calzature:* giant bright lemon-yellow slippers
@@ -825,7 +850,7 @@ Rolled lemons landing perfectly in farmer market cart, fresh lemonade with ice a
 
 ---
 
-### Episodio 32: 🏊 Alla Piscina Comunale e Dodo il Papero 🦆
+### Episodio 33: 🏊 Alla Piscina Comunale e Dodo il Papero 🦆
 
 *FrancaVilla:* summer FrancaVilla with communal azure pool, plastic palm gate decorations and light chlorine scent
 *Calzature:* worn giant old flip-flops
@@ -850,7 +875,7 @@ Warm water clearing clogged drain, brave duckling Dodo reunited with mother, new
 
 ---
 
-### Episodio 33: 📮 Alla Filatelia e Elio il Riccio Postino 🦔
+### Episodio 34: 📮 Alla Filatelia e Elio il Riccio Postino 🦔
 
 *FrancaVilla:* epistolary FrancaVilla with brass post-office bell, colorful postcard windows and damp morning square
 *Calzature:* giant elegant burgundy shoes
@@ -875,7 +900,7 @@ Stamps landing on pavement forming perfect red-green-blue heart shape, head post
 
 ---
 
-### Episodio 34: 🎻 Dal Liutaio e Viola la Volpe Rossa 🦊
+### Episodio 35: 🎻 Dal Liutaio e Viola la Volpe Rossa 🦊
 
 *FrancaVilla:* musical FrancaVilla with cedar-scented violin workshops, wind chimes on every balcony and quiet garden paths
 *Calzature:* giant mahogany-colored boots
@@ -900,7 +925,7 @@ Fallen leaves vibrating on cobblestones like harp strings guiding to hidden bow,
 
 ---
 
-### Episodio 35: 🥔 Al Mercato e Patata il Marmorino 🐹
+### Episodio 36: 🥔 Al Mercato e Patata il Marmorino 🐹
 
 *FrancaVilla:* Sunday market FrancaVilla with colorful vegetable stalls, bread scent and cheerful farmer calls
 *Calzature:* giant sturdy market shoes with thick soles
@@ -925,7 +950,7 @@ Runaway wheel plugging deep pothole perfectly, striped-apron capybara merchant f
 
 ---
 
-### Episodio 36: 🌈 Dopo il Temporale e Iris Arcobaleno 🌈
+### Episodio 37: 🌈 Dopo il Temporale e Iris Arcobaleno 🌈
 
 *FrancaVilla:* after-storm FrancaVilla with sky-reflecting puddles, washed alleys and fresh clean air
 *Calzature:* giant anti-slip rain slippers
@@ -950,7 +975,7 @@ Sunlit droplets on hair tuft creating perfect mini-rainbow bridge to wall tana, 
 
 ---
 
-### Episodio 37: 🧊 Alla Ghiacciaia e Ping il Pinguino Viaggiatore 🐧
+### Episodio 38: 🧊 Alla Ghiacciaia e Ping il Pinguino Viaggiatore 🐧
 
 *FrancaVilla:* summer FrancaVilla with gray stone icehouse in square, cold morning mist and glittering ice blocks
 *Calzature:* giant summer shoes
@@ -975,7 +1000,7 @@ Ice block sculpted into small elephant monument, icehouse keeper filling bucket 
 
 ---
 
-### Episodio 38: 🪴 Sul Terrazzo e Mirta la Marmotta 🌿
+### Episodio 39: 🪴 Sul Terrazzo e Mirta la Marmotta 🌿
 
 *FrancaVilla:* green terrace FrancaVilla with potted plants on external stairs climbing to rooftop nursery
 *Calzature:* giant garden clogs with clean soles
@@ -1000,7 +1025,7 @@ Soil mound filling sidewalk pothole for sparrow nest, doubled-leaf basil pot plu
 
 ---
 
-### Episodio 39: 🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫
+### Episodio 40: 🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫
 
 *FrancaVilla:* vanilla-scented pastry FrancaVilla with sugar-roof houses, buttery shop windows and croissant morning air
 *Calzature:* giant cream-white anti-slip chef shoes
@@ -1025,7 +1050,7 @@ Oven steam meeting humidity creating fragrant mist puffing perfect golden pastri
 
 ---
 
-### Episodio 40: 🔭 In Collina e Stella la Civetta 🦉
+### Episodio 41: 🔭 In Collina e Stella la Civetta 🦉
 
 *FrancaVilla:* windy hilltop FrancaVilla with spiral snail-shell paths, pointed roofs touching low clouds and thyme evening scent
 *Calzature:* giant cloud-tread hiking boots
@@ -1050,7 +1075,7 @@ Orange sunset warmth under ears, father owl rebuilding nest on safe low branch, 
 
 ---
 
-### Episodio 41: 🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡
+### Episodio 42: 🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡
 
 *FrancaVilla:* red-brick railway FrancaVilla with steam clouds over shiny tracks and creaking wooden platform signs
 *Calzature:* giant brown traveler boots with shiny buckle
@@ -1075,7 +1100,7 @@ Signal shadow revealing loose rail and bent nail underneath, workers repairing t
 
 ---
 
-### Episodio 42: 🍄 Nel Bosco e Fungo il Capibara 🐹
+### Episodio 43: 🍄 Nel Bosco e Fungo il Capibara 🐹
 
 *FrancaVilla:* mossy forest-edge FrancaVilla with mushroom umbrellas under ferns, pine scent and misty brook songs
 *Calzature:* giant green forest boots with leaf-tread soles
@@ -1100,7 +1125,7 @@ Green algae pads floating under logs as natural cushions, forest animals crossin
 
 ---
 
-### Episodio 43: 🎨 In Piazza e Pennello il Pavone 🦚
+### Episodio 44: 🎨 In Piazza e Pennello il Pavone 🦚
 
 *FrancaVilla:* lively FrancaVilla town square with hand-painted shop signs, dripping fountain and fresh printer's ink smell
 *Calzature:* giant pastel-splattered artist slippers
@@ -1125,7 +1150,7 @@ Paint splatters on square forming giant smiling elephant mural seen from bell to
 
 ---
 
-### Episodio 44: 🐚 Sulla Spiaggia e Sabrina la Tartaruga Marina 🐢
+### Episodio 45: 🐚 Sulla Spiaggia e Sabrina la Tartaruga Marina 🐢
 
 *FrancaVilla:* seaside FrancaVilla with pearlescent shells on sand, salty wooden boardwalk and gentle wave lines
 *Calzature:* giant yellow wave-pattern beach boots
@@ -1150,7 +1175,7 @@ Beach volunteers forming ribbon cordon around true nest dune, shopkeeper gifting
 
 ---
 
-### Episodio 45: 🧺 Al Lavatoio e Rina la Rana 🐸
+### Episodio 46: 🧺 Al Lavatoio e Rina la Rana 🐸
 
 *FrancaVilla:* stone communal washhouse FrancaVilla with flowing troughs, sun-dried linens and Marseilles soap scent
 *Calzature:* giant blue florist boots with white polka-dot soles
@@ -1175,7 +1200,7 @@ Remaining bubbles floating to market facade reflecting perfect rainbow, soap-sel
 
 ---
 
-### Episodio 46: 🌻 Nel Campo e Girasole l'Asino 🫏
+### Episodio 47: 🌻 Nel Campo e Girasole l'Asino 🫏
 
 *FrancaVilla:* golden agricultural FrancaVilla with sunflower fields, creaking hay carts and warm cut-grass air
 *Calzature:* giant brown farmer boots with plow-line soles
@@ -1200,7 +1225,7 @@ Hay blanket holding wind-blown seeds in perfect even planting, seed nursery gift
 
 ---
 
-### Episodio 47: 🎁 In Bottega e Regalo il Ricciolo 🦔
+### Episodio 48: 🎁 In Bottega e Regalo il Ricciolo 🦔
 
 *FrancaVilla:* festive shop FrancaVilla with ribbon-filled windows, stacked packages and freshly cut wrapping-paper scent
 *Calzature:* giant red festive boots with shiny toe caps
@@ -1225,7 +1250,7 @@ Stretched ribbon from door to window forming giant visible bow attracting plaza 
 
 ---
 
-### Episodio 48: 🌬 Sul Mulino e Vento la Farfalla Blu 🦋
+### Episodio 49: 🌬 Sul Mulino e Vento la Farfalla Blu 🦋
 
 *FrancaVilla:* white windmill FrancaVilla on hill with slow water wheel, grain sacks and fresh flour in summer breeze
 *Calzature:* giant beige miller boots with wheat-ear tread soles
@@ -1250,7 +1275,7 @@ Gentle mill breeze guiding spilled flour through wooden chute to correct storeho
 
 ---
 
-### Episodio 49: 🏡 A Casa di Franca e Franca l'Amica 🎉
+### Episodio 50: 🏡 A Casa di Franca e Franca l'Amica 🎉
 
 *FrancaVilla:* marzipane Festa-ready FrancaVilla with gingerbread chimneys puffing star-shaped smoke and anticipation in every lane
 *Calzature:* giant polished brown leather boots
@@ -1275,7 +1300,7 @@ Season one and two animal friends arriving with banners pastries and extra cups,
 
 ---
 
-### Episodio 50: 🎉 La Grande Festa di FrancaVilla 🐘
+### Episodio 51: 🎉 La Grande Festa di FrancaVilla 🐘
 
 *FrancaVilla:* lantern-filled Grande Festa FrancaVilla square blending marzipane rooftops, mill hill, beach flags and forest garlands
 *Calzature:* giant golden star-tread Festa boots
