@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 import shutil
 from pathlib import Path
@@ -28,6 +29,8 @@ INDEX_HTML = ROOT / "index.html"
 OUT_PROMPTS = ROOT / "prompt-immagini.md"
 LEGACY_HTML = ROOT / "elefranco-libro.html"
 READER_HTML = ROOT / "elefranco-lettura.html"
+COLORA_APP_HTML = ROOT / "colora-app.html"
+OUT_PDF_DISEGNA = ROOT / "EleFranco-Disegna.pdf"
 IMMAGINI_DIR = ROOT / "Immagini"
 
 
@@ -386,13 +389,39 @@ PARTE_FRAGMENTS = {
 }
 
 
+def disegna_pages(episodes: list[dict], asset_prefix: str = "") -> list[dict]:
+    ep_by_num = {e["num"]: e for e in episodes}
+    pages: list[dict] = []
+    for ep in book_reading_order(episodes):
+        num = ep["num"]
+        src = _disegna_image_src(num, asset_prefix)
+        if not src:
+            continue
+        hint = COLOR_HINTS.get(num, "").strip()
+        pages.append(
+            {
+                "num": num,
+                "title": ep_by_num[num]["title"],
+                "src": src.removeprefix(asset_prefix),
+                "hint": hint,
+            }
+        )
+    return pages
+
+
 def colora_cover_fragment(asset_prefix: str = "") -> str:
+    app_href = f"{asset_prefix}colora-app.html"
+    pdf_href = f"{asset_prefix}EleFranco-Disegna.pdf"
     return f"""<div class="section-intro page-full console-section" id="colora" data-console-section="colora">
   <div class="console-section-bar" hidden>
     <button type="button" class="btn-save-section" data-section="colora">Salva sezione</button>
     <button type="button" class="btn-reset-section" data-section="colora">Ripristina</button>
   </div>
   <img class="console-editable-image" src="{asset_prefix}Immagini/sezione-colora.jpeg" alt="Colora con EleFranco">
+  <div class="colora-links">
+    <p><a href="{app_href}">🖍 Colora qui (iPad)</a> · <a href="{pdf_href}">📄 Scarica PDF disegni</a></p>
+    <p class="colora-links-note">Sull'iPad apri «Colora qui», scegli l'episodio e usa dito o Apple Pencil. Il PDF va bene per Freeform e GoodNotes.</p>
+  </div>
 </div>"""
 
 
@@ -417,6 +446,58 @@ def colora_fragment(episodes: list[dict], asset_prefix: str = "") -> str:
 """
     return f"""<div class="coloring-section" id="colora-pagine">
 {pages_html}</div>"""
+
+
+def build_colora_app(episodes: list[dict]) -> str:
+    pages = disegna_pages(episodes)
+    pages_json = json.dumps(pages, ensure_ascii=False)
+    body = f"""<div class="colora-app">
+  <header class="colora-header">
+    <h1>🖍 Colora con EleFranco — Iris Edition</h1>
+    <p><a href="index.html#colora">← Torna al libro</a></p>
+    <div class="colora-controls-top">
+      <button type="button" class="colora-nav-btn" id="colora-prev" aria-label="Episodio precedente">‹</button>
+      <select id="colora-episode" aria-label="Scegli episodio"></select>
+      <button type="button" class="colora-nav-btn" id="colora-next" aria-label="Episodio successivo">›</button>
+    </div>
+    <p id="colora-hint"></p>
+  </header>
+  <div class="colora-stage-wrap">
+    <div class="colora-stage">
+      <img id="colora-bg" class="colora-bg" src="" alt="">
+      <canvas id="colora-draw" class="colora-draw" aria-label="Area da colorare"></canvas>
+    </div>
+  </div>
+  <footer class="colora-toolbar">
+    <div class="colora-palette" id="colora-palette"></div>
+    <div class="colora-tools-row">
+      <button type="button" class="colora-tool-btn is-active" id="colora-brush">Pennello</button>
+      <button type="button" class="colora-tool-btn" id="colora-eraser">Gomma</button>
+      <label for="colora-size">Spessore</label>
+      <input type="range" id="colora-size" min="4" max="40" value="12">
+      <button type="button" class="colora-tool-btn" id="colora-undo" disabled>Indietro</button>
+      <button type="button" class="colora-tool-btn" id="colora-clear">Cancella</button>
+      <button type="button" class="colora-tool-btn" id="colora-save">Salva 🎨</button>
+    </div>
+    <p class="colora-status" id="colora-status" role="status"></p>
+  </footer>
+</div>
+<script id="colora-data" type="application/json">{pages_json}</script>
+<script src="js/colora-app.js" defer></script>"""
+    return f"""<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Colora con EleFranco — Iris Edition</title>
+  <link rel="stylesheet" href="css/colora-app.css">
+</head>
+<body>
+{body}
+</body>
+</html>
+"""
 
 
 def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -> str:
@@ -459,6 +540,8 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
   <ul class="toc-list">
 {list_html}
     <li class="toc-part"><a class="console-editable" href="#colora">🎨 Colora con EleFranco</a></li>
+    <li><a class="console-editable" href="colora-app.html">🖍 Colora qui (iPad)</a></li>
+    <li><a class="console-editable" href="EleFranco-Disegna.pdf">📄 PDF disegni da colorare</a></li>
   </ul>
 </div>"""
 
@@ -619,6 +702,8 @@ def build_prompts(episodes: list[dict]) -> str:
             "## Note Colora",
             "",
             "22 pagine line art in `Disegna/` (01–22), una per episodio.",
+            "App interattiva iPad: `colora-app.html` (pennello, gomma, salvataggio).",
+            "PDF stampabile/import: `EleFranco-Disegna.pdf` (rigenerato con `python3 genera_pdf_disegna.py`).",
             "Copertina sezione: `Immagini/sezione-colora.jpeg`.",
             "Intro sezioni: `Immagini/sezione-01-missioni.jpeg`, `sezione-02-intoppi.jpeg`, `sezione-03-nuoviamici.jpeg`.",
             "Copertine libro: `Immagini/00-cover-1.jpeg` … `00-cover-4.jpeg`.",
@@ -672,10 +757,12 @@ def main() -> None:
         reader_mode=True,
     )
     READER_HTML.write_text(reader_content, encoding="utf-8")
+    COLORA_APP_HTML.write_text(build_colora_app(episodes), encoding="utf-8")
 
     OUT_PROMPTS.write_text(build_prompts(episodes), encoding="utf-8")
 
     print(f"Scritto: {INDEX_HTML}")
+    print(f"Scritto: {COLORA_APP_HTML}")
     print(f"Scritti: {len(episodes)} file in {CAPITOLI_DIR}/")
     print(f"Scritte: sezioni in {SEZIONI_DIR}/")
     print(f"CSS: {CSS_DIR / 'libro.css'}")

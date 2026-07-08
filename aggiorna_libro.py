@@ -32,6 +32,7 @@ EPISODES_SEASON2 = ROOT / "episodes_season2.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 COLOR_HINTS_FILE = ROOT / "episode_color_hints.py"
 BUILD = ROOT / "build_book.py"
+PDF_DISEGNA = ROOT / "genera_pdf_disegna.py"
 
 PROMPT_KEYS = ("setting", "footwear", "a", "b", "c", "d")
 EPISODE_FIELDS = (
@@ -223,7 +224,8 @@ def validate_and_rebuild(*, check_only: bool = False) -> None:
         return
 
     rebuild()
-    print("Libro rigenerato: index.html, capitoli/, prompt-immagini.md")
+    print("Libro rigenerato: index.html, capitoli/, colora-app.html, prompt-immagini.md")
+    subprocess.run([sys.executable, str(PDF_DISEGNA)], cwd=ROOT, check=True)
 
 
 def main() -> None:
