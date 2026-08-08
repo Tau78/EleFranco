@@ -157,7 +157,7 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 «Uno alla volta, con calma,» mormorò. «I fiori non hanno fretta: hanno bisogno di gentilezza.»
 
-Innaffiò ogni vasilino con getti leggeri e precisi, come pioggia di primavera. Iris lo seguiva, ripetendo i nomi delle piantine: «Questa è Stella, questa è Luna, questa è Sole...» EleFranco sorrideva a ogni nome.
+Innaffiò ogni vasilino con getti leggeri e precisi, come pioggia di primavera. Iris lo seguiva, ripetendo i nomi delle piantine: «Questa è Sandra, questa è Luna, questa è Sole...» EleFranco sorrideva a ogni nome.
 
 Ma nell'entusiasmo di salvare l'ultimo filare, spruzzò un po' troppo forte. L'acqua si riversò sul sentiero polveroso, mescolò la terra e creò un ruscello improvviso che scivolò verso il basso. Le ciabatte bianche di EleFranco si riempirono di fango, il cestino oscillò pericolosamente e il barattolo vuoto rotolò fino a un'aiuola, fermandosi solo perché Iris lo afferrò con agilità.
 

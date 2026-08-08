@@ -365,7 +365,7 @@ EPISODES: dict[int, dict[str, str]] = {
         "setting": "windy hilltop FrancaVilla with spiral snail-shell paths, pointed roofs touching low clouds and thyme evening scent",
         "footwear": "giant cloud-tread hiking boots",
         "a": f"{BASE} in giant cloud-tread hiking boots carrying wrapped binoculars up hillside path before dark, windy THUMP, {STYLE}",
-        "b": f"Young brave owl Stella beside overturned wicker basket with three pale cold eggs on rosemary bush, father searching branch, {BASE} setting binoculars down gently, {STYLE}",
+        "b": f"Young brave owl Sandra beside overturned wicker basket with three pale cold eggs on rosemary bush, father searching branch, {BASE} setting binoculars down gently, {STYLE}",
         "c": f"{BASE} standing still with huge ears draped over egg basket like warm blankets, sleepy swaying almost falling, FOCUS protective silence, {STYLE}",
         "d": f"Orange sunset warmth under ears, father owl rebuilding nest on safe low branch, fallen binoculars pointing perfectly at reunited eggs, astronomer bear applauding, {STYLE}",
     },

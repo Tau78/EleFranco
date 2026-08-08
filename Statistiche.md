@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-07-08 — 50 capitoli
+> Aggiornato: 2026-08-08 — 50 capitoli
 
 ## Metodologia
 
@@ -52,7 +52,7 @@
 | 37 | 🧊 Alla Ghiacciaia e Ping il Pinguino Viaggiatore 🐧 | 671 | 516 | ~2.0 pag. (534 mm) | ~5 min |
 | 38 | 🪴 Sul Terrazzo e Mirta la Marmotta 🌿 | 663 | 511 | ~2.1 pag. (546 mm) | ~5 min |
 | 39 | 🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫 | 710 | 542 | ~2.1 pag. (546 mm) | ~5 min |
-| 40 | 🔭 In Collina e Stella la Civetta 🦉 | 697 | 532 | ~2.1 pag. (540 mm) | ~5 min |
+| 40 | 🔭 In Collina e Sandra la Civetta 🦉 | 697 | 532 | ~2.1 pag. (540 mm) | ~5 min |
 | 41 | 🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡 | 704 | 547 | ~2.1 pag. (546 mm) | ~5 min |
 | 42 | 🍄 Nel Bosco e Fungo il Capibara 🐹 | 704 | 542 | ~2.0 pag. (528 mm) | ~5 min |
 | 43 | 🎨 In Piazza e Pennello il Pavone 🦚 | 687 | 536 | ~2.1 pag. (546 mm) | ~5 min |

@@ -68,13 +68,13 @@ EleFranco abbracciò con la proboscide il vecchio amico castoro e scoppiò nella
     },
     {
         "num": 40,
-        "title": "🔭 In Collina e Stella la Civetta 🦉",
+        "title": "🔭 In Collina e Sandra la Civetta 🦉",
         "missione": (
             "EleFranco deve restituire il binocolo prestato dal vicino astronomo "
             "prima che cali la sera e il sentiero di collina diventi buio. 🔭"
         ),
         "incontro": (
-            "Sulla strada del vento incontra Stella la Civetta: il suo nido è stato "
+            "Sulla strada del vento incontra Sandra la Civetta: il suo nido è stato "
             "spostato da una raffica e le uova si raffreddano nel cesto di vimini "
             "sottosopra. 🥚"
         ),
@@ -99,25 +99,25 @@ Era un pomeriggio ventoso e EleFranco aveva un impegno preciso: «Devo restituir
 
 Si infilò i suoi stivali giganti da escursionista, con la suola a nubecita antiscivolo, avvolse il binocolo in un fazzoletto e uscì di casa. La collina tremava piano sotto i passi generosi: THUMP THUMP THUMP.
 
-A metà salita, un piccolo fischio triste lo fermò. Sotto un cespuglio di rosmarino c'era Stella la Civetta, giovane e coraggiosa, ma con le piume arruffate dal panico. Accanto a lei, un cesto di vimini era rovesciato e tre uova chiare tremavano nel freddo del vento.
+A metà salita, un piccolo fischio triste lo fermò. Sotto un cespuglio di rosmarino c'era Sandra la Civetta, giovane e coraggiosa, ma con le piume arruffate dal panico. Accanto a lei, un cesto di vimini era rovesciato e tre uova chiare tremavano nel freddo del vento.
 
 «EleFranco, aiuto!» sussurrò. «Papà sta cercando un ramo nuovo, ma il nido è volato via con la raffica e le uova si raffreddano! Se non le scaldo, non sentirò mai il piccolo che fa pip-pip!»
 
-EleFranco posò il binocolo e guardò le uova. «Non ti preoccupare, Stella. Le teniamo al caldo.»
+EleFranco posò il binocolo e guardò le uova. «Non ti preoccupare, Sandra. Le teniamo al caldo.»
 
 Ma mentre apriva le orecchie grandi come due tende morbide per coprire il cesto, la mente cominciò a vagare: pensò al binocolo in ritardo, al tè caldo che lo aspettava a casa, a quante stelle avrebbe contato quella notte.
 
-Stava quasi per sbadigliare quando una uova rotolò di un millimetro: Stella gemette.
+Stava quasi per sbadigliare quando una uova rotolò di un millimetro: Sandra gemette.
 
 Allora l'elefante scosse le grandi orecchie — piano, per non spaventare le uova — e disse ad alta voce la sua parola magica: "FOCUS!"
 
-«Silenzio, Stella. Il calore passa anche attraverso le orecchie che ascoltano.»
+«Silenzio, Sandra. Il calore passa anche attraverso le orecchie che ascoltano.»
 
 Rimase immobile, coperta vivente sul cesto. Il vento cantava, il sole scendeva, e il caldo delle orecchie avvolse le uova come una coperta di lana. Ma era così silenzioso, così caldo, così profumato di timo che le palpebre di EleFranco diventarono pesanti come sassi di fiume.
 
 «Zzz... solo un occhio chiuso...» mormorò, sbandando leggermente verso destra.
 
-Stella lo sostenne con un'ala: «Non mollare, EleFranco! Mancano pochi minuti!»
+Sandra lo sostenne con un'ala: «Non mollare, EleFranco! Mancano pochi minuti!»
 
 Proprio in quel momento, un raggio dell'alba — no, era ancora tramonto — anzi, il sole stava tornando sopra il crinale in un ultimo saluto arancione. Il calore rafforzò le uova sotto le orecchie, e un piccolo crepitio felice rispose dal cesto.
 
@@ -127,7 +127,7 @@ EleFranco, svegliandosi di soprassalto, fece cadere il binocolo che rotolò fino
 
 La missione era compiuta senza nemmeno salire fino all'osservatorio: il binocolo era stato «restituito» mostrando la famiglia salva, e Orso l'Astronomo, arrivato di corsa, rise e disse che era la restituzione più bella del mondo.
 
-EleFranco guardò Stella che faceva l'occhiolino e scoppiò nella sua famosa risata: OH... OH... OH...""",
+EleFranco guardò Sandra che faceva l'occhiolino e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
         "num": 41,

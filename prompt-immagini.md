@@ -1025,7 +1025,7 @@ Oven steam meeting humidity creating fragrant mist puffing perfect golden pastri
 
 ---
 
-### Episodio 40: 🔭 In Collina e Stella la Civetta 🦉
+### Episodio 40: 🔭 In Collina e Sandra la Civetta 🦉
 
 *FrancaVilla:* windy hilltop FrancaVilla with spiral snail-shell paths, pointed roofs touching low clouds and thyme evening scent
 *Calzature:* giant cloud-tread hiking boots
@@ -1036,7 +1036,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### B — L'Incontro
 
-Young brave owl Stella beside overturned wicker basket with three pale cold eggs on rosemary bush, father searching branch, large generous friendly cartoon elephant EleFranco with small black hair tuft on head setting binoculars down gently, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Young brave owl Sandra beside overturned wicker basket with three pale cold eggs on rosemary bush, father searching branch, large generous friendly cartoon elephant EleFranco with small black hair tuft on head setting binoculars down gently, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 #### C — L'Aiuto e l'Imprevisto
 
