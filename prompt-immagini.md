@@ -619,7 +619,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Bees escorting large generous friendly cartoon elephant EleFranco with small black hair tuft on head along dry clover path, beekeeper filling two golden honey jars, Iris tying yellow ribbon on jar, star-shaped honeycomb slice, saved flowers blooming, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Bees escorting large generous friendly cartoon elephant EleFranco with small black hair tuft on head along dry clover path, beekeeper filling two golden honey jars, Iris tying yellow ribbon on jar, heart-shaped honeycomb slice, saved flowers blooming, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
@@ -761,7 +761,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### B — L'Incontro
 
-Wise owl astronomer Otis on perch with torn star-map paper fragments, worried golden eyes, children path below in dark, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving in night-blue boots, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image, observatory FrancaVilla
+Wise owl astronomer Otis on perch with torn sky-map paper fragments, worried golden eyes, children path below in dark, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving in night-blue boots, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image, observatory FrancaVilla
 
 #### C — L'Aiuto e l'Imprevisto
 
@@ -769,7 +769,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Moths tracing glowing golden Swan constellation on white observatory wall, children marveling, real stars above through opened dome, no lamp needed, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Moths tracing glowing golden Swan constellation on white observatory wall, children marveling, real sky lights above through opened dome, no lamp needed, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
@@ -794,7 +794,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Small earth tremor revealing hidden golden star-shaped buttons in sand, Tina sewing stars on festival dress, blue thread mended wind-cloak for large generous friendly cartoon elephant EleFranco with small black hair tuft on head, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Small earth tremor revealing hidden golden flower-shaped buttons in sand, Tina sewing flower buttons on festival dress, blue thread mended wind-cloak for large generous friendly cartoon elephant EleFranco with small black hair tuft on head, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
@@ -1144,7 +1144,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Beach volunteers forming ribbon cordon around true nest dune, shopkeeper gifting lightweight net for Festa games to large generous friendly cartoon elephant EleFranco with small black hair tuft on head, star-marked shell beside nest, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Beach volunteers forming ribbon cordon around true nest dune, shopkeeper gifting lightweight net for Festa games to large generous friendly cartoon elephant EleFranco with small black hair tuft on head, heart-marked shell beside nest, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
@@ -1252,7 +1252,7 @@ Gentle mill breeze guiding spilled flour through wooden chute to correct storeho
 
 ### Episodio 49: 🏡 A Casa di Franca e Franca l'Amica 🎉
 
-*FrancaVilla:* marzipane Festa-ready FrancaVilla with gingerbread chimneys puffing star-shaped smoke and anticipation in every lane
+*FrancaVilla:* marzipane Festa-ready FrancaVilla with gingerbread chimneys puffing heart-shaped smoke and anticipation in every lane
 *Calzature:* giant polished brown leather boots
 
 #### A — Episode cover
@@ -1278,11 +1278,11 @@ Season one and two animal friends arriving with banners pastries and extra cups,
 ### Episodio 50: 🎉 La Grande Festa di FrancaVilla 🐘
 
 *FrancaVilla:* lantern-filled Grande Festa FrancaVilla square blending marzipane rooftops, mill hill, beach flags and forest garlands
-*Calzature:* giant golden star-tread Festa boots
+*Calzature:* giant golden heart-tread Festa boots
 
 #### A — Episode cover
 
-large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant golden star-tread Festa boots carrying ladder gentle hammer and confetti sack toward central plaza before bell rings, joyful THUMP shaking banners, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant golden heart-tread Festa boots carrying ladder gentle hammer and confetti sack toward central plaza before bell rings, joyful THUMP shaking banners, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 #### B — L'Incontro
 
@@ -1294,7 +1294,7 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 #### D — Il Colpo di Scena Finale
 
-Sweet scented cinnamon-honey sugar-firework confetti rain from gentle butterfly breeze, central garland blooming open above large generous friendly cartoon elephant EleFranco with small black hair tuft on head, whole FrancaVilla family hugging, season 2 finale joy, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+Sweet scented vanilla-berry honey sugar-firework confetti rain from gentle butterfly breeze, central garland blooming open above large generous friendly cartoon elephant EleFranco with small black hair tuft on head, whole FrancaVilla family hugging, season 2 finale joy, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 

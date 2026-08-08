@@ -231,7 +231,7 @@ EPISODES: dict[int, dict[str, str]] = {
         "a": f"{BASE} in giant white Sunday slippers carrying wicker basket and empty honey jar, walking jasmine-scented path to community garden, soft THUMP, evening tea errand mood, {STYLE}",
         "b": f"Kind little girl Iris with braids and floral apron crying beside broken tin watering can, wilting daisy seedlings in pots, {BASE} approaching gently in white slippers, {STYLE}, flower garden FrancaVilla",
         "c": f"{BASE} spraying water delicately from trunk onto flower pots, too much spray creating muddy stream on path, white slippers covered in mud, empty jar rolling, FOCUS caring chaos, {STYLE}",
-        "d": f"Bees escorting {BASE} along dry clover path, beekeeper filling two golden honey jars, Iris tying yellow ribbon on jar, star-shaped honeycomb slice, saved flowers blooming, {STYLE}",
+        "d": f"Bees escorting {BASE} along dry clover path, beekeeper filling two golden honey jars, Iris tying yellow ribbon on jar, heart-shaped honeycomb slice, saved flowers blooming, {STYLE}",
     },
     24: {
         "setting": "woodland FrancaVilla among pine hills with resin-scented misty morning paths",
@@ -277,9 +277,9 @@ EPISODES: dict[int, dict[str, str]] = {
         "setting": "hillside FrancaVilla with terraced houses climbing toward observatory dome and oil-lamp evening glow",
         "footwear": "giant soft night-blue silent boots",
         "a": f"{BASE} in giant soft night-blue boots climbing hill path at dusk carrying canvas sack, indigo sky, quiet THUMP, night-lamp shop errand, {STYLE}",
-        "b": f"Wise owl astronomer Otis on perch with torn star-map paper fragments, worried golden eyes, children path below in dark, {BASE} arriving in night-blue boots, {STYLE}, observatory FrancaVilla",
+        "b": f"Wise owl astronomer Otis on perch with torn sky-map paper fragments, worried golden eyes, children path below in dark, {BASE} arriving in night-blue boots, {STYLE}, observatory FrancaVilla",
         "c": f"{BASE} trunk raised reflecting twilight like beacon, golden dusty moth powder covering elephant head-to-toe sparkling, FOCUS guiding light, comic glitter chaos, {STYLE}",
-        "d": f"Moths tracing glowing golden Swan constellation on white observatory wall, children marveling, real stars above through opened dome, no lamp needed, {STYLE}",
+        "d": f"Moths tracing glowing golden Swan constellation on white observatory wall, children marveling, real sky lights above through opened dome, no lamp needed, {STYLE}",
     },
     30: {
         "setting": "seamstress FrancaVilla with colorful thread shop windows, fabric-scented sidewalks and underground tailor tunnels",
@@ -287,7 +287,7 @@ EPISODES: dict[int, dict[str, str]] = {
         "a": f"{BASE} in giant soft gray wool shoes carrying torn wind-cloak fabric piece, walking toward underground haberdashery, morning THUMP, {STYLE}, tailor village",
         "b": f"Timid mole seamstress Tina with checkered apron beside dark hole, reversed buttons and pins mixed with sand, glasses on head, {BASE} approaching in gray wool shoes, {STYLE}",
         "c": f"{BASE} trunk pulling buttons pins and yarn balls into colorful tornado on floor, blue button stuck in elephant ear, FOCUS sorting chaos, comic sewing mess, {STYLE}",
-        "d": f"Small earth tremor revealing hidden golden star-shaped buttons in sand, Tina sewing stars on festival dress, blue thread mended wind-cloak for {BASE}, {STYLE}",
+        "d": f"Small earth tremor revealing hidden golden flower-shaped buttons in sand, Tina sewing flower buttons on festival dress, blue thread mended wind-cloak for {BASE}, {STYLE}",
     },
     31: {
         "setting": "citrus FrancaVilla with white garden walls, yellow lemon pergolas and sweet zagara blossom scent",
@@ -399,7 +399,7 @@ EPISODES: dict[int, dict[str, str]] = {
         "a": f"{BASE} in giant yellow wave-pattern beach boots carrying sack toward seaside shop for Festa volleyball net, breezy boardwalk THUMP, {STYLE}",
         "b": f"Gentle dark-shelled sea turtle Sabrina carefully moving stones on beach, erased nest markers after tide, worried salt tears, {STYLE}, maritime FrancaVilla",
         "c": f"{BASE} drawing enormous confusing arrow-and-circle labyrinth in sand with giant foot, turtle Sabrina pointing to real nest location, comic map chaos, FOCUS, {STYLE}",
-        "d": f"Beach volunteers forming ribbon cordon around true nest dune, shopkeeper gifting lightweight net for Festa games to {BASE}, star-marked shell beside nest, {STYLE}",
+        "d": f"Beach volunteers forming ribbon cordon around true nest dune, shopkeeper gifting lightweight net for Festa games to {BASE}, heart-marked shell beside nest, {STYLE}",
     },
     45: {
         "setting": "stone communal washhouse FrancaVilla with flowing troughs, sun-dried linens and Marseilles soap scent",
@@ -434,7 +434,7 @@ EPISODES: dict[int, dict[str, str]] = {
         "d": f"Gentle mill breeze guiding spilled flour through wooden chute to correct storehouse, free whole-wheat sack and warm test cake for {BASE}, butterfly Vento flying free, {STYLE}",
     },
     49: {
-        "setting": "marzipane Festa-ready FrancaVilla with gingerbread chimneys puffing star-shaped smoke and anticipation in every lane",
+        "setting": "marzipane Festa-ready FrancaVilla with gingerbread chimneys puffing heart-shaped smoke and anticipation in every lane",
         "footwear": "giant polished brown leather boots",
         "a": f"{BASE} in giant polished brown leather boots carrying spare confetti sack toward friend Franca yellow house to prepare Grande Festa, THUMP on dirt road, {STYLE}",
         "b": f"Beloved friend Franca with hair up and polka-dot apron beside wobbling too-small table covered in plates cups and ribbon rolls, {BASE} steadying table with trunk, {STYLE}",
@@ -443,10 +443,10 @@ EPISODES: dict[int, dict[str, str]] = {
     },
     50: {
         "setting": "lantern-filled Grande Festa FrancaVilla square blending marzipane rooftops, mill hill, beach flags and forest garlands",
-        "footwear": "giant golden star-tread Festa boots",
-        "a": f"{BASE} in giant golden star-tread Festa boots carrying ladder gentle hammer and confetti sack toward central plaza before bell rings, joyful THUMP shaking banners, {STYLE}",
+        "footwear": "giant golden heart-tread Festa boots",
+        "a": f"{BASE} in giant golden heart-tread Festa boots carrying ladder gentle hammer and confetti sack toward central plaza before bell rings, joyful THUMP shaking banners, {STYLE}",
         "b": f"All beloved friends gathered in decorated square, Franca Bruno Nora Renatolo Jack Raffa Mietta Leda Otis Iris and many others, missing central festoon, sky waiting, {STYLE}",
         "c": f"{BASE} running ladder to stage and back, confetti pouring from boots, festoons tangling into colorful embrace around central stage, comic preparation chaos, FOCUS, {STYLE}",
-        "d": f"Sweet scented cinnamon-honey sugar-firework confetti rain from gentle butterfly breeze, central garland blooming open above {BASE}, whole FrancaVilla family hugging, season 2 finale joy, {STYLE}",
+        "d": f"Sweet scented vanilla-berry honey sugar-firework confetti rain from gentle butterfly breeze, central garland blooming open above {BASE}, whole FrancaVilla family hugging, season 2 finale joy, {STYLE}",
     },
 }

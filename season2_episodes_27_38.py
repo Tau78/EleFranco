@@ -157,7 +157,7 @@ EleFranco guardò il cielo colorato della tenda e scoppiò nella sua famosa risa
         ),
         "incontro": (
             "All'osservatorio incontra Otis il Gufo Astronomo, saggio e premuroso: "
-            "il vento ha strappato la sua mappa delle stelle e la notte è così buia "
+            "il vento ha strappato la sua mappa del cielo e la notte è così buia "
             "che non riesce a guidare i visitatori verso la cupola. 🦉"
         ),
         "aiuto": (
@@ -183,7 +183,7 @@ Si infilò le sue stivali giganti morbidi color notte, con suole che non scricch
 
 Arrivato all'osservatorio, trovò Otis il Gufo Astronomo seduto su un trespolo, con le grandi ali strette al petto e gli occhi dorati pieni di preoccupazione.
 
-«EleFranco, che notte difficile!» sussurrò. «Il vento ha strappato la mia mappa delle stelle — pezzi di carta sparsi ovunque! Stasera arrivano i bambini per guardare la costellazione del Cigno, ma senza mappa e senza lampioni accesi non trovano la cupola.»
+«EleFranco, che notte difficile!» sussurrò. «Il vento ha strappato la mia mappa del cielo — pezzi di carta sparsi ovunque! Stasera arrivano i bambini per guardare la costellazione del Cigno, ma senza mappa e senza lampioni accesi non trovano la cupola.»
 
 EleFranco guardò i frammenti di carta che volteggiavano nel crepuscolo. Poi guardò il sentiero buio. Poi di nuovo Otis.
 
@@ -199,9 +199,9 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 Sollevò la proboscide verso il cielo, riflettendo la luce dell'ultimo tramonto, e illuminò il sentiero come un faro gentile. «Seguite la luce!» chiamò ai bambini che salivano.
 
-Ma la luce calda attirò anche una falena polverosa, piena di scaglie dorate che brillavano come polvere di stelle. La falena danzò intorno alla proboscide, poi intorno a Otis, poi verso il muro bianco dell'osservatorio.
+Ma la luce calda attirò anche una falena polverosa, piena di scaglie dorate che brillavano come polvere dorata. La falena danzò intorno alla proboscide, poi intorno a Otis, poi verso il muro bianco dell'osservatorio.
 
-«Ops,» disse EleFranco, coperto di polvere scintillante. «Sembro un cielo stellato ambulante.»
+«Ops,» disse EleFranco, coperto di polvere scintillante. «Sembro un cielo scintillante ambulante.»
 
 Otis però non si lamentò. Guardò il muro dove la falena — e altre amiche attratte dalla luce — avevano lasciato tracce dorate. I punti luminosi formavano proprio la forma del Cigno, con le ali spiegate e il collo elegante.
 
@@ -209,9 +209,9 @@ Otis però non si lamentò. Guardò il muro dove la falena — e altre amiche at
 
 I bambini giunsero in cima, meravigliati. «È più bella della carta!» dissero in coro.
 
-Otis aprì la cupola. Le stelle vere brillavano sopra, e il disegno dorato sul muro indicava esattamente dove guardare. La bottega poteva aspettare: EleFranco non aveva più bisogno della lampada.
+Otis aprì la cupola. Le luci vere del cielo brillavano sopra, e il disegno dorato sul muro indicava esattamente dove guardare. La bottega poteva aspettare: EleFranco non aveva più bisogno della lampada.
 
-La missione era compiuta: notte illuminata, stelle trovate, bambini felici.
+La missione era compiuta: notte illuminata, luci trovate, bambini felici.
 
 EleFranco guardò il cielo e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
@@ -234,7 +234,7 @@ EleFranco guardò il cielo e scoppiò nella sua famosa risata: OH... OH... OH...
         ),
         "morale": "Mettere ordine nel caos è già metà dell'aiuto. 🧺",
         "colpo": (
-            "Una piccola scossa di terra rivela bottoni a forma di stella nascosti "
+            "Una piccola scossa di terra rivela bottoni a forma di fiore nascosti "
             "sotto la sabbia; la mantella riparata è più bella del previsto. ⭐"
         ),
         "finale_schema": (
@@ -276,11 +276,11 @@ EleFranco respirò piano. «Hai ragione. Ordine nel caos: prima i grandi, poi i 
 
 Con la proboscide, creò tre mucchietti: bottoni da un lato, spilli dall'altro, fili al centro. Tina, con gli occhiali finalmente sul naso, iniziò a riconoscere le forme.
 
-Proprio in quel momento, una piccola scossa di terra — dolce come un sospiro — fece tremare la buca. Dalla sabbia emersero bottoni a forma di stella, dorati e lucenti, che nessuno aveva mai visto prima.
+Proprio in quel momento, una piccola scossa di terra — dolce come un sospiro — fece tremare la buca. Dalla sabbia emersero bottoni a forma di fiore, dorati e lucenti, che nessuno aveva mai visto prima.
 
 «Eccoli!» esclamò Tina. «I bottoni speciali per il colletto!»
 
-Con il filo blu comprato in fretta al merciaio, EleFranco riparò la mantella. Tina cucì le stelle sull'abito: era più bello di quanto avesse immaginato.
+Con il filo blu comprato in fretta al merciaio, EleFranco riparò la mantella. Tina cucì i bottoni a forma di fiore sull'abito: era più bello di quanto avesse immaginato.
 
 La missione era compiuta: mantella a posto, abito splendente, bottega in ordine.
 
@@ -404,7 +404,7 @@ EleFranco guardò la vasca. Poi il negozio sportivo. Poi di nuovo Dodo.
 
 «Non ti preoccupare, Dodo. La pulizia con amore non fa paura.»
 
-Ma mentre pensava a come rincuorarlo, la mente cominciò a vagare: che colore avrebbero le ciabatte nuove? Blu o arancio? E se avessero le stelle?
+Ma mentre pensava a come rincuorarlo, la mente cominciò a vagare: che colore avrebbero le ciabatte nuove? Blu o arancio? E se avessero i pois?
 
 Stava quasi per ignorare il paperino quando Dodo gridò: «EleFranco, sento la mamma che chiama fuori!»
 

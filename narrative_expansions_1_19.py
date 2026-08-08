@@ -169,15 +169,15 @@ Nel boschetto vicino alle case sentì un pianto sottile sottile. Si chinò e, in
 
 «Vieni qui, piccolina, non ti lascio certo da sola al buio,» disse EleFranco con tenerezza.
 
-Ma poi alzò gli occhi alle prime stelle e la mente prese a vagare: cominciò a pensare a quante pagine avesse il libro che voleva comprare, se ci fossero disegni di draghi sputafuoco o di navi pirata, e che colore avrebbe avuto la copertina.
+Ma poi alzò gli occhi alle prime lucine del cielo e la mente prese a vagare: cominciò a pensare a quante pagine avesse il libro che voleva comprare, se ci fossero disegni di draghi sputafuoco o di navi pirata, e che colore avrebbe avuto la copertina.
 
 Si stava distraendo, ma sentendo Luce starnutire forte nel buio, scosse le grandi orecchie e gridò: "FOCUS!"
 
 «Niente paura, Luce, ti riporto a casa io, e ti tengo compagnia per tutta la strada,» le promise.
 
-Con delicatezza fece salire la piccola lucciola sulla sua grande testa, vicino al ciuffetto, perché stesse al sicuro e al calduccio. Poi si incamminò nel bosco e, per non farle sentire la paura del buio, cominciò a inventare ad alta voce storie meravigliose: «C'era una volta un gigante buono che teneva le stelle in tasca... e una stella cadente che voleva diventare lampione...» La sua voce profonda riempiva il silenzio, e Luce, ascoltando rapita, dimenticava la febbre e la paura.
+Con delicatezza fece salire la piccola lucciola sulla sua grande testa, vicino al ciuffetto, perché stesse al sicuro e al calduccio. Poi si incamminò nel bosco e, per non farle sentire la paura del buio, cominciò a inventare ad alta voce storie meravigliose: «C'era una volta un gigante buono che teneva le luci in tasca... e una cometa che voleva diventare lampione...» La sua voce profonda riempiva il silenzio, e Luce, ascoltando rapita, dimenticava la febbre e la paura.
 
-Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole. E lì successe la magia: tutta la famiglia di Luce, felice di rivederla, si alzò in volo e cominciò a danzare in cerchio intorno a EleFranco. Centinaia di lucine dorate proiettavano sulle rocce le ombre animate dei racconti dell'elefante: il gigante buono, la stella cadente, le navi e i draghi prendevano vita sulla pietra, creando un magico libro illustrato vivente sospeso nella notte.
+Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole. E lì successe la magia: tutta la famiglia di Luce, felice di rivederla, si alzò in volo e cominciò a danzare in cerchio intorno a EleFranco. Centinaia di lucine dorate proiettavano sulle rocce le ombre animate dei racconti dell'elefante: il gigante buono, la cometa, le navi e i draghi prendevano vita sulla pietra, creando un magico libro illustrato vivente sospeso nella notte.
 
 EleFranco guardò quello spettacolo a bocca aperta: la favola della buonanotte ce l'aveva già nella testa, e non serviva comprare proprio nulla!
 

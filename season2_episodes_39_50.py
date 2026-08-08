@@ -93,7 +93,7 @@ EleFranco abbracciò con la proboscide il vecchio amico castoro e scoppiò nella
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su colline morbide, dove i sentieri salivano a spirale come chioccioline di luce, le case avevano tetti a punta che sfioravano le nuvole basse e la sera profumava di timo e stelle non ancora accese.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su colline morbide, dove i sentieri salivano a spirale come chioccioline di luce, le case avevano tetti a punta che sfioravano le nuvole basse e la sera profumava di timo e luci non ancora accese.
 
 Era un pomeriggio ventoso e EleFranco aveva un impegno preciso: «Devo restituire il binocolo al signor Orso l'Astronomo prima che il sentiero di collina diventi un buio pesto!»
 
@@ -105,7 +105,7 @@ A metà salita, un piccolo fischio triste lo fermò. Sotto un cespuglio di rosma
 
 EleFranco posò il binocolo e guardò le uova. «Non ti preoccupare, Sandra. Le teniamo al caldo.»
 
-Ma mentre apriva le orecchie grandi come due tende morbide per coprire il cesto, la mente cominciò a vagare: pensò al binocolo in ritardo, al tè caldo che lo aspettava a casa, a quante stelle avrebbe contato quella notte.
+Ma mentre apriva le orecchie grandi come due tende morbide per coprire il cesto, la mente cominciò a vagare: pensò al binocolo in ritardo, al tè caldo che lo aspettava a casa, a quante luci avrebbe contato quella notte.
 
 Stava quasi per sbadigliare quando una uova rotolò di un millimetro: Sandra gemette.
 
@@ -368,7 +368,7 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 «Piano, Sabrina. Segniamo con amore, non con fretta.»
 
-Disegnò frecce, cerchi e stelle nella sanda — ma era un elefante generoso: il disegno diventò enorme, un labirinto confuso di frecce giganti che puntavano a destra, sinistra e verso il mare.
+Disegnò frecce, cerchi e cuori nella sanda — ma era un elefante generoso: il disegno diventò enorme, un labirinto confuso di frecce giganti che puntavano a destra, sinistra e verso il mare.
 
 «Ops,» disse EleFranco. «Ora sembra una mappa del tesoro scritta da un gambero.»
 
@@ -378,7 +378,7 @@ Sabrina, con pazienza, indicò il punto vero sotto una duna bassa. Intorno al ni
 
 Un bambino del paese chiese: «Ma il disegno serve anche a noi?» Sabrina annuì piano: «Sì. Ci ricorda di camminare piano vicino alla sabbia calda.»
 
-EleFranco aiutò a piantare le bandierine, coprì il nido con un ombrellone leggero di canna e lasciò accanto una conchiglia segnata con una stella — il segno che tutti in FrancaVilla riconoscevano come «qui c'è vita da proteggere».
+EleFranco aiutò a piantare le bandierine, coprì il nido con un ombrellone leggero di canna e lasciò accanto una conchiglia segnata con un cuore — il segno che tutti in FrancaVilla riconoscevano come «qui c'è vita da proteggere».
 
 La missione era compiuta senza nemmeno aprire il sacco: la rete era lì, leggera e gratis, e le uova erano di nuovo al sicuro.
 
@@ -539,7 +539,7 @@ EleFranco guardò Girasole che sgranocchiava un fiore e scoppiò nella sua famos
 
 Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di botteghe accoglienti, dove le vetrine brillavano di fiocchi colorati, i pacchi impilati profumavano di carta nuova e l'aria sapeva di nastro appena tagliato e sorpresa imminente.
 
-Era un pomeriggio di fretta e EleFranco aveva una commissione festosa: «Devo andare in bottega a comprare carta da regalo per i doni della Festa! Se chiudono per preparare la piazza, resteremo con le mani vuote.» Aveva già in mente fiocchi arancioni e carta a stelle: «Un bel pacco fa sorridere prima ancora di aprirlo.»
+Era un pomeriggio di fretta e EleFranco aveva una commissione festosa: «Devo andare in bottega a comprare carta da regalo per i doni della Festa! Se chiudono per preparare la piazza, resteremo con le mani vuote.» Aveva già in mente fiocchi arancioni e carta a fiori: «Un bel pacco fa sorridere prima ancora di aprirlo.»
 
 Si calzò i suoi stivali giganti da festa, rossi e con la punta lucida, prese una lista e uscì di casa. Il marciapiede tremava piano: THUMP THUMP THUMP.
 
@@ -549,7 +549,7 @@ Dentro la bottega, un ricciolo piccolo e preciso era intrappolato in un grovigli
 
 EleFranco posò la lista e guardò la matassa colorata. «Non ti preoccupare, Regalo. Districhiamo insieme.»
 
-Ma mentre usava la punta sensibile della proboscide per sciogliere un nodo, la mente cominciò a vagare: pensò alla carta a stelle, alla carta a righe, a quanti pacchi incartare prima della Festa.
+Ma mentre usava la punta sensibile della proboscide per sciogliere un nodo, la mente cominciò a vagare: pensò alla carta a fiori, alla carta a righe, a quanti pacchi incartare prima della Festa.
 
 Stava quasi per tirare un nodo quando Regalo gridò: «No, quello va sciolto piano!»
 
@@ -629,7 +629,7 @@ Proprio in quel momento, una corrente gentile — la stessa che faceva girare la
 
 Il mugnaio uscì con un sacco integrale già legato e una piccola torta di prova ancora calda: «Per chi lascia guidare dal vento giusto.»
 
-Vento planò un giro di ringraziamento sopra la ruota del mulino, lasciando una scia blu nel cielo del pomeriggio. Le pale girarono più contente, il ruscello cantò più forte e persino la farina rimasta sul sentiero sembrava polvere di stelle nel sole.
+Vento planò un giro di ringraziamento sopra la ruota del mulino, lasciando una scia blu nel cielo del pomeriggio. Le pale girarono più contente, il ruscello cantò più forte e persino la farina rimasta sul sentiero sembrava polvere dorata nel sole.
 
 «Domani è la Grande Festa,» disse il mugnaio. «Questa farina farà le torte più soffici di tutta FrancaVilla.»
 
@@ -664,7 +664,7 @@ EleFranco scosse la farina dal ciuffo, salutò Vento con la proboscide e scoppi�
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi profumava di marzapane e attesa, dove i tetti sembravano fatti di zucchero filato, i camini sbuffavano nuvole a forma di stella e l'aria sapeva di Festa imminente e amicizia ritrovata.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi profumava di marzapane e attesa, dove i tetti sembravano fatti di zucchero filato, i camini sbuffavano nuvole a forma di cuore e l'aria sapeva di Festa imminente e amicizia ritrovata.
 
 Era un pomeriggio speciale e EleFranco aveva un appuntamento nel cuore: «Devo andare a casa di Franca ad aiutarla a preparare la Grande Festa di FrancaVilla! Tovaglie, tazze, decorazioni — tutto deve essere pronto.»
 
@@ -733,7 +733,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi
 
 Era il giorno della Grande Festa e EleFranco aveva l'ultima missione: «Devo appendere il festone centrale in piazza prima che suoni la campana! Senza quello, la Festa non è completa.»
 
-Si calzò i suoi stivali giganti da Festa, dorati e con la suola che lasciava impronte a forma di stella, prese scale, martello gentile e un sacco di coriandoli e uscì di casa. Tutta FrancaVilla tremava piano di gioia: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da Festa, dorati e con la suola che lasciava impronte a forma di cuore, prese scale, martello gentile e un sacco di coriandoli e uscì di casa. Tutta FrancaVilla tremava piano di gioia: THUMP THUMP THUMP.
 
 In piazza c'era già tutta la famiglia del cuore: Franca sorrideva accanto al tavolo dei dolci; Bruno il Castoro aggiustava una bandierina; Nora la Volpe sistemava i bicchieri; Renatolo lo Scoiattolo, Jack il Geco, Raffa la Giraffa, Mietta la Scimmietta, Leda la Lontra, Otis il Gufo, Iris la bambina del giardino e tanti altri amici della Stagione 1 e 2 correvano con nastri e palloncini.
 
@@ -755,7 +755,7 @@ Salì sulla scala, scese, risalì — ma i coriandoli nel sacco si rovesciarono 
 
 Tutti risero. E proprio in quel momento, la campana della piazza emise un rintocco dolce: DONG!
 
-I coriandoli rimasti, sollevati dal vento gentile di Vento la Farfalla Blu, esplosero in alto in una pioggia di fuochi d'artificio dolci e profumati — non rumore, ma luce di zucchero filato, stelle di cannella e scintille di miele che scesero sulla piazza senza spaventare nessuno.
+I coriandoli rimasti, sollevati dal vento gentile di Vento la Farfalla Blu, esplosero in alto in una pioggia di fuochi d'artificio dolci e profumati — non rumore, ma luce di zucchero filato, bacche di vaniglia e scintille di miele che scesero sulla piazza senza spaventare nessuno.
 
 Il festone centrale, aggrovigliato per caso dagli amici, si aprì come un fiore gigante sopra la testa di EleFranco. Franca gli passò un lembo del nastro arancione. Bruno il Castoro gli strinse una zampa. Nora gli sistemò il ciuffo. Iris gli disse: «Grazie per ogni avventura.»
 

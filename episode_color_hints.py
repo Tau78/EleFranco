@@ -32,7 +32,7 @@ COLOR_HINTS: dict[int, str] = {
     27: "le foglie verdi del platano e la mozzarella bianca lucente",
     28: "il palloncino rosso gonfio e il biglietto dorato della prima fila",
     29: "la polvere dorata delle falene e la costellazione luminosa del Cigno",
-    30: "i bottoni a forma di stella dorati e il filo blu della mantella",
+    30: "i bottoni a forma di fiore dorati e il filo blu della mantella",
     31: "i limoni gialli caduti e il camaleonte verde brillante",
     32: "le ciabatte nuove blu e arancio e l'acqua azzurra della piscina",
     33: "i timbri colorati disposti a cuore e il francobollo dorato",

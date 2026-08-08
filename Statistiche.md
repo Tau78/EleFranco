@@ -41,8 +41,8 @@
 | 26 | 🥖 In Panetteria e Nora la Volpe 🦊 | 924 | 704 | ~2.5 pag. (654 mm) | ~7 min |
 | 27 | 🧀 Dal Caseificio e Leda la Lontra 🦦 | 785 | 602 | ~2.3 pag. (600 mm) | ~6 min |
 | 28 | 🎪 Al Circo in Visita e Pippo il Palloncino 🎈 | 724 | 549 | ~2.2 pag. (570 mm) | ~6 min |
-| 29 | 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉 | 675 | 513 | ~2.1 pag. (540 mm) | ~5 min |
-| 30 | 🧵 Dal Merceria e Tina la Talpa Sarta 🪡 | 699 | 529 | ~2.1 pag. (558 mm) | ~5 min |
+| 29 | 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉 | 676 | 514 | ~2.1 pag. (540 mm) | ~5 min |
+| 30 | 🧵 Dal Merceria e Tina la Talpa Sarta 🪡 | 703 | 533 | ~2.1 pag. (558 mm) | ~5 min |
 | 31 | 🍋 Al Limoneto e Ciro il Camaleonte 🦎 | 690 | 538 | ~2.1 pag. (547 mm) | ~5 min |
 | 32 | 🏊 Alla Piscina Comunale e Dodo il Papero 🦆 | 671 | 516 | ~2.0 pag. (534 mm) | ~5 min |
 | 33 | 📮 Alla Filatelia e Elio il Riccio Postino 🦔 | 672 | 514 | ~2.1 pag. (540 mm) | ~5 min |
@@ -60,7 +60,7 @@
 | 45 | 🧺 Al Lavatoio e Rina la Rana 🐸 | 682 | 525 | ~2.0 pag. (534 mm) | ~5 min |
 | 46 | 🌻 Nel Campo e Girasole l'Asino 🫏 | 668 | 512 | ~1.9 pag. (498 mm) | ~5 min |
 | 47 | 🎁 In Bottega e Regalo il Ricciolo 🦔 | 662 | 513 | ~2.0 pag. (516 mm) | ~5 min |
-| 48 | 🌬 Sul Mulino e Vento la Farfalla Blu 🦋 | 670 | 519 | ~1.9 pag. (504 mm) | ~5 min |
+| 48 | 🌬 Sul Mulino e Vento la Farfalla Blu 🦋 | 669 | 518 | ~1.9 pag. (504 mm) | ~5 min |
 | 49 | 🏡 A Casa di Franca e Franca l'Amica 🎉 | 673 | 516 | ~2.0 pag. (510 mm) | ~5 min |
 | 50 | 🎉 La Grande Festa di FrancaVilla 🐘 | 690 | 530 | ~2.0 pag. (534 mm) | ~5 min |
 
@@ -68,7 +68,7 @@
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **37,223** |
+| Parole totali | **37,227** |
 | Spazio stampa stimato | **~108.7 pagine A4** |
 | Lettura ad alta voce | **~286 min** (4.8 h) |
 

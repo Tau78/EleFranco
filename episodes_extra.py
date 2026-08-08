@@ -129,7 +129,7 @@ Si staccò dal fango con un suono comicissimo, alzò la proboscide al cielo azzu
             "Le api dell'arnia vicina, felici per i fiori salvati, volano in scorta ordinata "
             "lungo un sentiero asciutto che EleFranco non aveva mai notato. Beppe l'apicoltore, "
             "commosso dalla scena, riempie due barattoli di miele dorato e regala a Iris una "
-            "fetta di favo a forma di stella; la bambina lega un nastro giallo sul barattolo "
+            "fetta di favo a forma di cuore; la bambina lega un nastro giallo sul barattolo "
             "dell'elefante come ringraziamento. ⭐"
         ),
         "finale_schema": (
@@ -171,7 +171,7 @@ Proprio in quel momento, un ronzio armonioso riempì l'aria. Le api dell'arnia v
 
 EleFranco seguì la scorta delle api fino al banco di Beppe, che aveva visto tutto dal fondo del giardino. «Ho sentito il tuo cuore generoso da qui, amico mio,» disse l'apicoltore, riempiendo non uno ma due barattoli di miele d'acacia. «Uno per il tuo tè, uno per la bambina che salva le margheritine.»
 
-Tagliò anche una fetta di favo a forma di stella e la pose nelle mani di Iris, che le legò un nastro giallo sul barattolo dell'elefante e sussurrò: «Per il più gentile amico di FrancaVilla.»
+Tagliò anche una fetta di favo a forma di cuore e la pose nelle mani di Iris, che le legò un nastro giallo sul barattolo dell'elefante e sussurrò: «Per il più gentile amico di FrancaVilla.»
 
 EleFranco tornò a casa con i piedi fangosi ma il cuore leggero. La missione era compiuta, i fiori erano salvi e il tè serale avrebbe profumato di miele e di primavera.
 
