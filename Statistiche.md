@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-07-08 — 50 capitoli
+> Aggiornato: 2026-09-22 — 58 capitoli
 
 ## Metodologia
 
@@ -63,21 +63,29 @@
 | 48 | 🌬 Sul Mulino e Vento la Farfalla Blu 🦋 | 670 | 519 | ~1.9 pag. (504 mm) | ~5 min |
 | 49 | 🏡 A Casa di Franca e Franca l'Amica 🎉 | 673 | 516 | ~2.0 pag. (510 mm) | ~5 min |
 | 50 | 🎉 La Grande Festa di FrancaVilla 🐘 | 690 | 530 | ~2.0 pag. (534 mm) | ~5 min |
+| 51 | 🐭 Il Topo e il Cestino delle Nocciole 🌰 | 639 | 485 | ~2.0 pag. (510 mm) | ~5 min |
+| 52 | 👹 Il Gruffalò e il Sentiero delle More 🫐 | 633 | 481 | ~1.9 pag. (498 mm) | ~5 min |
+| 53 | 🦊 La Volpe e la Tovaglia Volante 🍂 | 602 | 448 | ~1.9 pag. (486 mm) | ~5 min |
+| 54 | 🐍 Il Serpente e le Lanterne Spente 🏮 | 571 | 433 | ~1.8 pag. (480 mm) | ~4 min |
+| 55 | 🦉 La Civetta e la Ninna Nanna Perduta 🎵 | 576 | 426 | ~1.8 pag. (468 mm) | ~4 min |
+| 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 589 | 436 | ~1.8 pag. (474 mm) | ~5 min |
+| 57 | 👧 La Piccolina del Gruffalò e la Stella di Neve ❄️ | 592 | 439 | ~1.8 pag. (480 mm) | ~5 min |
+| 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 664 | 507 | ~2.0 pag. (522 mm) | ~5 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **37,223** |
-| Spazio stampa stimato | **~108.7 pagine A4** |
-| Lettura ad alta voce | **~286 min** (4.8 h) |
+| Parole totali | **42,089** |
+| Spazio stampa stimato | **~123.7 pagine A4** |
+| Lettura ad alta voce | **~324 min** (5.4 h) |
 
 ## Medie per gruppo
 
 | Gruppo | Capitoli | Parole (media) | Pagine (media) | Lettura (media) |
 |--------|----------|---------------:|---------------:|----------------:|
 | Ep. 1–21 | 21 | 735 | 2.1 | 5.7 min |
-| Ep. 22–25 | 29 | 751 | 2.2 | 5.8 min |
+| Ep. 22–25 | 37 | 720 | 2.1 | 5.5 min |
 
 ## Note
 
