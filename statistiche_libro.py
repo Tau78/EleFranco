@@ -109,7 +109,9 @@ def build_markdown(results: list[dict]) -> str:
     tot_p = sum(r["pages"] for r in results)
     tot_m = sum(r["minutes"] for r in results)
     g1 = [r for r in results if r["num"] <= 21]
-    g2 = [r for r in results if r["num"] >= 22]
+    g2 = [r for r in results if 22 <= r["num"] <= 25]
+    g3 = [r for r in results if 26 <= r["num"] <= 50]
+    special = [r for r in results if 51 <= r["num"] <= 58]
 
     lines = [
         "# Statistiche — Le Avventure di EleFranco (Iris Edition)",
@@ -151,11 +153,15 @@ def build_markdown(results: list[dict]) -> str:
         "|--------|----------|---------------:|---------------:|----------------:|",
         f"| Ep. 1–21 | {len(g1)} | {avg(g1, 'words'):.0f} | {avg(g1, 'pages'):.1f} | {avg(g1, 'minutes'):.1f} min |",
         f"| Ep. 22–25 | {len(g2)} | {avg(g2, 'words'):.0f} | {avg(g2, 'pages'):.1f} | {avg(g2, 'minutes'):.1f} min |",
+        f"| Ep. 26–50 | {len(g3)} | {avg(g3, 'words'):.0f} | {avg(g3, 'pages'):.1f} | {avg(g3, 'minutes'):.1f} min |",
+        f"| Speciale Gruffalò (51–58) | {len(special)} | {avg(special, 'words'):.0f} | {avg(special, 'pages'):.1f} | {avg(special, 'minutes'):.1f} min |",
         "",
         "## Note",
         "",
         "- **Ep. 1–21:** ritmo omogeneo da favola serale (~5–7 min a capitolo).",
         "- **Ep. 22–25:** capitoli più lunghi (~+50% parole rispetto alla media precedente).",
+        "- **Ep. 26–50:** Stagione 2.",
+        "- **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.",
         "- Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.",
         "",
         "## Rigenerare",

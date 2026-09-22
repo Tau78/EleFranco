@@ -45,6 +45,11 @@ SECTION_PROMPTS = {
         "sheets together, whimsical FrancaVilla gingerbread rooftops in soft background, "
         f"joyful creative mood, bold clean cartoon outlines, flat vibrant colors, {STYLE}"
     ),
+    "speciale_gruffalo": (
+        f"{BASE}, giant forest boots, entering a deep friendly storybook woodland beside "
+        "a clever small brown mouse and a large gentle Gruffalo with tusks and knobbly "
+        f"knees, moonlit FrancaVilla rooftops far behind, light THUMP dust, {STYLE}"
+    ),
 }
 
 # setting_en, footwear_en, a, b, c, d
@@ -448,5 +453,69 @@ EPISODES: dict[int, dict[str, str]] = {
         "b": f"All beloved friends gathered in decorated square, Franca Bruno Nora Renatolo Jack Raffa Mietta Leda Otis Iris and many others, missing central festoon, sky waiting, {STYLE}",
         "c": f"{BASE} running ladder to stage and back, confetti pouring from boots, festoons tangling into colorful embrace around central stage, comic preparation chaos, FOCUS, {STYLE}",
         "d": f"Sweet scented cinnamon-honey sugar-firework confetti rain from gentle butterfly breeze, central garland blooming open above {BASE}, whole FrancaVilla family hugging, season 2 finale joy, {STYLE}",
+    },
+    51: {
+        "setting": "hazelnut-grove FrancaVilla beside a friendly deep woodland and narrow stream",
+        "footwear": "giant chestnut-brown forest boots",
+        "a": f"{BASE} in giant chestnut-brown forest boots carrying an empty wicker basket toward hazelnut woods for a picnic cake, THUMP dust on the path, {STYLE}",
+        "b": f"Clever tiny brown Mouse beside a collapsed twig bridge over a stream, winter nut sacks stranded on opposite bank, {BASE} kneeling kindly nearby, {STYLE}",
+        "c": f"Hundreds of hazelnuts bouncing wildly downhill after one elephant THUMP, {BASE} chasing them with determined FOCUS eyes, Mouse unfolding a giant burdock leaf, comic chaos, {STYLE}",
+        "d": f"Mouse's curved leaf slide guiding hazelnuts perfectly into elephant basket, repaired twig bridge behind them, warm picnic sunset, joyful shared success, {STYLE}",
+    },
+    52: {
+        "setting": "purple blackberry FrancaVilla beside dense bramble paths in the storybook forest",
+        "footwear": "giant lilac-laced berry-picking shoes",
+        "a": f"{BASE} in giant lilac-laced shoes carrying six empty jam jars toward ripe blackberry bushes, gentle THUMP, purple-roof FrancaVilla behind, {STYLE}",
+        "b": f"Large furry Gruffalo with tusks and knobbly knees hiding behind oak, painful thorn in raised paw, vulnerable worried expression, {BASE} offering gentle help, {STYLE}",
+        "c": f"Relieved Gruffalo roaring as a shower of ripe blackberries covers both friends purple, jars rolling safely on moss, {BASE} with FOCUS expression and berry on hair tuft, comic mess, {STYLE}",
+        "d": f"Gruffalo gently crushing berries into full jam jars with healed paw, wooden paw-shaped spoon gift, forest animals tasting purple jam together, {STYLE}",
+    },
+    53: {
+        "setting": "autumn FrancaVilla with red leaves, golden thread garlands and woodland tea clearing",
+        "footwear": "giant soft-heeled autumn boots",
+        "a": f"{BASE} in giant soft-heeled boots carrying folded white tea cloth through red-gold autumn FrancaVilla toward forest clearing, THUMP among leaves, {STYLE}",
+        "b": f"Elegant red Fox beside exposed den entrance, wind scattering carefully sorted roof leaves, worried expressive face, {BASE} arriving with cloth, {STYLE}",
+        "c": f"White tablecloth inflated like a sail dragging {BASE} and Fox between trees through leaf whirlwind, flapping ears and FOCUS eyes, playful harmless chase, {STYLE}",
+        "d": f"Red orange gold leaves naturally embroidered across cloth, restored leafy den and new cream grass-woven tablecloth spread for woodland tea party, {STYLE}",
+    },
+    54: {
+        "setting": "moonstone FrancaVilla with blue paths and paper lanterns along a woodland tunnel",
+        "footwear": "giant padded evening slippers",
+        "a": f"{BASE} in giant padded evening slippers carrying empty oil bottle under paper lanterns toward woodland shop, quiet THUMP at twilight, {STYLE}",
+        "b": f"Long friendly green Snake curled and shivering before a small landslide blocking warm underground tunnel, {BASE} concerned nearby, {STYLE}",
+        "c": f"{BASE} blowing earth away from tunnel entrance, harmless brown dust cloud puffing out every paper lantern, Snake wearing a little dirt hat, comic FOCUS moment, {STYLE}",
+        "d": f"Warmed Snake winding under lanterns, silver scales reflecting moonlight into a glowing path of a thousand tiny moons, families walking safely, {STYLE}",
+    },
+    55: {
+        "setting": "treehouse FrancaVilla with rope walkways, moon bells and windy pine branches",
+        "footwear": "giant midnight-blue wool slippers",
+        "a": f"{BASE} in giant midnight-blue slippers carrying empty teapot into moonlit woods to gather calming herbs, soft THUMP, treehouse FrancaVilla behind, {STYLE}",
+        "b": f"Gentle mother Owl in scarf beside nest of three wide-awake owlets, voice lost and worried eyes, {BASE} listening kindly, {STYLE}",
+        "c": f"{BASE} flapping huge ears to make lullaby rhythm as pinecones tumble onto nest roof like comic orchestra, owlets surprised, FOCUS face, safe playful scene, {STYLE}",
+        "d": f"Pinecones hanging at different heights making soft wind music, owlets asleep, chamomile flowers and lemon balm leaves falling directly into teapot, silver moonlight, {STYLE}",
+    },
+    56: {
+        "setting": "festival FrancaVilla beside an echoing old stone tunnel decorated for kindness games",
+        "footwear": "giant flexible orange racing shoes",
+        "a": f"{BASE} in giant orange racing shoes heading toward old quarry tunnel to find a starting bell, colorful kindness-game flags, THUMP, {STYLE}",
+        "b": f"Small brown mouse called Terrible Mouse wearing dramatic leaf cape, enormous scary shadow on wall but secretly frightened by whistling tunnel, {BASE} reassuring him, {STYLE}",
+        "c": f"{BASE} gently stuck at shoulders inside tunnel while tail taps hollow stones DIN DON DAN, Terrible Mouse laughing through fear, FOCUS teamwork, comic safe scene, {STYLE}",
+        "d": f"Terrible Mouse proudly carrying a naturally hollow stone bell out of tunnel, cheering village kindness games, enormous heroic mouse shadow on banner, {STYLE}",
+    },
+    57: {
+        "setting": "snowy mountain FrancaVilla with dark timber roofs, red berries and glowing windows",
+        "footwear": "giant deep-tread snow boots",
+        "a": f"{BASE} in giant snow boots wearing torn blanket as cape, walking into first snow to find red wool, THUMP prints on white path, {STYLE}",
+        "b": f"Curious little Gruffalo child with tiny tusks and knobbly knees under fir tree, searching for fallen star and unable to find father's tracks, {BASE} kneeling kindly, {STYLE}",
+        "c": f"Torn blanket inflated as wild sail pulling {BASE} and little Gruffalo child safely across icy patch into soft snowbank, swirling snow, determined FOCUS eyes, {STYLE}",
+        "d": f"Blanket stretched between branches catching luminous star-shaped snowflakes, red yarn trail leading to warm Gruffalo cave, repaired red-stitched blanket, family reunion, {STYLE}",
+    },
+    58: {
+        "setting": "open-air kitchen FrancaVilla with copper pots, vanilla steam and long celebration table",
+        "footwear": "giant white pastry clogs with red cherries",
+        "a": f"{BASE} in giant white cherry pastry clogs pulling flour cart toward cozy woodland cave to find a celebration recipe, THUMP flour puffs, {STYLE}",
+        "b": f"Kind elderly Grandma Gruffalo in round glasses and checkered apron examining stained ancient recipe book in cozy cave kitchen, {BASE} offering help, {STYLE}",
+        "c": f"{BASE} sneezing a harmless white flour cloud as recipe pages fly around cave kitchen, Grandma Gruffalo with flour moustache, comic FOCUS recovery, {STYLE}",
+        "d": f"Mouse Gruffalo Fox Snake Owl Terrible Mouse little Gruffalo child and Grandma each bringing page and ingredient around giant eight-petal berry-hazelnut cake, red-bound recipe gift, joyful finale, {STYLE}",
     },
 }

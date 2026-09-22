@@ -134,7 +134,9 @@ def run_preview(
         ROOT / "episodes_base.py",
         ROOT / "episodes_extra.py",
         ROOT / "episodes_season2.py",
+        ROOT / "episodes_special_gruffalo.py",
         ROOT / "episode_prompts_en.py",
+        ROOT / "episode_color_hints.py",
         ROOT / "css" / "libro.css",
         ROOT / "js" / "console-papa.js",
         ROOT / "build_book.py",
@@ -147,7 +149,10 @@ def run_preview(
     server = start_server(port)
     url = f"http://127.0.0.1:{port}/index.html"
     print(f"\nAnteprima live: {url}", flush=True)
-    print("Modifica episodes_base.py / episodes_extra.py / episodes_season2.py e salva — rebuild automatico.", flush=True)
+    print(
+        "Modifica un file episodi, prompt o colori e salva — rebuild automatico.",
+        flush=True,
+    )
     print("Ctrl+C per uscire.\n", flush=True)
 
     try:

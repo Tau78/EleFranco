@@ -11,9 +11,10 @@ Uso:
 Sorgenti testi editabili:
   episodes_base.py     — episodi 1–21 (+ intro S1)
   episodes_extra.py    — episodi 22–25 (fine S1)
-  episodes_season2.py  — episodi 26+ (Stagione 2)
+  episodes_season2.py  — episodi 26–50 (Stagione 2)
+  episodes_special_gruffalo.py — episodi 51–58 (speciale)
 
-Dopo --nuovo: completa testo in episodes_extra.py e prompt in episode_prompts_en.py,
+Dopo --nuovo: completa il testo nel file indicato e i prompt in episode_prompts_en.py,
 poi rilancia senza flag.
 """
 
@@ -29,6 +30,7 @@ ROOT = Path(__file__).parent
 EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 EPISODES_SEASON2 = ROOT / "episodes_season2.py"
+EPISODES_SPECIAL_GRUFFALO = ROOT / "episodes_special_gruffalo.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 COLOR_HINTS_FILE = ROOT / "episode_color_hints.py"
 BUILD = ROOT / "build_book.py"
@@ -48,6 +50,8 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
+    if num >= 51:
+        return "episodes_special_gruffalo.py"
     if num >= 26:
         return "episodes_season2.py"
     if num >= 22:
@@ -61,6 +65,7 @@ def invalidate_episode_cache() -> None:
         "episodes_base",
         "episodes_extra",
         "episodes_season2",
+        "episodes_special_gruffalo",
         "episode_prompts_en",
         "episode_color_hints",
         "book_structure",
@@ -117,10 +122,17 @@ def validate() -> list[str]:
         if not hint or "TODO" in hint.upper():
             errors.append(f"Episodio {n}: suggerimento colore mancante in episode_color_hints.py.")
 
-    from book_structure import SEASON1_LAST, validate_season1_parts
+    from book_structure import (
+        SEASON1_LAST,
+        SEASON2_LAST,
+        validate_season1_parts,
+        validate_special_gruffalo,
+    )
 
     s1_nums = {e["num"] for e in episodes if e["num"] <= SEASON1_LAST}
     errors.extend(validate_season1_parts(s1_nums))
+    special_nums = {e["num"] for e in episodes if e["num"] > SEASON2_LAST}
+    errors.extend(validate_special_gruffalo(special_nums))
 
     return errors
 
@@ -130,7 +142,9 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 26:
+    if num >= 51:
+        episodes_file = EPISODES_SPECIAL_GRUFFALO
+    elif num >= 26:
         episodes_file = EPISODES_SEASON2
     else:
         episodes_file = EPISODES_EXTRA
