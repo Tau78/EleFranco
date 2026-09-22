@@ -11,9 +11,10 @@ Uso:
 Sorgenti testi editabili:
   episodes_base.py     — episodi 1–21 (+ intro S1)
   episodes_extra.py    — episodi 22–25 (fine S1)
-  episodes_season2.py  — episodi 26+ (Stagione 2)
+  episodes_season2.py  — episodi 26–50 (Stagione 2)
+  episodes_special_gruffalo.py — episodi 51–58 (speciale)
 
-Dopo --nuovo: completa testo in episodes_extra.py e prompt in episode_prompts_en.py,
+Dopo --nuovo: completa il testo nel file indicato e i prompt in episode_prompts_en.py,
 poi rilancia senza flag.
 """
 
@@ -121,10 +122,17 @@ def validate() -> list[str]:
         if not hint or "TODO" in hint.upper():
             errors.append(f"Episodio {n}: suggerimento colore mancante in episode_color_hints.py.")
 
-    from book_structure import SEASON1_LAST, validate_season1_parts
+    from book_structure import (
+        SEASON1_LAST,
+        SEASON2_LAST,
+        validate_season1_parts,
+        validate_special_gruffalo,
+    )
 
     s1_nums = {e["num"] for e in episodes if e["num"] <= SEASON1_LAST}
     errors.extend(validate_season1_parts(s1_nums))
+    special_nums = {e["num"] for e in episodes if e["num"] > SEASON2_LAST}
+    errors.extend(validate_special_gruffalo(special_nums))
 
     return errors
 

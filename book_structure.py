@@ -7,6 +7,9 @@ Modifica qui per spostare capitoli tra le parti o cambiare l'ordine di lettura
 from __future__ import annotations
 
 SEASON1_LAST = 25
+SEASON2_LAST = 50
+SPECIAL_GRUFFALO_FIRST = 51
+SPECIAL_GRUFFALO_LAST = 58
 
 SEASON1_PARTS: list[dict] = [
     {
@@ -61,4 +64,16 @@ def validate_season1_parts(season1_nums: set[int]) -> list[str]:
         if not part["episodes"]:
             errors.append(f"Parte {part['slug']} senza episodi.")
 
+    return errors
+
+
+def validate_special_gruffalo(special_nums: set[int]) -> list[str]:
+    expected = set(range(SPECIAL_GRUFFALO_FIRST, SPECIAL_GRUFFALO_LAST + 1))
+    errors: list[str] = []
+    missing = expected - special_nums
+    extra = special_nums - expected
+    if missing:
+        errors.append(f"Speciale Gruffalò incompleto: mancano episodi {sorted(missing)}.")
+    if extra:
+        errors.append(f"Episodi fuori range nello speciale Gruffalò: {sorted(extra)}.")
     return errors
