@@ -53,6 +53,14 @@ COLOR_HINTS: dict[int, str] = {
     48: "la farina bianca come neve e le ali blu elettriche della farfalla",
     49: "i coriandoli colorati e il nastro arancione di Franca",
     50: "i fuochi d'artificio dolci profumati e il festone centrale fiorito",
+    51: "le nocciole marroni che scivolano sulla grande foglia verde",
+    52: "le more viola sul pelo del Gruffalò e nei barattoli di marmellata",
+    53: "le foglie rosse, arancioni e dorate ricamate sulla tovaglia",
+    54: "le squame argentate del Serpente illuminate dalla luna",
+    55: "la camomilla gialla nella teiera e le pigne musicali",
+    56: "la campanella di pietra e il mantello verde del Topo Tremendo",
+    57: "il filo rosso sulla coperta e i fiocchi bianchi a forma di stella",
+    58: "le more viola, le nocciole e la stella di zucchero sulla torta",
 }
 
 COLOR_HINT_PREFIX = (

@@ -20,6 +20,7 @@ from episode_prompts_en import EPISODES, NEGATIVE_PROMPT, SECTION_PROMPTS
 from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 from episodes_season2 import INTRO_S2, SEASON2_EPISODES
+from episodes_special_gruffalo import INTRO_SPECIAL_GRUFFALO, SPECIAL_GRUFFALO_EPISODES
 
 ROOT = Path(__file__).parent
 CAPITOLI_DIR = ROOT / "capitoli"
@@ -35,7 +36,12 @@ IMMAGINI_DIR = ROOT / "Immagini"
 
 
 def load_all_episodes() -> tuple[str, list[dict]]:
-    episodes = list(BASE_EPISODES) + list(EXTRA_EPISODES) + list(SEASON2_EPISODES)
+    episodes = (
+        list(BASE_EPISODES)
+        + list(EXTRA_EPISODES)
+        + list(SEASON2_EPISODES)
+        + list(SPECIAL_GRUFFALO_EPISODES)
+    )
     episodes.sort(key=lambda e: e["num"])
     return INTRO, episodes
 
@@ -315,6 +321,18 @@ def intro_fragment(intro_clean: str, asset_prefix: str = "", *, season: int = 1)
 </div>"""
 
 
+def speciale_gruffalo_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-gruffalo" data-console-section="speciale-gruffalo">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-gruffalo">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-gruffalo">Ripristina</button>
+  </div>
+  <h1 class="console-editable">Speciale EleFranco nel Bosco del Gruffalò</h1>
+  <p class="dedication console-editable">Iris Edition — Otto incontri nel bosco</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_GRUFFALO)}</div>
+</div>"""
+
+
 def sezione_intro_fragment(section_file: str, section_id: str, alt: str, asset_prefix: str = "") -> str:
     return f"""<div class="section-intro page-full console-section" id="{section_id}" data-console-section="{section_id}">
   <div class="console-section-bar" hidden>
@@ -516,6 +534,11 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
     items.append(f'    <li class="toc-part console-editable">{SEASON1_END_TOC}</li>')
 
     first_s2 = min(e["num"] for e in SEASON2_EPISODES) if SEASON2_EPISODES else None
+    first_special = (
+        min(e["num"] for e in SPECIAL_GRUFFALO_EPISODES)
+        if SPECIAL_GRUFFALO_EPISODES
+        else None
+    )
     for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
         n = ep["num"]
         if first_s2 is not None and n == first_s2:
@@ -526,6 +549,10 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
             items.append('    <li class="toc-part console-editable">Quinta Parte: Colori e Suoni 🎨</li>')
         if n == 43:
             items.append('    <li class="toc-part console-editable">Sesta Parte: La Grande Famiglia 🎉</li>')
+        if first_special is not None and n == first_special:
+            items.append(
+                '    <li class="toc-part console-editable">Speciale — Nel Bosco del Gruffalò 🌲</li>'
+            )
         label = f"Episodio {n}: {html.escape(ep['title'])}"
         href = f"#episodio-{n}" if use_anchors else f"{link_prefix}capitolo_{n:02d}.html"
         items.append(f'    <li><a class="console-editable" href="{href}">{label}</a></li>')
@@ -567,6 +594,11 @@ def build_index(
             body_parts.append(episode_fragment(by_num[num]))
 
     first_s2 = min(e["num"] for e in SEASON2_EPISODES) if SEASON2_EPISODES else None
+    first_special = (
+        min(e["num"] for e in SPECIAL_GRUFFALO_EPISODES)
+        if SPECIAL_GRUFFALO_EPISODES
+        else None
+    )
     for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
         if first_s2 is not None and ep["num"] == first_s2:
             body_parts.append(intro_fragment(INTRO_S2, season=2))
@@ -575,6 +607,8 @@ def build_index(
             body_parts.append(parte_05_fragment())
         if ep["num"] == 43:
             body_parts.append(parte_06_fragment())
+        if first_special is not None and ep["num"] == first_special:
+            body_parts.append(speciale_gruffalo_fragment())
         body_parts.append(episode_fragment(ep))
 
     body_parts.append(colora_cover_fragment())
@@ -633,6 +667,12 @@ def build_prompts(episodes: list[dict]) -> str:
         "### Terza Parte — Nuovi Amici 🌱",
         "",
         SECTION_PROMPTS["parte_3"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### Speciale — Nel Bosco del Gruffalò 🌲",
+        "",
+        SECTION_PROMPTS["speciale_gruffalo"],
         "",
         f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
         "",
@@ -730,6 +770,9 @@ def main() -> None:
     intro_s2_clean = re.sub(r"\s+", " ", INTRO_S2).strip()
     (SEZIONI_DIR / "introduzione_s2.html").write_text(
         intro_fragment(intro_s2_clean, season=2), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_gruffalo.html").write_text(
+        speciale_gruffalo_fragment(), encoding="utf-8"
     )
     (SEZIONI_DIR / "parte_01.html").write_text(parte_01_fragment(), encoding="utf-8")
     (SEZIONI_DIR / "parte_02.html").write_text(parte_02_fragment(), encoding="utf-8")

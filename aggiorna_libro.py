@@ -29,6 +29,7 @@ ROOT = Path(__file__).parent
 EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 EPISODES_SEASON2 = ROOT / "episodes_season2.py"
+EPISODES_SPECIAL_GRUFFALO = ROOT / "episodes_special_gruffalo.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 COLOR_HINTS_FILE = ROOT / "episode_color_hints.py"
 BUILD = ROOT / "build_book.py"
@@ -48,6 +49,8 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
+    if num >= 51:
+        return "episodes_special_gruffalo.py"
     if num >= 26:
         return "episodes_season2.py"
     if num >= 22:
@@ -61,6 +64,7 @@ def invalidate_episode_cache() -> None:
         "episodes_base",
         "episodes_extra",
         "episodes_season2",
+        "episodes_special_gruffalo",
         "episode_prompts_en",
         "episode_color_hints",
         "book_structure",
@@ -130,7 +134,9 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 26:
+    if num >= 51:
+        episodes_file = EPISODES_SPECIAL_GRUFFALO
+    elif num >= 26:
         episodes_file = EPISODES_SEASON2
     else:
         episodes_file = EPISODES_EXTRA
