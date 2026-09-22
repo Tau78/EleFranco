@@ -85,12 +85,16 @@
 | Gruppo | Capitoli | Parole (media) | Pagine (media) | Lettura (media) |
 |--------|----------|---------------:|---------------:|----------------:|
 | Ep. 1–21 | 21 | 735 | 2.1 | 5.7 min |
-| Ep. 22–25 | 37 | 720 | 2.1 | 5.5 min |
+| Ep. 22–25 | 4 | 1094 | 2.9 | 8.4 min |
+| Ep. 26–50 | 25 | 697 | 2.1 | 5.4 min |
+| Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
 
 ## Note
 
 - **Ep. 1–21:** ritmo omogeneo da favola serale (~5–7 min a capitolo).
 - **Ep. 22–25:** capitoli più lunghi (~+50% parole rispetto alla media precedente).
+- **Ep. 26–50:** Stagione 2.
+- **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare
