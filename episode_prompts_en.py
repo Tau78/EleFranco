@@ -50,6 +50,11 @@ SECTION_PROMPTS = {
         "a clever small brown mouse and a large gentle Gruffalo with tusks and knobbly "
         f"knees, moonlit FrancaVilla rooftops far behind, light THUMP dust, {STYLE}"
     ),
+    "speciale_frozen": (
+        f"{BASE}, giant blue winter boots, entering a welcoming snow-covered fairy-tale "
+        "kingdom beside Olaf, Elsa, Anna, Kristoff, Sven, Oaken, Bruni and the water horse "
+        f"Nokk, glowing aurora above icy FrancaVilla, gentle THUMP snow powder, {STYLE}"
+    ),
 }
 
 # setting_en, footwear_en, a, b, c, d
@@ -517,5 +522,77 @@ EPISODES: dict[int, dict[str, str]] = {
         "b": f"Kind elderly Grandma Gruffalo in round glasses and checkered apron examining stained ancient recipe book in cozy cave kitchen, {BASE} offering help, {STYLE}",
         "c": f"{BASE} sneezing a harmless white flour cloud as recipe pages fly around cave kitchen, Grandma Gruffalo with flour moustache, comic FOCUS recovery, {STYLE}",
         "d": f"Mouse Gruffalo Fox Snake Owl Terrible Mouse little Gruffalo child and Grandma each bringing page and ingredient around giant eight-petal berry-hazelnut cake, red-bound recipe gift, joyful finale, {STYLE}",
+    },
+    59: {
+        "setting": "frost-embroidered FrancaVilla with birch balconies, prism gutters and a snowy winter-flower meadow",
+        "footwear": "giant cornflower-blue wool-lined snow boots",
+        "a": f"{BASE} in giant cornflower-blue snow boots carrying three empty wicker baskets toward a winter-flower meadow for Aurora Festival decorations, THUMP snow powder, {STYLE}",
+        "b": f"Cheerful Olaf snowman carefully protecting delicate blue bellflowers bent beneath snow crust, loose twig arm and hopeful smile, {BASE} arriving kindly, {STYLE}",
+        "c": f"{BASE} sneezing as Olaf rolls downhill and three baskets intertwine around him into a comic wicker garland, FOCUS determination, harmless snowy chaos, {STYLE}",
+        "d": f"Living blue bellflowers coating the woven garland in clear sparkling ice without being picked, Olaf gifting it for the festival entrance, warm joy, {STYLE}",
+    },
+    60: {
+        "setting": "musical ice FrancaVilla with crystal balconies, snowy wind corridors and an outdoor Aurora orchestra",
+        "footwear": "giant silver-soled winter music boots",
+        "a": f"{BASE} in giant silver-soled winter boots walking toward the Aurora orchestra with an empty bell case, deep THUMP prints in snow, {STYLE}",
+        "b": f"Elsa calmly creating delicate musical ice crystals that crack in strong wind, concerned but gentle expression, {BASE} offering help, {STYLE}",
+        "c": f"{BASE} behind a snow windbreak accidentally tapping all crystals with tail, comically clashing notes, Elsa listening closely, FOCUS teamwork, {STYLE}",
+        "d": f"Nine uniquely cracked ice crystals transformed into beautiful tuned bells, Elsa gifting them to the smiling outdoor orchestra under aurora light, {STYLE}",
+    },
+    61: {
+        "setting": "orange-banner FrancaVilla with snowy square, festival programs and bright ribbons in the wind",
+        "footwear": "giant orange lace-up walking boots",
+        "a": f"{BASE} in giant orange lace-up boots carrying rolls of orange ribbon toward Aurora Festival square, THUMP on snowy cobblestones, {STYLE}",
+        "b": f"Warm adventurous Anna chasing colorful festival pennants blown from the square, red hair braids and determined smile, {BASE} joining her, {STYLE}",
+        "c": f"Long orange ribbons unrolling around {BASE} and Anna into one enormous bow while pennants swirl overhead, comic harmless tangle, FOCUS teamwork, {STYLE}",
+        "d": f"Ribbons and recovered pennants forming a complete decorative canopy, Anna gifting golden twine for every festival program, cozy square, {STYLE}",
+    },
+    62: {
+        "setting": "mountain-pass FrancaVilla with timber bridges, ice storehouses and snowy kitchen paths",
+        "footwear": "giant deep-tread glacier work boots",
+        "a": f"{BASE} in giant deep-tread glacier boots heading to collect ice blocks for festival desserts, snowy mountain FrancaVilla, THUMP, {STYLE}",
+        "b": f"Kristoff beside a weakened creaking wooden bridge, supply sled stranded across the stream, practical worried expression, {BASE} inspecting beams, {STYLE}",
+        "c": f"{BASE} and Kristoff reinforcing bridge as an energetic test sends ice blocks sliding in a playful winding ice track, FOCUS chase, {STYLE}",
+        "d": f"Sliding blocks fitting perfectly into a natural ice cellar beside festival kitchen, Kristoff gifting all needed ice, desserts safe and friends smiling, {STYLE}",
+    },
+    63: {
+        "setting": "carrot-garden FrancaVilla with snowy farm lanes, soup kitchen steam and friendly snow figures",
+        "footwear": "giant green anti-slip farm boots",
+        "a": f"{BASE} in giant green farm boots carrying an empty soup basket toward snowy vegetable market, THUMP along farm lane, {STYLE}",
+        "b": f"Affectionate reindeer Sven pulling a small cart stuck in soft snow, carrot sack balanced behind him, {BASE} ready to push gently, {STYLE}",
+        "c": f"Opened carrot sack rolling orange carrots onto many snowmen as funny noses, Sven and {BASE} chasing them with FOCUS expressions, comic winter scene, {STYLE}",
+        "d": f"Woodland rabbits returning a generous basket of fresh carrots and vegetables in thanks, steaming festival soup ready for musicians, Sven joyful, {STYLE}",
+    },
+    64: {
+        "setting": "cozy trading-post FrancaVilla with timber shop, steaming sauna windows and snowy amphitheater seats",
+        "footwear": "giant red felt merchant slippers",
+        "a": f"{BASE} in giant red felt slippers pulling an empty blanket cart toward Oaken's cozy trading post, snowy THUMP, Aurora Festival preparations, {STYLE}",
+        "b": f"Friendly Oaken outside his timber shop, collapsed shelf mixing colorful fabrics and blocking the doorway, warm welcoming expression, {BASE} helping, {STYLE}",
+        "c": f"Fireplace bellows inflating sorted blankets into colorful flying kites around {BASE} and Oaken, funny fabric whirlwind, FOCUS, safe cozy chaos, {STYLE}",
+        "d": f"Flying blankets landing perfectly across snowy amphitheater seats, Oaken lending them freely and gifting fragrant hand warmers, festival comfort, {STYLE}",
+    },
+    65: {
+        "setting": "misty thermal FrancaVilla with stone braziers, icy lanes and Aurora lantern posts",
+        "footwear": "giant charcoal-gray heatproof boots",
+        "a": f"{BASE} in giant charcoal heatproof boots carrying unlit brazier tools along a misty festival route, deep THUMP footprints, {STYLE}",
+        "b": f"Tiny friendly purple fire salamander Bruni trying to keep a shy flame alive in damp fog, worried bright eyes, {BASE} shielding him, {STYLE}",
+        "c": f"{BASE} blowing too strongly into wind shields, making harmless ash bubbles float around with funny black moustaches on his face, FOCUS, Bruni amused, {STYLE}",
+        "d": f"Ash bubbles holding Bruni's warm golden glow as floating lanterns along the entire route, cozy guests and free gentle heat, {STYLE}",
+    },
+    66: {
+        "setting": "water-mirror FrancaVilla with frozen brook, crystal town basin and aurora reflections",
+        "footwear": "giant turquoise waterproof winter boots",
+        "a": f"{BASE} in giant turquoise waterproof boots carrying empty buckets toward the frozen brook to fill festival reflection basin, THUMP, {STYLE}",
+        "b": f"Majestic gentle translucent water horse Nokk held in a narrow brook blocked by frozen branches and leaves, {BASE} approaching calmly, {STYLE}",
+        "c": f"Last branch dam opening into a playful rush of water, Nokk and {BASE} dancing and splashing through puddles with FOCUS expressions, harmless comic scene, {STYLE}",
+        "d": f"Released water following elephant footprints into the central basin, Nokk adding a crystalline veil that reflects the aurora perfectly, {STYLE}",
+    },
+    67: {
+        "setting": "grand Aurora Festival FrancaVilla square with snow, crystal bells, ribbons, lanterns and mirrored basin",
+        "footwear": "giant midnight-blue star-tread festival boots",
+        "a": f"{BASE} in giant midnight-blue star-tread boots carrying one glowing star toward central snowy square, all festival preparations visible, joyful THUMP, {STYLE}",
+        "b": f"Olaf Elsa Anna Kristoff Sven Oaken Bruni and Nokk together as sudden wind tangles banners bells blankets and lanterns, worried but cooperative, {BASE} arriving, {STYLE}",
+        "c": f"{BASE} tripping gently in ribbons as glowing star bounces from sled to garland to mirrored basin, all friends coordinating with FOCUS teamwork, comic safe action, {STYLE}",
+        "d": f"Glowing star gathering ice fire and water light to project a magnificent aurora above all friends and FrancaVilla families, warm united finale, {STYLE}",
     },
 }

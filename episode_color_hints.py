@@ -61,6 +61,15 @@ COLOR_HINTS: dict[int, str] = {
     56: "la campanella di pietra e il mantello verde del Topo Tremendo",
     57: "il filo rosso sulla coperta e i fiocchi bianchi a forma di stella",
     58: "le more viola, le nocciole e la stella di zucchero sulla torta",
+    59: "le campanule azzurre e il ghiaccio trasparente sulla ghirlanda",
+    60: "i nove campanelli di cristallo azzurro creati da Elsa",
+    61: "i nastri arancioni e lo spago dorato tra le bandierine",
+    62: "i blocchi di ghiaccio azzurro nella ghiacciaia naturale",
+    63: "le carote arancioni sui pupazzi di neve e nel cesto",
+    64: "le coperte colorate che volano sopra l'emporio di Oaken",
+    65: "le fiammelle dorate di Bruni dentro le bolle di cenere",
+    66: "il Nokk turchese e l'aurora riflessa nella vasca",
+    67: "la stella luminosa e l'aurora di ghiaccio, fuoco e acqua",
 }
 
 COLOR_HINT_PREFIX = (
