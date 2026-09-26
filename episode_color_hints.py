@@ -70,6 +70,23 @@ COLOR_HINTS: dict[int, str] = {
     65: "le fiammelle dorate di Bruni dentro le bolle di cenere",
     66: "il Nokk turchese e l'aurora riflessa nella vasca",
     67: "la stella luminosa e l'aurora di ghiaccio, fuoco e acqua",
+    68: "il gomitolo arancione e la piuma azzurra consegnata a Edoino",
+    69: "le lanterne color miele e la conchiglia sonora della ninna nanna",
+    70: "i limoni gialli sui balconi e la neve fresca nel vaso",
+    71: "i puntini neri di Edoarda gigante e i semi verdi di basilico",
+    72: "l'acqua turchese che riempie la brocca e le tre zucche arancioni",
+    73: "il fiocco viola della festa e la lanterna verde di bambù",
+    74: "il miele dorato nel vasetto e le paperelle giocattolo gialle",
+    75: "le scarpe arancioni di EleFranco e i festoni della festa a sorpresa",
+    76: "la farina bianca sul muso e il miele dorato nell'avena",
+    77: "la margherita nel cappello e le foglie verdi della giovane quercia",
+    78: "le tre angurie verdi e rosse nella nicchia fresca della tana",
+    79: "i teli a strisce sulla spiaggia e il cestino bianco di sale",
+    80: "i baffi verdi sulla proboscide e i nastri della nuova mappa accessibile",
+    81: "le foglie verdi intrecciate e i sandali con fasce arancioni",
+    82: "le scarpe blu di feltro e la pagnotta dorata appena sfornata",
+    83: "le foglie rosse e dorate sul rifugio e sul ciuffetto nero",
+    84: "il blocco di ghiaccio azzurro e gli stivali bianchi e blu",
 }
 
 COLOR_HINT_PREFIX = (

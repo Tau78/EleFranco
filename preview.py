@@ -136,6 +136,7 @@ def run_preview(
         ROOT / "episodes_season2.py",
         ROOT / "episodes_special_gruffalo.py",
         ROOT / "episodes_special_frozen.py",
+        ROOT / "episodes_special_francavilla.py",
         ROOT / "episode_prompts_en.py",
         ROOT / "episode_color_hints.py",
         ROOT / "css" / "libro.css",

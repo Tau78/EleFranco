@@ -12,6 +12,8 @@ SPECIAL_GRUFFALO_FIRST = 51
 SPECIAL_GRUFFALO_LAST = 58
 SPECIAL_FROZEN_FIRST = 59
 SPECIAL_FROZEN_LAST = 67
+SPECIAL_FRANCAVILLA_FIRST = 68
+SPECIAL_FRANCAVILLA_LAST = 84
 
 SEASON1_PARTS: list[dict] = [
     {
@@ -90,4 +92,16 @@ def validate_special_frozen(special_nums: set[int]) -> list[str]:
         errors.append(f"Speciale Frozen incompleto: mancano episodi {sorted(missing)}.")
     if extra:
         errors.append(f"Episodi fuori range nello speciale Frozen: {sorted(extra)}.")
+    return errors
+
+
+def validate_special_francavilla(special_nums: set[int]) -> list[str]:
+    expected = set(range(SPECIAL_FRANCAVILLA_FIRST, SPECIAL_FRANCAVILLA_LAST + 1))
+    errors: list[str] = []
+    missing = expected - special_nums
+    extra = special_nums - expected
+    if missing:
+        errors.append(f"Speciale FrancaVilla incompleto: mancano episodi {sorted(missing)}.")
+    if extra:
+        errors.append(f"Episodi fuori range nello speciale FrancaVilla: {sorted(extra)}.")
     return errors
