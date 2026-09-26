@@ -111,7 +111,9 @@ def build_markdown(results: list[dict]) -> str:
     g1 = [r for r in results if r["num"] <= 21]
     g2 = [r for r in results if 22 <= r["num"] <= 25]
     g3 = [r for r in results if 26 <= r["num"] <= 50]
-    special = [r for r in results if 51 <= r["num"] <= 58]
+    gruffalo = [r for r in results if 51 <= r["num"] <= 58]
+    frozen = [r for r in results if 59 <= r["num"] <= 67]
+    francavilla = [r for r in results if 68 <= r["num"] <= 84]
 
     lines = [
         "# Statistiche — Le Avventure di EleFranco (Iris Edition)",
@@ -154,7 +156,9 @@ def build_markdown(results: list[dict]) -> str:
         f"| Ep. 1–21 | {len(g1)} | {avg(g1, 'words'):.0f} | {avg(g1, 'pages'):.1f} | {avg(g1, 'minutes'):.1f} min |",
         f"| Ep. 22–25 | {len(g2)} | {avg(g2, 'words'):.0f} | {avg(g2, 'pages'):.1f} | {avg(g2, 'minutes'):.1f} min |",
         f"| Ep. 26–50 | {len(g3)} | {avg(g3, 'words'):.0f} | {avg(g3, 'pages'):.1f} | {avg(g3, 'minutes'):.1f} min |",
-        f"| Speciale Gruffalò (51–58) | {len(special)} | {avg(special, 'words'):.0f} | {avg(special, 'pages'):.1f} | {avg(special, 'minutes'):.1f} min |",
+        f"| Speciale Gruffalò (51–58) | {len(gruffalo)} | {avg(gruffalo, 'words'):.0f} | {avg(gruffalo, 'pages'):.1f} | {avg(gruffalo, 'minutes'):.1f} min |",
+        f"| Speciale Frozen (59–67) | {len(frozen)} | {avg(frozen, 'words'):.0f} | {avg(frozen, 'pages'):.1f} | {avg(frozen, 'minutes'):.1f} min |",
+        f"| Nuovi amici di FrancaVilla (68–84) | {len(francavilla)} | {avg(francavilla, 'words'):.0f} | {avg(francavilla, 'pages'):.1f} | {avg(francavilla, 'minutes'):.1f} min |",
         "",
         "## Note",
         "",
@@ -162,6 +166,8 @@ def build_markdown(results: list[dict]) -> str:
         "- **Ep. 22–25:** capitoli più lunghi (~+50% parole rispetto alla media precedente).",
         "- **Ep. 26–50:** Stagione 2.",
         "- **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.",
+        "- **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.",
+        "- **Ep. 68–84:** nuovi amici, famiglie e feste di FrancaVilla.",
         "- Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.",
         "",
         "## Rigenerare",

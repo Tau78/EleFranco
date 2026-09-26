@@ -13,6 +13,8 @@ Sorgenti testi editabili:
   episodes_extra.py    — episodi 22–25 (fine S1)
   episodes_season2.py  — episodi 26–50 (Stagione 2)
   episodes_special_gruffalo.py — episodi 51–58 (speciale)
+  episodes_special_frozen.py — episodi 59–67 (speciale)
+  episodes_special_francavilla.py — episodi 68–84 (speciale)
 
 Dopo --nuovo: completa il testo nel file indicato e i prompt in episode_prompts_en.py,
 poi rilancia senza flag.
@@ -31,6 +33,8 @@ EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 EPISODES_SEASON2 = ROOT / "episodes_season2.py"
 EPISODES_SPECIAL_GRUFFALO = ROOT / "episodes_special_gruffalo.py"
+EPISODES_SPECIAL_FROZEN = ROOT / "episodes_special_frozen.py"
+EPISODES_SPECIAL_FRANCAVILLA = ROOT / "episodes_special_francavilla.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 COLOR_HINTS_FILE = ROOT / "episode_color_hints.py"
 BUILD = ROOT / "build_book.py"
@@ -50,6 +54,10 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
+    if num >= 68:
+        return "episodes_special_francavilla.py"
+    if num >= 59:
+        return "episodes_special_frozen.py"
     if num >= 51:
         return "episodes_special_gruffalo.py"
     if num >= 26:
@@ -66,6 +74,8 @@ def invalidate_episode_cache() -> None:
         "episodes_extra",
         "episodes_season2",
         "episodes_special_gruffalo",
+        "episodes_special_frozen",
+        "episodes_special_francavilla",
         "episode_prompts_en",
         "episode_color_hints",
         "book_structure",
@@ -124,15 +134,33 @@ def validate() -> list[str]:
 
     from book_structure import (
         SEASON1_LAST,
-        SEASON2_LAST,
+        SPECIAL_FROZEN_FIRST,
+        SPECIAL_FRANCAVILLA_FIRST,
+        SPECIAL_GRUFFALO_FIRST,
         validate_season1_parts,
+        validate_special_frozen,
+        validate_special_francavilla,
         validate_special_gruffalo,
     )
 
     s1_nums = {e["num"] for e in episodes if e["num"] <= SEASON1_LAST}
     errors.extend(validate_season1_parts(s1_nums))
-    special_nums = {e["num"] for e in episodes if e["num"] > SEASON2_LAST}
-    errors.extend(validate_special_gruffalo(special_nums))
+    gruffalo_nums = {
+        e["num"]
+        for e in episodes
+        if SPECIAL_GRUFFALO_FIRST <= e["num"] < SPECIAL_FROZEN_FIRST
+    }
+    errors.extend(validate_special_gruffalo(gruffalo_nums))
+    frozen_nums = {
+        e["num"]
+        for e in episodes
+        if SPECIAL_FROZEN_FIRST <= e["num"] < SPECIAL_FRANCAVILLA_FIRST
+    }
+    errors.extend(validate_special_frozen(frozen_nums))
+    francavilla_nums = {
+        e["num"] for e in episodes if e["num"] >= SPECIAL_FRANCAVILLA_FIRST
+    }
+    errors.extend(validate_special_francavilla(francavilla_nums))
 
     return errors
 
@@ -142,7 +170,11 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 51:
+    if num >= 68:
+        episodes_file = EPISODES_SPECIAL_FRANCAVILLA
+    elif num >= 59:
+        episodes_file = EPISODES_SPECIAL_FROZEN
+    elif num >= 51:
         episodes_file = EPISODES_SPECIAL_GRUFFALO
     elif num >= 26:
         episodes_file = EPISODES_SEASON2

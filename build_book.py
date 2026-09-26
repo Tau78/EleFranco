@@ -20,6 +20,11 @@ from episode_prompts_en import EPISODES, NEGATIVE_PROMPT, SECTION_PROMPTS
 from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 from episodes_season2 import INTRO_S2, SEASON2_EPISODES
+from episodes_special_francavilla import (
+    INTRO_SPECIAL_FRANCAVILLA,
+    SPECIAL_FRANCAVILLA_EPISODES,
+)
+from episodes_special_frozen import INTRO_SPECIAL_FROZEN, SPECIAL_FROZEN_EPISODES
 from episodes_special_gruffalo import INTRO_SPECIAL_GRUFFALO, SPECIAL_GRUFFALO_EPISODES
 
 ROOT = Path(__file__).parent
@@ -41,6 +46,8 @@ def load_all_episodes() -> tuple[str, list[dict]]:
         + list(EXTRA_EPISODES)
         + list(SEASON2_EPISODES)
         + list(SPECIAL_GRUFFALO_EPISODES)
+        + list(SPECIAL_FROZEN_EPISODES)
+        + list(SPECIAL_FRANCAVILLA_EPISODES)
     )
     episodes.sort(key=lambda e: e["num"])
     return INTRO, episodes
@@ -333,6 +340,30 @@ def speciale_gruffalo_fragment() -> str:
 </div>"""
 
 
+def speciale_frozen_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-frozen" data-console-section="speciale-frozen">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-frozen">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-frozen">Ripristina</button>
+  </div>
+  <h1 class="console-editable">Speciale EleFranco nel Regno di Ghiaccio</h1>
+  <p class="dedication console-editable">Iris Edition — Nove avventure con gli amici di Frozen</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_FROZEN)}</div>
+</div>"""
+
+
+def speciale_francavilla_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-francavilla" data-console-section="speciale-francavilla">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-francavilla">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-francavilla">Ripristina</button>
+  </div>
+  <h1 class="console-editable">I Nuovi Amici di FrancaVilla</h1>
+  <p class="dedication console-editable">Iris Edition — Diciassette incontri, famiglie e feste</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_FRANCAVILLA)}</div>
+</div>"""
+
+
 def sezione_intro_fragment(section_file: str, section_id: str, alt: str, asset_prefix: str = "") -> str:
     return f"""<div class="section-intro page-full console-section" id="{section_id}" data-console-section="{section_id}">
   <div class="console-section-bar" hidden>
@@ -539,6 +570,16 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
+    first_frozen = (
+        min(e["num"] for e in SPECIAL_FROZEN_EPISODES)
+        if SPECIAL_FROZEN_EPISODES
+        else None
+    )
+    first_francavilla = (
+        min(e["num"] for e in SPECIAL_FRANCAVILLA_EPISODES)
+        if SPECIAL_FRANCAVILLA_EPISODES
+        else None
+    )
     for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
         n = ep["num"]
         if first_s2 is not None and n == first_s2:
@@ -552,6 +593,14 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if first_special is not None and n == first_special:
             items.append(
                 '    <li class="toc-part console-editable">Speciale — Nel Bosco del Gruffalò 🌲</li>'
+            )
+        if first_frozen is not None and n == first_frozen:
+            items.append(
+                '    <li class="toc-part console-editable">Speciale — Nel Regno di Ghiaccio ❄️</li>'
+            )
+        if first_francavilla is not None and n == first_francavilla:
+            items.append(
+                '    <li class="toc-part console-editable">Nuovi Amici di FrancaVilla 🏘️</li>'
             )
         label = f"Episodio {n}: {html.escape(ep['title'])}"
         href = f"#episodio-{n}" if use_anchors else f"{link_prefix}capitolo_{n:02d}.html"
@@ -599,6 +648,16 @@ def build_index(
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
+    first_frozen = (
+        min(e["num"] for e in SPECIAL_FROZEN_EPISODES)
+        if SPECIAL_FROZEN_EPISODES
+        else None
+    )
+    first_francavilla = (
+        min(e["num"] for e in SPECIAL_FRANCAVILLA_EPISODES)
+        if SPECIAL_FRANCAVILLA_EPISODES
+        else None
+    )
     for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
         if first_s2 is not None and ep["num"] == first_s2:
             body_parts.append(intro_fragment(INTRO_S2, season=2))
@@ -609,6 +668,10 @@ def build_index(
             body_parts.append(parte_06_fragment())
         if first_special is not None and ep["num"] == first_special:
             body_parts.append(speciale_gruffalo_fragment())
+        if first_frozen is not None and ep["num"] == first_frozen:
+            body_parts.append(speciale_frozen_fragment())
+        if first_francavilla is not None and ep["num"] == first_francavilla:
+            body_parts.append(speciale_francavilla_fragment())
         body_parts.append(episode_fragment(ep))
 
     body_parts.append(colora_cover_fragment())
@@ -673,6 +736,18 @@ def build_prompts(episodes: list[dict]) -> str:
         "### Speciale — Nel Bosco del Gruffalò 🌲",
         "",
         SECTION_PROMPTS["speciale_gruffalo"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### Speciale — Nel Regno di Ghiaccio ❄️",
+        "",
+        SECTION_PROMPTS["speciale_frozen"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### Nuovi Amici di FrancaVilla 🏘️",
+        "",
+        SECTION_PROMPTS["speciale_francavilla"],
         "",
         f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
         "",
@@ -773,6 +848,12 @@ def main() -> None:
     )
     (SEZIONI_DIR / "speciale_gruffalo.html").write_text(
         speciale_gruffalo_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_frozen.html").write_text(
+        speciale_frozen_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_francavilla.html").write_text(
+        speciale_francavilla_fragment(), encoding="utf-8"
     )
     (SEZIONI_DIR / "parte_01.html").write_text(parte_01_fragment(), encoding="utf-8")
     (SEZIONI_DIR / "parte_02.html").write_text(parte_02_fragment(), encoding="utf-8")
