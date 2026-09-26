@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-09-26 — 67 capitoli
+> Aggiornato: 2026-09-26 — 84 capitoli
 
 ## Metodologia
 
@@ -80,14 +80,31 @@
 | 65 | 🔥 Bruni e le Fiammelle Timide 🏮 | 566 | 434 | ~1.8 pag. (473 mm) | ~4 min |
 | 66 | 🌊 Nokk e lo Specchio dell'Aurora 🐴 | 572 | 440 | ~1.8 pag. (479 mm) | ~4 min |
 | 67 | 🌌 Tutti Insieme alla Festa dell'Aurora 🎉 | 578 | 430 | ~1.8 pag. (473 mm) | ~4 min |
+| 68 | 🦜 Edo il Pappagallo Cerca Edoino 🧭 | 521 | 402 | ~1.7 pag. (431 mm) | ~4 min |
+| 69 | 🦒 Raffa la Giraffa e il Piccolo Arrivato 🌟 | 546 | 418 | ~1.7 pag. (437 mm) | ~4 min |
+| 70 | 🦓 Eda la Zebra e il Gigantorso sulla Montagna ⛰️ | 531 | 407 | ~1.7 pag. (437 mm) | ~4 min |
+| 71 | 🐞 Edoarda la Coccinella Diventa Gigante 🌿 | 529 | 407 | ~1.7 pag. (449 mm) | ~4 min |
+| 72 | 🦛 Odo l'Ippopotamo e il Piccolo Nascosto 🔔 | 525 | 406 | ~1.7 pag. (431 mm) | ~4 min |
+| 73 | 🐼 Orgo il Panda e la Festa Misteriosa 🎈 | 526 | 406 | ~1.6 pag. (425 mm) | ~4 min |
+| 74 | 🐯 Rapira la Tigre Cerca Mini l'Anatra 🦆 | 534 | 408 | ~1.7 pag. (431 mm) | ~4 min |
+| 75 | 🐘 La Festa a Sorpresa per EleFranco 🎉 | 537 | 408 | ~1.7 pag. (455 mm) | ~4 min |
+| 76 | 🐻 Il Gigantorso Gino e il Mulino delle Api 🐝 | 528 | 400 | ~1.7 pag. (443 mm) | ~4 min |
+| 77 | 🦘 Il Canguro Fred e lo Scavo Impossibile 🕳️ | 537 | 408 | ~1.7 pag. (443 mm) | ~4 min |
+| 78 | 🦁 Il Leone Ort e la Tana dei Piccoli 🪨 | 531 | 409 | ~1.7 pag. (437 mm) | ~4 min |
+| 79 | 🐬 Tino il Delfino Cerca la Mamma 🌊 | 524 | 403 | ~1.7 pag. (431 mm) | ~4 min |
+| 80 | 🐊 Road il Coccodrillo e la Strada Sconosciuta 🗺️ | 532 | 412 | ~1.7 pag. (443 mm) | ~4 min |
+| 81 | 🦎 Iss la Lucertola e il Sole Troppo Forte ☀️ | 541 | 418 | ~1.7 pag. (455 mm) | ~4 min |
+| 82 | 🐒 Peppe lo Scimpanzé e le Mani che Parlano 🤟 | 546 | 417 | ~1.7 pag. (431 mm) | ~4 min |
+| 83 | 🦌 Il Cervo Iraed e la Tana da Scavare 🍂 | 542 | 416 | ~1.7 pag. (443 mm) | ~4 min |
+| 84 | 🐧 La Famiglia Ildai Cerca la Zebra 🦓 | 545 | 414 | ~1.7 pag. (455 mm) | ~4 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **47,241** |
-| Spazio stampa stimato | **~140.1 pagine A4** |
-| Lettura ad alta voce | **~363 min** (6.1 h) |
+| Parole totali | **56,316** |
+| Spazio stampa stimato | **~168.8 pagine A4** |
+| Lettura ad alta voce | **~433 min** (7.2 h) |
 
 ## Medie per gruppo
 
@@ -98,6 +115,7 @@
 | Ep. 26–50 | 25 | 697 | 2.1 | 5.4 min |
 | Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
 | Speciale Frozen (59–67) | 9 | 572 | 1.8 | 4.4 min |
+| Nuovi amici di FrancaVilla (68–84) | 17 | 534 | 1.7 | 4.1 min |
 
 ## Note
 
@@ -106,6 +124,7 @@
 - **Ep. 26–50:** Stagione 2.
 - **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.
 - **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.
+- **Ep. 68–84:** nuovi amici, famiglie e feste di FrancaVilla.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare
