@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-09-22 — 58 capitoli
+> Aggiornato: 2026-09-26 — 67 capitoli
 
 ## Metodologia
 
@@ -71,14 +71,23 @@
 | 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 589 | 436 | ~1.8 pag. (474 mm) | ~5 min |
 | 57 | 👧 La Piccolina del Gruffalò e la Stella di Neve ❄️ | 592 | 439 | ~1.8 pag. (480 mm) | ~5 min |
 | 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 664 | 507 | ~2.0 pag. (522 mm) | ~5 min |
+| 59 | ☃️ Olaf e le Ghirlande di Ghiaccio 🌼 | 560 | 430 | ~1.8 pag. (467 mm) | ~4 min |
+| 60 | ❄️ Elsa e i Cristalli Stonati 🎶 | 574 | 447 | ~1.9 pag. (491 mm) | ~4 min |
+| 61 | 🧡 Anna e i Nastri Fuggitivi 🎀 | 577 | 445 | ~1.8 pag. (473 mm) | ~4 min |
+| 62 | 🧊 Kristoff e il Ponte Scricchiolante 🛷 | 572 | 439 | ~1.8 pag. (473 mm) | ~4 min |
+| 63 | 🦌 Sven e il Sacco delle Carote 🥕 | 586 | 447 | ~1.8 pag. (461 mm) | ~5 min |
+| 64 | 🏪 Oaken e le Coperte Volanti 🧣 | 567 | 436 | ~1.8 pag. (479 mm) | ~4 min |
+| 65 | 🔥 Bruni e le Fiammelle Timide 🏮 | 566 | 434 | ~1.8 pag. (473 mm) | ~4 min |
+| 66 | 🌊 Nokk e lo Specchio dell'Aurora 🐴 | 572 | 440 | ~1.8 pag. (479 mm) | ~4 min |
+| 67 | 🌌 Tutti Insieme alla Festa dell'Aurora 🎉 | 578 | 430 | ~1.8 pag. (473 mm) | ~4 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **42,089** |
-| Spazio stampa stimato | **~123.7 pagine A4** |
-| Lettura ad alta voce | **~324 min** (5.4 h) |
+| Parole totali | **47,241** |
+| Spazio stampa stimato | **~140.1 pagine A4** |
+| Lettura ad alta voce | **~363 min** (6.1 h) |
 
 ## Medie per gruppo
 
@@ -88,6 +97,7 @@
 | Ep. 22–25 | 4 | 1094 | 2.9 | 8.4 min |
 | Ep. 26–50 | 25 | 697 | 2.1 | 5.4 min |
 | Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
+| Speciale Frozen (59–67) | 9 | 572 | 1.8 | 4.4 min |
 
 ## Note
 
@@ -95,6 +105,7 @@
 - **Ep. 22–25:** capitoli più lunghi (~+50% parole rispetto alla media precedente).
 - **Ep. 26–50:** Stagione 2.
 - **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.
+- **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare
