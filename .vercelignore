@@ -1,0 +1,18 @@
+# EleFranco is on GitHub Pages. If someone links Vercel by mistake, skip fat/source paths.
+*.py
+__pycache__/
+.cursor/
+.github/
+_site/
+*.md
+!README.md
+episodes_parsed.json
+extracted_text.txt
+narrative_expansions_*.py
+season2_episodes_*.py
+prompt-immagini.md
+scripts/
+.env
+.env.*
+.DS_Store
+.last_build

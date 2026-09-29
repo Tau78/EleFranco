@@ -50,6 +50,8 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
+    if num >= 1000:
+        return "episodes_speciali.py"
     if num >= 51:
         return "episodes_special_gruffalo.py"
     if num >= 26:
@@ -66,6 +68,7 @@ def invalidate_episode_cache() -> None:
         "episodes_extra",
         "episodes_season2",
         "episodes_special_gruffalo",
+        "episodes_speciali",
         "episode_prompts_en",
         "episode_color_hints",
         "book_structure",
@@ -124,15 +127,30 @@ def validate() -> list[str]:
 
     from book_structure import (
         SEASON1_LAST,
-        SEASON2_LAST,
+        SPECIAL_GRUFFALO_FIRST,
+        SPECIAL_GRUFFALO_LAST,
         validate_season1_parts,
         validate_special_gruffalo,
     )
 
     s1_nums = {e["num"] for e in episodes if e["num"] <= SEASON1_LAST}
     errors.extend(validate_season1_parts(s1_nums))
-    special_nums = {e["num"] for e in episodes if e["num"] > SEASON2_LAST}
+    special_nums = {
+        e["num"]
+        for e in episodes
+        if SPECIAL_GRUFFALO_FIRST <= e["num"] <= SPECIAL_GRUFFALO_LAST
+    }
     errors.extend(validate_special_gruffalo(special_nums))
+
+    for ep in episodes:
+        if ep.get("num", 0) < 1000 and not ep.get("special_id"):
+            continue
+        if not str(ep.get("special_id", "")).strip():
+            errors.append(f"Episodio {ep['num']}: manca special_id (episodes_speciali.py).")
+        if ep.get("insert_after") not in (25, 50):
+            errors.append(
+                f"Episodio {ep['num']}: insert_after deve essere 25 o 50 (episodes_speciali.py)."
+            )
 
     return errors
 

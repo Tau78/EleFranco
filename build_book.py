@@ -21,6 +21,7 @@ from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 from episodes_season2 import INTRO_S2, SEASON2_EPISODES
 from episodes_special_gruffalo import INTRO_SPECIAL_GRUFFALO, SPECIAL_GRUFFALO_EPISODES
+from episodes_speciali import SPECIAL_EPISODES
 
 ROOT = Path(__file__).parent
 CAPITOLI_DIR = ROOT / "capitoli"
@@ -41,17 +42,55 @@ def load_all_episodes() -> tuple[str, list[dict]]:
         + list(EXTRA_EPISODES)
         + list(SEASON2_EPISODES)
         + list(SPECIAL_GRUFFALO_EPISODES)
+        + list(SPECIAL_EPISODES)
     )
     episodes.sort(key=lambda e: e["num"])
     return INTRO, episodes
 
 
+def is_season_special(ep: dict) -> bool:
+    """Speciali fuori numerazione (es. S1 inverno, num ≥ 1000)."""
+    return ep.get("special_id") is not None or ep.get("num", 0) >= 1000
+
+
+def episode_label(ep: dict) -> str:
+    if is_season_special(ep):
+        return f"Speciale {ep['special_id']}: {ep['title']}"
+    return f"Episodio {ep['num']}: {ep['title']}"
+
+
+def episode_anchor_id(ep: dict) -> str:
+    if is_season_special(ep):
+        return f"speciale_{ep['special_id'].lower()}"
+    return f"episodio-{ep['num']}"
+
+
+def chapter_filename(ep: dict) -> str:
+    if is_season_special(ep):
+        return f"speciale_{ep['special_id'].lower()}.html"
+    return f"capitolo_{ep['num']:02d}.html"
+
+
+def _specials_after(episodes: list[dict], insert_after: int) -> list[dict]:
+    return sorted(
+        (
+            e
+            for e in episodes
+            if is_season_special(e) and e.get("insert_after") == insert_after
+        ),
+        key=lambda e: e["special_id"],
+    )
+
+
 def book_reading_order(episodes: list[dict]) -> list[dict]:
-    """Ordine di lettura nel libro (S1 per parti, S2 per num)."""
+    """Ordine di lettura: S1, speciali dopo 25, S2+Gruffalò, speciali dopo 50."""
     by_num = {e["num"]: e for e in episodes}
     s1 = [by_num[n] for n in season1_reading_order()]
-    s2 = sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"])
-    return s1 + s2
+    s2 = sorted(
+        (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
+        key=lambda e: e["num"],
+    )
+    return s1 + _specials_after(episodes, 25) + s2 + _specials_after(episodes, 50)
 
 
 MORAL_EXPLICIT_MARKER = "la morale di quella giornata"
@@ -197,15 +236,17 @@ def image_block(ep: dict, asset_prefix: str, *, indent: str = "  ") -> str:
 
 def episode_fragment(ep: dict, asset_prefix: str = "") -> str:
     n = ep["num"]
+    anchor = episode_anchor_id(ep)
+    title = episode_label(ep)
     img = image_block(ep, asset_prefix, indent="      ")
-    return f"""<div class="episode" id="episodio-{n}" data-episode="{n}">
+    return f"""<div class="episode" id="{anchor}" data-episode="{n}">
   <div class="episode-console-bar" hidden>
     <button type="button" class="btn-save-chapter" data-episode="{n}">Salva capitolo</button>
     <button type="button" class="btn-reset-chapter" data-episode="{n}">Ripristina</button>
   </div>
   <div class="episode-layout">
     <div class="console-block" data-block="title">
-      <h2 class="episode-title console-editable">Episodio {n}: {html.escape(ep['title'])}</h2>
+      <h2 class="episode-title console-editable">{html.escape(title)}</h2>
     </div>
     <div class="console-block" data-block="image">
 {img}
@@ -230,18 +271,26 @@ def chapter_nav(ep: dict, episodes: list[dict], *, from_index: bool) -> str:
     idx = nums.index(ep["num"])
     prev_link = ""
     next_link = ""
+
+    def _nav_label(other: dict) -> str:
+        if is_season_special(other):
+            return f"Speciale {other['special_id']}"
+        return f"Ep. {other['num']}"
+
     if idx > 0:
-        n = nums[idx - 1]
+        other = episodes[idx - 1]
+        label = _nav_label(other)
         if from_index:
-            prev_link = f'<a href="#episodio-{n}">← Ep. {n}</a>'
+            prev_link = f'<a href="#{episode_anchor_id(other)}">← {label}</a>'
         else:
-            prev_link = f'<a href="capitolo_{n:02d}.html">← Ep. {n}</a>'
+            prev_link = f'<a href="{chapter_filename(other)}">← {label}</a>'
     if idx < len(nums) - 1:
-        n = nums[idx + 1]
+        other = episodes[idx + 1]
+        label = _nav_label(other)
         if from_index:
-            next_link = f'<a href="#episodio-{n}">Ep. {n} →</a>'
+            next_link = f'<a href="#{episode_anchor_id(other)}">{label} →</a>'
         else:
-            next_link = f'<a href="capitolo_{n:02d}.html">Ep. {n} →</a>'
+            next_link = f'<a href="{chapter_filename(other)}">{label} →</a>'
     index_href = "../index.html" if not from_index else "#indice"
     prev_span = prev_link or " "
     next_span = next_link or " "
@@ -533,13 +582,25 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
 
     items.append(f'    <li class="toc-part console-editable">{SEASON1_END_TOC}</li>')
 
+    for ep in _specials_after(episodes, 25):
+        label = html.escape(episode_label(ep))
+        href = (
+            f"#{episode_anchor_id(ep)}"
+            if use_anchors
+            else f"{link_prefix}{chapter_filename(ep)}"
+        )
+        items.append(f'    <li><a class="console-editable" href="{href}">{label}</a></li>')
+
     first_s2 = min(e["num"] for e in SEASON2_EPISODES) if SEASON2_EPISODES else None
     first_special = (
         min(e["num"] for e in SPECIAL_GRUFFALO_EPISODES)
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
-    for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
+    for ep in sorted(
+        (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
+        key=lambda e: e["num"],
+    ):
         n = ep["num"]
         if first_s2 is not None and n == first_s2:
             items.append(
@@ -553,8 +614,21 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
             items.append(
                 '    <li class="toc-part console-editable">Speciale — Nel Bosco del Gruffalò 🌲</li>'
             )
-        label = f"Episodio {n}: {html.escape(ep['title'])}"
-        href = f"#episodio-{n}" if use_anchors else f"{link_prefix}capitolo_{n:02d}.html"
+        label = html.escape(episode_label(ep))
+        href = (
+            f"#{episode_anchor_id(ep)}"
+            if use_anchors
+            else f"{link_prefix}{chapter_filename(ep)}"
+        )
+        items.append(f'    <li><a class="console-editable" href="{href}">{label}</a></li>')
+
+    for ep in _specials_after(episodes, 50):
+        label = html.escape(episode_label(ep))
+        href = (
+            f"#{episode_anchor_id(ep)}"
+            if use_anchors
+            else f"{link_prefix}{chapter_filename(ep)}"
+        )
         items.append(f'    <li><a class="console-editable" href="{href}">{label}</a></li>')
 
     list_html = "\n".join(items)
@@ -593,13 +667,19 @@ def build_index(
         for num in part["episodes"]:
             body_parts.append(episode_fragment(by_num[num]))
 
+    for ep in _specials_after(episodes, 25):
+        body_parts.append(episode_fragment(ep))
+
     first_s2 = min(e["num"] for e in SEASON2_EPISODES) if SEASON2_EPISODES else None
     first_special = (
         min(e["num"] for e in SPECIAL_GRUFFALO_EPISODES)
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
-    for ep in sorted((e for e in episodes if e["num"] > SEASON1_LAST), key=lambda e: e["num"]):
+    for ep in sorted(
+        (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
+        key=lambda e: e["num"],
+    ):
         if first_s2 is not None and ep["num"] == first_s2:
             body_parts.append(intro_fragment(INTRO_S2, season=2))
             body_parts.append(parte_04_fragment())
@@ -609,6 +689,9 @@ def build_index(
             body_parts.append(parte_06_fragment())
         if first_special is not None and ep["num"] == first_special:
             body_parts.append(speciale_gruffalo_fragment())
+        body_parts.append(episode_fragment(ep))
+
+    for ep in _specials_after(episodes, 50):
         body_parts.append(episode_fragment(ep))
 
     body_parts.append(colora_cover_fragment())
@@ -628,7 +711,7 @@ def build_index(
 def build_chapter_file(ep: dict, episodes: list[dict]) -> str:
     nav = chapter_nav(ep, episodes, from_index=False)
     content = episode_fragment(ep, asset_prefix="../")
-    title = f"Episodio {ep['num']}: {ep['title']} — EleFranco"
+    title = f"{episode_label(ep)} — EleFranco"
     return html_shell(title, "../css/libro.css", f"{nav}\n\n{content}")
 
 
@@ -785,8 +868,8 @@ def main() -> None:
 
     # Capitoli singoli (navigazione in ordine di lettura)
     reading_order = book_reading_order(episodes)
-    for ep in episodes:
-        path = CAPITOLI_DIR / f"capitolo_{ep['num']:02d}.html"
+    for ep in reading_order:
+        path = CAPITOLI_DIR / chapter_filename(ep)
         path.write_text(build_chapter_file(ep, reading_order), encoding="utf-8")
 
     # Index unificato (+ versione lettura senza console)

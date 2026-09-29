@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-10T12:00:00",
+  "pendingCount": 1,
+  "episodes": {
+    "13": {
+      "title": "Episodio 13: test",
+      "marks": [
+        {
+          "id": "t1",
+          "text": "prova testo",
+          "note": "accorciare",
+          "start": 10,
+          "end": 40,
+          "createdAt": "2026-07-10T17:24:36+02:00",
+          "status": "pending"
+        }
+      ]
+    }
+  }
+}

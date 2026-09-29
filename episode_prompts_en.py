@@ -518,4 +518,12 @@ EPISODES: dict[int, dict[str, str]] = {
         "c": f"{BASE} sneezing a harmless white flour cloud as recipe pages fly around cave kitchen, Grandma Gruffalo with flour moustache, comic FOCUS recovery, {STYLE}",
         "d": f"Mouse Gruffalo Fox Snake Owl Terrible Mouse little Gruffalo child and Grandma each bringing page and ingredient around giant eight-petal berry-hazelnut cake, red-bound recipe gift, joyful finale, {STYLE}",
     },
+    1001: {
+        "setting": "snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke",
+        "footwear": "giant fur-lined snow boots",
+        "a": f"{BASE}, wearing giant fur-lined snow boots, carrying empty rope for firewood bundle, walking snowy cobblestone path toward forest at dawn, icicle gingerbread rooftops and cozy chimney smoke, gentle THUMP shaking snow from branches, winter feast errand mood, {STYLE}",
+        "b": f"Brown beaver Fred with flat tail beside frozen cracking dam of ice blocks, worried squirrels in tree-house above threatened by rising icy water, {BASE} arriving in background in giant fur-lined snow boots, winter riverside FrancaVilla, {STYLE}",
+        "c": f"{BASE} slipping on stacked ice blocks, legs splayed comic skating pose, ears shaking, FOCUS determined eyes, Fred the beaver ducking, snow flying, firewood rope tangled around trunk, frozen dam chaos, {STYLE}, snowy winter FrancaVilla",
+        "d": f"Warm golden steam rising from repaired dam, happy squirrels offering neat bundle of dry firewood tied with red ribbon, {BASE} in fur-lined snow boots beneath winter fest garlands and lantern glow, magical cozy resolution, Franca winter feast ready, {STYLE}",
+    },
 }

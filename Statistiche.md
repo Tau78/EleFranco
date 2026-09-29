@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-09-22 — 58 capitoli
+> Aggiornato: 2026-09-29 — 59 capitoli
 
 ## Metodologia
 
@@ -71,14 +71,15 @@
 | 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 589 | 436 | ~1.8 pag. (474 mm) | ~5 min |
 | 57 | 👧 La Piccolina del Gruffalò e la Stella di Neve ❄️ | 592 | 439 | ~1.8 pag. (480 mm) | ~5 min |
 | 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 664 | 507 | ~2.0 pag. (522 mm) | ~5 min |
+| 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,112 | 872 | ~2.9 pag. (762 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **42,089** |
-| Spazio stampa stimato | **~123.7 pagine A4** |
-| Lettura ad alta voce | **~324 min** (5.4 h) |
+| Parole totali | **43,201** |
+| Spazio stampa stimato | **~126.7 pagine A4** |
+| Lettura ad alta voce | **~332 min** (5.5 h) |
 
 ## Medie per gruppo
 

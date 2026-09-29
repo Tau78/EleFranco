@@ -1506,6 +1506,31 @@ Mouse Gruffalo Fox Snake Owl Terrible Mouse little Gruffalo child and Grandma ea
 
 ---
 
+### Episodio 1001: ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫
+
+*FrancaVilla:* snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke
+*Calzature:* giant fur-lined snow boots
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head, wearing giant fur-lined snow boots, carrying empty rope for firewood bundle, walking snowy cobblestone path toward forest at dawn, icicle gingerbread rooftops and cozy chimney smoke, gentle THUMP shaking snow from branches, winter feast errand mood, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Brown beaver Fred with flat tail beside frozen cracking dam of ice blocks, worried squirrels in tree-house above threatened by rising icy water, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving in background in giant fur-lined snow boots, winter riverside FrancaVilla, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head slipping on stacked ice blocks, legs splayed comic skating pose, ears shaking, FOCUS determined eyes, Fred the beaver ducking, snow flying, firewood rope tangled around trunk, frozen dam chaos, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image, snowy winter FrancaVilla
+
+#### D — Il Colpo di Scena Finale
+
+Warm golden steam rising from repaired dam, happy squirrels offering neat bundle of dry firewood tied with red ribbon, large generous friendly cartoon elephant EleFranco with small black hair tuft on head in fur-lined snow boots beneath winter fest garlands and lantern glow, magical cozy resolution, Franca winter feast ready, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
 ## Note Colora
 
 22 pagine line art in `Disegna/` (01–22), una per episodio.

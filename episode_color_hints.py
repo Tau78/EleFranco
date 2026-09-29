@@ -61,6 +61,7 @@ COLOR_HINTS: dict[int, str] = {
     56: "la campanella di pietra e il mantello verde del Topo Tremendo",
     57: "il filo rosso sulla coperta e i fiocchi bianchi a forma di stella",
     58: "le more viola, le nocciole e la stella di zucchero sulla torta",
+    1001: "il ghiaccio azzurro sulla diga e la legna secca con il nastro rosso",
 }
 
 COLOR_HINT_PREFIX = (

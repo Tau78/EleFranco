@@ -23,3 +23,6 @@ extracted_text.txt
 
 # Live preview stamp (aggiorna_libro.py --watch)
 .last_build
+
+# GitHub Pages staging (scripts/prepare-pages-site.sh)
+_site/
