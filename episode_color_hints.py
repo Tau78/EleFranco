@@ -87,6 +87,7 @@ COLOR_HINTS: dict[int, str] = {
     82: "le scarpe blu di feltro e la pagnotta dorata appena sfornata",
     83: "le foglie rosse e dorate sul rifugio e sul ciuffetto nero",
     84: "il blocco di ghiaccio azzurro e gli stivali bianchi e blu",
+    1001: "il ghiaccio azzurro sulla diga e la legna secca con il nastro rosso",
 }
 
 COLOR_HINT_PREFIX = (

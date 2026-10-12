@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-09-26 — 84 capitoli
+> Aggiornato: 2026-10-12 — 85 capitoli
 
 ## Metodologia
 
@@ -97,14 +97,15 @@
 | 82 | 🐒 Peppe lo Scimpanzé e le Mani che Parlano 🤟 | 546 | 417 | ~1.7 pag. (431 mm) | ~4 min |
 | 83 | 🦌 Il Cervo Iraed e la Tana da Scavare 🍂 | 542 | 416 | ~1.7 pag. (443 mm) | ~4 min |
 | 84 | 🐧 La Famiglia Ildai Cerca la Zebra 🦓 | 545 | 414 | ~1.7 pag. (455 mm) | ~4 min |
+| 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,112 | 872 | ~2.9 pag. (762 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **56,316** |
-| Spazio stampa stimato | **~168.8 pagine A4** |
-| Lettura ad alta voce | **~433 min** (7.2 h) |
+| Parole totali | **57,428** |
+| Spazio stampa stimato | **~171.7 pagine A4** |
+| Lettura ad alta voce | **~442 min** (7.4 h) |
 
 ## Medie per gruppo
 

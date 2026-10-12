@@ -737,4 +737,12 @@ EPISODES: dict[int, dict[str, str]] = {
         "c": f"{BASE} with ears shaken and determined FOCUS eyes spinning with the empty crate balanced like a hat in a black-and-white dance hall, the Ildai penguins gliding expertly after painted striped footprints, friends laughing at the harmless wrong turn, {STYLE}",
         "d": f"{BASE} in giant white-and-blue boots receiving one clear blue ice block from zebra Eda outside the cool mountain house, the Ildai penguin family joyfully reunited with her and FrancaVilla friends forming a welcoming chain along the safe path, warm community finale, {STYLE}",
     },
+    1001: {
+        "setting": "snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke",
+        "footwear": "giant fur-lined snow boots",
+        "a": f"{BASE}, wearing giant fur-lined snow boots, carrying empty rope for firewood bundle, walking snowy cobblestone path toward forest at dawn, icicle gingerbread rooftops and cozy chimney smoke, gentle THUMP shaking snow from branches, winter feast errand mood, {STYLE}",
+        "b": f"Brown beaver Fred with flat tail beside frozen cracking dam of ice blocks, worried squirrels in tree-house above threatened by rising icy water, {BASE} arriving in background in giant fur-lined snow boots, winter riverside FrancaVilla, {STYLE}",
+        "c": f"{BASE} slipping on stacked ice blocks, legs splayed comic skating pose, ears shaking, FOCUS determined eyes, Fred the beaver ducking, snow flying, firewood rope tangled around trunk, frozen dam chaos, {STYLE}, snowy winter FrancaVilla",
+        "d": f"Warm golden steam rising from repaired dam, happy squirrels offering neat bundle of dry firewood tied with red ribbon, {BASE} in fur-lined snow boots beneath winter fest garlands and lantern glow, magical cozy resolution, Franca winter feast ready, {STYLE}",
+    },
 }

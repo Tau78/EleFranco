@@ -54,6 +54,8 @@ EPISODE_FIELDS = (
 
 
 def episode_source(num: int) -> str:
+    if num >= 1000:
+        return "episodes_speciali.py"
     if num >= 68:
         return "episodes_special_francavilla.py"
     if num >= 59:
@@ -76,6 +78,7 @@ def invalidate_episode_cache() -> None:
         "episodes_special_gruffalo",
         "episodes_special_frozen",
         "episodes_special_francavilla",
+        "episodes_speciali",
         "episode_prompts_en",
         "episode_color_hints",
         "book_structure",
@@ -137,6 +140,7 @@ def validate() -> list[str]:
         SPECIAL_FROZEN_FIRST,
         SPECIAL_FRANCAVILLA_FIRST,
         SPECIAL_GRUFFALO_FIRST,
+        SPECIAL_GRUFFALO_LAST,
         validate_season1_parts,
         validate_special_frozen,
         validate_special_francavilla,
@@ -148,7 +152,7 @@ def validate() -> list[str]:
     gruffalo_nums = {
         e["num"]
         for e in episodes
-        if SPECIAL_GRUFFALO_FIRST <= e["num"] < SPECIAL_FROZEN_FIRST
+        if SPECIAL_GRUFFALO_FIRST <= e["num"] <= SPECIAL_GRUFFALO_LAST
     }
     errors.extend(validate_special_gruffalo(gruffalo_nums))
     frozen_nums = {
@@ -158,9 +162,21 @@ def validate() -> list[str]:
     }
     errors.extend(validate_special_frozen(frozen_nums))
     francavilla_nums = {
-        e["num"] for e in episodes if e["num"] >= SPECIAL_FRANCAVILLA_FIRST
+        e["num"]
+        for e in episodes
+        if SPECIAL_FRANCAVILLA_FIRST <= e["num"] < 1000
     }
     errors.extend(validate_special_francavilla(francavilla_nums))
+
+    for ep in episodes:
+        if ep.get("num", 0) < 1000 and not ep.get("special_id"):
+            continue
+        if not str(ep.get("special_id", "")).strip():
+            errors.append(f"Episodio {ep['num']}: manca special_id (episodes_speciali.py).")
+        if ep.get("insert_after") not in (25, 50):
+            errors.append(
+                f"Episodio {ep['num']}: insert_after deve essere 25 o 50 (episodes_speciali.py)."
+            )
 
     return errors
 
