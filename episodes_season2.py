@@ -49,7 +49,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo profumat
 
 Era un mattino di sole tiepido e EleFranco aveva una fame da lupi: «Devo andare subito da Berto il Fornaio a prendere un filone integrale croccante, prima che spenga il fuoco del forno!» Controllò la dispensa: solo briciole. «Senza pane, la colazione non è colazione.»
 
-Si infilò le sue ciabatte giganti da fornaio, con la suola antiscivolo color cannella, prese un canovaccio pulito e uscì di casa. Lungo la strada del profumo il selciato tremava piano: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti da fornaio, con la suola antiscivolo color cannella, prese un canovaccio pulito e uscì di casa. Lungo la strada del profumo il selciato tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato all'angolo del forno a legna, vide una nuvoletta bianca che usciva da terra e, in mezzo, una volpe rossa con il muso imbiancato e le zampe che scivolavano come su pattini. Era Nora la Volpe, vivace e onesta, ma quella mattina era al limite delle lacrime.
 
