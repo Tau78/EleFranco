@@ -114,6 +114,7 @@ def build_markdown(results: list[dict]) -> str:
     gruffalo = [r for r in results if 51 <= r["num"] <= 58]
     frozen = [r for r in results if 59 <= r["num"] <= 67]
     francavilla = [r for r in results if 68 <= r["num"] <= 84]
+    iris = [r for r in results if 85 <= r["num"] <= 91]
 
     lines = [
         "# Statistiche — Le Avventure di EleFranco (Iris Edition)",
@@ -159,6 +160,7 @@ def build_markdown(results: list[dict]) -> str:
         f"| Speciale Gruffalò (51–58) | {len(gruffalo)} | {avg(gruffalo, 'words'):.0f} | {avg(gruffalo, 'pages'):.1f} | {avg(gruffalo, 'minutes'):.1f} min |",
         f"| Speciale Frozen (59–67) | {len(frozen)} | {avg(frozen, 'words'):.0f} | {avg(frozen, 'pages'):.1f} | {avg(frozen, 'minutes'):.1f} min |",
         f"| Nuovi amici di FrancaVilla (68–84) | {len(francavilla)} | {avg(francavilla, 'words'):.0f} | {avg(francavilla, 'pages'):.1f} | {avg(francavilla, 'minutes'):.1f} min |",
+        f"| EleFranco con Iris (85–91) | {len(iris)} | {avg(iris, 'words'):.0f} | {avg(iris, 'pages'):.1f} | {avg(iris, 'minutes'):.1f} min |",
         "",
         "## Note",
         "",
@@ -168,6 +170,7 @@ def build_markdown(results: list[dict]) -> str:
         "- **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.",
         "- **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.",
         "- **Ep. 68–84:** nuovi amici, famiglie e feste di FrancaVilla.",
+        "- **Ep. 85–91:** EleFranco con Iris, un capitolo per ogni gioco insieme.",
         "- Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.",
         "",
         "## Rigenerare",

@@ -44,13 +44,14 @@ Rigenera **`Statistiche.md`** (parole, spazio A4, tempo di lettura per capitolo)
 | 22–25 (fine S1) | **`episodes_extra.py`** |
 | 26+ (Stagione 2) | **`episodes_season2.py`** — idee in **`Stagione2-Idee.md`** |
 | Speciali (S1, S2…) | **`episodes_speciali.py`** — idee in **`EpisodiSpeciali-Idee.md`** |
+| EleFranco con Iris (85–91) | **`episodes_special_iris.py`** |
 | Prompt immagini EN | **`episode_prompts_en.py`** |
 
 Prova anteprima live: `python3 aggiorna_libro.py --watch` (rebuild automatico al salvataggio).
 
 ## File da modificare (nuovo capitolo)
 
-1. **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22–25), **`episodes_season2.py`** (26+) o **`episodes_speciali.py`** (num ≥ 1000)
+1. **`episodes_base.py`** (1–21), **`episodes_extra.py`** (22–25), **`episodes_season2.py`** (26–50), speciali 51–84, **`episodes_special_iris.py`** (85–91) o **`episodes_speciali.py`** (num ≥ 1000)
 2. **`episode_prompts_en.py`** — 4 prompt EN per episodio (A cover, B incontro, C imprevisto, D finale)
 3. **`episode_color_hints.py`** — particolare colorato per la didascalia accanto all'illustrazione
 4. Poi: **`python3 aggiorna_libro.py`** (o `--watch` durante la stesura)

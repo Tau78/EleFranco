@@ -24,6 +24,7 @@ from episodes_special_francavilla import (
     INTRO_SPECIAL_FRANCAVILLA,
     SPECIAL_FRANCAVILLA_EPISODES,
 )
+from episodes_special_iris import INTRO_SPECIAL_IRIS, SPECIAL_IRIS_EPISODES
 from episodes_special_frozen import INTRO_SPECIAL_FROZEN, SPECIAL_FROZEN_EPISODES
 from episodes_special_gruffalo import INTRO_SPECIAL_GRUFFALO, SPECIAL_GRUFFALO_EPISODES
 from episodes_speciali import SPECIAL_EPISODES
@@ -49,6 +50,7 @@ def load_all_episodes() -> tuple[str, list[dict]]:
         + list(SPECIAL_GRUFFALO_EPISODES)
         + list(SPECIAL_FROZEN_EPISODES)
         + list(SPECIAL_FRANCAVILLA_EPISODES)
+        + list(SPECIAL_IRIS_EPISODES)
         + list(SPECIAL_EPISODES)
     )
     episodes.sort(key=lambda e: e["num"])
@@ -401,6 +403,18 @@ def speciale_frozen_fragment() -> str:
 </div>"""
 
 
+def speciale_iris_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-iris" data-console-section="speciale-iris">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-iris">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-iris">Ripristina</button>
+  </div>
+  <h1 class="console-editable">EleFranco con Iris</h1>
+  <p class="dedication console-editable">Iris Edition — Sette capitoli con la bambina gentile</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_IRIS)}</div>
+</div>"""
+
+
 def speciale_francavilla_fragment() -> str:
     return f"""<div class="intro-page console-section" id="speciale-francavilla" data-console-section="speciale-francavilla">
   <div class="console-section-bar" hidden>
@@ -638,6 +652,11 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if SPECIAL_FRANCAVILLA_EPISODES
         else None
     )
+    first_iris = (
+        min(e["num"] for e in SPECIAL_IRIS_EPISODES)
+        if SPECIAL_IRIS_EPISODES
+        else None
+    )
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -662,6 +681,10 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if first_francavilla is not None and n == first_francavilla:
             items.append(
                 '    <li class="toc-part console-editable">Nuovi Amici di FrancaVilla 🏘️</li>'
+            )
+        if first_iris is not None and n == first_iris:
+            items.append(
+                '    <li class="toc-part console-editable">EleFranco con Iris 🌸</li>'
             )
         label = html.escape(episode_label(ep))
         href = (
@@ -735,6 +758,11 @@ def build_index(
         if SPECIAL_FRANCAVILLA_EPISODES
         else None
     )
+    first_iris = (
+        min(e["num"] for e in SPECIAL_IRIS_EPISODES)
+        if SPECIAL_IRIS_EPISODES
+        else None
+    )
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -752,6 +780,8 @@ def build_index(
             body_parts.append(speciale_frozen_fragment())
         if first_francavilla is not None and ep["num"] == first_francavilla:
             body_parts.append(speciale_francavilla_fragment())
+        if first_iris is not None and ep["num"] == first_iris:
+            body_parts.append(speciale_iris_fragment())
         body_parts.append(episode_fragment(ep))
 
     for ep in _specials_after(episodes, 50):
@@ -831,6 +861,12 @@ def build_prompts(episodes: list[dict]) -> str:
         "### Nuovi Amici di FrancaVilla 🏘️",
         "",
         SECTION_PROMPTS["speciale_francavilla"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### EleFranco con Iris 🌸",
+        "",
+        SECTION_PROMPTS["speciale_iris"],
         "",
         f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
         "",
@@ -937,6 +973,9 @@ def main() -> None:
     )
     (SEZIONI_DIR / "speciale_francavilla.html").write_text(
         speciale_francavilla_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_iris.html").write_text(
+        speciale_iris_fragment(), encoding="utf-8"
     )
     (SEZIONI_DIR / "parte_01.html").write_text(parte_01_fragment(), encoding="utf-8")
     (SEZIONI_DIR / "parte_02.html").write_text(parte_02_fragment(), encoding="utf-8")
