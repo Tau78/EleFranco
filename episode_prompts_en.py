@@ -61,6 +61,11 @@ SECTION_PROMPTS = {
         "lanes, windmills and flower pergolas, surrounded by diverse animal friends, gentle "
         f"THUMP dust and deep footprints, warm homecoming evening, {STYLE}"
     ),
+    "speciale_iris": (
+        f"{BASE}, giant golden boots, kneeling kindly beside a gentle girl Iris with brown "
+        "braids and a flower apron in a daisy garden of round-square FrancaVilla, carousel "
+        "ribbons and warm evening light, small black hair tuft, light THUMP dust, {STYLE}"
+    ),
 }
 
 # setting_en, footwear_en, a, b, c, d
@@ -736,6 +741,62 @@ EPISODES: dict[int, dict[str, str]] = {
         "b": f"{BASE} in giant white-and-blue boots welcoming the Ildai penguin family at the station, two adults and three small penguins standing close beside orderly luggage while seeking an unspecified zebra, reassuring diverse FrancaVilla behind, {STYLE}",
         "c": f"{BASE} with ears shaken and determined FOCUS eyes spinning with the empty crate balanced like a hat in a black-and-white dance hall, the Ildai penguins gliding expertly after painted striped footprints, friends laughing at the harmless wrong turn, {STYLE}",
         "d": f"{BASE} in giant white-and-blue boots receiving one clear blue ice block from zebra Eda outside the cool mountain house, the Ildai penguin family joyfully reunited with her and FrancaVilla friends forming a welcoming chain along the safe path, warm community finale, {STYLE}",
+    },
+    85: {
+        "setting": "round-square FrancaVilla with spiral marzipan roofs, spinning pennants and a still wooden carousel",
+        "footwear": "giant golden carousel boots",
+        "a": f"{BASE} in giant golden carousel boots carrying a basket toward the biscuit shop through round-square FrancaVilla, gentle THUMP dust and deep footprints, spiral roofs and spinning pennants, evening snack errand, {STYLE}",
+        "b": f"Kind girl Iris with brown braids and flower apron standing sadly with small friends beside a stopped wooden carousel, daisies nearby, {BASE} arriving in giant golden boots, warm concern, {STYLE}",
+        "c": f"{BASE} kneeling as a living carousel with Iris and friends riding gently, then comic too-fast spin as round biscuits orbit overhead, ears shaken, determined FOCUS eyes, small black hair tuft with a daisy, {STYLE}",
+        "d": f"Round biscuits landing in a perfect circle as the floury baker gifts a silver tray of carousel cookies, Iris and friends smiling, {BASE} in golden boots joyful finale, {STYLE}",
+    },
+    86: {
+        "setting": "brass FrancaVilla with trumpet gutters, flower doorbells and a warm courtyard concert",
+        "footwear": "giant shiny-button band boots",
+        "a": f"{BASE} in giant shiny-button band boots walking toward the bell shop through brass FrancaVilla, THUMP dust, trumpet-shaped gutters, mute doorbell errand, {STYLE}",
+        "b": f"Kind girl Iris with brown braids and flower apron hugging an oversized trumpet under a daisy pergola, discouraged but gentle, {BASE} listening in band boots, {STYLE}",
+        "c": f"{BASE} blowing too hard so hats fly and a coin rolls into a tuba, Iris steadying him, ears shaken, determined FOCUS eyes, comic harmless wind, {STYLE}",
+        "d": f"Iris playing one small golden note echoed by a gifted brass doorbell, courtyard friends with flutes, {BASE} in band boots carrying the bell, warm musical finale, {STYLE}",
+    },
+    87: {
+        "setting": "glossy winter-lane FrancaVilla where streets become clear ice ribbons and skates hang like flowers",
+        "footwear": "giant white ice skates",
+        "a": f"{BASE} in giant white ice skates gliding toward the wool shop on a clear ice lane of FrancaVilla, soft THUMP becoming a hush, orange-scented winter light, wool-sock errand, {STYLE}",
+        "b": f"Kind girl Iris with braids, flower apron and new skates clinging to the rink edge, worried smile, {BASE} offering his trunk in giant white skates, {STYLE}",
+        "c": f"{BASE} spinning softly as a wool skein tangles friends into a fluffy heap, ears shaken, determined FOCUS eyes, comic ice mishap, {STYLE}",
+        "d": f"Wool stretched as a soft handrail while Iris skates bravely, shopkeeper gifting huge honey-colored socks and a small flower pair, {BASE} joyful on the ice, {STYLE}",
+    },
+    88: {
+        "setting": "open-air theater FrancaVilla with tulle curtains between mulberry trees and a wooden garden stage",
+        "footwear": "giant pink ballet slippers",
+        "a": f"{BASE} in giant pink ballet slippers tiptoeing then THUMP-walking toward a tulle stall through theater FrancaVilla, evening curtain errand, warm stage light, {STYLE}",
+        "b": f"Kind girl Iris with braids and flower apron standing still on a daisy theater stage, snapped practice ribbon, shy friends on benches, {BASE} bowing kindly in ballet slippers, {STYLE}",
+        "c": f"{BASE} wrapped like a giant tulle cupcake after a comic pirouette, ears shaken, determined FOCUS eyes, Iris dancing the daisy step to unwind him, {STYLE}",
+        "d": f"Iris finishing the dance with a star ribbon on her apron while the seller gifts a fresh tulle bolt, {BASE} in pink slippers under moonlit curtains, joyful finale, {STYLE}",
+    },
+    89: {
+        "setting": "masquerade FrancaVilla with paper masks, cobblestone tracks and round lantern headlights",
+        "footwear": "giant black engineer boots with a gold stripe",
+        "a": f"{BASE} in giant black-and-gold engineer boots carrying a blackberry jam jar toward a masquerade through lantern-lit FrancaVilla, THUMP on cobblestone tracks, {STYLE}",
+        "b": f"Kind girl Iris in a flower apron and paper conductor hat holding a floppy cardboard locomotive, costumed friends waiting as train cars, {BASE} arriving kindly, {STYLE}",
+        "c": f"{BASE} dressed as a gentle paper locomotive with a funnel on his hair tuft derailing softly into a daisy bed, ears shaken, determined FOCUS eyes, jam jar rolling away, comic parade mishap, {STYLE}",
+        "d": f"Iris riding beside {BASE} the locomotive as a badger jam-maker gifts a tower of jars, masquerade square cheering, warm arrival finale, {STYLE}",
+    },
+    90: {
+        "setting": "schoolyard FrancaVilla with low chalkboard walls, colored chalk like flowers and a wooden bell",
+        "footwear": "giant blue school shoes with white laces",
+        "a": f"{BASE} in giant blue school shoes with white laces walking toward the stationery shop through schoolyard FrancaVilla, THUMP dust, orange pencil errand, morning light, {STYLE}",
+        "b": f"Kind girl Iris with neat braids, flower apron and a heavy backpack asking to be walked to the school gate, {BASE} lifting the bag with his trunk, {STYLE}",
+        "c": f"{BASE} gently stuck in a tiny school desk amid a harmless chalk cloud, snapped orange pencil, ears shaken, determined FOCUS eyes, classmates surprised, {STYLE}",
+        "d": f"Iris introducing kneeling {BASE} to the whole class in the daisy courtyard while the teacher gifts a new orange pencil, shared friendship finale, {STYLE}",
+    },
+    91: {
+        "setting": "moss-hill FrancaVilla with smooth stone steps, green waving meadows and daisies on the slope",
+        "footwear": "giant grass-green sandals",
+        "a": f"{BASE} in giant grass-green sandals climbing a moss hill in FrancaVilla to fetch a watermelon for lunch, THUMP on soft turf, deep footprints, bright noon, {STYLE}",
+        "b": f"Kind girl Iris with messy braids and flower apron standing with friends before a cracked wooden slide, {BASE} arriving kindly in green sandals, {STYLE}",
+        "c": f"{BASE} lying along the slope as a soft living slide while a watermelon rolls down his back into the daisies, ears shaken, determined FOCUS eyes, comic harmless tumble, {STYLE}",
+        "d": f"Watermelon opened into ruby star slices and a farmer gifting a whole cool melon, Iris and friends sliding safely, {BASE} in green sandals joyful lunch finale, {STYLE}",
     },
     1001: {
         "setting": "snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke",

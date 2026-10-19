@@ -14,6 +14,8 @@ SPECIAL_FROZEN_FIRST = 59
 SPECIAL_FROZEN_LAST = 67
 SPECIAL_FRANCAVILLA_FIRST = 68
 SPECIAL_FRANCAVILLA_LAST = 84
+SPECIAL_IRIS_FIRST = 85
+SPECIAL_IRIS_LAST = 91
 
 SEASON1_PARTS: list[dict] = [
     {
@@ -104,4 +106,16 @@ def validate_special_francavilla(special_nums: set[int]) -> list[str]:
         errors.append(f"Speciale FrancaVilla incompleto: mancano episodi {sorted(missing)}.")
     if extra:
         errors.append(f"Episodi fuori range nello speciale FrancaVilla: {sorted(extra)}.")
+    return errors
+
+
+def validate_special_iris(special_nums: set[int]) -> list[str]:
+    expected = set(range(SPECIAL_IRIS_FIRST, SPECIAL_IRIS_LAST + 1))
+    errors: list[str] = []
+    missing = expected - special_nums
+    extra = special_nums - expected
+    if missing:
+        errors.append(f"Sezione EleFranco con Iris incompleta: mancano episodi {sorted(missing)}.")
+    if extra:
+        errors.append(f"Episodi fuori range nella sezione EleFranco con Iris: {sorted(extra)}.")
     return errors

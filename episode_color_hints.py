@@ -87,6 +87,13 @@ COLOR_HINTS: dict[int, str] = {
     82: "le scarpe blu di feltro e la pagnotta dorata appena sfornata",
     83: "le foglie rosse e dorate sul rifugio e sul ciuffetto nero",
     84: "il blocco di ghiaccio azzurro e gli stivali bianchi e blu",
+    85: "i biscotti rotondi e gli stivali dorati della giostra vivente",
+    86: "la tromba d'ottone e il campanello che canta la stessa nota",
+    87: "i pattini bianchi e le calze di lana color miele",
+    88: "il tulle rosa e il nastro a stella sul grembiule a fiori",
+    89: "l'imbuto di carta e il nastro rosso della locomotiva",
+    90: "la matita arancio e le scarpe giganti blu con i lacci bianchi",
+    91: "le fette rosse di cocomero e i sandali color erba",
     1001: "il ghiaccio azzurro sulla diga e la legna secca con il nastro rosso",
 }
 

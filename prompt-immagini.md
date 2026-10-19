@@ -52,6 +52,12 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 
+### EleFranco con Iris 🌸
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head, giant golden boots, kneeling kindly beside a gentle girl Iris with brown braids and a flower apron in a daisy garden of round-square FrancaVilla, carousel ribbons and warm evening light, small black hair tuft, light THUMP dust, {STYLE}
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
 ### Sezione Disegna — slide intro (story)
 
 large generous friendly cartoon elephant EleFranco with small black hair tuft on head, colorful patchwork cape, giant brown leather boots, holding crayons and paint palette, sitting on grass with small animal friends coloring large paper sheets together, whimsical FrancaVilla gingerbread rooftops in soft background, joyful creative mood, bold clean cartoon outlines, flat vibrant colors, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
@@ -2163,6 +2169,181 @@ large generous friendly cartoon elephant EleFranco with small black hair tuft on
 #### D — Il Colpo di Scena Finale
 
 large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant white-and-blue boots receiving one clear blue ice block from zebra Eda outside the cool mountain house, the Ildai penguin family joyfully reunited with her and FrancaVilla friends forming a welcoming chain along the safe path, warm community finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 85: 🎠 La Giostra degli Amici di Iris 🌸
+
+*FrancaVilla:* round-square FrancaVilla with spiral marzipan roofs, spinning pennants and a still wooden carousel
+*Calzature:* giant golden carousel boots
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant golden carousel boots carrying a basket toward the biscuit shop through round-square FrancaVilla, gentle THUMP dust and deep footprints, spiral roofs and spinning pennants, evening snack errand, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with brown braids and flower apron standing sadly with small friends beside a stopped wooden carousel, daisies nearby, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving in giant golden boots, warm concern, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head kneeling as a living carousel with Iris and friends riding gently, then comic too-fast spin as round biscuits orbit overhead, ears shaken, determined FOCUS eyes, small black hair tuft with a daisy, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Round biscuits landing in a perfect circle as the floury baker gifts a silver tray of carousel cookies, Iris and friends smiling, large generous friendly cartoon elephant EleFranco with small black hair tuft on head in golden boots joyful finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 86: 🎺 La Tromba di Iris 🌸
+
+*FrancaVilla:* brass FrancaVilla with trumpet gutters, flower doorbells and a warm courtyard concert
+*Calzature:* giant shiny-button band boots
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant shiny-button band boots walking toward the bell shop through brass FrancaVilla, THUMP dust, trumpet-shaped gutters, mute doorbell errand, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with brown braids and flower apron hugging an oversized trumpet under a daisy pergola, discouraged but gentle, large generous friendly cartoon elephant EleFranco with small black hair tuft on head listening in band boots, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head blowing too hard so hats fly and a coin rolls into a tuba, Iris steadying him, ears shaken, determined FOCUS eyes, comic harmless wind, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Iris playing one small golden note echoed by a gifted brass doorbell, courtyard friends with flutes, large generous friendly cartoon elephant EleFranco with small black hair tuft on head in band boots carrying the bell, warm musical finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 87: ⛸ A Pattinare con Iris 🌸
+
+*FrancaVilla:* glossy winter-lane FrancaVilla where streets become clear ice ribbons and skates hang like flowers
+*Calzature:* giant white ice skates
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant white ice skates gliding toward the wool shop on a clear ice lane of FrancaVilla, soft THUMP becoming a hush, orange-scented winter light, wool-sock errand, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with braids, flower apron and new skates clinging to the rink edge, worried smile, large generous friendly cartoon elephant EleFranco with small black hair tuft on head offering his trunk in giant white skates, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head spinning softly as a wool skein tangles friends into a fluffy heap, ears shaken, determined FOCUS eyes, comic ice mishap, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Wool stretched as a soft handrail while Iris skates bravely, shopkeeper gifting huge honey-colored socks and a small flower pair, large generous friendly cartoon elephant EleFranco with small black hair tuft on head joyful on the ice, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 88: 🩰 EleFranco Ballerina 🌸
+
+*FrancaVilla:* open-air theater FrancaVilla with tulle curtains between mulberry trees and a wooden garden stage
+*Calzature:* giant pink ballet slippers
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant pink ballet slippers tiptoeing then THUMP-walking toward a tulle stall through theater FrancaVilla, evening curtain errand, warm stage light, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with braids and flower apron standing still on a daisy theater stage, snapped practice ribbon, shy friends on benches, large generous friendly cartoon elephant EleFranco with small black hair tuft on head bowing kindly in ballet slippers, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head wrapped like a giant tulle cupcake after a comic pirouette, ears shaken, determined FOCUS eyes, Iris dancing the daisy step to unwind him, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Iris finishing the dance with a star ribbon on her apron while the seller gifts a fresh tulle bolt, large generous friendly cartoon elephant EleFranco with small black hair tuft on head in pink slippers under moonlit curtains, joyful finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 89: 🚂 La Locomotiva della Festa in Maschera 🌸
+
+*FrancaVilla:* masquerade FrancaVilla with paper masks, cobblestone tracks and round lantern headlights
+*Calzature:* giant black engineer boots with a gold stripe
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant black-and-gold engineer boots carrying a blackberry jam jar toward a masquerade through lantern-lit FrancaVilla, THUMP on cobblestone tracks, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris in a flower apron and paper conductor hat holding a floppy cardboard locomotive, costumed friends waiting as train cars, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving kindly, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head dressed as a gentle paper locomotive with a funnel on his hair tuft derailing softly into a daisy bed, ears shaken, determined FOCUS eyes, jam jar rolling away, comic parade mishap, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Iris riding beside large generous friendly cartoon elephant EleFranco with small black hair tuft on head the locomotive as a badger jam-maker gifts a tower of jars, masquerade square cheering, warm arrival finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 90: 🏫 A Scuola con Iris 🌸
+
+*FrancaVilla:* schoolyard FrancaVilla with low chalkboard walls, colored chalk like flowers and a wooden bell
+*Calzature:* giant blue school shoes with white laces
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant blue school shoes with white laces walking toward the stationery shop through schoolyard FrancaVilla, THUMP dust, orange pencil errand, morning light, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with neat braids, flower apron and a heavy backpack asking to be walked to the school gate, large generous friendly cartoon elephant EleFranco with small black hair tuft on head lifting the bag with his trunk, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head gently stuck in a tiny school desk amid a harmless chalk cloud, snapped orange pencil, ears shaken, determined FOCUS eyes, classmates surprised, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Iris introducing kneeling large generous friendly cartoon elephant EleFranco with small black hair tuft on head to the whole class in the daisy courtyard while the teacher gifts a new orange pencil, shared friendship finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 91: 🛝 EleFranco Scivolo 🌸
+
+*FrancaVilla:* moss-hill FrancaVilla with smooth stone steps, green waving meadows and daisies on the slope
+*Calzature:* giant grass-green sandals
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant grass-green sandals climbing a moss hill in FrancaVilla to fetch a watermelon for lunch, THUMP on soft turf, deep footprints, bright noon, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Kind girl Iris with messy braids and flower apron standing with friends before a cracked wooden slide, large generous friendly cartoon elephant EleFranco with small black hair tuft on head arriving kindly in green sandals, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head lying along the slope as a soft living slide while a watermelon rolls down his back into the daisies, ears shaken, determined FOCUS eyes, comic harmless tumble, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+Watermelon opened into ruby star slices and a farmer gifting a whole cool melon, Iris and friends sliding safely, large generous friendly cartoon elephant EleFranco with small black hair tuft on head in green sandals joyful lunch finale, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
 
 **Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
 

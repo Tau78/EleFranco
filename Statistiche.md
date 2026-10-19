@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-10-12 — 85 capitoli
+> Aggiornato: 2026-10-19 — 92 capitoli
 
 ## Metodologia
 
@@ -97,15 +97,22 @@
 | 82 | 🐒 Peppe lo Scimpanzé e le Mani che Parlano 🤟 | 546 | 417 | ~1.7 pag. (431 mm) | ~4 min |
 | 83 | 🦌 Il Cervo Iraed e la Tana da Scavare 🍂 | 542 | 416 | ~1.7 pag. (443 mm) | ~4 min |
 | 84 | 🐧 La Famiglia Ildai Cerca la Zebra 🦓 | 545 | 414 | ~1.7 pag. (455 mm) | ~4 min |
+| 85 | 🎠 La Giostra degli Amici di Iris 🌸 | 647 | 515 | ~2.0 pag. (511 mm) | ~5 min |
+| 86 | 🎺 La Tromba di Iris 🌸 | 579 | 448 | ~1.8 pag. (475 mm) | ~4 min |
+| 87 | ⛸ A Pattinare con Iris 🌸 | 621 | 494 | ~1.9 pag. (493 mm) | ~5 min |
+| 88 | 🩰 EleFranco Ballerina 🌸 | 606 | 473 | ~1.8 pag. (475 mm) | ~5 min |
+| 89 | 🚂 La Locomotiva della Festa in Maschera 🌸 | 608 | 472 | ~1.9 pag. (505 mm) | ~5 min |
+| 90 | 🏫 A Scuola con Iris 🌸 | 645 | 508 | ~1.9 pag. (505 mm) | ~5 min |
+| 91 | 🛝 EleFranco Scivolo 🌸 | 613 | 490 | ~1.8 pag. (481 mm) | ~5 min |
 | 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,112 | 872 | ~2.9 pag. (762 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **57,428** |
-| Spazio stampa stimato | **~171.7 pagine A4** |
-| Lettura ad alta voce | **~442 min** (7.4 h) |
+| Parole totali | **61,747** |
+| Spazio stampa stimato | **~184.9 pagine A4** |
+| Lettura ad alta voce | **~475 min** (7.9 h) |
 
 ## Medie per gruppo
 
@@ -117,6 +124,7 @@
 | Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
 | Speciale Frozen (59–67) | 9 | 572 | 1.8 | 4.4 min |
 | Nuovi amici di FrancaVilla (68–84) | 17 | 534 | 1.7 | 4.1 min |
+| EleFranco con Iris (85–91) | 7 | 617 | 1.9 | 4.7 min |
 
 ## Note
 
@@ -126,6 +134,7 @@
 - **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.
 - **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.
 - **Ep. 68–84:** nuovi amici, famiglie e feste di FrancaVilla.
+- **Ep. 85–91:** EleFranco con Iris, un capitolo per ogni gioco insieme.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare
