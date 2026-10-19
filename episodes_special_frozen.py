@@ -38,7 +38,7 @@ SPECIAL_FROZEN_EPISODES: list[dict] = [
 
 Quella mattina FrancaVilla sembrava un borgo ricamato nella brina: le case avevano balconi di betulla, i comignoli portavano cappucci bianchi e minuscoli prismi appesi alle grondaie coloravano la neve. Mancavano due giorni alla Festa dell'Aurora. EleFranco doveva raccogliere fiori d'inverno per decorare l'arco d'ingresso.
 
-Si infilò gli stivali giganti color fiordaliso, foderati di lana, prese tre cestini e uscì. Camminava sul sentiero gelato facendo THUMP THUMP THUMP; a ogni passo restava un'impronta profonda e una nuvola di neve leggera.
+Si infilò gli stivali giganti color fiordaliso, foderati di lana, prese tre cestini e uscì. Affondò gli stivali nel sentiero gelato, e la crosta cedette sotto tutto il suo peso: THUMP THUMP THUMP THUMP. A ogni passo restava un'impronta profonda e una nuvola di neve.
 
 Vicino al prato delle campanule udì una voce allegra: «Resistete, fiorellini! Sto arrivando con un rametto molto professionale!»
 
@@ -91,7 +91,7 @@ Guardò Olaf salutare con due braccia diverse, alzò la proboscide e rise: OH...
 
 FrancaVilla quel giorno era un borgo di torri trasparenti: le finestre parevano lastre di ghiaccio levigato, ponticelli azzurri univano i tetti e il vento attraversava tubi d'argento producendo note sottili. Per la Festa dell'Aurora servivano nove campanelli, uno per ogni gruppo dell'orchestra.
 
-EleFranco calzò le scarpe giganti da musicista, blu con lacci argentati, avvolse una coperta attorno a una scatola vuota e partì verso l'altura dei cristalli. Faceva THUMP THUMP THUMP, lasciando orme profonde nel sentiero e facendo vibrare piano i ghiaccioli.
+EleFranco calzò le scarpe giganti da musicista, blu con lacci argentati, avvolse una coperta attorno a una scatola vuota e partì verso l'altura dei cristalli. Ogni scarpa calò sul sentiero gelato e i ghiaccioli tremarono sui rami: THUMP THUMP THUMP THUMP. Le orme restavano profonde.
 
 Sull'altura incontrò Elsa. Con movimenti attenti delle mani creava piccoli cristalli cavi, ma una raffica li colpiva prima che fossero pronti. Crac: compariva una fessura. Elsa sospirava e ricominciava.
 
@@ -144,7 +144,7 @@ Agitò il campanello più basso, alzò la proboscide e rise: OH... OH... OH...""
 
 Quel pomeriggio FrancaVilla era un borgo di stoffe al vento: tende color miele coprivano i vicoli, rocchetti decoravano i balconi e dalla torre pendevano lunghi drappi arancioni. EleFranco doveva consegnare una scatola di nastri per legare i programmi della Festa dell'Aurora.
 
-Indossò le ciabatte giganti da sarto, morbide e munite di tasche per gli spilli, sistemò la scatola sul dorso e uscì. Procedeva con THUMP THUMP THUMP, sollevando appena la polvere dorata del viale.
+Indossò le ciabatte giganti da sarto, morbide e munite di tasche per gli spilli, sistemò la scatola sul dorso e uscì. Le ciabatte, morbide ma pesanti, batterono sul viale e sollevarono una nuvola di polvere dorata: THUMP THUMP THUMP THUMP.
 
 In piazza vide Anna correre dietro a una fila di bandierine. Il vento le aveva staccate dalla corda e ora danzavano tra comignoli e panchine. Anna ne afferrava una, ma subito altre due volavano via.
 
@@ -195,7 +195,7 @@ Si tolse un fiocchetto dalla coda, alzò la proboscide e rise: OH... OH... OH...
 
 FrancaVilla quella mattina aveva l'aspetto di un borgo di taglialegna: cataste ordinate fiancheggiavano le strade, i tetti erano coperti di scandole profumate e piccoli canali portavano acqua gelida alle cantine. Per la Festa dell'Aurora, EleFranco doveva procurare ghiaccio e tenere freschi i dolci alla crema.
 
-Calzò gli scarponi giganti da montagna, con ramponi di legno, legò un carretto alla cintura e partì. Sul sentiero faceva THUMP THUMP THUMP; terra e aghi di pino vibravano sotto le suole.
+Calzò gli scarponi giganti da montagna, con ramponi di legno, legò un carretto alla cintura e partì. Sul sentiero faceva THUMP THUMP THUMP THUMP; terra e aghi di pino vibravano sotto le suole.
 
 Al ponte del torrente trovò Kristoff. Dall'altra parte attendeva una slitta carica di provviste, ma due assi del ponte erano spezzate. Kristoff misurava la distanza con una corda e scuoteva il capo.
 
@@ -246,7 +246,7 @@ Batté piano uno scarpone sul ponte, alzò la proboscide e rise: OH... OH... OH.
 
 FrancaVilla quel giorno pareva un borgo-orto d'inverno: serre tonde brillavano tra le case, comignoli a forma di annaffiatoio fumavano piano e filari di cavoli spuntavano dalla neve come rose verdi. EleFranco doveva comprare carote per la zuppa calda dei musicisti della Festa dell'Aurora.
 
-Infilò gli stivali giganti da ortolano, verdi con suole larghe, prese una pentola e si avviò al mercato. Faceva THUMP THUMP THUMP, lasciando impronte profonde lungo la strada bianca.
+Infilò gli stivali giganti da ortolano, verdi con suole larghe, prese una pentola e si avviò al mercato. Faceva THUMP THUMP THUMP THUMP, lasciando impronte profonde lungo la strada bianca.
 
 Dietro una serra sentì uno sbuffo. Sven, una renna dal muso gentile e dagli occhi vivaci, tirava un carretto carico di fieno e di un grande sacco. Le ruote erano sprofondate nella neve molle. Sven spingeva, arretrava e inclinava la testa, ma il carretto non si muoveva.
 
@@ -297,7 +297,7 @@ Rimise il naso al pupazzo più storto, alzò la proboscide e rise: OH... OH... O
 
 FrancaVilla quella mattina era un borgo-emporio: insegne di legno oscillavano sotto i portici, pile di sciarpe coloravano le finestre e dalle porte usciva profumo di pino e cannella. La Festa dell'Aurora si avvicinava, ma sulle gradinate della piazza tirava vento. EleFranco doveva procurare coperte per gli spettatori.
 
-Si mise gli zoccoli giganti da bottegaio, rivestiti di feltro rosso, caricò una lista nella borsa e partì. Il selciato rispondeva THUMP THUMP THUMP e piccoli batuffoli di lana saltavano fuori dalle fughe.
+Si mise gli zoccoli giganti da bottegaio, rivestiti di feltro rosso, caricò una lista nella borsa e partì. Il selciato rispondeva THUMP THUMP THUMP THUMP e piccoli batuffoli di lana saltavano fuori dalle fughe.
 
 All'emporio trovò Oaken dietro una montagna di stoffe. Una mensola aveva ceduto: coperte, calze e tappeti erano scivolati contro la porta. Oaken salutava da una finestrella con il suo sorriso tranquillo.
 
@@ -346,7 +346,7 @@ Si avvolse in una coperta troppo corta, alzò la proboscide e rise: OH... OH... 
 
 FrancaVilla quella sera era un borgo di sorgenti: canaletti tiepidi correvano lungo i marciapiedi, le case avevano cupole di pietra scura e una nebbia profumata di muschio avvolgeva ogni lanterna. Per la Festa dell'Aurora bisognava accendere i bracieri sul percorso. EleFranco doveva comprare esche asciutte.
 
-Infilò le ciabatte giganti resistenti al calore, color carbone con bordi arancioni, prese un secchio e uscì. Nella foschia avanzava facendo THUMP THUMP THUMP; il terreno umido vibrava e le sue impronte si riempivano di vapore.
+Infilò le ciabatte giganti resistenti al calore, color carbone con bordi arancioni, prese un secchio e uscì. Nella foschia avanzava facendo THUMP THUMP THUMP THUMP; il terreno umido vibrava e le sue impronte si riempivano di vapore.
 
 Accanto a una sorgente vide una minuscola luce. Era Bruni, una salamandra vivace con una fiammella sulla schiena. Provava ad accendere un rametto, ma la nebbia lo spegneva con un sibilo. Bruni abbassò il muso, imbarazzato.
 
@@ -393,7 +393,7 @@ Bruni gli accese per gioco i baffi di cenere, lui alzò la proboscide e rise: OH
 
 FrancaVilla quella mattina pareva un borgo galleggiante: passerelle di pietra attraversavano canali stretti, le case avevano finestre a oblò e conchiglie chiare ornavano le fontane. Al centro della piazza c'era una vasca asciutta che avrebbe dovuto riflettere l'aurora. EleFranco doveva andare al pozzo e riempirla.
 
-Calzò gli stivali giganti impermeabili, turchesi con fibbie bianche, caricò due secchi e partì. Camminava facendo THUMP THUMP THUMP; il fango vibrava, la terra schizzava appena e dietro restavano impronte profonde.
+Calzò gli stivali giganti impermeabili, turchesi con fibbie bianche, caricò due secchi e partì. Camminava facendo THUMP THUMP THUMP THUMP; il fango schizzò sotto il peso e dietro restavano impronte profonde.
 
 Vicino al ruscello udì uno scalpitio liquido. Tra due rive strette apparve Nokk, un cavallo fatto d'acqua limpida. Un groviglio di rami e foglie gelate bloccava il corso; Nokk non riusciva a oltrepassarlo senza perdere la propria forma.
 
@@ -421,7 +421,7 @@ Nokk spruzzò una goccia sul suo ciuffo, EleFranco alzò la proboscide e rise: O
         "num": 67,
         "title": "🌌 Tutti Insieme alla Festa dell'Aurora 🎉",
         "missione": (
-            "EleFranco deve portare al centro della piazza una stella luminosa per dare "
+            "EleFranco deve portare al centro della piazza un cuore luminoso per dare "
             "inizio alla Festa dell'Aurora. 🌟"
         ),
         "incontro": (
@@ -430,19 +430,19 @@ Nokk spruzzò una goccia sul suo ciuffo, EleFranco alzò la proboscide e rise: O
         ),
         "aiuto": (
             "EleFranco coordina tutti per salvare la festa, ma inciampa nei nastri e la "
-            "stella rimbalza tra addobbi, slitta e vasca in una corsa buffa. 🎀"
+            "Il cuore rimbalza tra addobbi, slitta e vasca in una corsa buffa. 🎀"
         ),
         "morale": "Una festa brilla davvero quando ogni dono e ogni talento trovano posto. 🌈",
         "colpo": (
-            "La stella raccoglie per caso ghiaccio, fuoco e acqua e proietta un'aurora "
+            "Il cuore raccoglie per caso ghiaccio, fuoco e acqua e proietta un'aurora "
             "magnifica; tutti la regalano a FrancaVilla, completando gratis la festa."
         ),
         "finale_schema": "Festa iniziata e aurora accesa tutti insieme! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Finalmente arrivò la sera della Festa dell'Aurora. FrancaVilla era diventata un borgo di tutte le stagioni: neve sui tetti, fiori d'inverno agli archi, acqua limpida nei canali e luci calde tra gli alberi. Mancava soltanto una grande stella da mettere al centro della piazza. EleFranco doveva acquistarla dal vetraio prima dell'apertura.
+Finalmente arrivò la sera della Festa dell'Aurora. FrancaVilla era diventata un borgo di tutte le stagioni: neve sui tetti, fiori d'inverno agli archi, acqua limpida nei canali e luci calde tra gli alberi. Mancava soltanto un grande cuore da mettere al centro della piazza. EleFranco doveva acquistarlo dal vetraio prima dell'apertura.
 
-Indossò le scarpe giganti della festa, color miele con fibbie blu, e si avviò facendo THUMP THUMP THUMP. Ogni passo sollevava una polvere brillante e lasciava un'impronta profonda sul viale.
+Indossò le scarpe giganti della festa, color miele con fibbie blu, e si avviò facendo THUMP THUMP THUMP THUMP. Ogni passo sollevava una polvere brillante e lasciava un'impronta profonda sul viale.
 
 Prima di raggiungere la bottega, una raffica scese dalla montagna. In piazza Olaf tratteneva la ghirlanda, Elsa proteggeva i campanelli, Anna afferrava i nastri, Kristoff fissava il palco e Sven inseguiva una coperta. Oaken distribuiva scaldamani, Bruni riparava le sue bolle e Nokk impediva all'acqua di uscire dalla vasca.
 
@@ -452,13 +452,13 @@ EleFranco guardò l'orologio della torre. Il vetraio stava per chiudere, ma gli 
 
 Elsa creò piccoli fermagli di ghiaccio. Anna li passò a Kristoff, che assicurò nastri e coperte. Sven trainò una corda attorno alle gradinate; Oaken accolse i primi ospiti sotto il portico. Olaf raccolse gli addobbi caduti, Bruni riaccese le luci e Nokk mantenne piena la vasca. EleFranco sosteneva il palo centrale con la proboscide.
 
-Anna trovò in magazzino una semplice stella di carta e gliela porse. EleFranco corse a sistemarla, ma un nastro gli si avvolse alla scarpa. Inciampò senza farsi male e la stella volò. Rimbalzò sulla slitta di Kristoff, raccolse un cristallo di Elsa, sfiorò una bolla di Bruni e scivolò sulla superficie di Nokk.
+Anna trovò in magazzino un semplice cuore di carta e glielo porse. EleFranco corse a sistemarlo, ma un nastro gli si avvolse alla scarpa. Inciampò senza farsi male e il cuore volò. Rimbalzò sulla slitta di Kristoff, raccolse un cristallo di Elsa, sfiorò una bolla di Bruni e scivolò sulla superficie di Nokk.
 
-«La nostra stella ha voluto visitare tutta la festa!» disse Olaf.
+«Il nostro cuore ha voluto visitare tutta la festa!» disse Olaf.
 
 Quando EleFranco la recuperò, la carta custodiva insieme ghiaccio trasparente, calore dorato e gocce d'acqua. Elsa la sollevò sul palo; Bruni la illuminò e Nokk ne moltiplicò il riflesso. Dal centro si aprirono nel cielo onde verdi, blu e arancioni. Era un'aurora nata dai doni di tutti.
 
-Nessuno dovette comprare la stella di vetro. Gli amici regalarono quella luce a FrancaVilla, l'orchestra suonò, la zuppa scaldò i musicisti e gli ospiti applaudirono sotto le coperte. La missione e l'intero arco dei preparativi erano compiuti.
+Nessuno dovette comprare il cuore di vetro. Gli amici regalarono quella luce a FrancaVilla, l'orchestra suonò, la zuppa scaldò i musicisti e gli ospiti applaudirono sotto le coperte. La missione e l'intero arco dei preparativi erano compiuti.
 
 EleFranco capì allora la morale di quella giornata: una festa brilla davvero quando ogni dono e ogni talento trovano posto.
 

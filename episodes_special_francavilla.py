@@ -23,7 +23,7 @@ SPECIAL_FRANCAVILLA_EPISODES: list[dict] = [
         "finale_schema": "Edoino ritrovato e coperta rammendata! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Quella mattina FrancaVilla sembrava un borgo di banderuole: sui tetti giravano galli di rame, pesci d'ottone e lune di latta, mentre le strade portavano nomi di venti. EleFranco doveva ritirare un gomitolo arancione per rammendare la coperta della sera. Infilò gli stivali giganti color mandarino, prese il cestino da cucito e partì. Camminava facendo THUMP THUMP THUMP; la terra vibrava dolcemente e dietro di lui restavano impronte profonde nella polvere.
+Quella mattina FrancaVilla sembrava un borgo di banderuole: sui tetti giravano galli di rame, pesci d'ottone e lune di latta, mentre le strade portavano nomi di venti. EleFranco doveva ritirare un gomitolo arancione per rammendare la coperta della sera. Infilò gli stivali giganti color mandarino, prese il cestino da cucito e partì. Posò uno stivale, poi l'altro: la terra vibrò sotto tutto il suo peso e dietro di lui restarono impronte profonde nella polvere. THUMP THUMP THUMP THUMP.
 
 Alla rotonda dei quattro venti incontrò Edo il Pappagallo. Volava da un cartello all'altro ripetendo: «Destra, sinistra, fontana, edera!» Doveva andare da Edoino per consegnargli una piuma azzurra, ma non trovava né lui né la sua casa.
 
@@ -54,7 +54,7 @@ Si avvolse nella coperta arancione, alzò la proboscide e rise: OH... OH... OH..
         "finale_schema": "Piccolo accolto e ninna nanna trovata! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quella sera era un borgo di acacie dorate: passerelle alte univano le terrazze, le finestre erano lunghe e strette e lanterne a forma di foglia oscillavano piano. EleFranco desiderava una ninna nanna per addormentarsi e doveva comprarne una registrata alla bottega dei suoni. Calzò le ciabatte giganti color miele, adatte alla quiete della sera, e uscì. Faceva THUMP THUMP THUMP, sollevando appena la polvere e lasciando orme profonde sul sentiero.
+FrancaVilla quella sera era un borgo di acacie dorate: passerelle alte univano le terrazze, le finestre erano lunghe e strette e lanterne a forma di foglia oscillavano piano. EleFranco desiderava una ninna nanna per addormentarsi e doveva comprarne una registrata alla bottega dei suoni. Calzò le ciabatte giganti color miele, adatte alla quiete della sera, e uscì. Le ciabatte, morbide ma pesanti, calarono sul sentiero e sollevarono la polvere in una nuvola, lasciando orme profonde: THUMP THUMP THUMP THUMP.
 
 Sotto l'acacia più alta trovò Raffa la Giraffa circondata da coperte. La sua famiglia aspettava con emozione la nascita del piccolo. Raffa era tranquilla, ma desiderava un luogo raccolto, acqua fresca e voci gentili. La saggia levatrice del borgo era con lei e spiegò a tutti che la cosa migliore era rispettare i suoi tempi.
 
@@ -85,7 +85,7 @@ Cullando la conchiglia con la proboscide, rise piano: OH... OH... OH...""",
         "finale_schema": "Gigantorso raggiunto e granita pronta! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Quel giorno FrancaVilla era un borgo montano scavato nella pietra chiara: funivie di legno passavano sopra i comignoli e ogni balcone esponeva limoni gialli contro la neve. EleFranco doveva raccogliere un vaso di neve pulita per preparare una granita al limone. Indossò gli scarponi giganti con ramponi di gomma, legò il vaso allo zaino e partì. Sul sentiero faceva THUMP THUMP THUMP, lasciando buche larghe e facendo svolazzare una polvere bianca e leggera.
+Quel giorno FrancaVilla era un borgo montano scavato nella pietra chiara: funivie di legno passavano sopra i comignoli e ogni balcone esponeva limoni gialli contro la neve. EleFranco doveva raccogliere un vaso di neve pulita per preparare una granita al limone. Indossò gli scarponi giganti con ramponi di gomma, legò il vaso allo zaino e partì. Sul sentiero gli scarponi affondarono lasciando buche larghe, e la neve si alzò in una nuvola sotto il peso: THUMP THUMP THUMP THUMP.
 
 All'inizio della salita incontrò Eda la Zebra. Portava una sciarpa a righe e una busta importante per il Gigantorso, che abitava proprio in cima. Guardando la vetta, però, Eda si sentiva piccolissima.
 
@@ -120,7 +120,7 @@ Assaggiò una cucchiaiata troppo fredda, arricciò la proboscide e rise: OH... O
         "finale_schema": "Edoarda rassicurata e semi riconosciuti! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla appariva come un borgo dentro un giardino: case a forma di vaso, ponti di ramoscelli e viuzze bordate da fili d'erba alti come siepi. EleFranco doveva leggere le etichette sbiadite dei semi per piantare il basilico, così decise di prendere in prestito una lente dalla biblioteca. Infilò gli stivali giganti verdi, con suole delicate per l'orto, e uscì facendo THUMP THUMP THUMP. La terra vibrava, una polvere fine si alzava e impronte profonde segnavano il vialetto.
+FrancaVilla appariva come un borgo dentro un giardino: case a forma di vaso, ponti di ramoscelli e viuzze bordate da fili d'erba alti come siepi. EleFranco doveva leggere le etichette sbiadite dei semi per piantare il basilico, così decise di prendere in prestito una lente dalla biblioteca. Infilò gli stivali giganti verdi, con suole larghe per l'orto, e uscì facendo THUMP THUMP THUMP THUMP. La terra vibrava, una polvere fine si alzava e impronte profonde segnavano il vialetto.
 
 Udì un fruscio enorme. Dietro una serra c'era Edoarda la Coccinella, ma durante la notte era diventata grande quanto una casa. I suoi puntini neri sembravano finestre. Edoarda non era ferita; era soltanto spaventata all'idea di schiacciare i piccoli orti.
 
@@ -151,7 +151,7 @@ Un annaffiatoio gli ricadde sullo stivale e lui rise: OH... OH... OH...""",
         "finale_schema": "Bambino ritrovato e margherite annaffiate! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quel pomeriggio era un borgo di canali turchesi: le case avevano scalette nell'acqua, ninfee sui davanzali e campanelli che suonavano quando passava una barca. Le margherite di EleFranco avevano sete. Lui prese una brocca, calzò gli stivali giganti impermeabili e si avviò alla fontana. Faceva THUMP THUMP THUMP; le rive vibravano, la sabbia si alzava leggera e le sue impronte diventavano piccole pozze.
+FrancaVilla quel pomeriggio era un borgo di canali turchesi: le case avevano scalette nell'acqua, ninfee sui davanzali e campanelli che suonavano quando passava una barca. Le margherite di EleFranco avevano sete. Lui prese una brocca, calzò gli stivali giganti impermeabili e si avviò alla fontana. Faceva THUMP THUMP THUMP THUMP; le rive tremarono, la sabbia schizzò sotto gli stivali e le impronte diventarono piccole pozze.
 
 Vicino al canale incontrò Odo l'Ippopotamo. Chiamava il suo bambino con voce preoccupata. Stavano giocando a nascondino; Odo aveva contato fino a venti, ma il piccolo non era tornato al segnale concordato.
 
@@ -182,7 +182,7 @@ Una margherita gli solleticò la proboscide e lui rise: OH... OH... OH...""",
         "finale_schema": "Festa trovata e cena illuminata! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Quella sera FrancaVilla pareva un borgo di bambù: cancelli verdi, tetti curvi e viuzze illuminate da lucciole in barattoli aperti. A casa di EleFranco si era consumata l'ultima candela, così lui doveva comprarne una per vedere la cena. Calzò le scarpe giganti da passeggio, nere con lacci bianchi, e uscì facendo THUMP THUMP THUMP. La polvere danzava piano e sul sentiero restavano impronte profonde.
+Quella sera FrancaVilla pareva un borgo di bambù: cancelli verdi, tetti curvi e viuzze illuminate da lucciole in barattoli aperti. A casa di EleFranco si era consumata l'ultima candela, così lui doveva comprarne una per vedere la cena. Calzò le scarpe giganti da passeggio, nere con lacci bianchi, e uscì. Le scarpe batterono sul sentiero e la polvere si alzò sotto il peso, lasciando impronte profonde: THUMP THUMP THUMP THUMP.
 
 Accanto a una panchina sedeva Orgo il Panda con un pacchetto. Era invitato a una festa, ma non conosceva il posto, la posizione, il numero civico e nemmeno il nome della festeggiata. Ricordava soltanto una musica, il profumo di pesca e un fiocco viola visto sull'invito, poi perduto.
 
@@ -213,7 +213,7 @@ Il palloncino rimasto gli fece il solletico e lui rise: OH... OH... OH...""",
         "finale_schema": "Mini trovata e miele ricevuto! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quella mattina era un borgo a strisce colorate: tende rosse attraversavano i vicoli, i muri avevano righe dorate e perfino le nuvole sembravano pettinate. EleFranco doveva portare un barattolo vuoto al fruttivendolo, che in cambio gli avrebbe dato miele per la colazione. Indossò gli stivali giganti gialli, sistemò il barattolo in una tasca imbottita e partì. Faceva THUMP THUMP THUMP, sollevando polvere chiara e lasciando orme profonde.
+FrancaVilla quella mattina era un borgo a strisce colorate: tende rosse attraversavano i vicoli, i muri avevano righe dorate e perfino le nuvole sembravano pettinate. EleFranco doveva portare un barattolo vuoto al fruttivendolo, che in cambio gli avrebbe dato miele per la colazione. Indossò gli stivali giganti gialli, sistemò il barattolo in una tasca imbottita e partì. Faceva THUMP THUMP THUMP THUMP, sollevando polvere chiara e lasciando orme profonde.
 
 Sotto l'orologio incontrò Rapira la Tigre. Doveva andare da Mini l'Anatra per provare una canzone, ma bussava da molto e nessuno rispondeva. Sul davanzale c'era solo una piumetta e la finestra era chiusa.
 
@@ -248,7 +248,7 @@ Con il lenzuolo ancora sulla coda, EleFranco rise: OH... OH... OH...""",
 
 FrancaVilla quella domenica era un borgo di porte socchiuse: festoni spuntavano dietro i balconi, profumi dolci uscivano dai comignoli e le strade erano insolitamente silenziose. EleFranco desiderava organizzare una festa per stare con gli amici, ma davanti a un foglio bianco non sapeva chi chiamare. «Se invito qualcuno e dimentico qualcun altro?» si domandò.
 
-Calzò le scarpe giganti della festa, arancioni con fibbie di miele, prese un mazzo di inviti vuoti e uscì. Faceva THUMP THUMP THUMP; la polvere scintillava, il terreno vibrava e dietro di lui restavano impronte profonde.
+Calzò le scarpe giganti della festa, arancioni con fibbie di miele, prese un mazzo di inviti vuoti e uscì. Faceva THUMP THUMP THUMP THUMP; la polvere scintillava, il terreno vibrava e dietro di lui restavano impronte profonde.
 
 In piazza non c'era nessuno. Edo nascose un rotolo di carta dietro l'ala, Orgo passò con un pacco e Rapira spinse un tavolo dentro un vicolo. Quando EleFranco chiedeva spiegazioni, tutti rispondevano: «Ci vediamo dopo!» e sparivano.
 
@@ -277,7 +277,7 @@ Alzò la proboscide; tutti seguirono la sua famosa risata: OH... OH... OH...""",
         "finale_schema": "Mulino riaperto e avena al miele pronta! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla era diventata un borgo di pale al vento: mulinelli giravano sulle ringhiere, nastri indicavano le correnti e al centro sorgeva il vecchio Mulino Avventolo. EleFranco doveva macinare un sacchetto d'avena per la colazione comune. Indossò gli stivali giganti color farina, caricò il sacco e partì facendo THUMP THUMP THUMP. La strada vibrava, la pula volava leggera e le sue suole lasciavano impronte profonde.
+FrancaVilla era diventata un borgo di pale al vento: mulinelli giravano sulle ringhiere, nastri indicavano le correnti e al centro sorgeva il vecchio Mulino Avventolo. EleFranco doveva macinare un sacchetto d'avena per la colazione comune. Indossò gli stivali giganti color farina, caricò il sacco e partì. La strada vibrò sotto gli stivali, la pula si alzò in una nuvola e le suole lasciarono impronte profonde: THUMP THUMP THUMP THUMP.
 
 Davanti al mulino trovò il Gigantorso Gino seduto sull'erba. Era sceso dalla montagna per riparare una pala, ma un grande gruppo di api aveva occupato l'edificio. Entravano da una finestra rotta e si erano raccolte vicino alle macine. Gino, pur essendo enorme, non voleva spaventarle.
 
@@ -310,7 +310,7 @@ Vide il proprio muso infarinato nello specchio e rise: OH... OH... OH...""",
         "finale_schema": "Scavo riuscito e quercia piantata! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Quella mattina FrancaVilla sembrava un borgo di tasche: ai muri pendevano borse per i fiori, i cancelli avevano marsupi per la posta e nel giardino della scuola attendeva una giovane quercia. EleFranco doveva piantarla prima della pioggia. Calzò gli stivali giganti marroni da giardiniere, prese una pala e uscì. Camminava facendo THUMP THUMP THUMP; la terra vibrava, la polvere si alzava piano e profonde impronte segnavano il percorso.
+Quella mattina FrancaVilla sembrava un borgo di tasche: ai muri pendevano borse per i fiori, i cancelli avevano marsupi per la posta e nel giardino della scuola attendeva una giovane quercia. EleFranco doveva piantarla prima della pioggia. Calzò gli stivali giganti marroni da giardiniere, prese una pala e uscì. Camminava e la terra vibrò sotto gli stivali: la polvere si alzò in una nuvola e profonde impronte segnarono il percorso. THUMP THUMP THUMP THUMP.
 
 Vicino alla scuola incontrò il Canguro Fred. Doveva scavare un canale per far scorrere l'acqua lontano dall'orto, ma le sue unghie non erano adatte. Aveva provato ad aspettare che crescessero, a parlarci e perfino a cantare loro una canzone. Non era cambiato nulla.
 
@@ -341,7 +341,7 @@ Guardò la margherita nel cappello e rise: OH... OH... OH...""",
         "finale_schema": "Piccoli raggiunti e angurie al fresco! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quel giorno era un borgo di rocce rosse: archi naturali univano le case, tende leggere facevano ombra e il vento scavava melodie nei canyon. EleFranco aveva tre angurie mature e doveva trovare un posto fresco dove conservarle per la merenda. Calzò gli stivali giganti color sabbia, caricò i frutti su un carretto e partì. Faceva THUMP THUMP THUMP, sollevando polvere lieve e lasciando impronte profonde tra i sassi.
+FrancaVilla quel giorno era un borgo di rocce rosse: archi naturali univano le case, tende leggere facevano ombra e il vento scavava melodie nei canyon. EleFranco aveva tre angurie mature e doveva trovare un posto fresco dove conservarle per la merenda. Calzò gli stivali giganti color sabbia, caricò i frutti su un carretto e partì. Faceva THUMP THUMP THUMP THUMP, sollevando polvere lieve e lasciando impronte profonde tra i sassi.
 
 All'ingresso del canyon incontrò il Leone Ort. Portava una cesta per i suoi piccoli, ma non trovava più la loro tana. Una frana recente aveva coperto il vecchio sentiero e tutte le pareti sembravano uguali. Da lontano arrivava un debole ruggito.
 
@@ -372,7 +372,7 @@ L'eco ripeté la sua risata per tutto il canyon: OH... OH... OH...""",
         "finale_schema": "Mamma ritrovata e sale raccolto! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quella mattina era un borgo marinaro di conchiglie: terrazze bianche guardavano la baia, reti colorate asciugavano al sole e piccoli fari segnavano ogni molo. EleFranco doveva raccogliere sale marino per impastare il pane della sera. Infilò gli stivali giganti azzurri, prese un cestino asciutto e scese alla spiaggia facendo THUMP THUMP THUMP. La sabbia volava leggera e le impronte profonde si riempivano d'acqua lucente.
+FrancaVilla quella mattina era un borgo marinaro di conchiglie: terrazze bianche guardavano la baia, reti colorate asciugavano al sole e piccoli fari segnavano ogni molo. EleFranco doveva raccogliere sale marino per impastare il pane della sera. Infilò gli stivali giganti azzurri, prese un cestino asciutto e scese alla spiaggia. Gli stivali affondarono e la sabbia schizzò intorno alle impronte, che si riempirono d'acqua lucente: THUMP THUMP THUMP THUMP.
 
 Vicino agli scogli vide Tino il Delfino nuotare in cerchio. Doveva raggiungere la mamma oltre la baia, ma una fila di barche aveva coperto i riferimenti e non riusciva più a trovarla. Il piccolo ricordava il loro richiamo di tre fischi, però le onde rendevano ogni suono confuso.
 
@@ -405,7 +405,7 @@ La conchiglia ripeté forte la sua risata: OH... OH... OH...""",
         "finale_schema": "Visita riuscita e libro consegnato! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla appariva come un borgo su palafitte: passerelle di corda collegavano le case, frecce dipinte indicavano i ponti e una biblioteca galleggiava lungo il fiume. EleFranco doveva restituire un libro prima di sera. Calzò gli stivali giganti da fango, avvolse il volume in una tela impermeabile e partì. Faceva THUMP THUMP THUMP; il terreno umido vibrava e le sue impronte profonde diventavano lucidi specchi d'acqua.
+FrancaVilla appariva come un borgo su palafitte: passerelle di corda collegavano le case, frecce dipinte indicavano i ponti e una biblioteca galleggiava lungo il fiume. EleFranco doveva restituire un libro prima di sera. Calzò gli stivali giganti da fango, avvolse il volume in una tela impermeabile e partì. Faceva THUMP THUMP THUMP THUMP; il terreno umido vibrava e le sue impronte profonde diventavano lucidi specchi d'acqua.
 
 Alla biforcazione incontrò Road il Coccodrillo. Voleva visitare un altro coccodrillo chiamato Carlo, ma non conosceva la strada. Le indicazioni ricevute parlavano di scale, campanili e sentieri asciutti: luoghi poco adatti a chi preferiva nuotare.
 
@@ -438,7 +438,7 @@ Si tolse i baffi verdi dalla proboscide e rise: OH... OH... OH...""",
         "finale_schema": "Iss protetta e balcone ombreggiato! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quel mezzogiorno era un borgo di terrazze bianche: specchi d'acqua rinfrescavano le piazze, pergolati d'uva coprivano i vicoli e meridiane colorate segnavano le ore. Il balcone di EleFranco riceveva troppo sole; lui doveva procurarsi una tenda parasole. Indossò i sandali giganti con fasce arancioni, prese le misure del balcone e uscì facendo THUMP THUMP THUMP. Il terreno vibrava, la polvere chiara si sollevava e le impronte restavano profonde.
+FrancaVilla quel mezzogiorno era un borgo di terrazze bianche: specchi d'acqua rinfrescavano le piazze, pergolati d'uva coprivano i vicoli e meridiane colorate segnavano le ore. Il balcone di EleFranco riceveva troppo sole; lui doveva procurarsi una tenda parasole. Indossò i sandali giganti con fasce arancioni, prese le misure del balcone e uscì facendo THUMP THUMP THUMP THUMP. Il terreno vibrava, la polvere chiara si sollevava e le impronte restavano profonde.
 
 Vicino a un muretto assolato trovò Iss la Lucertola. Aveva preso troppo sole e la pelle le bruciava. Era vigile, ma stanca e dispiaciuta per non essersi spostata prima all'ombra.
 
@@ -471,7 +471,7 @@ Una foglia gli scese sul naso e lui rise: OH... OH... OH...""",
         "finale_schema": "Segni condivisi e pane ricevuto! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quella mattina era un borgo quieto di mani dipinte: sulle porte c'erano saluti illustrati, le campane riposavano e i fornai impastavano osservandosi. EleFranco doveva prendere il pane, ma quel giorno la bottega lavorava nel silenzio per ascoltare meglio vibrazioni, gesti e sguardi. Calzò le scarpe giganti di feltro blu, leggere ma enormi, e uscì. Faceva THUMP THUMP THUMP; il suolo vibrava dolcemente, la farina nell'aria danzava e le impronte restavano profonde.
+FrancaVilla quella mattina era un borgo quieto di mani dipinte: sulle porte c'erano saluti illustrati, le campane riposavano e i fornai impastavano osservandosi. EleFranco doveva prendere il pane, ma quel giorno la bottega lavorava nel silenzio per ascoltare meglio vibrazioni, gesti e sguardi. Calzò le scarpe giganti di feltro blu, morbide ma pesanti, e uscì. Faceva THUMP THUMP THUMP THUMP; il suolo vibrò sotto le scarpe pesanti, la farina si alzò in una nuvola e le impronte restarono profonde.
 
 In piazza incontrò Peppe lo Scimpanzé, che conversava con la postina usando la lingua dei segni. Le mani, il viso e il corpo costruivano frasi complete. Peppe l'aveva studiata con impegno e la usava con amici sordi e udenti.
 
@@ -502,7 +502,7 @@ Fece il segno della risata e poi rise: OH... OH... OH...""",
         "finale_schema": "Rifugio costruito e cuscino imbottito! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quella sera era un borgo autunnale: tetti di corteccia, finestre color ambra e sentieri coperti da foglie rosse che scricchiolavano al vento. Il cuscino di EleFranco si era appiattito; lui doveva raccogliere foglie secche per imbottirlo. Calzò gli stivali giganti color rame, prese un grande sacco e uscì. Camminava facendo THUMP THUMP THUMP; la polvere si sollevava lieve e sotto le foglie restavano impronte profonde.
+FrancaVilla quella sera era un borgo autunnale: tetti di corteccia, finestre color ambra e sentieri coperti da foglie rosse che scricchiolavano al vento. Il cuscino di EleFranco si era appiattito; lui doveva raccogliere foglie secche per imbottirlo. Calzò gli stivali giganti color rame, prese un grande sacco e uscì. Camminava facendo THUMP THUMP THUMP THUMP; la polvere si sollevava lieve e sotto le foglie restavano impronte profonde.
 
 Ai margini del bosco incontrò il Cervo Iraed. Voleva preparare una tana riparata per le notti fredde, ma le sue unghie non erano adatte a scavare. Aveva raschiato il terreno e ora gli zoccoli erano stanchi. Guardava una collina come se dovesse trasformarsi in talpa.
 
@@ -533,7 +533,7 @@ Il cuscino rimbalzò sotto la proboscide e lui rise: OH... OH... OH...""",
         "finale_schema": "Eda trovata, famiglia accolta e macedonia al fresco! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-FrancaVilla quel giorno riuniva tutte le sue forme: canali tra case di pietra, pergolati sopra ponti di bambù, pale al vento e banderuole sui tetti. In piazza si preparava una festa per dare il benvenuto ai viaggiatori. EleFranco doveva procurare ghiaccio per mantenere fresca la macedonia. Infilò gli stivali giganti bianchi e blu, caricò una cassa vuota e partì facendo THUMP THUMP THUMP. Il terreno vibrava, la polvere si alzava leggera e profonde impronte attraversavano il borgo.
+FrancaVilla quel giorno riuniva tutte le sue forme: canali tra case di pietra, pergolati sopra ponti di bambù, pale al vento e banderuole sui tetti. In piazza si preparava una festa per dare il benvenuto ai viaggiatori. EleFranco doveva procurare ghiaccio per mantenere fresca la macedonia. Infilò gli stivali giganti bianchi e blu, caricò una cassa vuota e partì. Il terreno vibrò sotto gli stivali, la polvere si alzò in una nuvola e profonde impronte attraversarono il borgo: THUMP THUMP THUMP THUMP.
 
 Alla stazione incontrò la Famiglia Ildai di Pinguini: due adulti, tre piccoli e molte valigie ordinate. Dovevano andare dalla Zebra, ma non la trovavano. Il loro foglio diceva soltanto: «Seguite le strisce fino alla casa fresca.» Non sapevano quale zebra cercare né quali strisce seguire.
 

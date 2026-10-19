@@ -13,118 +13,118 @@
 
 | Ep | Titolo | Parole | Racconto | Spazio (A4) | Lettura |
 |---:|--------|-------:|---------:|------------:|--------:|
-| 1 | 🎉 La Festa e il Castoro Fred 🦫 | 824 | 659 | ~2.3 pag. (607 mm) | ~6 min |
-| 2 | 👓 La Visita dall'Oculista e Jack il Geco 🦎 | 750 | 602 | ~2.2 pag. (564 mm) | ~6 min |
-| 3 | 🍌 Dal Fruttivendolo e Raffa la Giraffa 🦒 | 712 | 567 | ~2.1 pag. (546 mm) | ~5 min |
-| 4 | 🦷 Dal Dentista e Pino il Topolino 🐭 | 724 | 567 | ~2.1 pag. (558 mm) | ~6 min |
-| 5 | 🪡 Dal Sarto e Ciccio il Riccio 🦔 | 700 | 546 | ~2.1 pag. (540 mm) | ~5 min |
-| 6 | 📚 In Libreria e la Lucciola Luce 🪰 | 685 | 520 | ~2.0 pag. (510 mm) | ~5 min |
-| 7 | 🚲 Dal Meccanico e Ralph la Talpa 🛞 | 666 | 522 | ~2.0 pag. (522 mm) | ~5 min |
-| 8 | 🧼 Al Lavaggio Elefanti e Mino il Maialino 🐷 | 687 | 533 | ~2.0 pag. (528 mm) | ~5 min |
-| 9 | 🥾 Dal Calzolaio e Bruno il Bruco 🐛 | 719 | 539 | ~2.2 pag. (564 mm) | ~6 min |
-| 10 | ✉ Dal Postino e Renatolo lo Scoiattolo 🐿 | 714 | 548 | ~2.1 pag. (552 mm) | ~5 min |
-| 11 | 🏥 In Ospedale per il Controllo e Mietta la Scimmietta 🐒 | 690 | 516 | ~2.0 pag. (522 mm) | ~5 min |
-| 12 | 💡 In Ferramenta per una Lampadina e Tufo il Gufo 🦉 | 713 | 526 | ~2.1 pag. (540 mm) | ~5 min |
-| 13 | 🍪 In Pasticceria per i Biscotti e Fosco l'Orso 🐻 | 702 | 540 | ~2.1 pag. (540 mm) | ~5 min |
-| 14 | 🪴 Dal Vivaio per i Fiori e Lalla la Farfalla 🦋 | 685 | 514 | ~2.0 pag. (534 mm) | ~5 min |
-| 15 | 🍦 In Gelateria e Mayer la Cagnolina 🐶 | 698 | 522 | ~2.0 pag. (534 mm) | ~5 min |
-| 16 | 📰 In Edicola per il Fumetto e Betta la Scimmietta 🐒 | 701 | 536 | ~2.0 pag. (528 mm) | ~5 min |
-| 17 | 🪵 In Falegnameria per la Sedia e Lendo il Topo Tremendo 🐭 | 774 | 571 | ~2.3 pag. (588 mm) | ~6 min |
-| 18 | 🎨 Dal Colorificio per le Vernici e Morno l'Unicorno 🦄 | 728 | 535 | ~2.2 pag. (576 mm) | ~6 min |
-| 19 | 🥦 Dal Fruttivendolo e Lattuga la Tartaruga 🐢 | 795 | 574 | ~2.3 pag. (606 mm) | ~6 min |
-| 20 | 👑 Al Palazzo Reale e Regina l'Ape 🐝 | 818 | 561 | ~2.3 pag. (599 mm) | ~6 min |
-| 21 | ☁ In Edicola per le Notizie e Lalla la Farfalla Unicorno 🦄🦋 | 951 | 617 | ~2.6 pag. (677 mm) | ~7 min |
-| 22 | 🥕 Al Mercato delle Verdure e Otto il Coniglietto 🐰 | 1,282 | 1,021 | ~3.5 pag. (906 mm) | ~10 min |
-| 23 | 🍯 Dal Miele e Iris, la Bambina Gentile 🌸 | 1,065 | 787 | ~2.8 pag. (737 mm) | ~8 min |
-| 24 | 🪵 Dal Falegname e Rufus il Tasso 🦡 | 1,001 | 743 | ~2.6 pag. (689 mm) | ~8 min |
-| 25 | 🌾 Al Mulino e Esau la Gru 🦩 | 1,026 | 786 | ~2.8 pag. (720 mm) | ~8 min |
-| 26 | 🥖 In Panetteria e Nora la Volpe 🦊 | 924 | 704 | ~2.5 pag. (654 mm) | ~7 min |
-| 27 | 🧀 Dal Caseificio e Leda la Lontra 🦦 | 785 | 602 | ~2.3 pag. (600 mm) | ~6 min |
-| 28 | 🎪 Al Circo in Visita e Pippo il Palloncino 🎈 | 724 | 549 | ~2.2 pag. (570 mm) | ~6 min |
-| 29 | 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉 | 675 | 513 | ~2.1 pag. (540 mm) | ~5 min |
-| 30 | 🧵 Dal Merceria e Tina la Talpa Sarta 🪡 | 699 | 529 | ~2.1 pag. (558 mm) | ~5 min |
-| 31 | 🍋 Al Limoneto e Ciro il Camaleonte 🦎 | 690 | 538 | ~2.1 pag. (547 mm) | ~5 min |
-| 32 | 🏊 Alla Piscina Comunale e Dodo il Papero 🦆 | 671 | 516 | ~2.0 pag. (534 mm) | ~5 min |
-| 33 | 📮 Alla Filatelia e Elio il Riccio Postino 🦔 | 672 | 514 | ~2.1 pag. (540 mm) | ~5 min |
-| 34 | 🎻 Dal Liutaio e Viola la Volpe Rossa 🦊 | 674 | 516 | ~2.1 pag. (540 mm) | ~5 min |
-| 35 | 🥔 Al Mercato e Patata il Marmorino 🐹 | 672 | 517 | ~2.1 pag. (552 mm) | ~5 min |
-| 36 | 🌈 Dopo il Temporale e Iris Arcobaleno 🌈 | 665 | 513 | ~2.1 pag. (540 mm) | ~5 min |
-| 37 | 🧊 Alla Ghiacciaia e Ping il Pinguino Viaggiatore 🐧 | 671 | 516 | ~2.0 pag. (534 mm) | ~5 min |
-| 38 | 🪴 Sul Terrazzo e Mirta la Marmotta 🌿 | 663 | 511 | ~2.1 pag. (546 mm) | ~5 min |
-| 39 | 🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫 | 710 | 542 | ~2.1 pag. (546 mm) | ~5 min |
-| 40 | 🔭 In Collina e Stella la Civetta 🦉 | 697 | 532 | ~2.1 pag. (540 mm) | ~5 min |
-| 41 | 🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡 | 704 | 547 | ~2.1 pag. (546 mm) | ~5 min |
-| 42 | 🍄 Nel Bosco e Fungo il Capibara 🐹 | 704 | 542 | ~2.0 pag. (528 mm) | ~5 min |
-| 43 | 🎨 In Piazza e Pennello il Pavone 🦚 | 687 | 536 | ~2.1 pag. (546 mm) | ~5 min |
-| 44 | 🐚 Sulla Spiaggia e Sabrina la Tartaruga Marina 🐢 | 681 | 520 | ~2.0 pag. (522 mm) | ~5 min |
-| 45 | 🧺 Al Lavatoio e Rina la Rana 🐸 | 682 | 525 | ~2.0 pag. (534 mm) | ~5 min |
-| 46 | 🌻 Nel Campo e Girasole l'Asino 🫏 | 668 | 512 | ~1.9 pag. (498 mm) | ~5 min |
-| 47 | 🎁 In Bottega e Regalo il Ricciolo 🦔 | 662 | 513 | ~2.0 pag. (516 mm) | ~5 min |
-| 48 | 🌬 Sul Mulino e Vento la Farfalla Blu 🦋 | 670 | 519 | ~1.9 pag. (504 mm) | ~5 min |
-| 49 | 🏡 A Casa di Franca e Franca l'Amica 🎉 | 673 | 516 | ~2.0 pag. (510 mm) | ~5 min |
-| 50 | 🎉 La Grande Festa di FrancaVilla 🐘 | 690 | 530 | ~2.0 pag. (534 mm) | ~5 min |
-| 51 | 🐭 Il Topo e il Cestino delle Nocciole 🌰 | 639 | 485 | ~2.0 pag. (510 mm) | ~5 min |
-| 52 | 👹 Il Gruffalò e il Sentiero delle More 🫐 | 633 | 481 | ~1.9 pag. (498 mm) | ~5 min |
-| 53 | 🦊 La Volpe e la Tovaglia Volante 🍂 | 602 | 448 | ~1.9 pag. (486 mm) | ~5 min |
-| 54 | 🐍 Il Serpente e le Lanterne Spente 🏮 | 571 | 433 | ~1.8 pag. (480 mm) | ~4 min |
-| 55 | 🦉 La Civetta e la Ninna Nanna Perduta 🎵 | 576 | 426 | ~1.8 pag. (468 mm) | ~4 min |
-| 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 589 | 436 | ~1.8 pag. (474 mm) | ~5 min |
-| 57 | 👧 La Piccolina del Gruffalò e la Stella di Neve ❄️ | 592 | 439 | ~1.8 pag. (480 mm) | ~5 min |
-| 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 664 | 507 | ~2.0 pag. (522 mm) | ~5 min |
-| 59 | ☃️ Olaf e le Ghirlande di Ghiaccio 🌼 | 560 | 430 | ~1.8 pag. (467 mm) | ~4 min |
-| 60 | ❄️ Elsa e i Cristalli Stonati 🎶 | 574 | 447 | ~1.9 pag. (491 mm) | ~4 min |
-| 61 | 🧡 Anna e i Nastri Fuggitivi 🎀 | 577 | 445 | ~1.8 pag. (473 mm) | ~4 min |
-| 62 | 🧊 Kristoff e il Ponte Scricchiolante 🛷 | 572 | 439 | ~1.8 pag. (473 mm) | ~4 min |
-| 63 | 🦌 Sven e il Sacco delle Carote 🥕 | 586 | 447 | ~1.8 pag. (461 mm) | ~5 min |
-| 64 | 🏪 Oaken e le Coperte Volanti 🧣 | 567 | 436 | ~1.8 pag. (479 mm) | ~4 min |
-| 65 | 🔥 Bruni e le Fiammelle Timide 🏮 | 566 | 434 | ~1.8 pag. (473 mm) | ~4 min |
+| 1 | 🎉 La Festa e il Castoro Fred 🦫 | 825 | 660 | ~2.4 pag. (619 mm) | ~6 min |
+| 2 | 👓 La Visita dall'Oculista e Jack il Geco 🦎 | 746 | 598 | ~2.3 pag. (588 mm) | ~6 min |
+| 3 | 🍌 Dal Fruttivendolo e Raffa la Giraffa 🦒 | 713 | 568 | ~2.1 pag. (558 mm) | ~5 min |
+| 4 | 🦷 Dal Dentista e Pino il Topolino 🐭 | 725 | 568 | ~2.1 pag. (552 mm) | ~6 min |
+| 5 | 🪡 Dal Sarto e Ciccio il Riccio 🦔 | 700 | 546 | ~2.1 pag. (552 mm) | ~5 min |
+| 6 | 📚 In Libreria e la Lucciola Luce 🪰 | 697 | 532 | ~2.0 pag. (528 mm) | ~5 min |
+| 7 | 🚲 Dal Meccanico e Ralph la Talpa 🛞 | 667 | 523 | ~2.1 pag. (540 mm) | ~5 min |
+| 8 | 🧼 Al Lavaggio Elefanti e Mino il Maialino 🐷 | 688 | 534 | ~2.1 pag. (540 mm) | ~5 min |
+| 9 | 🥾 Dal Calzolaio e Bruno il Bruco 🐛 | 720 | 540 | ~2.3 pag. (588 mm) | ~6 min |
+| 10 | ✉ Dal Postino e Renatolo lo Scoiattolo 🐿 | 715 | 549 | ~2.2 pag. (564 mm) | ~6 min |
+| 11 | 🏥 In Ospedale per il Controllo e Mietta la Scimmietta 🐒 | 691 | 517 | ~2.0 pag. (534 mm) | ~5 min |
+| 12 | 💡 In Ferramenta per una Lampadina e Tufo il Gufo 🦉 | 714 | 527 | ~2.1 pag. (558 mm) | ~5 min |
+| 13 | 🍪 In Pasticceria per i Biscotti e Fosco l'Orso 🐻 | 703 | 541 | ~2.2 pag. (564 mm) | ~5 min |
+| 14 | 🪴 Dal Vivaio per i Fiori e Lalla la Farfalla 🦋 | 686 | 515 | ~2.1 pag. (540 mm) | ~5 min |
+| 15 | 🍦 In Gelateria e Mayer la Cagnolina 🐶 | 699 | 523 | ~2.1 pag. (540 mm) | ~5 min |
+| 16 | 📰 In Edicola per il Fumetto e Betta la Scimmietta 🐒 | 702 | 537 | ~2.1 pag. (552 mm) | ~5 min |
+| 17 | 🪵 In Falegnameria per la Sedia e Lendo il Topo Tremendo 🐭 | 775 | 572 | ~2.3 pag. (600 mm) | ~6 min |
+| 18 | 🎨 Dal Colorificio per le Vernici e Morno l'Unicorno 🦄 | 729 | 536 | ~2.2 pag. (576 mm) | ~6 min |
+| 19 | 🥦 Dal Fruttivendolo e Lattuga la Tartaruga 🐢 | 799 | 578 | ~2.4 pag. (618 mm) | ~6 min |
+| 20 | 👑 Al Palazzo Reale e Regina l'Ape 🐝 | 819 | 562 | ~2.3 pag. (599 mm) | ~6 min |
+| 21 | ☁ In Edicola per le Notizie e Lalla la Farfalla Unicorno 🦄🦋 | 956 | 622 | ~2.6 pag. (677 mm) | ~7 min |
+| 22 | 🥕 Al Mercato delle Verdure e Otto il Coniglietto 🐰 | 1,286 | 1,025 | ~3.5 pag. (912 mm) | ~10 min |
+| 23 | 🍯 Dal Miele e Iris, la Bambina Gentile 🌸 | 1,068 | 790 | ~3.0 pag. (773 mm) | ~8 min |
+| 24 | 🪵 Dal Falegname e Rufus il Tasso 🦡 | 1,002 | 744 | ~2.8 pag. (720 mm) | ~8 min |
+| 25 | 🌾 Al Mulino e Esau la Gru 🦩 | 1,027 | 787 | ~2.8 pag. (744 mm) | ~8 min |
+| 26 | 🥖 In Panetteria e Nora la Volpe 🦊 | 927 | 707 | ~2.6 pag. (690 mm) | ~7 min |
+| 27 | 🧀 Dal Caseificio e Leda la Lontra 🦦 | 786 | 603 | ~2.4 pag. (624 mm) | ~6 min |
+| 28 | 🎪 Al Circo in Visita e Pippo il Palloncino 🎈 | 725 | 550 | ~2.3 pag. (606 mm) | ~6 min |
+| 29 | 🌙 All'Osservatorio e Otis il Gufo Astronomo 🦉 | 689 | 527 | ~2.2 pag. (576 mm) | ~5 min |
+| 30 | 🧵 Dal Merceria e Tina la Talpa Sarta 🪡 | 702 | 532 | ~2.3 pag. (600 mm) | ~5 min |
+| 31 | 🍋 Al Limoneto e Ciro il Camaleonte 🦎 | 691 | 539 | ~2.2 pag. (583 mm) | ~5 min |
+| 32 | 🏊 Alla Piscina Comunale e Dodo il Papero 🦆 | 672 | 517 | ~2.1 pag. (558 mm) | ~5 min |
+| 33 | 📮 Alla Filatelia e Elio il Riccio Postino 🦔 | 673 | 515 | ~2.2 pag. (582 mm) | ~5 min |
+| 34 | 🎻 Dal Liutaio e Viola la Volpe Rossa 🦊 | 675 | 517 | ~2.2 pag. (582 mm) | ~5 min |
+| 35 | 🥔 Al Mercato e Patata il Marmorino 🐹 | 673 | 518 | ~2.3 pag. (588 mm) | ~5 min |
+| 36 | 🌈 Dopo il Temporale e Iris Arcobaleno 🌈 | 666 | 514 | ~2.2 pag. (570 mm) | ~5 min |
+| 37 | 🧊 Alla Ghiacciaia e Ping il Pinguino Viaggiatore 🐧 | 672 | 517 | ~2.1 pag. (558 mm) | ~5 min |
+| 38 | 🪴 Sul Terrazzo e Mirta la Marmotta 🌿 | 666 | 514 | ~2.2 pag. (570 mm) | ~5 min |
+| 39 | 🎉 Alla Pasticceria e Bruno il Castoro (ritorno) 🦫 | 713 | 545 | ~2.1 pag. (558 mm) | ~5 min |
+| 40 | 🔭 In Collina e Cuore la Civetta 🦉 | 698 | 533 | ~2.2 pag. (570 mm) | ~5 min |
+| 41 | 🚂 Alla Stazione e Treno il Tasso Ferroviere 🦡 | 707 | 550 | ~2.2 pag. (570 mm) | ~5 min |
+| 42 | 🍄 Nel Bosco e Fungo il Capibara 🐹 | 707 | 545 | ~2.1 pag. (558 mm) | ~5 min |
+| 43 | 🎨 In Piazza e Pennello il Pavone 🦚 | 686 | 535 | ~2.2 pag. (576 mm) | ~5 min |
+| 44 | 🐚 Sulla Spiaggia e Sabrina la Tartaruga Marina 🐢 | 684 | 523 | ~2.1 pag. (552 mm) | ~5 min |
+| 45 | 🧺 Al Lavatoio e Rina la Rana 🐸 | 685 | 528 | ~2.1 pag. (558 mm) | ~5 min |
+| 46 | 🌻 Nel Campo e Girasole l'Asino 🫏 | 671 | 515 | ~2.1 pag. (540 mm) | ~5 min |
+| 47 | 🎁 In Bottega e Regalo il Ricciolo 🦔 | 665 | 516 | ~2.1 pag. (541 mm) | ~5 min |
+| 48 | 🌬 Sul Mulino e Vento la Farfalla Blu 🦋 | 673 | 522 | ~2.0 pag. (529 mm) | ~5 min |
+| 49 | 🏡 A Casa di Franca e Franca l'Amica 🎉 | 676 | 519 | ~2.0 pag. (535 mm) | ~5 min |
+| 50 | 🎉 La Grande Festa di FrancaVilla 🐘 | 693 | 534 | ~2.1 pag. (552 mm) | ~5 min |
+| 51 | 🐭 Il Topo e il Cestino delle Nocciole 🌰 | 644 | 490 | ~2.0 pag. (516 mm) | ~5 min |
+| 52 | 👹 Il Gruffalò e il Sentiero delle More 🫐 | 635 | 482 | ~2.0 pag. (528 mm) | ~5 min |
+| 53 | 🦊 La Volpe e la Tovaglia Volante 🍂 | 603 | 449 | ~1.9 pag. (492 mm) | ~5 min |
+| 54 | 🐍 Il Serpente e le Lanterne Spente 🏮 | 578 | 440 | ~1.9 pag. (498 mm) | ~4 min |
+| 55 | 🦉 La Civetta e la Ninna Nanna Perduta 🎵 | 583 | 433 | ~1.8 pag. (480 mm) | ~4 min |
+| 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 590 | 437 | ~1.9 pag. (492 mm) | ~5 min |
+| 57 | 👧 La Piccolina del Gruffalò e il Cuore di Neve ❄️ | 593 | 440 | ~1.8 pag. (480 mm) | ~5 min |
+| 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 665 | 508 | ~2.1 pag. (546 mm) | ~5 min |
+| 59 | ☃️ Olaf e le Ghirlande di Ghiaccio 🌼 | 570 | 440 | ~1.9 pag. (491 mm) | ~4 min |
+| 60 | ❄️ Elsa e i Cristalli Stonati 🎶 | 579 | 452 | ~1.9 pag. (503 mm) | ~4 min |
+| 61 | 🧡 Anna e i Nastri Fuggitivi 🎀 | 584 | 452 | ~1.8 pag. (479 mm) | ~4 min |
+| 62 | 🧊 Kristoff e il Ponte Scricchiolante 🛷 | 573 | 440 | ~1.9 pag. (497 mm) | ~4 min |
+| 63 | 🦌 Sven e il Sacco delle Carote 🥕 | 587 | 448 | ~1.9 pag. (485 mm) | ~5 min |
+| 64 | 🏪 Oaken e le Coperte Volanti 🧣 | 568 | 437 | ~1.9 pag. (491 mm) | ~4 min |
+| 65 | 🔥 Bruni e le Fiammelle Timide 🏮 | 567 | 435 | ~1.9 pag. (485 mm) | ~4 min |
 | 66 | 🌊 Nokk e lo Specchio dell'Aurora 🐴 | 572 | 440 | ~1.8 pag. (479 mm) | ~4 min |
-| 67 | 🌌 Tutti Insieme alla Festa dell'Aurora 🎉 | 578 | 430 | ~1.8 pag. (473 mm) | ~4 min |
-| 68 | 🦜 Edo il Pappagallo Cerca Edoino 🧭 | 521 | 402 | ~1.7 pag. (431 mm) | ~4 min |
-| 69 | 🦒 Raffa la Giraffa e il Piccolo Arrivato 🌟 | 546 | 418 | ~1.7 pag. (437 mm) | ~4 min |
-| 70 | 🦓 Eda la Zebra e il Gigantorso sulla Montagna ⛰️ | 531 | 407 | ~1.7 pag. (437 mm) | ~4 min |
-| 71 | 🐞 Edoarda la Coccinella Diventa Gigante 🌿 | 529 | 407 | ~1.7 pag. (449 mm) | ~4 min |
-| 72 | 🦛 Odo l'Ippopotamo e il Piccolo Nascosto 🔔 | 525 | 406 | ~1.7 pag. (431 mm) | ~4 min |
-| 73 | 🐼 Orgo il Panda e la Festa Misteriosa 🎈 | 526 | 406 | ~1.6 pag. (425 mm) | ~4 min |
-| 74 | 🐯 Rapira la Tigre Cerca Mini l'Anatra 🦆 | 534 | 408 | ~1.7 pag. (431 mm) | ~4 min |
-| 75 | 🐘 La Festa a Sorpresa per EleFranco 🎉 | 537 | 408 | ~1.7 pag. (455 mm) | ~4 min |
-| 76 | 🐻 Il Gigantorso Gino e il Mulino delle Api 🐝 | 528 | 400 | ~1.7 pag. (443 mm) | ~4 min |
-| 77 | 🦘 Il Canguro Fred e lo Scavo Impossibile 🕳️ | 537 | 408 | ~1.7 pag. (443 mm) | ~4 min |
-| 78 | 🦁 Il Leone Ort e la Tana dei Piccoli 🪨 | 531 | 409 | ~1.7 pag. (437 mm) | ~4 min |
-| 79 | 🐬 Tino il Delfino Cerca la Mamma 🌊 | 524 | 403 | ~1.7 pag. (431 mm) | ~4 min |
-| 80 | 🐊 Road il Coccodrillo e la Strada Sconosciuta 🗺️ | 532 | 412 | ~1.7 pag. (443 mm) | ~4 min |
-| 81 | 🦎 Iss la Lucertola e il Sole Troppo Forte ☀️ | 541 | 418 | ~1.7 pag. (455 mm) | ~4 min |
-| 82 | 🐒 Peppe lo Scimpanzé e le Mani che Parlano 🤟 | 546 | 417 | ~1.7 pag. (431 mm) | ~4 min |
-| 83 | 🦌 Il Cervo Iraed e la Tana da Scavare 🍂 | 542 | 416 | ~1.7 pag. (443 mm) | ~4 min |
-| 84 | 🐧 La Famiglia Ildai Cerca la Zebra 🦓 | 545 | 414 | ~1.7 pag. (455 mm) | ~4 min |
-| 85 | 🎠 La Giostra degli Amici di Iris 🌸 | 647 | 515 | ~2.0 pag. (511 mm) | ~5 min |
-| 86 | 🎺 La Tromba di Iris 🌸 | 579 | 448 | ~1.8 pag. (475 mm) | ~4 min |
-| 87 | ⛸ A Pattinare con Iris 🌸 | 621 | 494 | ~1.9 pag. (493 mm) | ~5 min |
-| 88 | 🩰 EleFranco Ballerina 🌸 | 606 | 473 | ~1.8 pag. (475 mm) | ~5 min |
-| 89 | 🚂 La Locomotiva della Festa in Maschera 🌸 | 608 | 472 | ~1.9 pag. (505 mm) | ~5 min |
-| 90 | 🏫 A Scuola con Iris 🌸 | 645 | 508 | ~1.9 pag. (505 mm) | ~5 min |
-| 91 | 🛝 EleFranco Scivolo 🌸 | 613 | 490 | ~1.8 pag. (481 mm) | ~5 min |
-| 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,112 | 872 | ~2.9 pag. (762 mm) | ~9 min |
+| 67 | 🌌 Tutti Insieme alla Festa dell'Aurora 🎉 | 580 | 431 | ~1.8 pag. (473 mm) | ~4 min |
+| 68 | 🦜 Edo il Pappagallo Cerca Edoino 🧭 | 529 | 410 | ~1.7 pag. (449 mm) | ~4 min |
+| 69 | 🦒 Raffa la Giraffa e il Piccolo Arrivato 🌟 | 554 | 426 | ~1.8 pag. (461 mm) | ~4 min |
+| 70 | 🦓 Eda la Zebra e il Gigantorso sulla Montagna ⛰️ | 537 | 413 | ~1.8 pag. (461 mm) | ~4 min |
+| 71 | 🐞 Edoarda la Coccinella Diventa Gigante 🌿 | 530 | 408 | ~1.7 pag. (443 mm) | ~4 min |
+| 72 | 🦛 Odo l'Ippopotamo e il Piccolo Nascosto 🔔 | 526 | 407 | ~1.7 pag. (437 mm) | ~4 min |
+| 73 | 🐼 Orgo il Panda e la Festa Misteriosa 🎈 | 532 | 412 | ~1.7 pag. (431 mm) | ~4 min |
+| 74 | 🐯 Rapira la Tigre Cerca Mini l'Anatra 🦆 | 535 | 409 | ~1.7 pag. (437 mm) | ~4 min |
+| 75 | 🐘 La Festa a Sorpresa per EleFranco 🎉 | 538 | 409 | ~1.8 pag. (461 mm) | ~4 min |
+| 76 | 🐻 Il Gigantorso Gino e il Mulino delle Api 🐝 | 533 | 405 | ~1.7 pag. (449 mm) | ~4 min |
+| 77 | 🦘 Il Canguro Fred e lo Scavo Impossibile 🕳️ | 543 | 414 | ~1.7 pag. (449 mm) | ~4 min |
+| 78 | 🦁 Il Leone Ort e la Tana dei Piccoli 🪨 | 532 | 410 | ~1.7 pag. (443 mm) | ~4 min |
+| 79 | 🐬 Tino il Delfino Cerca la Mamma 🌊 | 527 | 406 | ~1.7 pag. (449 mm) | ~4 min |
+| 80 | 🐊 Road il Coccodrillo e la Strada Sconosciuta 🗺️ | 533 | 413 | ~1.7 pag. (449 mm) | ~4 min |
+| 81 | 🦎 Iss la Lucertola e il Sole Troppo Forte ☀️ | 542 | 419 | ~1.8 pag. (461 mm) | ~4 min |
+| 82 | 🐒 Peppe lo Scimpanzé e le Mani che Parlano 🤟 | 553 | 424 | ~1.7 pag. (455 mm) | ~4 min |
+| 83 | 🦌 Il Cervo Iraed e la Tana da Scavare 🍂 | 543 | 417 | ~1.7 pag. (443 mm) | ~4 min |
+| 84 | 🐧 La Famiglia Ildai Cerca la Zebra 🦓 | 550 | 419 | ~1.7 pag. (449 mm) | ~4 min |
+| 85 | 🎠 La Giostra degli Amici di Iris 🌸 | 709 | 567 | ~2.0 pag. (534 mm) | ~5 min |
+| 86 | 🎺 La Tromba di Iris 🌸 | 628 | 496 | ~1.9 pag. (499 mm) | ~5 min |
+| 87 | ⛸ A Pattinare con Iris 🌸 | 636 | 507 | ~1.9 pag. (493 mm) | ~5 min |
+| 88 | 🩰 EleFranco Ballerina 🌸 | 642 | 507 | ~1.9 pag. (493 mm) | ~5 min |
+| 89 | 🚂 La Locomotiva della Festa in Maschera 🌸 | 678 | 538 | ~2.0 pag. (516 mm) | ~5 min |
+| 90 | 🏫 A Scuola con Iris 🌸 | 669 | 525 | ~2.0 pag. (510 mm) | ~5 min |
+| 91 | 🛝 EleFranco Scivolo 🌸 | 669 | 544 | ~1.9 pag. (499 mm) | ~5 min |
+| 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,115 | 875 | ~3.1 pag. (804 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **61,747** |
-| Spazio stampa stimato | **~184.9 pagine A4** |
-| Lettura ad alta voce | **~475 min** (7.9 h) |
+| Parole totali | **62,281** |
+| Spazio stampa stimato | **~191.1 pagine A4** |
+| Lettura ad alta voce | **~479 min** (8.0 h) |
 
 ## Medie per gruppo
 
 | Gruppo | Capitoli | Parole (media) | Pagine (media) | Lettura (media) |
 |--------|----------|---------------:|---------------:|----------------:|
-| Ep. 1–21 | 21 | 735 | 2.1 | 5.7 min |
-| Ep. 22–25 | 4 | 1094 | 2.9 | 8.4 min |
-| Ep. 26–50 | 25 | 697 | 2.1 | 5.4 min |
-| Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
-| Speciale Frozen (59–67) | 9 | 572 | 1.8 | 4.4 min |
-| Nuovi amici di FrancaVilla (68–84) | 17 | 534 | 1.7 | 4.1 min |
-| EleFranco con Iris (85–91) | 7 | 617 | 1.9 | 4.7 min |
+| Ep. 1–21 | 21 | 737 | 2.2 | 5.7 min |
+| Ep. 22–25 | 4 | 1096 | 3.0 | 8.4 min |
+| Ep. 26–50 | 25 | 699 | 2.2 | 5.4 min |
+| Speciale Gruffalò (51–58) | 8 | 611 | 1.9 | 4.7 min |
+| Speciale Frozen (59–67) | 9 | 576 | 1.9 | 4.4 min |
+| Nuovi amici di FrancaVilla (68–84) | 17 | 537 | 1.7 | 4.1 min |
+| EleFranco con Iris (85–91) | 7 | 662 | 1.9 | 5.1 min |
 
 ## Note
 
