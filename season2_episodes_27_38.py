@@ -36,7 +36,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di pietr
 
 Era mezzogiorno inoltrato e EleFranco aveva fame di qualcosa di fresco: «Devo andare da Gina al caseificio a prendere una mozzarella morbida per la mia insalata! Se arrivo tardi, chiude il banco del latte.» Aprì il frigorifero: solo lattuga solitaria. «Senza mozzarella, l'insalata è triste.»
 
-Si infilò le sue scarpe giganti impermeabili color verde muschio, prese un cestino di vimini e uscì verso il sentiero del fiume. Ogni passo faceva vibrare le assi del ponticello: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti impermeabili color verde muschio, prese un cestino di vimini e uscì verso il sentiero del fiume. Ogni passo faceva vibrare le assi del ponticello: THUMP THUMP THUMP THUMP.
 
 A metà strada sentì un piccolo sibilo di frustrazione. Sulla riva c'erano due secchi di latte ancora freddi e, accovacciata su una pietra, Leda la Lontra — lucida, veloce di zampa, ma con gli occhi pieni di paura.
 
@@ -108,7 +108,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, che quella settim
 
 Era un pomeriggio luminoso e EleFranco non vedeva l'ora: «Devo comprare il biglietto per lo spettacolo prima che finiscano i posti in prima fila! Ho sentito che c'è un acrobata che cammina sulla corda tesa come se fosse un sentiero di nuvole.» Controllò il portafoglio: tutto in ordine. «Andiamo!»
 
-Si infilò le sue ciabatte giganti a pois colorati, perfette per una festa, e uscì verso la piazza. Il selciato tremava di eccitazione: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti a pois colorati, perfette per una festa, e uscì verso la piazza. Il selciato tremava di eccitazione: THUMP THUMP THUMP THUMP.
 
 Arrivato davanti alla biglietteria, notò una macchia rossa sul prato — piatta, triste, quasi invisibile. Si chinò e sentì una vocina sottile: «EleFranco... sono io, Pippo. Pippo il Palloncino.»
 
@@ -157,7 +157,7 @@ EleFranco guardò il cielo colorato della tenda e scoppiò nella sua famosa risa
         ),
         "incontro": (
             "All'osservatorio incontra Otis il Gufo Astronomo, saggio e premuroso: "
-            "il vento ha strappato la sua mappa delle stelle e la notte è così buia "
+            "il vento ha strappato la sua mappa dei cuori e la notte è così buia "
             "che non riesce a guidare i visitatori verso la cupola. 🦉"
         ),
         "aiuto": (
@@ -165,7 +165,7 @@ EleFranco guardò il cielo colorato della tenda e scoppiò nella sua famosa risa
             "Ma la luce attira una falena polverosa che vola ovunque, coprendo tutto "
             "di una polvere dorata scintillante. ✨"
         ),
-        "morale": "Per non perdersi basta guardare una stella alla volta. ⭐",
+        "morale": "Per non perdersi basta guardare un cuore alla volta. 💛",
         "colpo": (
             "Le falene, danzando, disegnano una costellazione luminosa sul muro "
             "dell'osservatorio; Otis capisce che la lampada non serve più. 🔭"
@@ -175,15 +175,15 @@ EleFranco guardò il cielo colorato della tenda e scoppiò nella sua famosa risa
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su una collina dolce dove le case salivano a gradoni verso l'osservatorio, le finestre si illuminavano di lampioni a olio e la sera l'intero paese sembrava sospeso tra terra e cielo come un nido di stelle.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su una collina dolce dove le case salivano a gradoni verso l'osservatorio, le finestre si illuminavano di lampioni a olio e la sera l'intero paese sembrava sospeso tra terra e cielo come un nido di cuori.
 
 Era il tramonto e EleFranco aveva un piccolo problema: «La mia lampada notturna si è rotta! Devo andare dalla bottega in cima alla collina a prenderne una nuova, prima che cali il buio pesto.» Guardò fuori: il cielo era già indaco. «Senza luce, inciampo nelle ciabatte.»
 
-Si infilò le sue stivali giganti morbidi color notte, con suole che non scricchiolavano, prese un sacco di tela e salì per il sentiero. La collina rispondeva piano: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti morbidi color notte, con suole che non scricchiolavano, prese un sacco di tela e salì per il sentiero. La collina rispose con un tonfo pieno: THUMP THUMP THUMP THUMP.
 
 Arrivato all'osservatorio, trovò Otis il Gufo Astronomo seduto su un trespolo, con le grandi ali strette al petto e gli occhi dorati pieni di preoccupazione.
 
-«EleFranco, che notte difficile!» sussurrò. «Il vento ha strappato la mia mappa delle stelle — pezzi di carta sparsi ovunque! Stasera arrivano i bambini per guardare la costellazione del Cigno, ma senza mappa e senza lampioni accesi non trovano la cupola.»
+«EleFranco, che notte difficile!» sussurrò. «Il vento ha strappato la mia mappa dei cuori — pezzi di carta sparsi ovunque! Stasera arrivano i bambini per guardare la costellazione del Cigno, ma senza mappa e senza lampioni accesi non trovano la cupola.»
 
 EleFranco guardò i frammenti di carta che volteggiavano nel crepuscolo. Poi guardò il sentiero buio. Poi di nuovo Otis.
 
@@ -195,13 +195,13 @@ Stava quasi per perdersi nel buio quando Otis gridò: «EleFranco, sento passi c
 
 Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola magica: "FOCUS!"
 
-«Piano, Otis. Una stella alla volta.»
+«Piano, Otis. Un cuore alla volta.»
 
 Sollevò la proboscide verso il cielo, riflettendo la luce dell'ultimo tramonto, e illuminò il sentiero come un faro gentile. «Seguite la luce!» chiamò ai bambini che salivano.
 
-Ma la luce calda attirò anche una falena polverosa, piena di scaglie dorate che brillavano come polvere di stelle. La falena danzò intorno alla proboscide, poi intorno a Otis, poi verso il muro bianco dell'osservatorio.
+Ma la luce calda attirò anche una falena polverosa, piena di scaglie dorate che brillavano come polvere di cuori. La falena danzò intorno alla proboscide, poi intorno a Otis, poi verso il muro bianco dell'osservatorio.
 
-«Ops,» disse EleFranco, coperto di polvere scintillante. «Sembro un cielo stellato ambulante.»
+«Ops,» disse EleFranco, coperto di polvere scintillante. «Sembro un cielo di cuori ambulante.»
 
 Otis però non si lamentò. Guardò il muro dove la falena — e altre amiche attratte dalla luce — avevano lasciato tracce dorate. I punti luminosi formavano proprio la forma del Cigno, con le ali spiegate e il collo elegante.
 
@@ -209,9 +209,9 @@ Otis però non si lamentò. Guardò il muro dove la falena — e altre amiche at
 
 I bambini giunsero in cima, meravigliati. «È più bella della carta!» dissero in coro.
 
-Otis aprì la cupola. Le stelle vere brillavano sopra, e il disegno dorato sul muro indicava esattamente dove guardare. La bottega poteva aspettare: EleFranco non aveva più bisogno della lampada.
+Otis aprì la cupola. Qui il borgo fece il suo piccolo incanto: nel cielo si accesero cuori veri, e il disegno dorato sul muro indicava esattamente dove guardare. La bottega poteva aspettare: EleFranco non aveva più bisogno della lampada.
 
-La missione era compiuta: notte illuminata, stelle trovate, bambini felici.
+La missione era compiuta: notte illuminata, cuori trovati, bambini felici.
 
 EleFranco guardò il cielo e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
@@ -234,7 +234,7 @@ EleFranco guardò il cielo e scoppiò nella sua famosa risata: OH... OH... OH...
         ),
         "morale": "Mettere ordine nel caos è già metà dell'aiuto. 🧺",
         "colpo": (
-            "Una piccola scossa di terra rivela bottoni a forma di stella nascosti "
+            "Una piccola scossa di terra rivela bottoni a forma di cuore nascosti "
             "sotto la sabbia; la mantella riparata è più bella del previsto. ⭐"
         ),
         "finale_schema": (
@@ -246,7 +246,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo sartoria
 
 Era una mattina ventosa e EleFranco aveva un compito urgente: «La mantella del vento ha strappato un lembo! Devo andare dal merciaio a prendere un rotolo di filo blu prima che la sera diventi fredda.» Toccò il tessuto svolazzante alla finestra. «Senza riparazione, entra il freddo.»
 
-Si infilò le sue scarpe giganti morbide color lana grigia, prese il pezzo di mantella strappato e scese verso la bottega. Il selciato tremava piano: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti morbide color lana grigia, prese il pezzo di mantella strappato e scese verso la bottega. Il selciato tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Davanti all'ingresso arrotondato della merceria sotterranea, sentì un piccolo lamento. Tina la Talpa Sarta — con il grembiule a quadri e le unghie curate da sarta — sedeva accanto a una buca buia, con gli occhiali appoggiati sulla testa.
 
@@ -276,11 +276,11 @@ EleFranco respirò piano. «Hai ragione. Ordine nel caos: prima i grandi, poi i 
 
 Con la proboscide, creò tre mucchietti: bottoni da un lato, spilli dall'altro, fili al centro. Tina, con gli occhiali finalmente sul naso, iniziò a riconoscere le forme.
 
-Proprio in quel momento, una piccola scossa di terra — dolce come un sospiro — fece tremare la buca. Dalla sabbia emersero bottoni a forma di stella, dorati e lucenti, che nessuno aveva mai visto prima.
+Proprio in quel momento, una piccola scossa di terra — dolce come un sospiro — fece tremare la buca. Dalla sabbia emersero bottoni a forma di cuore, dorati e lucenti, che nessuno aveva mai visto prima.
 
 «Eccoli!» esclamò Tina. «I bottoni speciali per il colletto!»
 
-Con il filo blu comprato in fretta al merciaio, EleFranco riparò la mantella. Tina cucì le stelle sull'abito: era più bello di quanto avesse immaginato.
+Con il filo blu comprato in fretta al merciaio, EleFranco riparò la mantella. Tina cucì i cuori sull'abito: era più bello di quanto avesse immaginato.
 
 La missione era compiuta: mantella a posto, abito splendente, bottega in ordine.
 
@@ -316,7 +316,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo agrumari
 
 Era un pomeriggio cocente e EleFranco aveva sete: «Devo raccogliere limoni maturi dal limoneto di Lino per fare la mia limonata fresca!» Guardò il barattolo vuoto in cucina. «Senza limoni, l'estate non è estate.»
 
-Si infilò le sue ciabatte giganti color giallo limone, prese un cesto grande e uscì verso il limoneto. Le foglie tremavano al passaggio: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti color giallo limone, prese un cesto grande e uscì verso il limoneto. Le foglie tremavano al passaggio: THUMP THUMP THUMP THUMP.
 
 Tra i rami più bassi sentì un sussurro appena percettibile: «Psst... EleFranco... sono qui... ma nessuno mi vede.»
 
@@ -394,7 +394,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo estivo c
 
 Era una mattina di sole e EleFranco guardò le sue ciabatte consumate: «Buche qui, buche là! Devo andare al negozio sportivo vicino alla piscina a comprarne un paio nuovo, prima che mi facciano male i piedoni.»
 
-Si infilò le vecchie ciabatte giganti ancora per un ultimo viaggio — squish squash — e uscì verso la piscina. Il marciapiede vibrava: THUMP THUMP THUMP.
+Si infilò le vecchie ciabatte giganti ancora per un ultimo viaggio — squish squash — e uscì verso la piscina. Il marciapiede vibrava: THUMP THUMP THUMP THUMP.
 
 All'ingresso sentì un piccolo «quack» tremolante. Nella vasca dei puliti, un paperino giallo con il piumaggio ancora soffice girava in tondo, senza uscire. Intorno, le mamme papa si rasciugavano le ali e chiamavano i piccoli — tutti tranne uno.
 
@@ -404,7 +404,7 @@ EleFranco guardò la vasca. Poi il negozio sportivo. Poi di nuovo Dodo.
 
 «Non ti preoccupare, Dodo. La pulizia con amore non fa paura.»
 
-Ma mentre pensava a come rincuorarlo, la mente cominciò a vagare: che colore avrebbero le ciabatte nuove? Blu o arancio? E se avessero le stelle?
+Ma mentre pensava a come rincuorarlo, la mente cominciò a vagare: che colore avrebbero le ciabatte nuove? Blu o arancio? E se avessero i cuori?
 
 Stava quasi per ignorare il paperino quando Dodo gridò: «EleFranco, sento la mamma che chiama fuori!»
 
@@ -461,7 +461,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo epistola
 
 Era un mattino umido e EleFranco teneva in mano una lettera scritta con cura: «Devo comprare un francobollo speciale per la zia lontana, prima che chiuda l'ufficio posta!» La lettera parlava di FrancaVilla, di amici e di avventure. «Senza francobollo, il viaggio non comincia.»
 
-Si infilò le sue scarpe giganti eleganti color bordeaux, prese la busta e uscì verso la filatelia. I passi risuonavano sulla piazza: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti eleganti color bordeaux, prese la busta e uscì verso la filatelia. I passi risuonavano sulla piazza: THUMP THUMP THUMP THUMP.
 
 Davanti alla vetrina piena di timbri rari, trovò Elio il Riccio Postino seduto su una pila di buste, con le spine leggermente abbassate dallo stress.
 
@@ -534,7 +534,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo musicale
 
 Era un pomeriggio ventilato e EleFranco ascoltò il silenzio del giardino: «La mia campanella a vento non suona più! Devo andare dal liutaio a prendere corde di ricambio.» Toccò il metallo muto. «Senza musica, il giardino è triste.»
 
-Si infilò le sue stivali giganti color mogano, prese la campanella rotta e uscì verso il laboratorio. La strada risuonava di passi: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti color mogano, prese la campanella rotta e uscì verso il laboratorio. La strada risuonava di passi: THUMP THUMP THUMP THUMP.
 
 Davanti alla porta del liutaio, sentì un lamento melodioso. Viola la Volpe Rossa — elegante, con un fiocco viola all'orecchio — tirava un ramo ma senza successo.
 
@@ -608,7 +608,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di merca
 
 Era domenica mattina e EleFranco aveva fame di minestra: «Devo comprare patate grosse al mercato per il pranzo domenicale!» Guardò la pentola vuota. «Senza patate, la minestra non è minestra.»
 
-Si infilò le sue scarpe giganti da mercato, con la suola robusta, prese un sacco di juta e uscì verso la piazza. Il selciato tremava di vita: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti da mercato, con la suola robusta, prese un sacco di juta e uscì verso la piazza. Il selciato tremava di vita: THUMP THUMP THUMP THUMP.
 
 Al banco delle verdure, trovò Patata il Marmorino — un criceto dal pelo dorato e dalle guance piene — che spingeva un carretto traballante senza successo.
 
@@ -681,7 +681,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo dopo-tem
 
 Era il pomeriggio dopo un acquazzone e EleFranco guardò l'ombrello storto nell'angolo: «L'ombrello è rotto! Devo portarlo dal riparatore prima che arrivi un altro acquazzone.» Guardò le nuvole che si aprivano. «Senza ombrello, finisco fradicio.»
 
-Si infilò le sue ciabatte giganti antiscivolo, prese l'ombrello piegato e uscì per le scale del vicolo. L'acqua scrosciava ancora nelle grondaie: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti antiscivolo, prese l'ombrello piegato e uscì per le scale del vicolo. L'acqua scrosciava ancora nelle grondaie: THUMP THUMP THUMP THUMP.
 
 Sulle scale di pietra, lucide come vetro, c'era una piccola lucertola dai colori dell'arcobaleno — rosso, arancio, giallo, verde, blu — che tentava di salire ma scivolava a ogni passo.
 
@@ -752,7 +752,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo estivo c
 
 Era un pomeriggio caldo e EleFranco aveva sete di qualcosa di gelato: «Devo andare alla ghiacciaia a prendere cubetti per il mio frullato, prima che si sciolgano al sole!» Guardò il termometro. «Senza ghiaccio, il frullato è zuppa tiepida.»
 
-Si infilò le sue scarpe giganti estive, prese un secchio termico e uscì verso la piazza. Il calore tremolava sull'asfalto: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti estive, prese un secchio termico e uscì verso la piazza. Il calore tremolava sull'asfalto: THUMP THUMP THUMP THUMP.
 
 Davanti alla ghiacciaia, trovò Ping il Pinguino Viaggiatore — con il piccolo zaino e la sciarpa a righe — che scivolava sul selciato senza controllo.
 
@@ -821,7 +821,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo verde co
 
 Era una mattina luminosa e EleFranco voleva profumo in cucina: «Devo comprare un vaso di basilico per il mio terrazzo, prima che chiuda il vivaio!» Annusò l'aria. «Senza basilico, la pasta è senza sorriso.»
 
-Si infilò le sue ciabatte giganti da giardino, con la suola che non sporca, prese un guanto di lana e salì le scale esterne. I gradini tremavano piano: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti da giardino, con la suola che non sporca, prese un guanto di lana e salì le scale esterne. I gradini tremarono sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Sul terrazzo del vivaio, trovò Mirta la Marmotta — con il grembiule verde e le unghie sporche di terra buona — in piedi accanto a una fioriera penzolante.
 

@@ -109,9 +109,8 @@ def moral_explicit_sentence(morale: str) -> str:
     return f"EleFranco capì allora la morale di quella giornata: {morale.strip()}"
 
 
-def format_story(text: str, *, morale: str | None = None) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-
+def _decorate_story_text(text: str) -> str:
+    """Segna risata, FOCUS e i quattro THUMP, poi escapa l'HTML."""
     ell = "⟦ELL⟧"
     ris = "⟦RIS⟧"
     foc = "⟦FOCUS⟧"
@@ -121,25 +120,38 @@ def format_story(text: str, *, morale: str | None = None) -> str:
     text = text.replace("...", ell)
     text = re.sub(r'["""\u201c]FOCUS!["""\u201d]\s*\.?', foc, text)
     text = re.sub(r'(?<![\w])"FOCUS!"\s*\.?', foc, text)
-    text = re.sub(r"\bTHUMP\s+THUMP\s+THUMP\b\s*\.?", thu, text, flags=re.IGNORECASE)
+    text = re.sub(r"\bTHUMP(?:\s+THUMP){3}\b\s*\.?", thu, text, flags=re.IGNORECASE)
 
     text = html.escape(text)
     text = text.replace(foc, '<strong>"FOCUS!"</strong>')
-    text = text.replace(thu, "<em>THUMP THUMP THUMP</em>")
+    text = text.replace(thu, "<em>THUMP THUMP THUMP THUMP</em>")
     text = text.replace(ell, "...")
+    return text
 
-    sentences = re.split(r"(?<=[.!?»])\s+(?=[«\"A-ZÉÈ])", text)
-    sentences = [s.strip() for s in sentences if s.strip()]
+
+def format_story(text: str, *, morale: str | None = None) -> str:
+    raw = text.strip()
+    ris = "⟦RIS⟧"
+    authored = [part.strip() for part in re.split(r"\n\s*\n", raw) if part.strip()]
 
     paragraphs: list[str] = []
-    buf: list[str] = []
-    for sentence in sentences:
-        buf.append(sentence)
-        if len(buf) >= 4:
+    if len(authored) > 1:
+        paragraphs = [
+            _decorate_story_text(re.sub(r"\s+", " ", part))
+            for part in authored
+        ]
+    else:
+        text = _decorate_story_text(re.sub(r"\s+", " ", raw))
+        sentences = re.split(r"(?<=[.!?»])\s+(?=[«\"A-ZÉÈ])", text)
+        sentences = [s.strip() for s in sentences if s.strip()]
+        buf: list[str] = []
+        for sentence in sentences:
+            buf.append(sentence)
+            if len(buf) >= 4:
+                paragraphs.append(" ".join(buf))
+                buf = []
+        if buf:
             paragraphs.append(" ".join(buf))
-            buf = []
-    if buf:
-        paragraphs.append(" ".join(buf))
 
     def finalize(part: str) -> str:
         part = part.replace(ris, '<span class="risata">OH... OH... OH...</span>')
@@ -163,7 +175,7 @@ def format_story(text: str, *, morale: str | None = None) -> str:
 
     paragraphs_html = [f"<p>{finalize(p)}</p>" for p in paragraphs if p.strip()]
 
-    already_explicit = MORAL_EXPLICIT_MARKER in text.lower()
+    already_explicit = MORAL_EXPLICIT_MARKER in raw.lower()
     if morale and morale.strip() and not already_explicit:
         moral_html = (
             f'<p class="morale-esplicita">{html.escape(moral_explicit_sentence(morale))}</p>'
