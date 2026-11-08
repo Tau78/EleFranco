@@ -11,7 +11,7 @@ INTRO_S3 = (
 
 SEASON3_EPISODES: list[dict] = [
     {
-        "num": 59,
+        "num": 92,
         "title": "🪽 Il Volo e AlaFranca l'Airone",
         "missione": (
             "EleFranco deve andare al mercato delle erbe, in cima al colle, a comprare "
@@ -38,11 +38,11 @@ SEASON3_EPISODES: list[dict] = [
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di pioppi altissimi e canali d'argento, dove le case sembravano nidi posati tra i rami, i tetti erano di canna chiara e le passerelle di corda dondolavano piano sopra l'acqua.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo un po' magico di pioppi altissimi e canali d'argento, dove le case sembravano nidi posati tra i rami, i tetti erano di canna chiara e le passerelle di corda dondolavano piano sopra l'acqua.
 
 Era un pomeriggio di vento dolce e EleFranco aveva una missione piccola e profumata: «Devo andare al mercato delle erbe, in cima al colle, a prendere un mazzetto di tiglio per la tisana della sera, prima che ritirino le ceste!»
 
-Si infilò le sue ciabatte giganti color cielo, con la suola morbida come una nuvola, prese un cestino di vimini e uscì di casa. Lungo l'argine del canale la terra rispondeva piano: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti color cielo, con la suola morbida come una nuvola, prese un cestino di vimini e uscì di casa. Le ciabatte affondarono nell'argine e l'acqua del canale tremò nei secchi: THUMP THUMP THUMP THUMP.
 
 Sul ponticello di corda vide un airone alto ed elegante, fermo su una zampa sola. Le piume erano color nebbia di fiume, il becco dolce color albicocca, e gli occhi lucidi di preoccupazione. Era AlaFranca.
 
@@ -89,7 +89,7 @@ AlaFranca, dal suo albero altissimo, batté le ali una volta sola. Il nido era p
 EleFranco alzò la proboscide al cielo chiaro e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
-        "num": 60,
+        "num": 93,
         "title": "🟡 Le Biglie e Mina la Tartaruga 🐢",
         "missione": (
             "EleFranco deve andare dal fornaio Tondo, in fondo al paese, a comprare "
@@ -120,7 +120,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di piazz
 
 Era il tardo pomeriggio e EleFranco aveva fame di cena: «Devo andare dal fornaio Tondo, in fondo al paese, a prendere una pagnotta rotonda prima che spenga il forno!»
 
-Si infilò le sue scarpe giganti da gioco, suola morbida color miele e lacci arancioni, mise una moneta nel fazzoletto e uscì di casa. Sulla piazza liscia i passi facevano: THUMP THUMP THUMP.
+Si infilò le sue scarpe giganti da gioco, suola morbida color miele e lacci arancioni, mise una moneta nel fazzoletto e uscì di casa. Le scarpe calcarono il marmo e la piazza rispose con tutto il suo peso, senza un passo in punta di piedi: THUMP THUMP THUMP THUMP.
 
 Vicino alla fontana bassa c'era una tartaruga piccola, con il guscio color ambra punteggiato di pallini chiari, proprio come biglie. Sospirava piano, senza fretta, come fanno le tartarughe anche quando sono in pensiero. Era Mina.
 
@@ -140,7 +140,7 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 Riprese a frugare con cura, ascoltando il ticchettio nel marmo. Sole uscì da una fessura, calda di pomeriggio, e Mina la strinse tra le zampette. «Eccoti. Non rotolare più senza di me.»
 
-Poi EleFranco, felice del successo, diede un soffio troppo forte per togliere la polvere dal sacchetto. Le biglie schizzarono via come stelle. Blu, verde, miele, trasparente: rotolarono in tutti i vicoli di FrancaVilla, giù per le discese, intorno alla fontana, fino in fondo al paese.
+Poi EleFranco, felice del successo, diede un soffio troppo forte per togliere la polvere dal sacchetto. Le biglie schizzarono via in ogni direzione. Blu, verde, miele, trasparente: rotolarono in tutti i vicoli di FrancaVilla, giù per le discese, intorno alla fontana, fino in fondo al paese.
 
 «Ops,» disse EleFranco. «Le abbiamo ritrovate e subito riperse. E la strada del forno è diventata una pista di vetro.»
 
