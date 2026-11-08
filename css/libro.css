@@ -255,6 +255,21 @@ body {
   border-radius: 6px;
 }
 
+.story-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0 auto 1rem;
+}
+
+.story-images .story-image {
+  width: min(100%, 420px);
+  max-height: none;
+  height: auto;
+  margin: 0;
+}
+
 .coloring-page img {
   display: block;
   max-width: 100%;

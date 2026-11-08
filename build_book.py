@@ -227,6 +227,17 @@ def _disegna_image_src(ep_num: int, asset_prefix: str) -> str | None:
     return None
 
 
+def _story_image_srcs(ep_num: int, asset_prefix: str) -> list[str]:
+    found: list[str] = []
+    for key in ("a", "b", "c", "d"):
+        for ext in ("jpeg", "jpg", "png"):
+            rel = f"{asset_prefix}Immagini/{ep_num:02d}-{key}.{ext}"
+            if (ROOT / rel.removeprefix(asset_prefix)).exists():
+                found.append(rel)
+                break
+    return found
+
+
 def color_hint_caption(ep_num: int, *, indent: str = "  ") -> str:
     hint = COLOR_HINTS.get(ep_num, "").strip()
     if not hint:
@@ -239,6 +250,14 @@ def color_hint_caption(ep_num: int, *, indent: str = "  ") -> str:
 
 
 def image_block(ep: dict, asset_prefix: str, *, indent: str = "  ") -> str:
+    story = _story_image_srcs(ep["num"], asset_prefix)
+    if story:
+        imgs = "\n".join(
+            f'{indent}  <img class="episode-image story-image console-editable-image" '
+            f'src="{html.escape(src)}" alt="Illustrazione episodio {ep["num"]}">'
+            for src in story
+        )
+        return f'{indent}<div class="story-images">\n{imgs}\n{indent}</div>'
     src = _disegna_image_src(ep["num"], asset_prefix)
     caption = color_hint_caption(ep["num"], indent=f"{indent}    ")
     if src:
