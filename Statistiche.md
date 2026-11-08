@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-09-29 — 59 capitoli
+> Aggiornato: 2026-11-08 — 61 capitoli
 
 ## Metodologia
 
@@ -71,15 +71,17 @@
 | 56 | 😱 Il Topo Tremendo e la Campanella del Coraggio 🔔 | 589 | 436 | ~1.8 pag. (474 mm) | ~5 min |
 | 57 | 👧 La Piccolina del Gruffalò e la Stella di Neve ❄️ | 592 | 439 | ~1.8 pag. (480 mm) | ~5 min |
 | 58 | 👵 La Nonna Gruffalò e la Ricetta del Bosco 🍰 | 664 | 507 | ~2.0 pag. (522 mm) | ~5 min |
+| 59 | 🪽 Il Volo e AlaFranca l'Airone | 999 | 793 | ~2.6 pag. (684 mm) | ~8 min |
+| 60 | 🟡 Le Biglie e Mina la Tartaruga 🐢 | 988 | 798 | ~2.7 pag. (702 mm) | ~8 min |
 | 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,112 | 872 | ~2.9 pag. (762 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **43,201** |
-| Spazio stampa stimato | **~126.7 pagine A4** |
-| Lettura ad alta voce | **~332 min** (5.5 h) |
+| Parole totali | **45,188** |
+| Spazio stampa stimato | **~132.0 pagine A4** |
+| Lettura ad alta voce | **~348 min** (5.8 h) |
 
 ## Medie per gruppo
 
@@ -89,6 +91,7 @@
 | Ep. 22–25 | 4 | 1094 | 2.9 | 8.4 min |
 | Ep. 26–50 | 25 | 697 | 2.1 | 5.4 min |
 | Speciale Gruffalò (51–58) | 8 | 608 | 1.9 | 4.7 min |
+| Stagione 3 (da ep. 59) | 2 | 994 | 2.7 | 7.6 min |
 
 ## Note
 
@@ -96,6 +99,7 @@
 - **Ep. 22–25:** capitoli più lunghi (~+50% parole rispetto alla media precedente).
 - **Ep. 26–50:** Stagione 2.
 - **Ep. 51–58:** speciale nel Bosco del Gruffalò, un capitolo per personaggio.
+- **Ep. 59+:** Stagione 3.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare

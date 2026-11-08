@@ -13,6 +13,7 @@ Sorgenti testi editabili:
   episodes_extra.py    — episodi 22–25 (fine S1)
   episodes_season2.py  — episodi 26–50 (Stagione 2)
   episodes_special_gruffalo.py — episodi 51–58 (speciale)
+  episodes_season3.py  — episodi 59+ (Stagione 3)
 
 Dopo --nuovo: completa il testo nel file indicato e i prompt in episode_prompts_en.py,
 poi rilancia senza flag.
@@ -30,6 +31,7 @@ ROOT = Path(__file__).parent
 EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 EPISODES_SEASON2 = ROOT / "episodes_season2.py"
+EPISODES_SEASON3 = ROOT / "episodes_season3.py"
 EPISODES_SPECIAL_GRUFFALO = ROOT / "episodes_special_gruffalo.py"
 PROMPTS_EN = ROOT / "episode_prompts_en.py"
 COLOR_HINTS_FILE = ROOT / "episode_color_hints.py"
@@ -52,6 +54,8 @@ EPISODE_FIELDS = (
 def episode_source(num: int) -> str:
     if num >= 1000:
         return "episodes_speciali.py"
+    if num >= 59:
+        return "episodes_season3.py"
     if num >= 51:
         return "episodes_special_gruffalo.py"
     if num >= 26:
@@ -67,6 +71,7 @@ def invalidate_episode_cache() -> None:
         "episodes_base",
         "episodes_extra",
         "episodes_season2",
+        "episodes_season3",
         "episodes_special_gruffalo",
         "episodes_speciali",
         "episode_prompts_en",
@@ -160,7 +165,9 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 51:
+    if 59 <= num < 1000:
+        episodes_file = EPISODES_SEASON3
+    elif num >= 51:
         episodes_file = EPISODES_SPECIAL_GRUFFALO
     elif num >= 26:
         episodes_file = EPISODES_SEASON2

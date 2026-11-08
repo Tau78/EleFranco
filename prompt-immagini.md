@@ -1506,6 +1506,56 @@ Mouse Gruffalo Fox Snake Owl Terrible Mouse little Gruffalo child and Grandma ea
 
 ---
 
+### Episodio 59: 🪽 Il Volo e AlaFranca l'Airone
+
+*FrancaVilla:* tall-poplar FrancaVilla with silver canals, reed roofs and rope footbridges
+*Calzature:* giant sky-blue cloud slippers
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant sky-blue cloud slippers carrying a wicker basket along a silver canal toward the hill herb market, reed-roofed nest-houses in tall poplars, gentle THUMP dust, afternoon wind, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Elegant heron AlaFranca with mist-grey feathers and soft apricot beak standing on one leg on a rope bridge, loose pale reeds blowing away, worried kind eyes, large generous friendly cartoon elephant EleFranco with small black hair tuft on head approaching in sky-blue giant slippers, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image, canal FrancaVilla
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head and AlaFranca flying gently above reed rooftops, elephant ears open like pale sails, comic laugh shaking a treetop nest so reeds scatter and a basket falls, FOCUS determined eyes, safe playful flight, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head gliding home with ears wide open, linden bunch caught in trunk, AlaFranca safe in a soft reed nest atop the tallest poplar, herbalist waving from the hill, warm evening light, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
+### Episodio 60: 🟡 Le Biglie e Mina la Tartaruga 🐢
+
+*FrancaVilla:* marble-smooth FrancaVilla with gentle downhill alleys, low round fountains and pastel houses
+*Calzature:* giant honey-soled play shoes with orange laces
+
+#### A — Episode cover
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head in giant honey-soled play shoes with orange laces walking a smooth marble square toward the bakery at the end of town, coin in handkerchief, late afternoon, THUMP, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### B — L'Incontro
+
+Small land turtle Mina with amber shell dotted like marbles, sighing beside a low fountain, glass marbles lost in cracks and under a bench, large generous friendly cartoon elephant EleFranco with small black hair tuft on head kneeling kindly, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### C — L'Aiuto e l'Imprevisto
+
+large generous friendly cartoon elephant EleFranco with small black hair tuft on head searching with trunk under benches as a too-strong puff sends colorful marbles rolling down every pastel alley, Mina surprised, comic FOCUS moment, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+#### D — Il Colpo di Scena Finale
+
+A long gentle marble track looping all through FrancaVilla at dusk, honey-gold marble at the bakery door, round warm loaf rolling back into large generous friendly cartoon elephant EleFranco with small black hair tuft on head handkerchief, Mina happy, soft watercolor children's book illustration, warm gentle flat colors, rounded friendly shapes, A4 portrait composition, bedtime story mood, Iris Edition, no text in image
+
+**Negative prompt:** `text, letters, words, watermark, logo, signature, realistic photo, scary, violent, blood, weapons, adult themes, dark horror, distorted anatomy, extra limbs, blurry face, low quality, cropped head, modern city skyline, screens and phones`
+
+---
+
 ### Episodio 1001: ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫
 
 *FrancaVilla:* snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke
