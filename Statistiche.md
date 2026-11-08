@@ -1,6 +1,6 @@
 # Statistiche — Le Avventure di EleFranco (Iris Edition)
 
-> Aggiornato: 2026-10-19 — 92 capitoli
+> Aggiornato: 2026-11-08 — 94 capitoli
 
 ## Metodologia
 
@@ -104,15 +104,17 @@
 | 89 | 🚂 La Locomotiva della Festa in Maschera 🌸 | 678 | 538 | ~2.0 pag. (516 mm) | ~5 min |
 | 90 | 🏫 A Scuola con Iris 🌸 | 669 | 525 | ~2.0 pag. (510 mm) | ~5 min |
 | 91 | 🛝 EleFranco Scivolo 🌸 | 669 | 544 | ~1.9 pag. (499 mm) | ~5 min |
+| 92 | 🪽 Il Volo e AlaFranca l'Airone | 1,006 | 800 | ~2.7 pag. (714 mm) | ~8 min |
+| 93 | 🟡 Le Biglie e Mina la Tartaruga 🐢 | 1,005 | 815 | ~2.8 pag. (732 mm) | ~8 min |
 | 1001 | ❄ FrancaVilla d'Inverno e Fred il Castoro 🦫 | 1,115 | 875 | ~3.1 pag. (804 mm) | ~9 min |
 
 ## Totali
 
 | Metrica | Valore |
 |--------|-------:|
-| Parole totali | **62,281** |
-| Spazio stampa stimato | **~191.1 pagine A4** |
-| Lettura ad alta voce | **~479 min** (8.0 h) |
+| Parole totali | **64,292** |
+| Spazio stampa stimato | **~196.6 pagine A4** |
+| Lettura ad alta voce | **~495 min** (8.2 h) |
 
 ## Medie per gruppo
 
@@ -125,6 +127,7 @@
 | Speciale Frozen (59–67) | 9 | 576 | 1.9 | 4.4 min |
 | Nuovi amici di FrancaVilla (68–84) | 17 | 537 | 1.7 | 4.1 min |
 | EleFranco con Iris (85–91) | 7 | 662 | 1.9 | 5.1 min |
+| Stagione 3 (da ep. 92) | 2 | 1006 | 2.8 | 7.7 min |
 
 ## Note
 
@@ -135,6 +138,7 @@
 - **Ep. 59–67:** speciale Frozen, otto incontri e un finale tutti insieme.
 - **Ep. 68–84:** nuovi amici, famiglie e feste di FrancaVilla.
 - **Ep. 85–91:** EleFranco con Iris, un capitolo per ogni gioco insieme.
+- **Ep. 92+:** Stagione 3.
 - Le stime di spazio possono variare di **±0,2 pagine** in stampa/PDF reale.
 
 ## Rigenerare

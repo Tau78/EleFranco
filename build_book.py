@@ -20,6 +20,7 @@ from episode_prompts_en import EPISODES, NEGATIVE_PROMPT, SECTION_PROMPTS
 from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 from episodes_season2 import INTRO_S2, SEASON2_EPISODES
+from episodes_season3 import INTRO_S3, SEASON3_EPISODES
 from episodes_special_francavilla import (
     INTRO_SPECIAL_FRANCAVILLA,
     SPECIAL_FRANCAVILLA_EPISODES,
@@ -51,6 +52,7 @@ def load_all_episodes() -> tuple[str, list[dict]]:
         + list(SPECIAL_FROZEN_EPISODES)
         + list(SPECIAL_FRANCAVILLA_EPISODES)
         + list(SPECIAL_IRIS_EPISODES)
+        + list(SEASON3_EPISODES)
         + list(SPECIAL_EPISODES)
     )
     episodes.sort(key=lambda e: e["num"])
@@ -428,6 +430,19 @@ def speciale_iris_fragment() -> str:
 </div>"""
 
 
+def stagione3_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="introduzione-s3" data-console-section="introduzione-s3">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="introduzione-s3">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="introduzione-s3">Ripristina</button>
+  </div>
+  <h1 class="console-editable">Le Avventure di EleFranco Franchini</h1>
+  <p class="dedication console-editable">Iris Edition — Stagione 3</p>
+  <div class="quote console-editable">{html.escape(INTRO_S3)}</div>
+  <p class="dedication console-editable">Per Iris, con tutto l'amore del mondo 🐘💛</p>
+</div>"""
+
+
 def speciale_francavilla_fragment() -> str:
     return f"""<div class="intro-page console-section" id="speciale-francavilla" data-console-section="speciale-francavilla">
   <div class="console-section-bar" hidden>
@@ -670,6 +685,7 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if SPECIAL_IRIS_EPISODES
         else None
     )
+    first_s3 = min(e["num"] for e in SEASON3_EPISODES) if SEASON3_EPISODES else None
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -698,6 +714,10 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if first_iris is not None and n == first_iris:
             items.append(
                 '    <li class="toc-part console-editable">EleFranco con Iris 🌸</li>'
+            )
+        if first_s3 is not None and n == first_s3:
+            items.append(
+                '    <li class="toc-part console-editable">Stagione 3 — Vento e Biglie 🌬</li>'
             )
         label = html.escape(episode_label(ep))
         href = (
@@ -776,6 +796,7 @@ def build_index(
         if SPECIAL_IRIS_EPISODES
         else None
     )
+    first_s3 = min(e["num"] for e in SEASON3_EPISODES) if SEASON3_EPISODES else None
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -795,6 +816,8 @@ def build_index(
             body_parts.append(speciale_francavilla_fragment())
         if first_iris is not None and ep["num"] == first_iris:
             body_parts.append(speciale_iris_fragment())
+        if first_s3 is not None and ep["num"] == first_s3:
+            body_parts.append(stagione3_fragment())
         body_parts.append(episode_fragment(ep))
 
     for ep in _specials_after(episodes, 50):
@@ -993,6 +1016,9 @@ def main() -> None:
     )
     (SEZIONI_DIR / "speciale_iris.html").write_text(
         speciale_iris_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "introduzione_s3.html").write_text(
+        stagione3_fragment(), encoding="utf-8"
     )
     (SEZIONI_DIR / "parte_01.html").write_text(parte_01_fragment(), encoding="utf-8")
     (SEZIONI_DIR / "parte_02.html").write_text(parte_02_fragment(), encoding="utf-8")

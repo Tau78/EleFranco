@@ -13,7 +13,7 @@ PROMPT = """Applica le revisioni pendenti del libro EleFranco.
 
 1. Leggi `revisioni.json`, `Revisioni.md` e `.cursor-revisioni-inbox.md`.
 2. Per ogni evidenziazione con status `pending`:
-   - trova il passaggio nel file sorgente corretto (`episodes_base.py`, `episodes_extra.py`, `episodes_season2.py`, `episodes_season3.py`, `episodes_special_gruffalo.py`, `episodes_speciali.py`)
+   - trova il passaggio nel file sorgente corretto (`episodes_base.py`, `episodes_extra.py`, `episodes_season2.py`, `episodes_special_gruffalo.py`, `episodes_special_frozen.py`, `episodes_special_francavilla.py`, `episodes_special_iris.py`, `episodes_season3.py`, `episodes_speciali.py`)
    - riscrivi il testo rispettando il canone EleFranco e le note dell'autore
 3. Esegui `python3 aggiorna_libro.py` e `python3 statistiche_libro.py`.
 4. In `revisioni.json` imposta `status: applied` sulle revisioni completate.
