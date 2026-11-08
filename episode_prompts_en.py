@@ -798,6 +798,22 @@ EPISODES: dict[int, dict[str, str]] = {
         "c": f"{BASE} lying along the slope as a soft living slide while a watermelon rolls down his back into the daisies, ears shaken, determined FOCUS eyes, comic harmless tumble, {STYLE}",
         "d": f"Watermelon opened into ruby heart slices and a farmer gifting a whole cool melon, Iris and friends sliding safely, {BASE} in green sandals joyful lunch finale, {STYLE}",
     },
+    92: {
+        "setting": "a slightly magical tall-poplar FrancaVilla with silver canals, reed roofs and rope footbridges",
+        "footwear": "giant sky-blue cloud slippers",
+        "a": f"{BASE} in giant sky-blue cloud slippers carrying a wicker basket along a silver canal toward the hill herb market, reed-roofed nest-houses in tall poplars, deep THUMP footprints, afternoon wind, {STYLE}",
+        "b": f"Elegant heron AlaFranca with mist-grey feathers and soft apricot beak standing on one leg on a rope bridge, loose pale reeds blowing away, worried kind eyes, {BASE} approaching in sky-blue giant slippers, {STYLE}, canal FrancaVilla",
+        "c": f"{BASE} and AlaFranca flying gently above reed rooftops, elephant ears open like pale sails, comic laugh shaking a treetop nest so reeds scatter and a basket falls, FOCUS determined eyes, safe playful flight, {STYLE}",
+        "d": f"{BASE} gliding home with ears wide open, linden bunch caught in trunk, AlaFranca safe in a soft reed nest atop the tallest poplar, herbalist waving from the hill, warm evening light, {STYLE}",
+    },
+    93: {
+        "setting": "marble-smooth FrancaVilla with gentle downhill alleys, low round fountains and pastel houses",
+        "footwear": "giant honey-soled play shoes with orange laces",
+        "a": f"{BASE} in giant honey-soled play shoes with orange laces walking a smooth marble square toward the bakery at the end of town, coin in handkerchief, late afternoon, deep THUMP prints, {STYLE}",
+        "b": f"Small land turtle Mina with amber shell dotted like marbles, sighing beside a low fountain, glass marbles lost in cracks and under a bench, {BASE} kneeling kindly, {STYLE}",
+        "c": f"{BASE} searching with trunk under benches as a too-strong puff sends colorful marbles rolling down every pastel alley, Mina surprised, comic FOCUS moment, {STYLE}",
+        "d": f"A long gentle marble track looping all through FrancaVilla at dusk, honey-gold marble at the bakery door, round warm loaf rolling back into {BASE} handkerchief, Mina happy, {STYLE}",
+    },
     1001: {
         "setting": "snowy winter FrancaVilla with icicle gingerbread rooftops and warm chimney smoke",
         "footwear": "giant fur-lined snow boots",

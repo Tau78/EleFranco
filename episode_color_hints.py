@@ -94,6 +94,8 @@ COLOR_HINTS: dict[int, str] = {
     89: "l'imbuto di carta e il nastro rosso della locomotiva",
     90: "la matita arancio e le scarpe giganti blu con i lacci bianchi",
     91: "le fette rosse di cocomero e i sandali color erba",
+    92: "le orecchie aperte come vele e le canne chiare del nido",
+    93: "la biglia color miele e la pagnotta rotonda sulla pista",
     1001: "il ghiaccio azzurro sulla diga e la legna secca con il nastro rosso",
 }
 

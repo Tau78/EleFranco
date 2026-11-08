@@ -9,7 +9,7 @@ Quando l'utente dice **applica revisioni**, **revisioni lettura**, **sistema le 
 
 1. Leggi `revisioni.json`, `Revisioni.md` e `.cursor-revisioni-inbox.md`
 2. Per ogni mark con `"status": "pending"`:
- - individua episodio e file sorgente (`episodes_base.py` 1–21, `episodes_extra.py` 22–25, `episodes_season2.py` 26+, `episodes_speciali.py` ≥1000)
+ - individua episodio e file sorgente (`episodes_base.py` 1–21, `episodes_extra.py` 22–25, `episodes_season2.py` 26–50, `episodes_special_gruffalo.py` 51–58, `episodes_special_frozen.py` 59–67, `episodes_special_francavilla.py` 68–84, `episodes_special_iris.py` 85–91, `episodes_season3.py` 92+, `episodes_speciali.py` ≥1000)
  - campo `target`: `racconto` (default), `schema`, `title`, `hint`, `image`
  - se il mark ha `"replacement"` (anche stringa vuota): usa **quel testo** — non inventare. Vuoto = cancella il passaggio
  - `action`: `edit` / `paste` = sostituisci; `delete` / `cut` = togli; `segna` / `image` = riscrivi tu se c'è nota, altrimenti segnala

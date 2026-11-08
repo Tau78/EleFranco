@@ -16,6 +16,7 @@ Sorgenti testi editabili:
   episodes_special_frozen.py — episodi 59–67 (speciale)
   episodes_special_francavilla.py — episodi 68–84 (speciale)
   episodes_special_iris.py — episodi 85–91 (EleFranco con Iris)
+  episodes_season3.py  — episodi 92+ (Stagione 3)
 
 Dopo --nuovo: completa il testo nel file indicato e i prompt in episode_prompts_en.py,
 poi rilancia senza flag.
@@ -33,6 +34,7 @@ ROOT = Path(__file__).parent
 EPISODES_BASE = ROOT / "episodes_base.py"
 EPISODES_EXTRA = ROOT / "episodes_extra.py"
 EPISODES_SEASON2 = ROOT / "episodes_season2.py"
+EPISODES_SEASON3 = ROOT / "episodes_season3.py"
 EPISODES_SPECIAL_GRUFFALO = ROOT / "episodes_special_gruffalo.py"
 EPISODES_SPECIAL_FROZEN = ROOT / "episodes_special_frozen.py"
 EPISODES_SPECIAL_FRANCAVILLA = ROOT / "episodes_special_francavilla.py"
@@ -58,6 +60,8 @@ EPISODE_FIELDS = (
 def episode_source(num: int) -> str:
     if num >= 1000:
         return "episodes_speciali.py"
+    if num >= 92:
+        return "episodes_season3.py"
     if num >= 85:
         return "episodes_special_iris.py"
     if num >= 68:
@@ -79,6 +83,7 @@ def invalidate_episode_cache() -> None:
         "episodes_base",
         "episodes_extra",
         "episodes_season2",
+        "episodes_season3",
         "episodes_special_gruffalo",
         "episodes_special_frozen",
         "episodes_special_francavilla",
@@ -146,6 +151,7 @@ def validate() -> list[str]:
         SPECIAL_FRANCAVILLA_FIRST,
         SPECIAL_FRANCAVILLA_LAST,
         SPECIAL_IRIS_FIRST,
+        SPECIAL_IRIS_LAST,
         SPECIAL_GRUFFALO_FIRST,
         SPECIAL_GRUFFALO_LAST,
         validate_season1_parts,
@@ -178,7 +184,7 @@ def validate() -> list[str]:
     iris_nums = {
         e["num"]
         for e in episodes
-        if SPECIAL_IRIS_FIRST <= e["num"] < 1000
+        if SPECIAL_IRIS_FIRST <= e["num"] <= SPECIAL_IRIS_LAST
     }
     errors.extend(validate_special_iris(iris_nums))
 
@@ -200,7 +206,9 @@ def scaffold_episode(num: int, title: str) -> None:
     if any(e["num"] == num for e in episodes):
         raise SystemExit(f"Episodio {num} esiste già.")
 
-    if num >= 85:
+    if 92 <= num < 1000:
+        episodes_file = EPISODES_SEASON3
+    elif num >= 85:
         episodes_file = EPISODES_SPECIAL_IRIS
     elif num >= 68:
         episodes_file = EPISODES_SPECIAL_FRANCAVILLA

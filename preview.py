@@ -134,6 +134,7 @@ def run_preview(
         ROOT / "episodes_base.py",
         ROOT / "episodes_extra.py",
         ROOT / "episodes_season2.py",
+        ROOT / "episodes_season3.py",
         ROOT / "episodes_special_gruffalo.py",
         ROOT / "episodes_special_frozen.py",
         ROOT / "episodes_special_francavilla.py",
