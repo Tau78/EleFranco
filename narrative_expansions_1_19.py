@@ -17,7 +17,7 @@ EXPANDED_RACCONTI: dict[int, str] = {
 
 Abitava in una graziosa e accogliente casa alla periferia di FrancaVilla, un piccolo e tranquillo paesino circondato dal verde, un luogo incantevole dove i tetti delle case sembravano fatti di marzapane, i camini sbuffavano nuvole a forma di ciambella e l'aria profumava sempre di zucchero a velo e pane appena sfornato. EleFranco era grande, grosso e immensamente generoso, con un simpatico ciuffetto di capelli neri sulla testa che ballava a ogni suo passo.
 
-Quel mattino il suo stomaco emise un brontolio pazzesco, ma c'era qualcosa di più importante del suo appetito: «Oggi è la Festa della mia cara amica Franca!» si disse, controllando la dispensa vuota. «Devo correre al supermercato a comprare i festoni più belli di tutti. Niente decorazioni, niente Festa!» Si infilò i suoi stivali giganti di cuoio marrone, lucidati per l'occasione, aprì la porta di casa e si mise in cammino verso il centro. Mentre avanzava sulla strada sterrata, la terra tremava dolcemente al ritmo dei suoi piedoni: THUMP THUMP THUMP.
+Quel mattino il suo stomaco emise un brontolio pazzesco, ma c'era qualcosa di più importante del suo appetito: «Oggi è la Festa della mia cara amica Franca!» si disse, controllando la dispensa vuota. «Devo correre al supermercato a comprare i festoni più belli di tutti. Niente decorazioni, niente Festa!» Si infilò i suoi stivali giganti di cuoio marrone, lucidati per l'occasione, aprì la porta di casa e si mise in cammino verso il centro. Mentre avanzava sulla strada sterrata, la terra cedette sotto il peso dei suoi piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato vicino al ponticello sul fiume, notò una gran confusione. Sulla riva, un castoro dalla pelliccia lucida e dai grandi denti color avorio correva avanti e indietro tenendosi la testa tra le zampe. Era Fred il Castoro, il più bravo costruttore di tutta FrancaVilla, e quella mattina piangeva disperato.
 
@@ -49,7 +49,7 @@ EleFranco alzò la proboscide al cielo e scoppiò nella sua famosa risata: OH...
 
 Abitava nella sua bella casa nel paesino di FrancaVilla, un borgo magico abbarbicato sulla roccia di una montagna, dove i vialetti profumavano di menta selvatica, le casette si aggrappavano ai dirupi come nidi di rondine e il vento di montagna suonava arpe invisibili tra le fronde degli alberi.
 
-Quella mattina, però, il mondo intorno a lui sembrava fatto di nuvole sfocate. Gli alberi del giardino erano grandi macchie verdi tremolanti e non riusciva nemmeno a distinguere il colore dei fiori sul davanzale. «Ahi ahi, qui non ci vedo più nulla,» borbottò strofinandosi gli occhi con la punta della proboscide. «Devo proprio andare dal vecchio gufo oculista, dall'altra parte del paese, a farmi misurare la vista.» Si infilò le sue scarpe giganti da passeggio con i lacci colorati e uscì di casa, camminando piano e con grande attenzione per non inciampare. Ad ogni passo prudente il sentiero roccioso risuonava: THUMP THUMP THUMP.
+Quella mattina, però, il mondo intorno a lui sembrava fatto di nuvole sfocate. Gli alberi del giardino erano grandi macchie verdi tremolanti e non riusciva nemmeno a distinguere il colore dei fiori sul davanzale. «Ahi ahi, qui non ci vedo più nulla,» borbottò strofinandosi gli occhi con la punta della proboscide. «Devo proprio andare dal vecchio gufo oculista, dall'altra parte del paese, a farmi misurare la vista.» Si infilò le sue scarpe giganti da passeggio con i lacci colorati e uscì di casa, procedeva adagio per non inciampare, ma ogni piedone pesava sul sentiero roccioso: THUMP THUMP THUMP THUMP.
 
 Mentre passava vicino a un muretto di pietra, sentì un flebile pianto provenire dall'erba alta. Si chinò, strizzò gli occhi e a fatica mise a fuoco una piccola sagoma: era Jack il Geco, un rettile dalla pelle verdissima e brillante, con le dita a ventosa e due grandi occhi rotondi colmi di lacrime.
 
@@ -79,7 +79,7 @@ Felice, EleFranco partì con la sua conosciutissima risata: OH... OH... OH..."""
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo adagiato su dolci colline dorate, dove i ruscelli scorrevano limpidi cantando ninne nanne, l'erba dei prati brillava al sole come un immenso tappeto di smeraldi e i meli profumavano l'aria del mattino.
 
-Era un pomeriggio caldo, di quelli che fanno venire una voglia matta di qualcosa di fresco. EleFranco frugava nella sua grande cesta della frutta, ma trovò solo qualche guscio di nocciolina vuoto. «Accidenti!» esclamò, mentre lo stomaco gli lanciava un brontolio sonoro. «Il mio regno per un casco di banane! Gialle, mature e profumate... ecco cosa mi serve per la merenda.» Si infilò i suoi stivali giganti e si diresse verso il centro, dove c'era la bottega del fruttivendolo Pino. Camminando lungo la via principale, il selciato risuonava sotto i suoi piedoni: THUMP THUMP THUMP.
+Era un pomeriggio caldo, di quelli che fanno venire una voglia matta di qualcosa di fresco. EleFranco frugava nella sua grande cesta della frutta, ma trovò solo qualche guscio di nocciolina vuoto. «Accidenti!» esclamò, mentre lo stomaco gli lanciava un brontolio sonoro. «Il mio regno per un casco di banane! Gialle, mature e profumate... ecco cosa mi serve per la merenda.» Si infilò i suoi stivali giganti e si diresse verso il centro, dove c'era la bottega del fruttivendolo Pino. Camminando lungo la via principale, il selciato risuonava sotto i suoi piedoni: THUMP THUMP THUMP THUMP.
 
 Vicino alla piazza principale, EleFranco vide qualcosa di stranissimo. C'erano due zampe lunghissime e un corpo coperto di macchie color caramello, ma il collo, invece di salire dritto verso il cielo, era piegato a metà e penzolava molle come un ombrello dimenticato sotto la pioggia. Era Raffa la Giraffa, e i suoi grandi occhi dalle lunghe ciglia erano pieni di lacrime.
 
@@ -105,7 +105,7 @@ EleFranco si sedette felice e si lanciò nella sua contagiosa risata: OH... OH..
 
 Abitava nella sua casa a FrancaVilla, un piccolo borgo radioso incorniciato da una fitta foresta tropicale, dove le farfalle volavano ricamando fili di seta colorata nell'aria, i pappagalli chiacchieravano tra le liane e tutto profumava di gelsomino e di estate perenne.
 
-Era un pomeriggio caldissimo e EleFranco sentiva una sensazione ruvida e fastidiosa alla zanna sinistra, come se ci fosse della sabbia o del tartaro incastrato. Passava la lingua su e giù, ma il fastidio non andava via. «Uffa, così non va,» brontolò. «Devo andare dallo studio del dentista degli elefanti a farmi fare una bella pulizia.» Si infilò i suoi stivali giganti, ben spazzolati per la visita, aprì la porta e si mise in marcia a grandi passi. Il terreno della via tropicale vibrava sotto i suoi piedoni: THUMP THUMP THUMP.
+Era un pomeriggio caldissimo e EleFranco sentiva una sensazione ruvida e fastidiosa alla zanna sinistra, come se ci fosse della sabbia o del tartaro incastrato. Passava la lingua su e giù, ma il fastidio non andava via. «Uffa, così non va,» brontolò. «Devo andare dallo studio del dentista degli elefanti a farmi fare una bella pulizia.» Si infilò i suoi stivali giganti, ben spazzolati per la visita, aprì la porta e si mise in marcia a grandi passi. Il terreno della via tropicale vibrava sotto i suoi piedoni: THUMP THUMP THUMP THUMP.
 
 Lungo la strada, vicino alla radice di un grande albero secolare, vide una piccola sagoma grigia tutta sudata e ansante. Era Pino il Topolino, con i baffetti tremanti e le minuscole zampe arrossate.
 
@@ -133,7 +133,7 @@ EleFranco alzò la proboscide e fece ridere tutti con la sua famosa risata: OH..
 
 Abitava nella sua accogliente casa a FrancaVilla, un villaggio pittoresco dove le strade erano lastricate di ciottoli bianchi e le botteghe degli artigiani si susseguivano una dopo l'altra come scatole di giocattoli colorate: il fabbro, il vasaio, il candelaio e, naturalmente, il sarto.
 
-Un mattino, mentre si vestiva, EleFranco notò un brutto strappo sulla manica della sua giacca di velluto preferita. «Oh no, la mia giacca della domenica!» si rammaricò, infilando la zampa nel buco. «Devo andare subito dal sarto del paesino a farla rammendare, prima che lo strappo diventi più grande.» Si infilò le sue scarpe giganti con la suola di gomma, prese la giacca sotto il braccio e uscì di casa. I suoi passi risuonavano pesanti sui ciottoli bianchi: THUMP THUMP THUMP.
+Un mattino, mentre si vestiva, EleFranco notò un brutto strappo sulla manica della sua giacca di velluto preferita. «Oh no, la mia giacca della domenica!» si rammaricò, infilando la zampa nel buco. «Devo andare subito dal sarto del paesino a farla rammendare, prima che lo strappo diventi più grande.» Si infilò le sue scarpe giganti con la suola di gomma, prese la giacca sotto il braccio e uscì di casa. I suoi passi risuonavano pesanti sui ciottoli bianchi: THUMP THUMP THUMP THUMP.
 
 Mentre passava vicino a una siepe selvatica, udì dei piccoli lamenti acuti e disperati. Si avvicinò e scostò una foglia: là, in mezzo a un cespuglio di rovi pieni di spine, c'era Ciccio il Riccio, una palletta di aculei marroni completamente aggrovigliata tra i rami spinosi.
 
@@ -155,13 +155,13 @@ Ciccio, però, non si perse d'animo. Raccolse tutti i pezzi di stoffa colorata e
 
 La missione era compiuta: altro che rammendo, ora aveva un mantello tutto nuovo!
 
-EleFranco si indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata: OH... OH... OH...""",
+EleFranco indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata: OH... OH... OH...""",
 
     6: """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini!
 
-Abitava nella sua casa a FrancaVilla, un paesino misterioso e affascinante che di notte si illuminava soltanto grazie ai riflessi d'argento del fiume e alle lanterne di carta appese ai balconi, ondeggianti come tante piccole lune addomesticate.
+Abitava nella sua casa a FrancaVilla, un paesino misterioso e affascinante che di notte si illuminava soltanto grazie ai riflessi d'argento del fiume e alle lanterne di carta a forma di cuore appese ai balconi, ondeggianti come tante piccole lune addomesticate.
 
-Quella sera, mentre il cielo si tingeva di viola, EleFranco aveva un desiderio: «Mi manca proprio una bella favola nuova per la buonanotte. Andrò alla libreria di FrancaVilla prima che chiuda!» Si infilò le sue ciabatte giganti di lana morbida, perfette per la sera, e uscì di casa. I suoi passi facevano tremare dolcemente le foglie cadute lungo il sentiero: THUMP THUMP THUMP.
+Quella sera, mentre il cielo si tingeva di viola, EleFranco aveva un desiderio: «Mi manca proprio una bella favola nuova per la buonanotte. Andrò alla libreria di FrancaVilla prima che chiuda!» Si infilò le sue ciabatte giganti di lana morbida, perfette per la sera, e uscì di casa. Posò una ciabatta, poi l'altra, e le foglie cadute schizzarono via sotto tutto il suo peso: THUMP THUMP THUMP THUMP.
 
 Nel boschetto vicino alle case sentì un pianto sottile sottile. Si chinò e, in mezzo al buio, scorse una minuscola creatura dal corpicino tondo, le ali velate e un guscio che avrebbe dovuto brillare ma era spento e grigio. Era Luce la Lucciola, e tremava tutta.
 
@@ -169,15 +169,15 @@ Nel boschetto vicino alle case sentì un pianto sottile sottile. Si chinò e, in
 
 «Vieni qui, piccolina, non ti lascio certo da sola al buio,» disse EleFranco con tenerezza.
 
-Ma poi alzò gli occhi alle prime stelle e la mente prese a vagare: cominciò a pensare a quante pagine avesse il libro che voleva comprare, se ci fossero disegni di draghi sputafuoco o di navi pirata, e che colore avrebbe avuto la copertina.
+Ma poi alzò gli occhi alle lanterne a forma di cuore e la mente prese a vagare: cominciò a pensare a quante pagine avesse il libro che voleva comprare, se ci fossero disegni di draghi sputafuoco o di navi pirata, e che colore avrebbe avuto la copertina.
 
 Si stava distraendo, ma sentendo Luce starnutire forte nel buio, scosse le grandi orecchie e gridò: "FOCUS!"
 
 «Niente paura, Luce, ti riporto a casa io, e ti tengo compagnia per tutta la strada,» le promise.
 
-Con delicatezza fece salire la piccola lucciola sulla sua grande testa, vicino al ciuffetto, perché stesse al sicuro e al calduccio. Poi si incamminò nel bosco e, per non farle sentire la paura del buio, cominciò a inventare ad alta voce storie meravigliose: «C'era una volta un gigante buono che teneva le stelle in tasca... e una stella cadente che voleva diventare lampione...» La sua voce profonda riempiva il silenzio, e Luce, ascoltando rapita, dimenticava la febbre e la paura.
+Con delicatezza fece salire la piccola lucciola sulla sua grande testa, vicino al ciuffetto, perché stesse al sicuro e al calduccio. Poi si incamminò nel bosco e, per non farle sentire la paura del buio, cominciò a inventare ad alta voce storie meravigliose: «C'era una volta un gigante buono che teneva i cuori in tasca... e un cuore cadente che voleva diventare lampione...» La sua voce profonda riempiva il silenzio, e Luce, ascoltando rapita, dimenticava la febbre e la paura.
 
-Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole. E lì successe la magia: tutta la famiglia di Luce, felice di rivederla, si alzò in volo e cominciò a danzare in cerchio intorno a EleFranco. Centinaia di lucine dorate proiettavano sulle rocce le ombre animate dei racconti dell'elefante: il gigante buono, la stella cadente, le navi e i draghi prendevano vita sulla pietra, creando un magico libro illustrato vivente sospeso nella notte.
+Camminando e raccontando, arrivarono finalmente al grande albero delle lucciole. E lì successe la magia: tutta la famiglia di Luce, felice di rivederla, si alzò in volo e cominciò a danzare in cerchio intorno a EleFranco. Centinaia di lucine dorate proiettavano sulle rocce le ombre animate dei racconti dell'elefante: il gigante buono, il cuore cadente, le navi e i draghi prendevano vita sulla pietra, creando un magico libro illustrato vivente sospeso nella notte.
 
 EleFranco guardò quello spettacolo a bocca aperta: la favola della buonanotte ce l'aveva già nella testa, e non serviva comprare proprio nulla!
 
@@ -187,7 +187,7 @@ Felice, l'elefante tornò a casa e inondò tutti con la sua famosa risata: OH...
 
 Abitava a FrancaVilla, un villaggio industrioso tutto mattoni rossi e canali artificiali, dove gli artigiani amavano riparare ingranaggi nelle loro officine fumanti e il ticchettio degli orologi pubblici scandiva allegramente il tempo della comunità.
 
-Quel mattino EleFranco voleva fare un giro in bicicletta, ma scoprì con disappunto che le ruote della sua bici gigante erano completamente a terra, mosce come due frittelle. «Uffa, sono sgonfie sgonfie,» constatò dandoci un colpetto. «Devo spingere la bici fino all'officina del meccanico in paese e farle gonfiare per bene.» Si infilò i suoi robusti stivali giganti da lavoro e si incamminò spingendo il pesante telaio. Sotto quello sforzo, i suoi passi erano ancora più decisi del solito: THUMP THUMP THUMP.
+Quel mattino EleFranco voleva fare un giro in bicicletta, ma scoprì con disappunto che le ruote della sua bici gigante erano completamente a terra, mosce come due frittelle. «Uffa, sono sgonfie sgonfie,» constatò dandoci un colpetto. «Devo spingere la bici fino all'officina del meccanico in paese e farle gonfiare per bene.» Si infilò i suoi robusti stivali giganti da lavoro e si incamminò spingendo il pesante telaio. Sotto quello sforzo, i suoi passi erano ancora più decisi del solito: THUMP THUMP THUMP THUMP.
 
 Arrivato vicino a una collinetta erbosa, notò un sottile filo di fumo grigio che usciva da un buco nel terreno, accompagnato da una tosse insistente. Si chinò e vide due piccole zampe a forma di pala e un musetto rosa che spuntava dalla terra: era Ralph la Talpa, con gli occhietti lacrimosi e tossicchiante.
 
@@ -215,7 +215,7 @@ EleFranco partì felice sulla sua bici, esordendo con la sua famosa risata: OH..
 
 Abitava nella sua casa a FrancaVilla, un paesino rurale adagiato in una piana di canneti e campi di girasole, dove i trattori colorati raccoglievano il grano dorato, i canali d'acqua disegnavano linee geometriche perfette sulla terra e l'aria sapeva di fieno appena tagliato.
 
-Dopo una mattinata di lavori in giardino, EleFranco era tutto coperto di una polvere grigia che gli faceva prudere la pelle. «Brrr, che sporcizia, sembro una statua impolverata,» disse guardandosi le zampe. «Ho proprio bisogno di andare al Lavaggio Elefanti del paesino a farmi una bella doccia al profumo di fragola.» Si infilò i suoi stivali giganti di gomma azzurra ed uscì di casa. Ad ogni passo gli stivali producevano un suono sordo e gommoso sulla strada: THUMP THUMP THUMP.
+Dopo una mattinata di lavori in giardino, EleFranco era tutto coperto di una polvere grigia che gli faceva prudere la pelle. «Brrr, che sporcizia, sembro una statua impolverata,» disse guardandosi le zampe. «Ho proprio bisogno di andare al Lavaggio Elefanti del paesino a farmi una bella doccia al profumo di fragola.» Si infilò i suoi stivali giganti di gomma azzurra ed uscì di casa. Ad ogni passo gli stivali producevano un suono sordo e gommoso sulla strada: THUMP THUMP THUMP THUMP.
 
 Passando vicino alla fattoria, sentì un mugolio sconsolato provenire da una conca di terra secca. Si avvicinò e vide Mino il Maialino, rosa e paffuto, con il codino a ricciolo tutto floscio, che si guardava intorno disperato sotto il sole cocente.
 
@@ -245,7 +245,7 @@ EleFranco alzò la proboscide e fece sorridere tutti con la sua famosa risata: O
 
 Abitava a FrancaVilla, un paesino montano circondato da cime innevate e boschi di pini secolari, dove le case avevano grandi tetti spioventi di legno scuro, i camini odoravano costantemente di castagne arrostite e l'aria frizzante pizzicava il naso.
 
-Quella mattina EleFranco aveva un impegno: «Devo andare dal calzolaio a ritirare i miei stivali invernali giganti, quelli foderati di pelliccia. L'inverno è alle porte!» Si infilò i suoi stivali leggeri da mezza stagione ed uscì di casa. Il rumore dei suoi passi cadenzava la marcia sul selciato di montagna: THUMP THUMP THUMP.
+Quella mattina EleFranco aveva un impegno: «Devo andare dal calzolaio a ritirare i miei stivali invernali giganti, quelli foderati di pelliccia. L'inverno è alle porte!» Si infilò i suoi stivali giganti da mezza stagione ed uscì di casa. Il rumore dei suoi passi cadenzava la marcia sul selciato di montagna: THUMP THUMP THUMP THUMP.
 
 Lungo la via, seduto su una grande foglia accartocciata, c'era una piccola creatura verde e pelosetta che singhiozzava sconsolata. Era Bruno il Bruco, lungo e morbido, con tante minuscole zampette e un musetto tristissimo.
 
@@ -275,7 +275,7 @@ EleFranco alzò la proboscide e tutti si girarono a sentire la famosa risata: OH
 
 Abitava nella sua casa a FrancaVilla, un paesino costiero battuto da una dolce brezza marina, dove i vicoli profumavano di salsedine, i gabbiani si rincorrevano nel cielo e le barche da pesca riposavano sul bagnasciuga dorato come grandi gusci colorati.
 
-Quel mattino EleFranco aveva scritto una bellissima lettera, piena di disegni e di saluti affettuosi, per il suo cuginetto che viveva lontano. «Devo correre all'ufficio postale prima che passi il postino di mezzogiorno,» si disse stringendo la busta. Si infilò i suoi stivali giganti rossi, aprì la porta e si diresse verso la piazza. Il terreno risuonava sotto il suo peso massiccio: THUMP THUMP THUMP.
+Quel mattino EleFranco aveva scritto una bellissima lettera, piena di disegni e di saluti affettuosi, per il suo cuginetto che viveva lontano. «Devo correre all'ufficio postale prima che passi il postino di mezzogiorno,» si disse stringendo la busta. Si infilò i suoi stivali giganti rossi, aprì la porta e si diresse verso la piazza. Il terreno risuonava sotto il suo peso massiccio: THUMP THUMP THUMP THUMP.
 
 Sotto la grande quercia secolare della piazza, sentì un disperato squittio. Alzò lo sguardo e vide Renatolo lo Scoiattolo, dalla coda folta e ramata, che si torceva le zampette davanti a una fessura tra le radici dell'albero.
 
@@ -303,7 +303,7 @@ EleFranco alzò la proboscide e travolse tutti con la sua famosa risata: OH... O
 
 Abitava nella sua casa a FrancaVilla, un paesino antico caratterizzato da alti campanili di pietra e cortili nascosti, dove le fontane medievali zampillavano acqua fresca, gli anziani sedevano all'ombra dei portici a parlare del tempo e i piccioni passeggiavano impettiti sui sampietrini.
 
-Quel giorno era il momento della sua visita medica annuale. «Devo andare in ospedale a farmi controllare il cuore, così sono sicuro che batta forte e sano,» si disse posandosi una zampa sul petto. Si infilò i suoi stivali giganti da passeggio ed uscì di casa. Ad ogni suo passo pesante, le strade di pietra producevano un suono ritmico: THUMP THUMP THUMP.
+Quel giorno era il momento della sua visita medica annuale. «Devo andare in ospedale a farmi controllare il cuore, così sono sicuro che batta forte e sano,» si disse posandosi una zampa sul petto. Si infilò i suoi stivali giganti da passeggio ed uscì di casa. Ad ogni suo passo pesante, le strade di pietra producevano un suono ritmico: THUMP THUMP THUMP THUMP.
 
 Entrato nella grande sala dell'ospedale, sentì delle urla acutissime. Su una sedia, aggrappata con tutte e quattro le zampe alla spalliera, c'era Mietta la Scimmietta, piccola e pelosa, con gli occhioni spalancati dal terrore, mentre un'infermiera le si avvicinava reggendo una siringa luccicante.
 
@@ -333,7 +333,7 @@ EleFranco alzò la proboscide e tutti lo seguirono nella sua famosa risata: OH..
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, una borgata magica coperta da tetti di tegole azzurre, dove i giardini pensili traboccavano di rose bianche e i muri delle case erano dipinti con bellissimi affreschi che raccontavano storie antiche.
 
-Quel pomeriggio la lampadina del suo salotto si era fulminata con un piccolo "tac". «Al buio non ci leggo le favole, così non va,» borbottò EleFranco. «Devo andare subito in ferramenta a comprare una bella lampadina nuova.» Si infilò i suoi stivali giganti da passeggio, aprì la porta e si diresse verso il negozio. Camminava sul marciapiede col suo passo pesante: THUMP THUMP THUMP.
+Quel pomeriggio la lampadina del suo salotto si era fulminata con un piccolo "tac". «Al buio non ci leggo le favole, così non va,» borbottò EleFranco. «Devo andare subito in ferramenta a comprare una bella lampadina nuova.» Si infilò i suoi stivali giganti da passeggio, aprì la porta e si diresse verso il negozio. Camminava sul marciapiede col suo passo pesante: THUMP THUMP THUMP THUMP.
 
 Sotto un grande albero della piazza, sentì un lamento stanco e vide due grandi occhi gialli cerchiati da occhiaie scurissime. Era Tufo il Gufo, appollaiato su un ramo, con le piume arruffate e l'aria sfinita di chi non dorme da giorni.
 
@@ -361,7 +361,7 @@ EleFranco inserì la proboscide all'insù e rallegrò tutti con la sua famosa ri
 
 Abitava nella sua accogliente casa a FrancaVilla, un paesino nordico incastonato in una vallata di abeti rossi e laghi ghiacciati, dove l'aria frizzante pungeva le guance, il fumo dei comignoli saliva dritto nel cielo terso e le case avevano caldi pavimenti di pietra riscaldati dal fuoco.
 
-Quel pomeriggio EleFranco aveva una gran voglia di qualcosa di dolce. «Mmm, mi vedo proprio un bel sacchetto di biscotti allo zenzero, croccanti e profumati,» fantasticò leccandosi la proboscide. «Vado subito alla pasticceria prima che sfornino l'ultima teglia.» Si infilò i suoi stivali giganti di cuoio morbido ed uscì di casa. I suoi passi risuonavano sulla via innevata: THUMP THUMP THUMP.
+Quel pomeriggio EleFranco aveva una gran voglia di qualcosa di dolce. «Mmm, mi vedo proprio un bel sacchetto di biscotti allo zenzero, croccanti e profumati,» fantasticò leccandosi la proboscide. «Vado subito alla pasticceria prima che sfornino l'ultima teglia.» Si infilò i suoi stivali giganti di cuoio morbido ed uscì di casa. I suoi passi risuonavano sulla via innevata: THUMP THUMP THUMP THUMP.
 
 Vicino a un grande albero cavo, sentì dei versi strozzati e un gran dimenarsi. Si avvicinò e vide una scena buffissima e preoccupante insieme: Fosco l'Orso, grande e bruno, era in piedi sulle zampe posteriori con la testa completamente infilata e incastrata dentro un grosso alveare di legno appeso a un ramo, e agitava le zampe nel vuoto.
 
@@ -391,7 +391,7 @@ EleFranco alzò la proboscide e partì con la sua famosa risata: OH... OH... OH.
 
 Abitava nella sua casa a FrancaVilla, un borgo fiorito sospeso su colline di ulivi argentati e vigne secolari, dove le case avevano facciate color pastello, le persiane scricchiolavano dolcemente al vento e l'aria profumava di terra bagnata e di mosto.
 
-Quel mattino EleFranco voleva abbellire il suo prato un po' spoglio. «Ci vorrebbe un bel tappeto di margherite colorate,» pensò guardando il giardino. «Vado al vivaio a comprare un sacchetto di semini.» Si infilò i suoi stivali giganti ed uscì di casa. I suoi passi scandivano allegri il tempo lungo il sentiero: THUMP THUMP THUMP.
+Quel mattino EleFranco voleva abbellire il suo prato un po' spoglio. «Ci vorrebbe un bel tappeto di margherite colorate,» pensò guardando il giardino. «Vado al vivaio a comprare un sacchetto di semini.» Si infilò i suoi stivali giganti ed uscì di casa. I suoi passi scandivano allegri il tempo lungo il sentiero: THUMP THUMP THUMP THUMP.
 
 Vicino a un cespuglio, sentì un disperato battito d'ali e un gridolino sottile. Si chinò e scorse Lalla la Farfalla, dalle ali di velluto azzurro e arancio, una delle quali era appesantita e incollata da un'enorme goccia di rugiada. Lì accanto, acquattato nell'erba, un gatto curioso si avvicinava quatto quatto con gli occhi fissi su di lei.
 
@@ -419,7 +419,7 @@ EleFranco guardò lo spettacolo e scoppiò nella sua famosa risata: OH... OH... 
 
 Abitava a FrancaVilla, un paesino vulcanico sorto vicino a sorgenti termali fumanti, dove il terreno emanava dolci vapori benefici, le rocce scure di lava creavano uno splendido contrasto con l'acqua turchese dei laghetti e l'aria sapeva di zolfo e di fiori di montagna.
 
-Era una giornata caldissima e a EleFranco venne una voglia irresistibile di qualcosa di fresco. «Un bel cono gigante al pistacchio e crema, ecco cosa ci vuole con questo caldo!» esclamò leccandosi già le labbra. Si infilò i suoi stivali giganti estivi ed uscì di casa. Il terreno tiepido risuonava sotto i suoi piedoni: THUMP THUMP THUMP.
+Era una giornata caldissima e a EleFranco venne una voglia irresistibile di qualcosa di fresco. «Un bel cono gigante al pistacchio e crema, ecco cosa ci vuole con questo caldo!» esclamò leccandosi già le labbra. Si infilò i suoi stivali giganti estivi ed uscì di casa. Il terreno tiepido risuonava sotto i suoi piedoni: THUMP THUMP THUMP THUMP.
 
 Presso una collinetta di sassi arroventati dal sole, sentì un ansito affannoso. Si avvicinò e vide Mayer la Cagnolina, un dolce meticcio dal pelo dorato, una di quelle cagnoline da salvataggio sempre pronte ad aiutare. Quel giorno, però, era lei ad aver bisogno: ansimava sfinita con la lingua di fuori, accasciata all'ombra di un masso.
 
@@ -447,7 +447,7 @@ EleFranco alzò la proboscide e si lanciò nella sua contagiosa risata: OH... OH
 
 Abitava nella sua casa a FrancaVilla, una cittadina fluviale costruita su palafitte e ponti di corda intrecciata, dove l'acqua scorreva placida sotto i pavimenti di legno, le barche colorate facevano da bizzarri taxi tra una casa e l'altra e i panni stesi sventolavano sopra il fiume.
 
-Quel mattino era finalmente uscito il nuovo numero del fumetto di "Super-Elefante", il suo preferito. «Non posso perdermelo, devo correre all'edicola prima che finiscano le copie!» esclamò EleFranco tutto eccitato. Si infilò i suoi stivali giganti lucidi ed uscì. Il pavimento di legno della passerella vibrava ritmicamente sotto di lui: THUMP THUMP THUMP.
+Quel mattino era finalmente uscito il nuovo numero del fumetto di "Super-Elefante", il suo preferito. «Non posso perdermelo, devo correre all'edicola prima che finiscano le copie!» esclamò EleFranco tutto eccitato. Si infilò i suoi stivali giganti lucidi ed uscì. Il pavimento di legno della passerella vibrava ritmicamente sotto di lui: THUMP THUMP THUMP THUMP.
 
 Presso un grande albero del parco, sentì dei piccoli mugolii tremanti. Alzò lo sguardo e vide Betta la Scimmietta, piccola e infreddolita, che batteva i dentini rannicchiata su un ramo basso, fissando disperata qualcosa più in alto.
 
@@ -475,7 +475,7 @@ EleFranco si sbloccò dalla gioia e partì con la sua conosciutissima risata: OH
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo laborioso dove dalle botteghe usciva profumo di legno e di trucioli, le insegne intagliate dondolavano sopra le porte e il fiume faceva girare pigramente la ruota di un vecchio mulino.
 
-Un mattino, mentre faceva colazione, EleFranco si sedette sulla sua sedia di legno preferita e... crack! Quasi cadde all'indietro: una delle gambe posteriori si era accorciata e dondolava paurosamente. «Accidenti, per poco non finivo a gambe all'aria!» esclamò rialzandosi. «Devo andare subito alla falegnameria di FrancaVilla a farla sistemare.» Si infilò i suoi stivali giganti di cuoio scuro, si caricò la sedia sotto il braccio e uscì di casa con passo deciso. La strada sterrata risuonava al solito ritmo: THUMP THUMP THUMP.
+Un mattino, mentre faceva colazione, EleFranco si sedette sulla sua sedia di legno preferita e... crack! Quasi cadde all'indietro: una delle gambe posteriori si era accorciata e dondolava paurosamente. «Accidenti, per poco non finivo a gambe all'aria!» esclamò rialzandosi. «Devo andare subito alla falegnameria di FrancaVilla a farla sistemare.» Si infilò i suoi stivali giganti di cuoio scuro, si caricò la sedia sotto il braccio e uscì di casa con passo deciso. La strada sterrata risuonava al solito ritmo: THUMP THUMP THUMP THUMP.
 
 Davanti alla biblioteca del paese trovò una gran confusione e un topolino in lacrime accanto a un enorme cartello di legno rovesciato. Era Lendo il Topo Tremendo, vivace e dispettoso, ma in quel momento dispiaciutissimo, con i baffetti che tremavano per il pianto.
 
@@ -501,7 +501,7 @@ EleFranco si sedette felice e scoppiò nella sua famosa risata: OH... OH... OH..
 
 Abitava nella sua casa a FrancaVilla, una graziosa cittadina circondata da canali e ponticelli fioriti, dove l'aria profumava di lavanda, i mulini a vento giravano dolcemente all'orizzonte e ogni mattina una soffice nebbia argentata avvolgeva i sentieri.
 
-Quel giorno EleFranco notò che la staccionata del suo giardino era tutta sbiadita e scrostata. «Così è proprio triste,» disse passandoci una zampa. «Andrò subito al colorificio a comprare un bel barattolo di vernice celeste per rinfrescarla.» Si infilò le sue scarpe giganti ed uscì di casa. Mentre camminava lungo il sentiero avvolto dalla nebbia mattutina, la terra risuonava: THUMP THUMP THUMP.
+Quel giorno EleFranco notò che la staccionata del suo giardino era tutta sbiadita e scrostata. «Così è proprio triste,» disse passandoci una zampa. «Andrò subito al colorificio a comprare un bel barattolo di vernice celeste per rinfrescarla.» Si infilò le sue scarpe giganti ed uscì di casa. Mentre camminava lungo il sentiero avvolto dalla nebbia mattutina, la terra risuonava: THUMP THUMP THUMP THUMP.
 
 Vicino a un cespuglio bagnato di guazza, sentì un singhiozzo malinconico. Si avvicinò e, tra la foschia, scorse una creatura meravigliosa ma sconsolata: Morno l'Unicorno, dal manto che un tempo doveva essere candido e luminoso, ora opaco e grigiastro, con le orecchie abbassate e il corno spento sulla fronte.
 
@@ -527,7 +527,7 @@ EleFranco alzò la proboscide e inondò tutti con la sua famosa risata: OH... OH
 
 Abitava nella sua accogliente casa all'interno del paesino di FrancaVilla, un borgo da fiaba adagiato in una radura fiorita dove le stradine erano fatte di sassolini rosa e le siepi di mirtillo crescevano così ordinate da sembrare disegnate con il righello.
 
-Quella mattina il suo stomaco reclamava qualcosa di verde: «Andrò subito dal fruttivendolo Pino a prendere un cespo di lattuga romana gigante per il pranzo» decise. Si infilò i suoi stivali giganti di gomma verde brillante, aprì la porta di casa e si mise in marcia. Mentre avanzava sul sentiero, la terra risuonava dolcemente: THUMP THUMP THUMP.
+Quella mattina il suo stomaco reclamava qualcosa di verde: «Andrò subito dal fruttivendolo Pino a prendere un cespo di lattuga romana gigante per il pranzo» decise. Si infilò i suoi stivali giganti di gomma verde brillante, aprì la porta di casa e si mise in marcia. Mentre avanzava sul sentiero, la terra risuonò sotto il suo peso: THUMP THUMP THUMP THUMP.
 
 Fu a metà del cammino, vicino a un cespuglio di ortiche, che notò qualcosa di strano. C'era un vecchio secchiello di plastica colorato capovolto, e da sotto spuntavano quattro zampette che scalciavano freneticamente a vuoto. Avvicinandosi, sentì una vocina soffocata: «Aiuto! Qualcuno tolga questo guscio finto dal mio guscio vero!» Era Lattuga la Tartaruga, che camminando distratta si era infilata dentro il secchiello abbandonato e ora il suo carapace era completamente incastrato. Non riusciva né ad andare avanti né a girarsi.
 

@@ -31,14 +31,15 @@ Subito dopo lo schema: **Il Racconto Completo** — lungo, ricco, con dialoghi. 
 - **Incipit fisso:** «C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.»
 - Sempre **EleFranco** (E e F maiuscole)
 - All'inizio si calza sempre: stivali, scarpe o ciabatte **giganti** (coerenti con orario/situazione)
-- Camminata: *THUMP THUMP THUMP* (corsivo, maiuscolo)
+- Camminata: *THUMP THUMP THUMP THUMP* (quattro colpi, corsivo, maiuscolo). Prima del THUMP c'è sempre il movimento dell'elefante, diverso a ogni capitolo: pesa, lascia l'orma, non passa in punta di piedi
+- **Niente «stella» o «stelle»:** si scrive **cuore** / **cuori**, accordando l'articolo (`un cuore`, `i cuori`)
 - Quando si ridesta per aiutare: scuote le orecchie e grida **"FOCUS!"** (grassetto, maiuscolo, tra caporali)
 - Prima della risata: morale esplicita («EleFranco capì allora la morale di quella giornata: …»)
 - Chiusura: risata `<span class="risata">OH... OH... OH...</span>`
 
 ## Ambientazione
 
-- FrancaVilla: descrizione **sempre diversa** a ogni capitolo (borgo marzapane, marinaro, montano, su palafitte, vulcanico, agricolo…)
+- FrancaVilla: descrizione **sempre diversa** a ogni capitolo (borgo marzapane, marinaro, montano, su palafitte, vulcanico, agricolo…). O è un borgo reale, o è detto espressamente un po' magico: niente dettagli assurdi lasciati senza spiegazione
 - Coerenza: EleFranco è lì salvo viaggio/vacanza espliciti
 
 ## Compiti agente

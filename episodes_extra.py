@@ -41,7 +41,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo agricolo
 
 Era una mattina fresca di primavera e EleFranco aveva un desiderio chiarissimo in testa: «Oggi cucinerò la mia zuppa preferita! Mi servono carote croccanti e sedano profumato dal mercato agricolo.» Controllò la dispensa, trovò solo una cipolla solitaria e sospirò. «Bene, andiamo a fare la spesa!»
 
-Si infilò i suoi stivali giganti di gomma verde, perfetti per i campi fangosi, prese il suo cestino intrecciato più grande e uscì di casa. Mentre percorreva la strada bianca che costeggiava i campi, la terra tremava dolcemente: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti di gomma verde, perfetti per i campi fangosi, prese il suo cestino intrecciato più grande e uscì di casa. Mentre percorreva la strada bianca che costeggiava i campi, la terra tremò sotto il suo peso: THUMP THUMP THUMP THUMP.
 
 Arrivato vicino al campo dei cavoli di Gino il Contadino, sentì un piccolo singhiozzo che usciva da una specie di collina di fango. Si chinò e vide due orecchie grigie che spuntavano come due piccole bandierine affondate.
 
@@ -129,7 +129,7 @@ Si staccò dal fango con un suono comicissimo, alzò la proboscide al cielo azzu
             "Le api dell'arnia vicina, felici per i fiori salvati, volano in scorta ordinata "
             "lungo un sentiero asciutto che EleFranco non aveva mai notato. Beppe l'apicoltore, "
             "commosso dalla scena, riempie due barattoli di miele dorato e regala a Iris una "
-            "fetta di favo a forma di stella; la bambina lega un nastro giallo sul barattolo "
+            "fetta di favo a forma di cuore; la bambina lega un nastro giallo sul barattolo "
             "dell'elefante come ringraziamento. ⭐"
         ),
         "finale_schema": (
@@ -141,7 +141,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo fiorito 
 
 Era un pomeriggio di domenica tranquillo e EleFranco aveva una voglia dolcissima in testa: «Stasera voglio il mio tè con un cucchiaino di miele d'acacia, quello che sa di primavera!» Controllò la dispensa: il barattolo era vuoto. «Bene, vado da Beppe l'apicoltore, prima che chiuda il banco del giardino comunitario.»
 
-Si infilò le sue ciabatte giganti bianche domenicali, morbide come nuvole appena lavate, prese un cestino di vimini e un barattolo vuoto con il coperchio ben avvitato, e uscì di casa. Lungo il viale dei gelsomini la terra tremava piano: THUMP THUMP THUMP.
+Si infilò le sue ciabatte giganti bianche domenicali, morbide come nuvole appena lavate, prese un cestino di vimini e un barattolo vuoto con il coperchio ben avvitato, e uscì di casa. Lungo il viale dei gelsomini la terra tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato all'angolo dei vasi colorati, vide una bambina seduta su un piccolo sgabello di legno, con le ginocchia sporche di terra buona e le lacrime che le rigavano le guance rosee. Era Iris, la bambina gentile di FrancaVilla: tutti la conoscevano perché salutava sempre per prima, condividea i fiori del suo davanzale e aiutava i vicini a portare la spesa senza chiedere nulla in cambio.
 
@@ -157,7 +157,7 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 «Uno alla volta, con calma,» mormorò. «I fiori non hanno fretta: hanno bisogno di gentilezza.»
 
-Innaffiò ogni vasilino con getti leggeri e precisi, come pioggia di primavera. Iris lo seguiva, ripetendo i nomi delle piantine: «Questa è Stella, questa è Luna, questa è Sole...» EleFranco sorrideva a ogni nome.
+Innaffiò ogni vasetto con getti leggeri e precisi, come pioggia di primavera. Iris lo seguiva, ripetendo i nomi delle piantine: «Questo è Cuore, questa è Luna, questa è Sole...» EleFranco sorrideva a ogni nome.
 
 Ma nell'entusiasmo di salvare l'ultimo filare, spruzzò un po' troppo forte. L'acqua si riversò sul sentiero polveroso, mescolò la terra e creò un ruscello improvviso che scivolò verso il basso. Le ciabatte bianche di EleFranco si riempirono di fango, il cestino oscillò pericolosamente e il barattolo vuoto rotolò fino a un'aiuola, fermandosi solo perché Iris lo afferrò con agilità.
 
@@ -171,7 +171,7 @@ Proprio in quel momento, un ronzio armonioso riempì l'aria. Le api dell'arnia v
 
 EleFranco seguì la scorta delle api fino al banco di Beppe, che aveva visto tutto dal fondo del giardino. «Ho sentito il tuo cuore generoso da qui, amico mio,» disse l'apicoltore, riempiendo non uno ma due barattoli di miele d'acacia. «Uno per il tuo tè, uno per la bambina che salva le margheritine.»
 
-Tagliò anche una fetta di favo a forma di stella e la pose nelle mani di Iris, che le legò un nastro giallo sul barattolo dell'elefante e sussurrò: «Per il più gentile amico di FrancaVilla.»
+Tagliò anche una fetta di favo a forma di cuore e la pose nelle mani di Iris, che le legò un nastro giallo sul barattolo dell'elefante e sussurrò: «Per il più gentile amico di FrancaVilla.»
 
 EleFranco tornò a casa con i piedi fangosi ma il cuore leggero. La missione era compiuta, i fiori erano salvi e il tè serale avrebbe profumato di miele e di primavera.
 
@@ -213,7 +213,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo boscoso 
 
 Quella mattina, entrando in cucina, EleFranco vide qualcosa di preoccupante: la mensola sopra il tavolo penzolava da un solo lato, con le tazze che tremavano a ogni passo. «Accipicchia!» esclamò. «Se aspetto ancora, finisce per terra tutto! Devo andare subito da Marco il Falegname a ritirare la staffa riparata.»
 
-Si infilò i suoi stivali giganti da bosco marroni, robusti e con la suola a scarpa da montagna, prese un cestino di vimini e uscì di casa. La pineta risuonava sotto i suoi passi: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti da bosco marroni, robusti e con la suola a scarpa da montagna, prese un cestino di vimini e uscì di casa. La pineta risuonava sotto i suoi passi: THUMP THUMP THUMP THUMP.
 
 A metà del sentiero, tra le felci e le rocce muschiose, sentì grugniti affannosi. Dietro un cespuglio di rovi trovò Rufus il Tasso: un tasso corpulento dal muso bianco e nero, con occhietti scuri pieni di paura e zampe potenti che graffiavano invano la corteccia.
 
@@ -284,7 +284,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo marinaro
 
 Era un mattino limpido e EleFranco aveva un compito preciso: «Tommaso il mugnaio mi aspetta con il sacco di riso! Se arrivo tardi, il mulino galleggiante chiude e resto senza farina per la polenta.» Controllò il sacco pesante nell'angolo della cucina, lo issò sulla schiena con un sospiro e uscì di casa.
 
-Si infilò i suoi stivali giganti da pescatore gialli, alti fino al ginocchio e lustrati contro gli spruzzi, e si incamminò verso la laguna. Le passerelle di legno scricchiolavano sotto i suoi passi: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti da pescatore gialli, alti fino al ginocchio e lustrati contro gli spruzzi, e si incamminò verso la laguna. Le passerelle di legno scricchiolavano sotto i suoi passi: THUMP THUMP THUMP THUMP.
 
 A metà del ponte lungo che portava al mulino, vide una figura lunghissima e grigia, immobile come una statua del vento. Era Esau la Gru: un uccello elegante dal collo sottile, dalle zampe rosee sottili come steli e dagli occhi scuri pieni di paura. Una zampa era completamente avvolta in una rete da pesca abbandonata, e il vento le sbatteva le ali contro i pali della passerella con un suono triste, flap-flap-flap.
 

@@ -14,7 +14,7 @@ RISATA_BY_NUM: dict[int, str] = {
     2: "Felice, EleFranco partì con la sua conosciutissima risata",
     3: "EleFranco si sedette felice e si lanciò nella sua contagiosa risata",
     4: "EleFranco alzò la proboscide e fece ridere tutti con la sua famosa risata",
-    5: "EleFranco si indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata",
+    5: "EleFranco indossò fiero la mantella e tutta FrancaVilla sentì la famosa risata",
     6: "Felice, l'elefante tornò a casa e inondò tutti con la sua famosa risata",
     7: "EleFranco partì felice sulla sua bici, esordendo con la sua famosa risata",
     8: "EleFranco alzò la proboscide e fece sorridere tutti con la sua famosa risata",
@@ -69,7 +69,7 @@ def clean_schema(value: str) -> str:
 
 def apply_mechanical(text: str) -> str:
     text = text.replace("\u2019", "'").replace("\u201c", '"').replace("\u201d", '"')
-    text = re.sub(r"THUMP THUMP THUMP \.", "THUMP THUMP THUMP", text)
+    text = re.sub(r"THUMP THUMP THUMP THUMP \.", "THUMP THUMP THUMP THUMP", text)
     text = re.sub(r'["""]FOCUS!["""] \.', '"FOCUS!"', text)
     text = re.sub(r'["""]FOCUS!["""]', '"FOCUS!"', text)
     text = text.replace(" la diga fue salvata", " la diga fu salvata")

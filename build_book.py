@@ -20,7 +20,12 @@ from episode_prompts_en import EPISODES, NEGATIVE_PROMPT, SECTION_PROMPTS
 from episodes_base import BASE_EPISODES, INTRO
 from episodes_extra import EXTRA_EPISODES
 from episodes_season2 import INTRO_S2, SEASON2_EPISODES
-from episodes_season3 import INTRO_S3, SEASON3_EPISODES
+from episodes_special_francavilla import (
+    INTRO_SPECIAL_FRANCAVILLA,
+    SPECIAL_FRANCAVILLA_EPISODES,
+)
+from episodes_special_iris import INTRO_SPECIAL_IRIS, SPECIAL_IRIS_EPISODES
+from episodes_special_frozen import INTRO_SPECIAL_FROZEN, SPECIAL_FROZEN_EPISODES
 from episodes_special_gruffalo import INTRO_SPECIAL_GRUFFALO, SPECIAL_GRUFFALO_EPISODES
 from episodes_speciali import SPECIAL_EPISODES
 
@@ -43,7 +48,9 @@ def load_all_episodes() -> tuple[str, list[dict]]:
         + list(EXTRA_EPISODES)
         + list(SEASON2_EPISODES)
         + list(SPECIAL_GRUFFALO_EPISODES)
-        + list(SEASON3_EPISODES)
+        + list(SPECIAL_FROZEN_EPISODES)
+        + list(SPECIAL_FRANCAVILLA_EPISODES)
+        + list(SPECIAL_IRIS_EPISODES)
         + list(SPECIAL_EPISODES)
     )
     episodes.sort(key=lambda e: e["num"])
@@ -102,9 +109,8 @@ def moral_explicit_sentence(morale: str) -> str:
     return f"EleFranco capì allora la morale di quella giornata: {morale.strip()}"
 
 
-def format_story(text: str, *, morale: str | None = None) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-
+def _decorate_story_text(text: str) -> str:
+    """Segna risata, FOCUS e i quattro THUMP, poi escapa l'HTML."""
     ell = "⟦ELL⟧"
     ris = "⟦RIS⟧"
     foc = "⟦FOCUS⟧"
@@ -114,25 +120,38 @@ def format_story(text: str, *, morale: str | None = None) -> str:
     text = text.replace("...", ell)
     text = re.sub(r'["""\u201c]FOCUS!["""\u201d]\s*\.?', foc, text)
     text = re.sub(r'(?<![\w])"FOCUS!"\s*\.?', foc, text)
-    text = re.sub(r"\bTHUMP\s+THUMP\s+THUMP\b\s*\.?", thu, text, flags=re.IGNORECASE)
+    text = re.sub(r"\bTHUMP(?:\s+THUMP){3}\b\s*\.?", thu, text, flags=re.IGNORECASE)
 
     text = html.escape(text)
     text = text.replace(foc, '<strong>"FOCUS!"</strong>')
-    text = text.replace(thu, "<em>THUMP THUMP THUMP</em>")
+    text = text.replace(thu, "<em>THUMP THUMP THUMP THUMP</em>")
     text = text.replace(ell, "...")
+    return text
 
-    sentences = re.split(r"(?<=[.!?»])\s+(?=[«\"A-ZÉÈ])", text)
-    sentences = [s.strip() for s in sentences if s.strip()]
+
+def format_story(text: str, *, morale: str | None = None) -> str:
+    raw = text.strip()
+    ris = "⟦RIS⟧"
+    authored = [part.strip() for part in re.split(r"\n\s*\n", raw) if part.strip()]
 
     paragraphs: list[str] = []
-    buf: list[str] = []
-    for sentence in sentences:
-        buf.append(sentence)
-        if len(buf) >= 4:
+    if len(authored) > 1:
+        paragraphs = [
+            _decorate_story_text(re.sub(r"\s+", " ", part))
+            for part in authored
+        ]
+    else:
+        text = _decorate_story_text(re.sub(r"\s+", " ", raw))
+        sentences = re.split(r"(?<=[.!?»])\s+(?=[«\"A-ZÉÈ])", text)
+        sentences = [s.strip() for s in sentences if s.strip()]
+        buf: list[str] = []
+        for sentence in sentences:
+            buf.append(sentence)
+            if len(buf) >= 4:
+                paragraphs.append(" ".join(buf))
+                buf = []
+        if buf:
             paragraphs.append(" ".join(buf))
-            buf = []
-    if buf:
-        paragraphs.append(" ".join(buf))
 
     def finalize(part: str) -> str:
         part = part.replace(ris, '<span class="risata">OH... OH... OH...</span>')
@@ -156,7 +175,7 @@ def format_story(text: str, *, morale: str | None = None) -> str:
 
     paragraphs_html = [f"<p>{finalize(p)}</p>" for p in paragraphs if p.strip()]
 
-    already_explicit = MORAL_EXPLICIT_MARKER in text.lower()
+    already_explicit = MORAL_EXPLICIT_MARKER in raw.lower()
     if morale and morale.strip() and not already_explicit:
         moral_html = (
             f'<p class="morale-esplicita">{html.escape(moral_explicit_sentence(morale))}</p>'
@@ -385,6 +404,42 @@ def speciale_gruffalo_fragment() -> str:
 </div>"""
 
 
+def speciale_frozen_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-frozen" data-console-section="speciale-frozen">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-frozen">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-frozen">Ripristina</button>
+  </div>
+  <h1 class="console-editable">Speciale EleFranco nel Regno di Ghiaccio</h1>
+  <p class="dedication console-editable">Iris Edition — Nove avventure con gli amici di Frozen</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_FROZEN)}</div>
+</div>"""
+
+
+def speciale_iris_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-iris" data-console-section="speciale-iris">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-iris">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-iris">Ripristina</button>
+  </div>
+  <h1 class="console-editable">EleFranco con Iris</h1>
+  <p class="dedication console-editable">Iris Edition — Sette capitoli con la bambina gentile</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_IRIS)}</div>
+</div>"""
+
+
+def speciale_francavilla_fragment() -> str:
+    return f"""<div class="intro-page console-section" id="speciale-francavilla" data-console-section="speciale-francavilla">
+  <div class="console-section-bar" hidden>
+    <button type="button" class="btn-save-section" data-section="speciale-francavilla">Salva sezione</button>
+    <button type="button" class="btn-reset-section" data-section="speciale-francavilla">Ripristina</button>
+  </div>
+  <h1 class="console-editable">I Nuovi Amici di FrancaVilla</h1>
+  <p class="dedication console-editable">Iris Edition — Diciassette incontri, famiglie e feste</p>
+  <div class="quote console-editable">{html.escape(INTRO_SPECIAL_FRANCAVILLA)}</div>
+</div>"""
+
+
 def sezione_intro_fragment(section_file: str, section_id: str, alt: str, asset_prefix: str = "") -> str:
     return f"""<div class="section-intro page-full console-section" id="{section_id}" data-console-section="{section_id}">
   <div class="console-section-bar" hidden>
@@ -600,7 +655,21 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
-    first_s3 = min(e["num"] for e in SEASON3_EPISODES) if SEASON3_EPISODES else None
+    first_frozen = (
+        min(e["num"] for e in SPECIAL_FROZEN_EPISODES)
+        if SPECIAL_FROZEN_EPISODES
+        else None
+    )
+    first_francavilla = (
+        min(e["num"] for e in SPECIAL_FRANCAVILLA_EPISODES)
+        if SPECIAL_FRANCAVILLA_EPISODES
+        else None
+    )
+    first_iris = (
+        min(e["num"] for e in SPECIAL_IRIS_EPISODES)
+        if SPECIAL_IRIS_EPISODES
+        else None
+    )
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -618,9 +687,17 @@ def toc_fragment(episodes: list[dict], *, link_prefix: str, use_anchors: bool) -
             items.append(
                 '    <li class="toc-part console-editable">Speciale — Nel Bosco del Gruffalò 🌲</li>'
             )
-        if first_s3 is not None and n == first_s3:
+        if first_frozen is not None and n == first_frozen:
             items.append(
-                '    <li class="toc-part console-editable">Stagione 3 — Vento e Biglie 🌬</li>'
+                '    <li class="toc-part console-editable">Speciale — Nel Regno di Ghiaccio ❄️</li>'
+            )
+        if first_francavilla is not None and n == first_francavilla:
+            items.append(
+                '    <li class="toc-part console-editable">Nuovi Amici di FrancaVilla 🏘️</li>'
+            )
+        if first_iris is not None and n == first_iris:
+            items.append(
+                '    <li class="toc-part console-editable">EleFranco con Iris 🌸</li>'
             )
         label = html.escape(episode_label(ep))
         href = (
@@ -684,7 +761,21 @@ def build_index(
         if SPECIAL_GRUFFALO_EPISODES
         else None
     )
-    first_s3 = min(e["num"] for e in SEASON3_EPISODES) if SEASON3_EPISODES else None
+    first_frozen = (
+        min(e["num"] for e in SPECIAL_FROZEN_EPISODES)
+        if SPECIAL_FROZEN_EPISODES
+        else None
+    )
+    first_francavilla = (
+        min(e["num"] for e in SPECIAL_FRANCAVILLA_EPISODES)
+        if SPECIAL_FRANCAVILLA_EPISODES
+        else None
+    )
+    first_iris = (
+        min(e["num"] for e in SPECIAL_IRIS_EPISODES)
+        if SPECIAL_IRIS_EPISODES
+        else None
+    )
     for ep in sorted(
         (e for e in episodes if e["num"] > SEASON1_LAST and not is_season_special(e)),
         key=lambda e: e["num"],
@@ -698,8 +789,12 @@ def build_index(
             body_parts.append(parte_06_fragment())
         if first_special is not None and ep["num"] == first_special:
             body_parts.append(speciale_gruffalo_fragment())
-        if first_s3 is not None and ep["num"] == first_s3:
-            body_parts.append(intro_fragment(INTRO_S3, season=3))
+        if first_frozen is not None and ep["num"] == first_frozen:
+            body_parts.append(speciale_frozen_fragment())
+        if first_francavilla is not None and ep["num"] == first_francavilla:
+            body_parts.append(speciale_francavilla_fragment())
+        if first_iris is not None and ep["num"] == first_iris:
+            body_parts.append(speciale_iris_fragment())
         body_parts.append(episode_fragment(ep))
 
     for ep in _specials_after(episodes, 50):
@@ -767,6 +862,24 @@ def build_prompts(episodes: list[dict]) -> str:
         "### Speciale — Nel Bosco del Gruffalò 🌲",
         "",
         SECTION_PROMPTS["speciale_gruffalo"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### Speciale — Nel Regno di Ghiaccio ❄️",
+        "",
+        SECTION_PROMPTS["speciale_frozen"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### Nuovi Amici di FrancaVilla 🏘️",
+        "",
+        SECTION_PROMPTS["speciale_francavilla"],
+        "",
+        f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
+        "",
+        "### EleFranco con Iris 🌸",
+        "",
+        SECTION_PROMPTS["speciale_iris"],
         "",
         f"**Negative prompt:** `{NEGATIVE_PROMPT}`",
         "",
@@ -871,6 +984,15 @@ def main() -> None:
     )
     (SEZIONI_DIR / "speciale_gruffalo.html").write_text(
         speciale_gruffalo_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_frozen.html").write_text(
+        speciale_frozen_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_francavilla.html").write_text(
+        speciale_francavilla_fragment(), encoding="utf-8"
+    )
+    (SEZIONI_DIR / "speciale_iris.html").write_text(
+        speciale_iris_fragment(), encoding="utf-8"
     )
     (SEZIONI_DIR / "parte_01.html").write_text(parte_01_fragment(), encoding="utf-8")
     (SEZIONI_DIR / "parte_02.html").write_text(parte_02_fragment(), encoding="utf-8")

@@ -34,7 +34,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo profumat
 
 Era un mattino di sole dorato e EleFranco aveva un impegno importante: «Devo andare subito da Clara la Pasticciera a prendere festoni e nastri per la Grande Festa di FrancaVilla! Senza decorazioni, la piazza resterebbe triste.»
 
-Si calzò le sue scarpe giganti da chef, bianche e con la suola antiscivolo color crema, prese un sacco di carta e uscì di casa. Lungo la strada dei profumi il selciato tremava piano: THUMP THUMP THUMP.
+Si calzò le sue scarpe giganti da chef, bianche e con la suola antiscivolo color crema, prese un sacco di carta e uscì di casa. Lungo la strada dei profumi il selciato tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato all'angolo della pasticceria, sentì un piccolo SPLASH e vide un castoro dalla pelliccia lucida correre avanti e indietro con un grembiule di farina. Era Bruno il Castoro — lo stesso amico che una volta si chiamava Fred, il più bravo costruttore di dighe di tutta FrancaVilla.
 
@@ -68,13 +68,13 @@ EleFranco abbracciò con la proboscide il vecchio amico castoro e scoppiò nella
     },
     {
         "num": 40,
-        "title": "🔭 In Collina e Stella la Civetta 🦉",
+        "title": "🔭 In Collina e Cuore la Civetta 🦉",
         "missione": (
             "EleFranco deve restituire il binocolo prestato dal vicino astronomo "
             "prima che cali la sera e il sentiero di collina diventi buio. 🔭"
         ),
         "incontro": (
-            "Sulla strada del vento incontra Stella la Civetta: il suo nido è stato "
+            "Sulla strada del vento incontra Cuore la Civetta: il suo nido è stato "
             "spostato da una raffica e le uova si raffreddano nel cesto di vimini "
             "sottosopra. 🥚"
         ),
@@ -93,31 +93,31 @@ EleFranco abbracciò con la proboscide il vecchio amico castoro e scoppiò nella
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su colline morbide, dove i sentieri salivano a spirale come chioccioline di luce, le case avevano tetti a punta che sfioravano le nuvole basse e la sera profumava di timo e stelle non ancora accese.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo arroccato su colline morbide, dove i sentieri salivano a spirale come chioccioline di luce, le case avevano tetti a punta che sfioravano le nuvole basse e la sera profumava di timo e cuori non ancora accese.
 
 Era un pomeriggio ventoso e EleFranco aveva un impegno preciso: «Devo restituire il binocolo al signor Orso l'Astronomo prima che il sentiero di collina diventi un buio pesto!»
 
-Si infilò i suoi stivali giganti da escursionista, con la suola a nubecita antiscivolo, avvolse il binocolo in un fazzoletto e uscì di casa. La collina tremava piano sotto i passi generosi: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti da escursionista, con la suola a nubecita antiscivolo, avvolse il binocolo in un fazzoletto e uscì di casa. La collina cedette sotto tutto il suo peso: THUMP THUMP THUMP THUMP.
 
-A metà salita, un piccolo fischio triste lo fermò. Sotto un cespuglio di rosmarino c'era Stella la Civetta, giovane e coraggiosa, ma con le piume arruffate dal panico. Accanto a lei, un cesto di vimini era rovesciato e tre uova chiare tremavano nel freddo del vento.
+A metà salita, un piccolo fischio triste lo fermò. Sotto un cespuglio di rosmarino c'era Cuore la Civetta, giovane e coraggiosa, ma con le piume arruffate dal panico. Accanto a lei, un cesto di vimini era rovesciato e tre uova chiare tremavano nel freddo del vento.
 
 «EleFranco, aiuto!» sussurrò. «Papà sta cercando un ramo nuovo, ma il nido è volato via con la raffica e le uova si raffreddano! Se non le scaldo, non sentirò mai il piccolo che fa pip-pip!»
 
-EleFranco posò il binocolo e guardò le uova. «Non ti preoccupare, Stella. Le teniamo al caldo.»
+EleFranco posò il binocolo e guardò le uova. «Non ti preoccupare, Cuore. Le teniamo al caldo.»
 
-Ma mentre apriva le orecchie grandi come due tende morbide per coprire il cesto, la mente cominciò a vagare: pensò al binocolo in ritardo, al tè caldo che lo aspettava a casa, a quante stelle avrebbe contato quella notte.
+Ma mentre apriva le orecchie grandi come due tende morbide per coprire il cesto, la mente cominciò a vagare: pensò al binocolo in ritardo, al tè caldo che lo aspettava a casa, a quanti cuori avrebbe contato quella notte.
 
-Stava quasi per sbadigliare quando una uova rotolò di un millimetro: Stella gemette.
+Stava quasi per sbadigliare quando un uovo rotolò di un millimetro: Cuore gemette.
 
 Allora l'elefante scosse le grandi orecchie — piano, per non spaventare le uova — e disse ad alta voce la sua parola magica: "FOCUS!"
 
-«Silenzio, Stella. Il calore passa anche attraverso le orecchie che ascoltano.»
+«Silenzio, Cuore. Il calore passa anche attraverso le orecchie che ascoltano.»
 
 Rimase immobile, coperta vivente sul cesto. Il vento cantava, il sole scendeva, e il caldo delle orecchie avvolse le uova come una coperta di lana. Ma era così silenzioso, così caldo, così profumato di timo che le palpebre di EleFranco diventarono pesanti come sassi di fiume.
 
 «Zzz... solo un occhio chiuso...» mormorò, sbandando leggermente verso destra.
 
-Stella lo sostenne con un'ala: «Non mollare, EleFranco! Mancano pochi minuti!»
+Cuore lo sostenne con un'ala: «Non mollare, EleFranco! Mancano pochi minuti!»
 
 Proprio in quel momento, un raggio dell'alba — no, era ancora tramonto — anzi, il sole stava tornando sopra il crinale in un ultimo saluto arancione. Il calore rafforzò le uova sotto le orecchie, e un piccolo crepitio felice rispose dal cesto.
 
@@ -127,7 +127,7 @@ EleFranco, svegliandosi di soprassalto, fece cadere il binocolo che rotolò fino
 
 La missione era compiuta senza nemmeno salire fino all'osservatorio: il binocolo era stato «restituito» mostrando la famiglia salva, e Orso l'Astronomo, arrivato di corsa, rise e disse che era la restituzione più bella del mondo.
 
-EleFranco guardò Stella che faceva l'occhiolino e scoppiò nella sua famosa risata: OH... OH... OH...""",
+EleFranco guardò Cuore che faceva l'occhiolino e scoppiò nella sua famosa risata: OH... OH... OH...""",
     },
     {
         "num": 41,
@@ -161,7 +161,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo con una 
 
 Era un tardo pomeriggio e EleFranco aveva un treno da non perdere: «Devo comprare il biglietto per andare dalla zia fuori paese! Se parto tardi, mi perdo la torta di mele che mi prepara ogni volta.»
 
-Si calzò i suoi stivali giganti da viaggiatore, marroni e con la fibbia lucida, prese la borsa e uscì di casa. Il marciapiede della stazione tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da viaggiatore, marroni e con la fibbia lucida, prese la borsa e uscì di casa. Il marciapiede della stazione tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Appena arrivato sotto la pensilina, vide un tasso piccolo ma determinato correre lungo i binari con un cappello da capostazione troppo grande per la testa. Era Treno il Tasso Ferroviere, il più ordinato di tutti i controllori di FrancaVilla, e quella sera era bianco in viso.
 
@@ -224,7 +224,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo ai margi
 
 Era una mattina umida e EleFranco aveva una commissione semplice: «Devo andare dal cestaio a prendere un cesto nuovo per raccogliere i funghi! Il vecchio ha le stecche storte e la pioggia di stanotte l'ha lasciato molle.»
 
-Si calzò i suoi stivali giganti da bosco, verdi e con la suola a rilievi di foglia, prese il vecchio cesto malconcio e uscì di casa. Il sentiero di terra morbida tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da bosco, verdi e con la suola a rilievi di foglia, prese il vecchio cesto malconcio e uscì di casa. Il sentiero di terra morbida tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato al ruscello che tagliava il bosco, vide un capibara rotondo e pacifico seduto sulla riva con le zampe in acqua. Era Fungo il Capibara, calmo come una pietra liscia, ma quella mattina sospirava forte.
 
@@ -288,7 +288,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo vivace d
 
 Era un mattino di sole e EleFranco aveva fretta: «Devo andare in tipografia a ritirare i manifesti per la Festa di FrancaVilla! Se chiudono le botteghe, resteremo senza inviti.»
 
-Si calzò le sue ciabatte giganti da artista, macchiate di colori pastello ma comode, prese una cartella e uscì di casa. La piazza tremava piano sotto i passi generosi: THUMP THUMP THUMP.
+Si calzò le sue ciabatte giganti da artista, macchiate di colori pastello ma comode, prese una cartella e uscì di casa. La piazza sussultò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 In mezzo alla piazza, un pavone dalle piume splendenti tentava di tirare la coda fuori da un secchio di vernice. Era Pennello il Pavone, il più creativo di FrancaVilla, e quella mattina era arruffato come un pennello usato troppo.
 
@@ -352,7 +352,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo marinaro
 
 Era un mattino di brezza leggera e EleFranco aveva una commissione sportiva: «Devo andare al negozio di mare a prendere una rete per i palloni da portare al campo giochi della Festa! Senza rete, i palloni voleranno via.»
 
-Si calzò i suoi stivali giganti da spiaggia, gialli e con la suola a onde, prese un sacco e uscì di casa. La passerella di legno tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da spiaggia, gialli e con la suola a onde, prese un sacco e uscì di casa. La passerella di legno tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Sulla sabbia morbida, una tartaruga marina dal guscio scuro e dagli occhi gentili spostava con cura dei sassi. Era Sabrina la Tartaruga Marina, lenta ma attenta, e quella mattina aveva le lacrime salate agli angoli degli occhi.
 
@@ -368,7 +368,7 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 «Piano, Sabrina. Segniamo con amore, non con fretta.»
 
-Disegnò frecce, cerchi e stelle nella sanda — ma era un elefante generoso: il disegno diventò enorme, un labirinto confuso di frecce giganti che puntavano a destra, sinistra e verso il mare.
+Disegnò frecce, cerchi e cuori nella sabbia — ma era un elefante generoso: il disegno diventò enorme, un labirinto confuso di frecce giganti che puntavano a destra, sinistra e verso il mare.
 
 «Ops,» disse EleFranco. «Ora sembra una mappa del tesoro scritta da un gambero.»
 
@@ -378,7 +378,7 @@ Sabrina, con pazienza, indicò il punto vero sotto una duna bassa. Intorno al ni
 
 Un bambino del paese chiese: «Ma il disegno serve anche a noi?» Sabrina annuì piano: «Sì. Ci ricorda di camminare piano vicino alla sabbia calda.»
 
-EleFranco aiutò a piantare le bandierine, coprì il nido con un ombrellone leggero di canna e lasciò accanto una conchiglia segnata con una stella — il segno che tutti in FrancaVilla riconoscevano come «qui c'è vita da proteggere».
+EleFranco aiutò a piantare le bandierine, coprì il nido con un ombrellone leggero di canna e lasciò accanto una conchiglia segnata con un cuore — il segno che tutti in FrancaVilla riconoscevano come «qui c'è vita da proteggere».
 
 La missione era compiuta senza nemmeno aprire il sacco: la rete era lì, leggera e gratis, e le uova erano di nuovo al sicuro.
 
@@ -415,7 +415,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo con un l
 
 Era un mattino luminoso e EleFranco aveva una commissione profumata: «Devo andare al mercato del lavatoio a comprare una saponetta di Marsiglia! Le tovaglie della Festa devono profumare di pulito.» Controllò il canestro: vuoto, pronto per riempirsi di profumo e di risate.
 
-Si calzò i suoi stivali giganti da fioraio, blu e con la suola a pois bianchi, prese un canestro e uscì di casa. I ciottoli bagnati tremavano piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da fioraio, blu e con la suola a pois bianchi, prese un canestro e uscì di casa. I ciottoli bagnati tremarono sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Al lavatoio, una rana verde brillante saltava disperata tra le vasche. Era Rina la Rana, vivace e rumorosa, ma quella mattina era rossa in viso per lo sforzo.
 
@@ -479,7 +479,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo agricolo
 
 Era un pomeriggio ventoso e EleFranco aveva una commissione verde: «Devo andare al seminaio a comprare un sacchetto di semi per l'aiuola della Festa! Se il vento li spazza, resteremo senza fiori.» Guardò l'aiuola vuota davanti a casa: «Domani qui ci sarà un prato di colori.»
 
-Si calzò i suoi stivali giganti da contadino, marroni e con la suola a righe di aratura, prese una pala piccola e uscì di casa. Il sentiero tra i campi tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da contadino, marroni e con la suola a righe di aratura, prese una pala piccola e uscì di casa. Il sentiero tra i campi tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 In mezzo al campo, un asino grigio e testardo tirava con tutte le forze un carretto pieno di fieno. Era Girasole l'Asino — così chiamato per la criniera chiara come petali — e quella sera aveva le orecchie basse per la stanchezza.
 
@@ -539,9 +539,9 @@ EleFranco guardò Girasole che sgranocchiava un fiore e scoppiò nella sua famos
 
 Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo di botteghe accoglienti, dove le vetrine brillavano di fiocchi colorati, i pacchi impilati profumavano di carta nuova e l'aria sapeva di nastro appena tagliato e sorpresa imminente.
 
-Era un pomeriggio di fretta e EleFranco aveva una commissione festosa: «Devo andare in bottega a comprare carta da regalo per i doni della Festa! Se chiudono per preparare la piazza, resteremo con le mani vuote.» Aveva già in mente fiocchi arancioni e carta a stelle: «Un bel pacco fa sorridere prima ancora di aprirlo.»
+Era un pomeriggio di fretta e EleFranco aveva una commissione festosa: «Devo andare in bottega a comprare carta da regalo per i doni della Festa! Se chiudono per preparare la piazza, resteremo con le mani vuote.» Aveva già in mente fiocchi arancioni e carta a cuori: «Un bel pacco fa sorridere prima ancora di aprirlo.»
 
-Si calzò i suoi stivali giganti da festa, rossi e con la punta lucida, prese una lista e uscì di casa. Il marciapiede tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da festa, rossi e con la punta lucida, prese una lista e uscì di casa. Il marciapiede tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Dentro la bottega, un ricciolo piccolo e preciso era intrappolato in un groviglio di nastri. Era Regalo il Ricciolo, il più ordinato dei confezionatori, e quella sera piangeva aculei lucidi.
 
@@ -549,7 +549,7 @@ Dentro la bottega, un ricciolo piccolo e preciso era intrappolato in un grovigli
 
 EleFranco posò la lista e guardò la matassa colorata. «Non ti preoccupare, Regalo. Districhiamo insieme.»
 
-Ma mentre usava la punta sensibile della proboscide per sciogliere un nodo, la mente cominciò a vagare: pensò alla carta a stelle, alla carta a righe, a quanti pacchi incartare prima della Festa.
+Ma mentre usava la punta sensibile della proboscide per sciogliere un nodo, la mente cominciò a vagare: pensò alla carta a cuori, alla carta a righe, a quanti pacchi incartare prima della Festa.
 
 Stava quasi per tirare un nodo quando Regalo gridò: «No, quello va sciolto piano!»
 
@@ -605,7 +605,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo con un m
 
 Era un pomeriggio di brezza e EleFranco aveva una commissione golosa: «Devo andare al mulino a comprare un sacco di farina integrale per le torte della Festa! Se la macina si ferma, resteremo senza dolci.» Si leccò le labbra pensando al profumo del grano appena macinato.
 
-Si calzò i suoi stivali giganti da mugnaio, beige e con la suola a spiga, prese un telo e uscì di casa. Il ponte di legno tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da mugnaio, beige e con la suola a spiga, prese un telo e uscì di casa. Il ponte di legno tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Sul sentiero del mulino, una farfalla blu elettrico batteva le ali impigliate in una rete di essiccazione. Era Vento la Farfalla Blu, leggera come un sospiro, e quella sera tremava di paura.
 
@@ -623,13 +623,13 @@ Allora l'elefante scosse le grandi orecchie e disse ad alta voce la sua parola m
 
 Liberò un'ala, poi l'altra, ma la rete cadendo aprì un sacco di farina: una neve bianca soffice coprì il sentiero, il ciuffo nero di EleFranco e persino le antenne di Vento.
 
-«Ops,» disse EleFranco starnutendo. «ETCIÙ! Ora sembriamo due fantasma di panettone.»
+«Ops,» disse EleFranco starnutendo. «ETCIÙ! Ora sembriamo due fantasmi di panettone.»
 
 Proprio in quel momento, una corrente gentile — la stessa che faceva girare la ruota del mulino — prese la farina caduta e la guidò lungo un tubo di legno fino al magazzino giusto. Vento, libera, volò sopra il mulino gridando il messaggio al mugnaio.
 
 Il mugnaio uscì con un sacco integrale già legato e una piccola torta di prova ancora calda: «Per chi lascia guidare dal vento giusto.»
 
-Vento planò un giro di ringraziamento sopra la ruota del mulino, lasciando una scia blu nel cielo del pomeriggio. Le pale girarono più contente, il ruscello cantò più forte e persino la farina rimasta sul sentiero sembrava polvere di stelle nel sole.
+Vento planò un giro di ringraziamento sopra la ruota del mulino, lasciando una scia blu nel cielo del pomeriggio. Le pale girarono più contente, il ruscello cantò più forte e persino la farina rimasta sul sentiero sembrava polvere di cuori nel sole.
 
 «Domani è la Grande Festa,» disse il mugnaio. «Questa farina farà le torte più soffici di tutta FrancaVilla.»
 
@@ -664,11 +664,11 @@ EleFranco scosse la farina dal ciuffo, salutò Vento con la proboscide e scoppi�
         ),
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
-Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi profumava di marzapane e attesa, dove i tetti sembravano fatti di zucchero filato, i camini sbuffavano nuvole a forma di stella e l'aria sapeva di Festa imminente e amicizia ritrovata.
+Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi profumava di marzapane e attesa, dove i tetti sembravano fatti di zucchero filato, i camini sbuffavano nuvole a forma di cuore e l'aria sapeva di Festa imminente e amicizia ritrovata.
 
 Era un pomeriggio speciale e EleFranco aveva un appuntamento nel cuore: «Devo andare a casa di Franca ad aiutarla a preparare la Grande Festa di FrancaVilla! Tovaglie, tazze, decorazioni — tutto deve essere pronto.»
 
-Si calzò i suoi stivali giganti di cuoio marrone, lucidati come quella prima volta che corse a comprare festoni per lei, prese un sacco di coriandoli di riserva e uscì di casa. La strada sterrata tremava piano: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti di cuoio marrone, lucidati come quella prima volta che corse a comprare festoni per lei, prese un sacco di coriandoli di riserva e uscì di casa. La strada sterrata tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Alla casa gialla di Franca — l'amica di sempre, con i capelli raccolti e il grembiule a pois — il tavolo pieghevole traballava sotto piatto, tazze e rotoli di nastri. Franca rise e pianse insieme: «EleFranco! Sei arrivato! Ma guarda: il tavolo è troppo piccolo per i festoni!»
 
@@ -705,8 +705,7 @@ EleFranco abbracciò Franca con la proboscide e scoppiò nella sua famosa risata
         "title": "🎉 La Grande Festa di FrancaVilla 🐘",
         "missione": (
             "EleFranco deve appendere le ultime decorazioni in piazza per la "
-            "Grande Festa di FrancaVilla, prima che suoni la campana del "
-            "inizio. 🎊"
+            "Grande Festa di FrancaVilla, prima che suoni la campana d'inizio. 🎊"
         ),
         "incontro": (
             "In piazza tutti gli amici sono riuniti — Nora, Bruno, Franca, Iris "
@@ -714,7 +713,7 @@ EleFranco abbracciò Franca con la proboscide e scoppiò nella sua famosa risata
             "non quadra nel cielo. 🎈"
         ),
         "aiuto": (
-            "EleFranco corre ovunque con le stivali pieni di coriandoli, salendo "
+            "EleFranco corre ovunque con gli stivali pieni di coriandoli, salendo "
             "sulla scala e scendendo dal palco finché i festoni si aggrovigliano "
             "ancora di più. 🌀"
         ),
@@ -733,7 +732,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, un borgo che oggi
 
 Era il giorno della Grande Festa e EleFranco aveva l'ultima missione: «Devo appendere il festone centrale in piazza prima che suoni la campana! Senza quello, la Festa non è completa.»
 
-Si calzò i suoi stivali giganti da Festa, dorati e con la suola che lasciava impronte a forma di stella, prese scale, martello gentile e un sacco di coriandoli e uscì di casa. Tutta FrancaVilla tremava piano di gioia: THUMP THUMP THUMP.
+Si calzò i suoi stivali giganti da Festa, dorati e con la suola che lasciava impronte a forma di cuore, prese scale, martello gentile e un sacco di coriandoli e uscì di casa. Tutta FrancaVilla tremò sotto il suo passo di gioia: THUMP THUMP THUMP THUMP.
 
 In piazza c'era già tutta la famiglia del cuore: Franca sorrideva accanto al tavolo dei dolci; Bruno il Castoro aggiustava una bandierina; Nora la Volpe sistemava i bicchieri; Renatolo lo Scoiattolo, Jack il Geco, Raffa la Giraffa, Mietta la Scimmietta, Leda la Lontra, Otis il Gufo, Iris la bambina del giardino e tanti altri amici della Stagione 1 e 2 correvano con nastri e palloncini.
 
@@ -755,7 +754,7 @@ Salì sulla scala, scese, risalì — ma i coriandoli nel sacco si rovesciarono 
 
 Tutti risero. E proprio in quel momento, la campana della piazza emise un rintocco dolce: DONG!
 
-I coriandoli rimasti, sollevati dal vento gentile di Vento la Farfalla Blu, esplosero in alto in una pioggia di fuochi d'artificio dolci e profumati — non rumore, ma luce di zucchero filato, stelle di cannella e scintille di miele che scesero sulla piazza senza spaventare nessuno.
+I coriandoli rimasti, sollevati dal vento gentile di Vento la Farfalla Blu, esplosero in alto in una pioggia di fuochi d'artificio dolci e profumati — non rumore, ma luce di zucchero filato, cuori di cannella e scintille di miele che scesero sulla piazza senza spaventare nessuno.
 
 Il festone centrale, aggrovigliato per caso dagli amici, si aprì come un fiore gigante sopra la testa di EleFranco. Franca gli passò un lembo del nastro arancione. Bruno il Castoro gli strinse una zampa. Nora gli sistemò il ciuffo. Iris gli disse: «Grazie per ogni avventura.»
 

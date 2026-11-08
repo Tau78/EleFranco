@@ -36,7 +36,7 @@ SPECIAL_GRUFFALO_EPISODES: list[dict] = [
 
 Abitava nella sua accogliente casa a FrancaVilla, che quel giorno sembrava un borgo cresciuto dentro un noccioleto: i balconi erano intrecciati di rami, i comignoli avevano cappelli di foglie e nell'aria galleggiava un profumo di gusci tostati.
 
-Al tramonto ci sarebbe stato un picnic sul prato. EleFranco promise di portare una torta di nocciole, ma aprendo la dispensa trovò soltanto un barattolo vuoto. «Devo raccoglierle prima che faccia buio!» Si infilò gli stivali giganti color castagna, prese un cestino e si avviò verso il Bosco delle Impronte. Sul sentiero faceva THUMP THUMP THUMP e la polvere si alzava leggera attorno alle suole.
+Al tramonto ci sarebbe stato un picnic sul prato. EleFranco promise di portare una torta di nocciole, ma aprendo la dispensa trovò soltanto un barattolo vuoto. «Devo raccoglierle prima che faccia buio!» Si infilò gli stivali giganti color castagna, prese un cestino e si avviò verso il Bosco delle Impronte. Posò gli stivali sul sentiero e la polvere si alzò in una nuvola sotto le suole: THUMP THUMP THUMP THUMP.
 
 Vicino al ruscello udì una vocina: «Un rametto qui, una foglia là... no, così non reggerà mai!» Era il Topo. Piccolo, bruno e attentissimo, cercava di riparare un ponticello crollato. Sull'altra riva si vedevano tre sacchetti di semi e nocciole.
 
@@ -80,14 +80,14 @@ EleFranco alzò la proboscide e scoppiò nella sua famosa risata: OH... OH... OH
         "morale": "Anche chi sembra fortissimo può avere bisogno di una mano gentile. 🤝",
         "colpo": (
             "Le more cadute riempiono da sole i barattoli di EleFranco e il Gruffalò le "
-            "schiaccia con un passo leggero, preparando la marmellata più cremosa del bosco."
+            "le schiaccia con la zampa guarita, preparando la marmellata più cremosa del bosco."
         ),
         "finale_schema": "Marmellata pronta e zampa guarita! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 FrancaVilla quella mattina era un borgo di rovi fioriti: archi di more univano le case, le fontane profumavano di frutti di bosco e le persiane erano dipinte di viola. EleFranco voleva preparare marmellata per la colazione comune, così si infilò le scarpe giganti da raccoglitore, con lacci lilla e suole spesse, caricò sei barattoli vuoti e partì.
 
-Entrò nel Bosco delle Impronte facendo THUMP THUMP THUMP. Seguiva le macchie viola lasciate dalle more mature quando udì un brontolio dietro una quercia.
+Entrò nel Bosco delle Impronte facendo THUMP THUMP THUMP THUMP. Seguiva le macchie viola lasciate dalle more mature quando udì un brontolio dietro una quercia.
 
 Lì sedeva il Gruffalò: grande, peloso, con zanne vistose, ginocchia nodose e una zampa tenuta sollevata. Cercava di sembrare minaccioso, ma una lacrima gli tremava sul naso.
 
@@ -142,7 +142,7 @@ EleFranco osservò le proprie scarpe lilla diventate viola, alzò la proboscide 
 
 Quel pomeriggio FrancaVilla pareva un borgo d'autunno cucito a mano: foglie rosse ornavano i davanzali, fili dorati correvano tra i balconi e dalla sala del tè arrivava profumo di cannella. EleFranco doveva consegnare una grande tovaglia bianca prima della festa. La piegò con cura, infilò gli stivali giganti dal tacco morbido e partì.
 
-Sul sentiero del bosco avanzava con THUMP THUMP THUMP, tenendo la tovaglia sotto la proboscide. A una curva vide la Volpe correre avanti e indietro. Il vento aveva strappato il tetto di foglie della sua tana e ora l'ingresso era esposto alla pioggia.
+Sul sentiero del bosco avanzava con THUMP THUMP THUMP THUMP, tenendo la tovaglia sotto la proboscide. A una curva vide la Volpe correre avanti e indietro. Il vento aveva strappato il tetto di foglie della sua tana e ora l'ingresso era esposto alla pioggia.
 
 «Avevo disposto ogni foglia per colore,» sospirò la Volpe. «Ma sono troppo leggere: appena le raccolgo, volano via.»
 
@@ -189,7 +189,7 @@ EleFranco si tolse una foglia dal ciuffo e scoppiò nella sua famosa risata: OH.
 
 FrancaVilla si preparava alla Passeggiata delle Lanterne. Il borgo aveva viottoli di pietra blu, portici a forma di luna e lampade di carta appese a ogni ramo. Mancava però l'olio per accenderle. EleFranco infilò le ciabatte giganti da sera, imbottite e silenziose, prese una bottiglia vuota e si avviò verso l'emporio oltre il bosco.
 
-Faceva THUMP THUMP THUMP, piano per non disturbare gli animali notturni. Vicino a una parete di terra sentì un debole battito di denti: tic-tic-tic. Era il Serpente, arrotolato su se stesso e infreddolito. Una piccola frana aveva bloccato l'ingresso della sua galleria, dove le pietre conservavano il calore del giorno.
+Provò a camminare adagio, ma il sentiero rimbombò lo stesso sotto il suo peso: THUMP THUMP THUMP THUMP. Vicino a una parete di terra sentì un debole battito di denti: tic-tic-tic. Era il Serpente, arrotolato su se stesso e infreddolito. Una piccola frana aveva bloccato l'ingresso della sua galleria, dove le pietre conservavano il calore del giorno.
 
 «Posso scavare un'altra apertura,» sibilò, «ma prima dell'alba sarò rigido come un bastone.»
 
@@ -240,7 +240,7 @@ EleFranco guardò la sua ombra danzare tra gli alberi e rise: OH... OH... OH..."
 
 Quella sera FrancaVilla era un borgo sospeso tra gli alberi: passerelle di corda univano le case, piccoli campanelli tintinnavano sotto i tetti e il vento faceva sbadigliare le finestre. I bambini non riuscivano a dormire. EleFranco decise di cercare melissa e camomilla per una tisana calmante.
 
-Indossò le pantofole giganti color notte, prese la teiera e avanzò nel bosco con un soffice THUMP THUMP THUMP. Da un abete udì tre pigolii e un «Uh... uh...» quasi senza suono.
+Indossò le pantofole giganti color notte, prese la teiera e avanzò nel bosco e ogni pantofola, morbida ma pesante, affondò nel sentiero: THUMP THUMP THUMP THUMP. Da un abete udì tre pigolii e un «Uh... uh...» quasi senza suono.
 
 La Civetta era davanti al suo nido, avvolta in una sciarpa. «Ho cantato per tutto il temporale di ieri e ho perso la voce,» sussurrò. «I miei piccoli aspettano la ninna nanna e io non riesco a farla uscire.»
 
@@ -289,7 +289,7 @@ EleFranco abbassò la voce per non svegliare nessuno e sussurrò la sua risata: 
 
 FrancaVilla ospitava i Giochi Gentili, una festa senza vincitori in cui tutti si aiutavano. Il borgo era pieno di archi colorati, piste di corda e bandiere a pois. Mancava soltanto una campanella per dare il via. EleFranco si infilò le scarpe giganti da gara, elastiche e arancioni, e partì verso la vecchia cava.
 
-Procedeva con THUMP THUMP THUMP quando una sagoma enorme apparve sulla parete. Aveva denti appuntiti e orecchie smisurate. EleFranco si fermò, ma da dietro un sasso uscì un topolino con un mantello di foglia.
+Procedeva con THUMP THUMP THUMP THUMP quando una sagoma enorme apparve sulla parete. Aveva denti appuntiti e orecchie smisurate. EleFranco si fermò, ma da dietro un sasso uscì un topolino con un mantello di foglia.
 
 «Sono il Topo Tremendo!» annunciò con voce profonda. Poi dal tunnel arrivò un fischio: FIIIIU! Il Topo saltò tra le scarpe di EleFranco. «Va bene, lo ammetto. Quell'eco mi spaventa.»
 
@@ -315,13 +315,13 @@ EleFranco attraversò il traguardo camminando all'indietro e rise: OH... OH... O
     },
     {
         "num": 57,
-        "title": "👧 La Piccolina del Gruffalò e la Stella di Neve ❄️",
+        "title": "👧 La Piccolina del Gruffalò e il Cuore di Neve ❄️",
         "missione": (
             "EleFranco deve trovare lana rossa per riparare la sua coperta prima della "
             "prima notte di neve. 🧶"
         ),
         "incontro": (
-            "Incontra la Piccolina del Gruffalò, uscita per cercare una stella caduta e "
+            "Incontra la Piccolina del Gruffalò, uscita per cercare un cuore caduto e "
             "rimasta lontana dalle impronte di casa. 👣"
         ),
         "aiuto": (
@@ -330,33 +330,33 @@ EleFranco attraversò il traguardo camminando all'indietro e rise: OH... OH... O
         ),
         "morale": "La curiosità apre strade meravigliose quando cammina accanto alla prudenza. 🧭",
         "colpo": (
-            "La coperta cattura fiocchi luminosi a forma di stella e la Piccolina trova "
+            "La coperta cattura fiocchi luminosi a forma di cuore e la Piccolina trova "
             "un gomitolo rosso impigliato nel ramo che indica la via di casa."
         ),
-        "finale_schema": "Piccolina a casa e coperta ricamata di stelle! OH... OH... OH...",
+        "finale_schema": "Piccolina a casa e coperta ricamata di cuori! OH... OH... OH...",
         "racconto": """C'era una volta un Elefante di nome Franco, che gli amici chiamavano ... EleFranco. Di cognome faceva Franchini.
 
 La prima neve stava per arrivare su FrancaVilla. Il borgo montano aveva tetti di legno scuro, finestre accese come biscotti e sentieri segnati da bacche rosse. La coperta preferita di EleFranco aveva un lungo strappo. «Mi serve lana rossa prima di stanotte.» Indossò gli stivali giganti da neve, prese la coperta come mantello e partì.
 
-Nel bosco i suoi passi facevano THUMP THUMP THUMP sulla terra gelata. Sotto un abete vide una piccola creatura con zannette appena spuntate, ginocchia nodose e occhi curiosi. Era la Piccolina del Gruffalò.
+Nel bosco i suoi passi facevano THUMP THUMP THUMP THUMP sulla terra gelata. Sotto un abete vide una piccola creatura con zannette appena spuntate, ginocchia nodose e occhi curiosi. Era la Piccolina del Gruffalò.
 
-«Ho visto una stella cadere,» spiegò. «Volevo riportarla in cielo, ma non trovo più le impronte di papà.»
+«Ho visto un cuore cadere,» spiegò. «Volevo riportarlo in cielo, ma non trovo più le impronte di papà.»
 
 EleFranco pensò alla merceria che stava per chiudere. Poi il primo fiocco si posò sul naso della Piccolina. Scosse le orecchie e gridò: "FOCUS!"
 
-«Le stelle possono aspettare. La tua famiglia no.»
+«I cuori possono aspettare. La tua famiglia no.»
 
 Trovarono grandi impronte nella terra e le seguirono. La Piccolina faceva domande su ogni fungo, ogni ramo e ogni rumore. EleFranco le insegnò a guardare tre cose: la direzione del muschio, i graffi bassi sui tronchi e le bacche schiacciate. Ma la neve aumentò e cancellò tutto.
 
 Una raffica afferrò la coperta strappata. Il telo si gonfiò come una vela, trascinando EleFranco su una lastra di ghiaccio e la Piccolina aggrappata alla sua coda. Scivolarono tra gli alberi, girarono attorno a un masso e finirono dentro un morbido mucchio di neve.
 
-La Piccolina uscì ridendo. «Quella sì che era una stella cadente gigante!»
+La Piccolina uscì ridendo. «Quello sì che era un cuore cadente gigante!»
 
-La coperta era rimasta tesa tra due rami. I fiocchi vi si posarono senza sciogliersi e brillarono come stelle. La loro luce rivelò un filo rosso impigliato nella corteccia. La Piccolina lo riconobbe: veniva dalla sciarpa di suo padre. Seguendo il filo trovarono altri piccoli ciuffi, lasciati sui rami, fino alla grotta del Gruffalò.
+La coperta era rimasta tesa tra due rami. I fiocchi vi si posarono senza sciogliersi e brillarono come cuori. La loro luce rivelò un filo rosso impigliato nella corteccia. La Piccolina lo riconobbe: veniva dalla sciarpa di suo padre. Seguendo il filo trovarono altri piccoli ciuffi, lasciati sui rami, fino alla grotta del Gruffalò.
 
 Il Gruffalò abbracciò la figlia e ringraziò EleFranco. La Piccolina raccontò tutto, compreso il viaggio sulla coperta. Poi tirò fuori da una cesta un grande gomitolo rosso. «La Nonna me lo ha dato per imparare a cucire. Possiamo usarlo insieme.»
 
-Con punti larghi ma resistenti, ricucì lo strappo. I fiocchi luminosi rimasti sul tessuto diventarono ricami bianchi a forma di stella. EleFranco non dovette più andare in merceria.
+Con punti larghi ma resistenti, ricucì lo strappo. I fiocchi luminosi rimasti sul tessuto diventarono ricami bianchi a forma di cuore. EleFranco non dovette più andare in merceria.
 
 Quella notte dormì sotto la coperta riparata, mentre la Piccolina guardava la neve dalla grotta, al sicuro e pronta a esplorare di nuovo con una guida.
 
@@ -387,7 +387,7 @@ La missione era compiuta. EleFranco si avvolse fino alla proboscide e rise: OH..
 
 L'ultima sera dello speciale, FrancaVilla sembrava una grande cucina all'aperto: pentole di rame brillavano sui balconi, le strade profumavano di vaniglia e al centro della piazza aspettava un tavolo lunghissimo. EleFranco voleva preparare un dolce per tutti gli amici del bosco, ma il suo quaderno di ricette era scomparso.
 
-Si infilò gli zoccoli giganti da pasticciere, bianchi con ciliegie rosse, caricò farina e ciotole su un carretto e partì in cerca di consiglio. Faceva THUMP THUMP THUMP e a ogni passo una nuvoletta di farina usciva dal sacco.
+Si infilò gli zoccoli giganti da pasticciere, bianchi con ciliegie rosse, caricò farina e ciotole su un carretto e partì in cerca di consiglio. Faceva THUMP THUMP THUMP THUMP e a ogni passo una nuvoletta di farina usciva dal sacco.
 
 Nella grotta più accogliente del bosco abitava la Nonna Gruffalò. Aveva occhiali tondi, un grembiule a quadri e modi gentili ma decisi. Sul tavolo teneva un ricettario antichissimo.
 
@@ -407,7 +407,7 @@ Dal bosco arrivarono però tutti gli amici. Il Topo recuperò una pagina sotto u
 
 Ogni pagina apparteneva a una ricetta diversa. «Allora non copieremo il passato,» decise la Nonna. «Ne creeremo una nuova con un pezzetto di tutte.»
 
-Mescolarono farina, miele, more e nocciole. Il Gruffalò girò l'impasto, la Volpe regolò il forno, il Serpente fece da timer avvolgendosi attorno a una clessidra, la Civetta sorvegliò la cottura e i due topi decorarono. La Piccolina disegnò una stella di zucchero al centro.
+Mescolarono farina, miele, more e nocciole. Il Gruffalò girò l'impasto, la Volpe regolò il forno, il Serpente fece da timer avvolgendosi attorno a una clessidra, la Civetta sorvegliò la cottura e i due topi decorarono. La Piccolina disegnò un cuore di zucchero al centro.
 
 La torta crebbe così tanto da riempire il forno, ma invece di traboccare si divise in otto petali perfetti. La Nonna ricopiò la ricetta su un foglio pulito e consegnò a EleFranco un piccolo quaderno rilegato di rosso.
 

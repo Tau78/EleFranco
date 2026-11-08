@@ -49,7 +49,7 @@ Abitava nella sua accogliente casa nel paesino di FrancaVilla, che in quel perio
 
 Era un pomeriggio di gelo gentile e EleFranco aveva un compito urgentissimo: «Stasera è la Festa d'Inverno di Franca! Devo portare fascine di abete profumato per il suo camino. Senza fuoco caldo, niente Festa accogliente!» Guardò il cielo che arrossava verso sera: «Meglio sbrigarsi, prima che il gelo chiuda le botteghe.»
 
-Si infilò i suoi stivali giganti foderati di lana, prese una corda robusta e uscì di casa. Mentre percorreva la strada innevata verso il bosco, la terra tremava piano: THUMP THUMP THUMP.
+Si infilò i suoi stivali giganti foderati di lana, prese una corda robusta e uscì di casa. Mentre percorreva la strada innevata verso il bosco, la terra tremò sotto i piedoni: THUMP THUMP THUMP THUMP.
 
 Arrivato vicino al ponticello sul fiume — lo stesso della prima avventura con Fred — sentì scricchioli e gorgoglii gelidi. Sulla riva, un castoro dalla pelliccia lucida e dai grandi denti color avorio correva avanti e indietro tenendosi la testa tra le zampe. Era Fred il Castoro, il più bravo costruttore di tutta FrancaVilla, e quella sera piangeva disperato.
 
